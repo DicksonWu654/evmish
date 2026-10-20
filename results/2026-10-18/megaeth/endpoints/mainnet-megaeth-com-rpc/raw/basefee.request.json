@@ -1,0 +1,12 @@
+{
+  "id": 29,
+  "jsonrpc": "2.0",
+  "method": "eth_call",
+  "params": [
+    {
+      "data": "0x4860005260206000f3",
+      "gasPrice": "0x1"
+    },
+    "latest"
+  ]
+}

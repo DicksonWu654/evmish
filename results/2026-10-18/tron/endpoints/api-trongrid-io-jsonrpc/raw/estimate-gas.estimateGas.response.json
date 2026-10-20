@@ -1,0 +1,11 @@
+{
+  "body": {
+    "error": {
+      "code": -32602,
+      "message": "method parameters invalid"
+    },
+    "id": 29,
+    "jsonrpc": "2.0"
+  },
+  "http_status": 200
+}

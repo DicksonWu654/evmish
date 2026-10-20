@@ -1,0 +1,12 @@
+{
+  "body": {
+    "error": {
+      "code": 3,
+      "data": "0x",
+      "message": "invalid sender. can't start a transaction from a non-account"
+    },
+    "id": 29,
+    "jsonrpc": "2.0"
+  },
+  "http_status": 200
+}

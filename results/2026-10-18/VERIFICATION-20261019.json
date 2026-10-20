@@ -1,0 +1,128 @@
+{
+  "sample_sha256": "56a77a51e973ae627b640c031434a636eb16f629150a9ddcf6d7c34617c703d0",
+  "checked": 20,
+  "errors": 0,
+  "verifier_process": "independent-e22-verifier-process-20261019",
+  "rows": [
+    {
+      "row": 1,
+      "verdict": "correct",
+      "reason": "Catalog fields match; primary and later-block NUMBER interpretations both report header_matches=false with the stated Arbitrum L2/header values.",
+      "location": "CATALOG.md: row 1; results/2026-10-18/arbitrum-one/arbitrum-one.json (probes.number); results/2026-10-18/differential-confirmation/arbitrum-one/arbitrum-one.json (probes.number)"
+    },
+    {
+      "row": 4,
+      "verdict": "correct",
+      "reason": "Catalog fields match; primary and later-block PREVRANDAO interpretations both report header_matches=false as stated.",
+      "location": "CATALOG.md: row 4; results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json (probes.prevrandao); results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json (probes.prevrandao)"
+    },
+    {
+      "row": 10,
+      "verdict": "correct",
+      "reason": "Catalog fields match; Avalanche 0x10 primary and confirmation calls return status 1 with zero output words versus Ethereum status 0.",
+      "location": "CATALOG.md: row 10; results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json (probes.precompile-0x10-address-10); results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json"
+    },
+    {
+      "row": 11,
+      "verdict": "correct",
+      "reason": "Catalog fields match; Avalanche 0x11 primary and confirmation calls return status 1 with zero output words versus Ethereum status 0.",
+      "location": "CATALOG.md: row 11; results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json (probes.precompile-0x11-address-11); results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json"
+    },
+    {
+      "row": 16,
+      "verdict": "correct",
+      "reason": "Catalog fields match; Blast 0x0c primary and confirmation calls return status 1 with zero output words versus Ethereum status 0.",
+      "location": "CATALOG.md: row 16; results/2026-10-18/blast/blast.json (probes.precompile-0x0c-address-0c); results/2026-10-18/differential-confirmation/blast/blast.json"
+    },
+    {
+      "row": 18,
+      "verdict": "correct",
+      "reason": "Catalog fields match; Blast 0x0e primary and confirmation calls return status 1 with zero output words versus Ethereum status 0.",
+      "location": "CATALOG.md: row 18; results/2026-10-18/blast/blast.json (probes.precompile-0x0e-address-0e); results/2026-10-18/differential-confirmation/blast/blast.json"
+    },
+    {
+      "row": 28,
+      "verdict": "correct",
+      "reason": "Catalog fields match; Cronos BLOBBASEFEE is successful and nonzero while Ethereum baseline is unsuccessful/false, with the stated later-block confirmation.",
+      "location": "CATALOG.md: row 28; results/2026-10-18/cronos/cronos.json (probes.blobbasefee); results/2026-10-18/differential-confirmation/cronos/cronos.json"
+    },
+    {
+      "row": 35,
+      "verdict": "correct",
+      "reason": "Catalog fields match; HyperEVM 0x0c primary and confirmation calls return status 1 with zero output words versus Ethereum status 0.",
+      "location": "CATALOG.md: row 35; results/2026-10-18/hyperevm/hyperevm.json (probes.precompile-0x0c-address-0c); results/2026-10-18/differential-confirmation/hyperevm/hyperevm.json"
+    },
+    {
+      "row": 38,
+      "verdict": "correct",
+      "reason": "Catalog fields match; HyperEVM 0x0f primary and confirmation calls return status 1 with zero output words versus Ethereum status 0.",
+      "location": "CATALOG.md: row 38; results/2026-10-18/hyperevm/hyperevm.json (probes.precompile-0x0f-address-0f); results/2026-10-18/differential-confirmation/hyperevm/hyperevm.json"
+    },
+    {
+      "row": 41,
+      "verdict": "correct",
+      "reason": "Catalog fields match; HyperEVM primary and later-block EXTCODESIZE probes report delegated candidate size 0 versus Ethereum size 23.",
+      "location": "CATALOG.md: row 41; results/2026-10-18/hyperevm/hyperevm.json (probes.extcode-delegated-7702); results/2026-10-18/differential-confirmation/hyperevm/hyperevm.json"
+    },
+    {
+      "row": 42,
+      "verdict": "correct",
+      "reason": "Catalog fields match; Kaia BASEFEE primary and confirmation interpretations have header_matches=false as stated.",
+      "location": "CATALOG.md: row 42; results/2026-10-18/kaia/kaia.json (probes.basefee); results/2026-10-18/differential-confirmation/kaia/kaia.json"
+    },
+    {
+      "row": 45,
+      "verdict": "correct",
+      "reason": "Catalog fields match; Linea primary and later-block EXTCODESIZE probes report delegated candidate size 0 versus Ethereum size 23.",
+      "location": "CATALOG.md: row 45; results/2026-10-18/linea/linea.json (probes.extcode-delegated-7702); results/2026-10-18/differential-confirmation/linea/linea.json"
+    },
+    {
+      "row": 57,
+      "verdict": "correct",
+      "reason": "Catalog fields match; Polygon PoS KZG invalid-length primary and confirmation calls return status 1 with zero output words versus Ethereum status 0.",
+      "location": "CATALOG.md: row 57; results/2026-10-18/polygon-pos/polygon-pos.json (probes.precompile-0x0a-kzg-point-evaluation); results/2026-10-18/differential-confirmation/polygon-pos/polygon-pos.json"
+    },
+    {
+      "row": 61,
+      "verdict": "correct",
+      "reason": "Catalog fields match; Scroll primary and later-block COINBASE probes report header_matches=false with the stated target value.",
+      "location": "CATALOG.md: row 61; results/2026-10-18/scroll/scroll.json (probes.coinbase); results/2026-10-18/differential-confirmation/scroll/scroll.json"
+    },
+    {
+      "row": 70,
+      "verdict": "correct",
+      "reason": "Catalog fields match; Scroll 0x11 primary and confirmation calls return status 1 with zero output words versus Ethereum status 0.",
+      "location": "CATALOG.md: row 70; results/2026-10-18/scroll/scroll.json (probes.precompile-0x11-address-11); results/2026-10-18/differential-confirmation/scroll/scroll.json"
+    },
+    {
+      "row": 72,
+      "verdict": "correct",
+      "reason": "Catalog fields match; Sei-EVM primary and later-block COINBASE probes report header_matches=false as stated.",
+      "location": "CATALOG.md: row 72; results/2026-10-18/sei-evm/sei-evm.json (probes.coinbase); results/2026-10-18/differential-confirmation/sei-evm/sei-evm.json"
+    },
+    {
+      "row": 76,
+      "verdict": "correct",
+      "reason": "Catalog fields match; Somnia primary and later-block COINBASE probes report header_matches=false as stated.",
+      "location": "CATALOG.md: row 76; results/2026-10-18/somnia/somnia.json (probes.coinbase); results/2026-10-18/differential-confirmation/somnia/somnia.json"
+    },
+    {
+      "row": 83,
+      "verdict": "correct",
+      "reason": "Catalog fields match; zkSync Era BASEFEE primary and confirmation interpretations have header_matches=false as stated.",
+      "location": "CATALOG.md: row 83; results/2026-10-18/zksync-era/zksync-era.json (probes.basefee); results/2026-10-18/differential-confirmation/zksync-era/zksync-era.json"
+    },
+    {
+      "row": 92,
+      "verdict": "correct",
+      "reason": "Catalog fields match; cited Mantle official fee-mechanism source and local context support a chain-specific fee/native-asset model claim.",
+      "location": "CATALOG.md: row 92; https://docs.mantle.xyz/network/system-information/fee-mechanism; docs/top10.md:23,72-75"
+    },
+    {
+      "row": 93,
+      "verdict": "correct",
+      "reason": "Catalog fields match; cited TRON TVM source documents 0x09 BatchValidateSign, while local evidence explicitly retains it as source-verified because the live RPC rejected execution.",
+      "location": "CATALOG.md: row 93; https://developers.tron.network/docs/tvm-vs-evm; docs/top10.md:24,77-82; results/2026-10-18/followup/history/REPORT.json:1086-1089"
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "account_candidates": {
+    "delegated-7702": "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+    "empty": "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+    "eoa": "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+    "system-contract": "0x0000000000000000000000000000000000000064"
+  },
+  "block": {
+    "baseFeePerGas": "0x8f5",
+    "blobGasUsed": "0x22e7f0",
+    "excessBlobGas": "0x0",
+    "gasLimit": "0x2625a00",
+    "gasLimit_uint256": 40000000,
+    "hash": "0xa30bf7c61f23f5564e7116cbafb6c412dbdc29c63c9efe50d0d0ad174f72d176",
+    "miner": "0x4200000000000000000000000000000000000011",
+    "mixHash": "0x6d760340591cad0e7804b07e71e21bc29f826b819f8bf38690b7f8f7a1f4df5e",
+    "number": "0x970ab17",
+    "prevRandao": null,
+    "timestamp": "0x6ad52fe7",
+    "timestamp_unix": 1792356327
+  },
+  "block_number": "0x970ab17",
+  "chain": "op-mainnet",
+  "chain_id_expected": 10,
+  "chain_id_observed": "0xa",
+  "context": {
+    "eth_blockNumber": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0x970ab17"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0xa"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x970ab17",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0x8f5",
+            "blobGasUsed": "0x22e7f0",
+            "difficulty": "0x0",
+            "excessBlobGas": "0x0",
+            "extraData": "0x01000000fa000000020000000000000000",
+            "gasLimit": "0x2625a00",
+            "gasUsed": "0xd5dcf2",
+            "hash": "0xa30bf7c61f23f5564e7116cbafb6c412dbdc29c63c9efe50d0d0ad174f72d176",
+            "logsBloom": "0x4030708c110500198080108402204020400008984020600089cc8100c0c31f000508104034000008c11040b00408310a2054034210101608066c0000602005c009000000844822a2200010a8700800034482810200080630022000012008000119002300020510c01602434205e019108d21d680e81cb016090488178800018c40202601a8922084402a0e0a880900801520d100083148c0080000040b90291082884041008214810008012002308801200841041040000800830150004202e480003843090184012110088428c2009892a70002018a07289020008828052490411c4811c2a402002800000242210130108a0000508001088c02020400112c82",
+            "miner": "0x4200000000000000000000000000000000000011",
+            "mixHash": "0x6d760340591cad0e7804b07e71e21bc29f826b819f8bf38690b7f8f7a1f4df5e",
+            "nonce": "0x0000000000000000",
+            "number": "0x970ab17",
+            "parentBeaconBlockRoot": "0xd2fecf261268a7c50dfaf7dbf8f0a229b85342ae9ddbb6280ec7a511a3c459b1",
+            "parentHash": "0x429361cc2d3511105e0db7c5ddecdc45d856177790c08cc6389527bddb72ab47",
+            "receiptsRoot": "0xdfa9e48cd4ece8a9c53e87a12ec3ba5df32ad0df400a97f466c67c7632afb988",
+            "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "size": "0x257f",
+            "stateRoot": "0x19d6563b61b87e793eb4236956d99e670ece0bb175860c2cb4d0f7f0564b9f0e",
+            "timestamp": "0x6ad52fe7",
+            "transactions": [
+              "0xe1a7dfbc7253947a0248db5c8bbcdc3e758aa338a5d228b1aebdaa61e0a95597",
+              "0x8740ecbb327c0b1c534c10fd99c53b5714756e56110d65095f4fbd91c11c0c87",
+              "0xcd0b0b06c028b0c78497b0606af8fc008df71eab46f874139adc2615d2a6a44d",
+              "0x770018f6c8a4e47a6df4cbb5b1700b1e6479bf4eba246374fb04a4a862373a87",
+              "0x80ec536c40cecab2f2ce0439847361420a93177c9ee602fc7ed8572313c2f2ea",
+              "0x4eb4f27e7657da0d27b149327d517bd837eb33cb1b9420d25b1794cdccddcdbf",
+              "0xbbeb8432be8ef76aba84cf083945ff47e87349fe3f8c65e5901e38ecd77542b3",
+              "0xff01abd2856d1b2eaed70b056ea1e4d7e55f17a3342702b60a159d818bc060fc",
+              "0x2a0270f2570a3856941ff895b46474a6ad1a26af555f7eedda57f1dfc792bddc",
+              "0x8fb9a56cd2a3b8b3f8d48118380ff99b9dc585850abce3c25fcb3f3de734c0eb",
+              "0xdb0e1b46f06f5e4bc8a9fe56ec265c2a7c930578a7a2eab32a2ab33262a90317",
+              "0x81db1439f337e46e8dc463469e03c67b33bf11e64f30547cdfed0ff0dab27e85",
+              "0x916217eac27501f9508f43eff414c2adf5be7fdd4d681cd98a30a562b4c55727",
+              "0xfc217f664f3e9d8597538b3c104fed543ded74619aaf50e695cadc61acc3b1b4",
+              "0x37790227acaa7246413b539dbf4c605c5af12bad92b0fb3bddfc7acfe78f6cd5",
+              "0x20899accdfba52c99f20f8cf0c644ebf4a37bff31e75dac0dc4b7d9e7e081d34",
+              "0xe2d0cd00f0e605fd05f2b8e415fef28e79c46abd227d6d4dd84b4f0bbfa70a40",
+              "0xdeb104201acacb07acd992ac9afe133318c8fbcbe87f07be3aaec5c55b225f9f",
+              "0x439da4d60fef0d09ff27ca412d8d5293d97484ba82322618761fe115fac71e11",
+              "0xc838ba2f7c452c284358921d581c3497e9a04d134f36c91d20e7df63d4726495",
+              "0xf7510f3bf7221faaf2dc9e4d2daa045dba06fd8671d2b33ee8b2fa0fa199df87",
+              "0xf7d7111b288c424a8fa87b26cb1a00462a9995b1ec20f2d6c84e9bf64f01aa6b",
+              "0x8592636375473dfa16b044d6526bf8603a42c6e292baf1f6aa3da3da977c2ef5",
+              "0xde9e105cb44262ab8f5dcd3636f7e66a2aa38aecb58a45cea0920c54064a0794",
+              "0x39566492360266667e6d78fd4f168a7efaab16f2e47f258a18b279aff1e88014",
+              "0x115513a051419453fac76475eeeb7d5b70f22e262bd48ad164e8be69d63ed82e",
+              "0xafe1287c584544b853025970c0496394cd2d50458f55f4fee148cf85c6d47fa0",
+              "0x870264ec6d990e4f535251e4cd222885a716cfae71940b0be6a2b56befcb33c0",
+              "0x399561494d1f558ed216c757dcd8f7252dc489bda2b872f0e6c00faac2c168c5",
+              "0x0842576efff124ca93e91c1caea0fb8020c03216fc8e02a8d6e02651644ed629",
+              "0xdbdae5b03854ab17f9f9a02f7d50d0f99459fcbdb0766db1a90f14fca489a580",
+              "0x570ac283922ffc3a610143b10bf687cbb3d74c96bfa8d0bdfa85b9b06a7245c5",
+              "0xe7e35d8bcb178a66ba9ce569101b8a9ec3ec0544510eb480bd5677cb89e6ea97",
+              "0xb6ec4bc7b933981b216ed7b569d112a3362d6a3670bb913d43f4704642eb9239",
+              "0x02147c2c5aa9e37e93ee6e145b2df6bacbfc47cac9b758514b74b0963085e51c",
+              "0xb275a8e18c01ef2440beab01fcdb0c64286a297064a36d670b2b7fb2466fcb16",
+              "0x72603ecdd9c6e941c9087a4703163d94fa6488b5bd05e97e96448095f6090ec5",
+              "0x33bdce5cc5df6ccb11df821d35285901b020c27ef10c2e79012f58f705c6555e",
+              "0xd2daa2625a0ec79db87fa0dd0d1ffdfb83eba1945dd32471e527dedbbd875464",
+              "0xf97dd6ce3d0ca9d0c5c5e6b8ba4d705416dad97c2d6022f2216100a96f8fa199",
+              "0xbcc9ec0de8a3b0770abfc997414ae184f4db1d4c62b55687028239713e7bff29",
+              "0xea738b5089700baa44e269265484038ccd96e7b65805f59d04f65b715606f555"
+            ],
+            "transactionsRoot": "0xc7a4263ef3231bdc919af46eec792050a4ca28602cb4ae99ceeea397ededee27",
+            "uncles": [],
+            "withdrawals": [],
+            "withdrawalsRoot": "0x91855aa6ec9a7f0cc4e2023a9537107e924acbef57c274535197b152b41ebb72"
+          }
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_delegated-7702": {
+      "address": "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+      "interpretation": {
+        "code_length_bytes": 23,
+        "eip7702_delegation_prefix": true,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 6,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+          "0x970ab17"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 6,
+          "jsonrpc": "2.0",
+          "result": "0xef01008a67b5020ee254ef48e3b6a04927f39baf7e408a"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_empty": {
+      "address": "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 5,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+          "0x970ab17"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 5,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_eoa": {
+      "address": "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 4,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+          "0x970ab17"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 4,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_system-contract": {
+      "address": "0x0000000000000000000000000000000000000064",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 7,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x0000000000000000000000000000000000000064",
+          "0x970ab17"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 7,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    }
+  },
+  "error_classes": [],
+  "evidence_dir": "results/2026-10-18/differential-confirmation/op-mainnet/endpoints/mainnet-optimism-io",
+  "observed_at": "2026-10-18T20:45:26Z",
+  "oracles": {
+    "op-gaspriceoracle-getL1Fee": {
+      "data": "0x49948e0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000",
+      "interpretation": {
+        "error_class": null,
+        "raw_return": "0x0000000000000000000000000000000000000000000000000000000029186d1e",
+        "status": "ok",
+        "uint256": 689466654
+      },
+      "method": "getL1Fee(bytes) with empty bytes",
+      "request": {
+        "id": 11,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x49948e0e00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000000",
+            "to": "0x420000000000000000000000000000000000000F"
+          },
+          "0x970ab17"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 11,
+          "jsonrpc": "2.0",
+          "result": "0x0000000000000000000000000000000000000000000000000000000029186d1e"
+        },
+        "http_status": 200
+      },
+      "to": "0x420000000000000000000000000000000000000F"
+    },
+    "op-gaspriceoracle-l1BaseFee": {
+      "data": "0x519b4bd3",
+      "interpretation": {
+        "error_class": null,
+        "raw_return": "0x0000000000000000000000000000000000000000000000000000000002fe505f",
+        "status": "ok",
+        "uint256": 50221151
+      },
+      "method": "l1BaseFee()",
+      "request": {
+        "id": 10,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x519b4bd3",
+            "to": "0x420000000000000000000000000000000000000F"
+          },
+          "0x970ab17"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 10,
+          "jsonrpc": "2.0",
+          "result": "0x0000000000000000000000000000000000000000000000000000000002fe505f"
+        },
+        "http_status": 200
+      },
+      "to": "0x420000000000000000000000000000000000000F"
+    }
+  },
+  "probe_count": 2,
+  "probes": {
+    "blobbasefee": {
+      "data": "0x4a60005260206000f3",
+      "interpretation": {
+        "error_class": null,
+        "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000001",
+        "status": "ok",
+        "uint256": 1
+      },
+      "meaning": "BLOBBASEFEE for the execution block.",
+      "request": {
+        "id": 9,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x4a60005260206000f3"
+          },
+          "0x970ab17"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 9,
+          "jsonrpc": "2.0",
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000001"
+        },
+        "http_status": 200
+      },
+      "vector": null
+    },
+    "chainid": {
+      "data": "0x4660005260206000f3",
+      "interpretation": {
+        "error_class": null,
+        "raw_return": "0x000000000000000000000000000000000000000000000000000000000000000a",
+        "status": "ok",
+        "uint256": 10
+      },
+      "meaning": "CHAINID.",
+      "request": {
+        "id": 8,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x4660005260206000f3"
+          },
+          "0x970ab17"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 8,
+          "jsonrpc": "2.0",
+          "result": "0x000000000000000000000000000000000000000000000000000000000000000a"
+        },
+        "http_status": 200
+      },
+      "vector": null
+    }
+  },
+  "recorded_reason": null,
+  "rpc": "https://mainnet.optimism.io",
+  "rpc_source": "https://docs.optimism.io/app-developers/reference/rpc-providers",
+  "rpc_source_accessed": "2026-10-18",
+  "status": "ok"
+}

@@ -1,0 +1,4 @@
+.public-export
+node_modules/
+screenshots/
+__pycache__/

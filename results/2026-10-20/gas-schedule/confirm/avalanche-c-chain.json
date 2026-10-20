@@ -1,0 +1,154 @@
+{
+  "block": {
+    "baseFeePerGas": "0x9502f900",
+    "blobGasUsed": "0x0",
+    "blockExtraData": "0x",
+    "blockGasCost": "0x0",
+    "difficulty": "0x1",
+    "excessBlobGas": "0x0",
+    "extDataGasUsed": "0x0",
+    "extDataHash": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+    "extraData": "0x000000000000",
+    "gasLimit": "0x4c4b400",
+    "gasUsed": "0x59afd",
+    "hash": "0x4a8fffdcbdcd3f402cf91af606f38a7056a993018ddd71ff40a3d41be0df8521",
+    "logsBloom": "0x00008800000000000000000000100000000100000000200000100000000000000000000000080000000000000000000000001000010000080010000000000000000000000000041400200008000000000200000000000000200300000000020000000000000000000000000000001100000000002000000008000010000000000000000008000000040000000000000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000082000000000010140400001000000000000000000000000080100040000010020000000000000000000000000100000000000000080000000000002000",
+    "minDelayExcess": "0x68d13a",
+    "minPriceExponent": "0x7ce08b2f603136cd",
+    "miner": "0x0100000000000000000000000000000000000000",
+    "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "nonce": "0x0000000000000000",
+    "number": "0x5d7ac10",
+    "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "parentHash": "0x3b26c6adc7f3af5c81913bfb0fb2ac67222500409304d4b9a1b9c3399b0f7c53",
+    "receiptsRoot": "0xf0437bdc5555b7ce303e64114f389d4f1242e82048db3b66b6cb7cf26f57f814",
+    "settledExcess": "0x1c0e04188",
+    "settledGasNumerator": "0xafbe4",
+    "settledGasUnix": "0x6ad6d16b",
+    "settledHeight": "0x5d7ac0e",
+    "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+    "size": "0xa5b",
+    "stateRoot": "0xc855274f2b5d70d4ae377d7a24ac5fc81c8310b667971f707dd137b52087062f",
+    "targetExponent": "0x2c5c860",
+    "timestamp": "0x6ad6d170",
+    "timestampMilliseconds": "0x1a15722203d",
+    "totalDifficulty": "0x0",
+    "transactions": [
+      "0x3789d7a0ac5b30348d793e89fbb04345080ca8eae5f27218ff95158c77de0599",
+      "0x2c5e1373ef144238cbb68c4bd6174a27cab4e4cff58f724b681cbecc8d4cd3aa",
+      "0x116c755ba4f1cb0f03c4431dab905e42c03b46b4bb98a6701ece460ea35ed8a4"
+    ],
+    "transactionsRoot": "0x5dbb2d3a1fe36548b00f45ce21a1800b13f4cc63a9cffc1b2e9e044b5232a2fc",
+    "uncles": []
+  },
+  "cases": {},
+  "chain": "avalanche-c-chain",
+  "context": {
+    "eth_blockNumber": {
+      "observed_at": "2026-10-20T02:27:00.639309+00:00",
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0x5d7ac10"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "observed_at": "2026-10-20T02:27:00.022202+00:00",
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0xa86a"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "observed_at": "2026-10-20T02:27:01.225736+00:00",
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x5d7ac10",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0x9502f900",
+            "blobGasUsed": "0x0",
+            "blockExtraData": "0x",
+            "blockGasCost": "0x0",
+            "difficulty": "0x1",
+            "excessBlobGas": "0x0",
+            "extDataGasUsed": "0x0",
+            "extDataHash": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "extraData": "0x000000000000",
+            "gasLimit": "0x4c4b400",
+            "gasUsed": "0x59afd",
+            "hash": "0x4a8fffdcbdcd3f402cf91af606f38a7056a993018ddd71ff40a3d41be0df8521",
+            "logsBloom": "0x00008800000000000000000000100000000100000000200000100000000000000000000000080000000000000000000000001000010000080010000000000000000000000000041400200008000000000200000000000000200300000000020000000000000000000000000000001100000000002000000008000010000000000000000008000000040000000000000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000082000000000010140400001000000000000000000000000080100040000010020000000000000000000000000100000000000000080000000000002000",
+            "minDelayExcess": "0x68d13a",
+            "minPriceExponent": "0x7ce08b2f603136cd",
+            "miner": "0x0100000000000000000000000000000000000000",
+            "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "nonce": "0x0000000000000000",
+            "number": "0x5d7ac10",
+            "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "parentHash": "0x3b26c6adc7f3af5c81913bfb0fb2ac67222500409304d4b9a1b9c3399b0f7c53",
+            "receiptsRoot": "0xf0437bdc5555b7ce303e64114f389d4f1242e82048db3b66b6cb7cf26f57f814",
+            "settledExcess": "0x1c0e04188",
+            "settledGasNumerator": "0xafbe4",
+            "settledGasUnix": "0x6ad6d16b",
+            "settledHeight": "0x5d7ac0e",
+            "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "size": "0xa5b",
+            "stateRoot": "0xc855274f2b5d70d4ae377d7a24ac5fc81c8310b667971f707dd137b52087062f",
+            "targetExponent": "0x2c5c860",
+            "timestamp": "0x6ad6d170",
+            "timestampMilliseconds": "0x1a15722203d",
+            "totalDifficulty": "0x0",
+            "transactions": [
+              "0x3789d7a0ac5b30348d793e89fbb04345080ca8eae5f27218ff95158c77de0599",
+              "0x2c5e1373ef144238cbb68c4bd6174a27cab4e4cff58f724b681cbecc8d4cd3aa",
+              "0x116c755ba4f1cb0f03c4431dab905e42c03b46b4bb98a6701ece460ea35ed8a4"
+            ],
+            "transactionsRoot": "0x5dbb2d3a1fe36548b00f45ce21a1800b13f4cc63a9cffc1b2e9e044b5232a2fc",
+            "uncles": []
+          }
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber_latest_retry": null
+  },
+  "expected_chain_id": 43114,
+  "observed_at": "2026-10-20T02:27:01.225748+00:00",
+  "observed_chain_id": "0xa86a",
+  "phase": "confirm",
+  "rpc": {
+    "source": "https://build.avax.network/docs/quickstart/avalanche-consensus",
+    "source_accessed": "2026-10-18",
+    "url": "https://api.avax.network/ext/bc/C/rpc"
+  },
+  "status": "ok"
+}

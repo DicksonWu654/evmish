@@ -1,0 +1,11 @@
+{
+  "id": 8,
+  "jsonrpc": "2.0",
+  "method": "eth_call",
+  "params": [
+    {
+      "data": "0x5f60005260206000f3"
+    },
+    "0x7a7702e"
+  ]
+}

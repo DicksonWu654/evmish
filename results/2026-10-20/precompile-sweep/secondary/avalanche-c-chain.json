@@ -1,0 +1,7 @@
+{
+  "cases": {},
+  "chain": "avalanche-c-chain",
+  "phase": "secondary",
+  "reason": "No second endpoint in registry",
+  "status": "no-secondary-rpc"
+}

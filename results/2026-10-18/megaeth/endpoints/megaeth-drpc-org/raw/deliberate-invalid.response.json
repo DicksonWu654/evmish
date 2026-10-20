@@ -1,0 +1,11 @@
+{
+  "body": {
+    "error": {
+      "code": -32003,
+      "message": "EVM error: InvalidFEOpcode"
+    },
+    "id": 31,
+    "jsonrpc": "2.0"
+  },
+  "http_status": 200
+}

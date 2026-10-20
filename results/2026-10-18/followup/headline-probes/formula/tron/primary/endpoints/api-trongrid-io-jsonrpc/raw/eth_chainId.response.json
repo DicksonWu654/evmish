@@ -1,0 +1,8 @@
+{
+  "body": {
+    "id": 1,
+    "jsonrpc": "2.0",
+    "result": "0x2b6653dc"
+  },
+  "http_status": 200
+}

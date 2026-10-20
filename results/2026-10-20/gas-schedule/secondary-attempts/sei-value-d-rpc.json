@@ -1,0 +1,97 @@
+{
+  "block": null,
+  "chain": "sei-evm",
+  "expected_chain_id": 1329,
+  "observed_at": "2026-10-20T02:19:37.674219+00:00",
+  "observed_chain_id": "0x531",
+  "phase": "secondary",
+  "records": {
+    "chain_id": {
+      "observed_at": "2026-10-20T02:19:35.815942+00:00",
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0x531"
+        },
+        "http_status": 200
+      }
+    },
+    "header": {
+      "observed_at": "2026-10-20T02:19:37.043504+00:00",
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0xe38a021",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": 19,
+            "message": "Temporary internal error. Please retry, request token redacted for publication"
+          },
+          "id": 3,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 500
+      }
+    },
+    "header_latest_retry": {
+      "observed_at": "2026-10-20T02:19:37.674188+00:00",
+      "request": {
+        "id": 4,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "latest",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": 19,
+            "message": "Temporary internal error. Please retry, request token redacted for publication"
+          },
+          "id": 4,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 500
+      }
+    },
+    "height": {
+      "observed_at": "2026-10-20T02:19:36.316189+00:00",
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0xe38a021"
+        },
+        "http_status": 200
+      }
+    }
+  },
+  "rpc": {
+    "role": "secondary",
+    "source": "https://drpc.org/chainlist",
+    "source_accessed": "2026-10-20",
+    "url": "https://sei.drpc.org"
+  },
+  "status": "context-error"
+}

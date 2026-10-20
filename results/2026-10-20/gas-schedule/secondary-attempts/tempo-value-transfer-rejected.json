@@ -1,0 +1,284 @@
+{
+  "block": {
+    "baseFeePerGas": "0x23c34600",
+    "blobGasUsed": "0x0",
+    "consensusContext": {
+      "epoch": 2081,
+      "parentView": 19005,
+      "proposer": "0x8d9907ab33f22afc0a99e6158652782f1a49528ad1a1af1a8bd3477b84868aff",
+      "view": 19006
+    },
+    "difficulty": "0x0",
+    "excessBlobGas": "0x0",
+    "extraData": "0x",
+    "gasLimit": "0x1dcd6500",
+    "gasUsed": "0x0",
+    "hash": "0xe9e71da9d6ccbec66d6b6dfec27ed0bcf5fd1519f5d0ef96e499670e3bea1fc6",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "mainBlockGeneralGasLimit": "0x1c9c380",
+    "miner": "0x60a0fe9b96e03c688fdb540d56e562259fbb5cb6",
+    "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "nonce": "0x0000000000000000",
+    "number": "0x2ae257c",
+    "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "parentHash": "0xcdf0366b76ef1132369476e81f698d7c60b9765acdd9a56a4d8d81943cbf3a0d",
+    "receiptsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+    "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+    "sharedGasLimit": "0x0",
+    "size": "0x2a3",
+    "stateRoot": "0xa6fe9c7b41cb91781b024120445338f8c119231d707b38a5ecdf03edcdee6140",
+    "timestamp": "0x6ad6d246",
+    "timestampMillis": "0x1a157256478",
+    "timestampMillisPart": "0x308",
+    "transactions": [],
+    "transactionsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+    "uncles": [],
+    "withdrawals": [],
+    "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"
+  },
+  "call_succeeded": false,
+  "chain": "tempo",
+  "expected_chain_id": 4217,
+  "measurement": {
+    "error": {
+      "code": -32603,
+      "message": "Revm error: value transfer not allowed"
+    },
+    "status": "execution-failure"
+  },
+  "observed_at": "2026-10-20T02:30:32.410535+00:00",
+  "observed_chain_id": "0x1079",
+  "phase": "confirm",
+  "records": {
+    "candidate_balances": [
+      {
+        "address": "0x000000000000000000000000000000000000dEaD",
+        "observed_at": "2026-10-20T02:30:33.597163+00:00",
+        "request": {
+          "id": 5,
+          "jsonrpc": "2.0",
+          "method": "eth_getBalance",
+          "params": [
+            "0x000000000000000000000000000000000000dEaD",
+            "0x2ae257c"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 5,
+            "jsonrpc": "2.0",
+            "result": "0x9612084f0316e0ebd5182f398e5195a51b5ca47667d4c9b26c9b26c9b26c9b2"
+          },
+          "http_status": 200
+        }
+      }
+    ],
+    "chain_id": {
+      "observed_at": "2026-10-20T02:30:31.320818+00:00",
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0x1079"
+        },
+        "http_status": 200
+      }
+    },
+    "gas_call": {
+      "observed_at": "2026-10-20T02:30:34.258102+00:00",
+      "request": {
+        "id": 6,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x5a60006000600060006001739baeb70184075f3ea43e6e8160ec2f162da8d28b620f4240505050505050505a90035a60006000600060006001739baeb70184075f3ea43e6e8160ec2f162da8d28b620f4240f1505a900360205260005260406000f3",
+            "from": "0x000000000000000000000000000000000000dEaD",
+            "gas": "0x1c9c380",
+            "value": "0x1"
+          },
+          "0x2ae257c"
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32603,
+            "message": "Revm error: value transfer not allowed"
+          },
+          "id": 6,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 200
+      }
+    },
+    "header": {
+      "observed_at": "2026-10-20T02:30:32.410518+00:00",
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x2ae257c",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0x23c34600",
+            "blobGasUsed": "0x0",
+            "consensusContext": {
+              "epoch": 2081,
+              "parentView": 19005,
+              "proposer": "0x8d9907ab33f22afc0a99e6158652782f1a49528ad1a1af1a8bd3477b84868aff",
+              "view": 19006
+            },
+            "difficulty": "0x0",
+            "excessBlobGas": "0x0",
+            "extraData": "0x",
+            "gasLimit": "0x1dcd6500",
+            "gasUsed": "0x0",
+            "hash": "0xe9e71da9d6ccbec66d6b6dfec27ed0bcf5fd1519f5d0ef96e499670e3bea1fc6",
+            "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "mainBlockGeneralGasLimit": "0x1c9c380",
+            "miner": "0x60a0fe9b96e03c688fdb540d56e562259fbb5cb6",
+            "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "nonce": "0x0000000000000000",
+            "number": "0x2ae257c",
+            "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "parentHash": "0xcdf0366b76ef1132369476e81f698d7c60b9765acdd9a56a4d8d81943cbf3a0d",
+            "receiptsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "sharedGasLimit": "0x0",
+            "size": "0x2a3",
+            "stateRoot": "0xa6fe9c7b41cb91781b024120445338f8c119231d707b38a5ecdf03edcdee6140",
+            "timestamp": "0x6ad6d246",
+            "timestampMillis": "0x1a157256478",
+            "timestampMillisPart": "0x308",
+            "transactions": [],
+            "transactionsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "uncles": [],
+            "withdrawals": [],
+            "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"
+          }
+        },
+        "http_status": 200
+      }
+    },
+    "height": {
+      "observed_at": "2026-10-20T02:30:31.814535+00:00",
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0x2ae257c"
+        },
+        "http_status": 200
+      }
+    },
+    "status_call": {
+      "observed_at": "2026-10-20T02:30:34.856299+00:00",
+      "request": {
+        "id": 7,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x60006000600060006001739baeb70184075f3ea43e6e8160ec2f162da8d28b620f4240f160005260206000f3",
+            "from": "0x000000000000000000000000000000000000dEaD",
+            "gas": "0x1c9c380",
+            "value": "0x1"
+          },
+          "0x2ae257c"
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32603,
+            "message": "Revm error: value transfer not allowed"
+          },
+          "id": 7,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 200
+      }
+    },
+    "stipend_call": {
+      "observed_at": "2026-10-20T02:30:35.396791+00:00",
+      "request": {
+        "id": 8,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x6014610028600039601460006000f060206000600060006001856000f160205260405260606000f3600761000d60003960076000f35a5f5260205ff3",
+            "from": "0x000000000000000000000000000000000000dEaD",
+            "gas": "0x1c9c380",
+            "value": "0x1"
+          },
+          "0x2ae257c"
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32603,
+            "message": "Revm error: value transfer not allowed"
+          },
+          "id": 8,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 200
+      }
+    },
+    "target_code": {
+      "observed_at": "2026-10-20T02:30:33.005965+00:00",
+      "request": {
+        "id": 4,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+          "0x2ae257c"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 4,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    }
+  },
+  "rpc": {
+    "source": "https://tempo.xyz/developers/docs/network",
+    "source_accessed": "2026-10-18",
+    "url": "https://rpc.tempo.xyz"
+  },
+  "sender": "0x000000000000000000000000000000000000dEaD",
+  "status": "call-failed",
+  "stipend": {
+    "raw": null,
+    "status": "unavailable"
+  }
+}

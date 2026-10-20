@@ -1,0 +1,974 @@
+{
+  "block": {
+    "baseFeePerGas": "0x174876e800",
+    "blobGasUsed": "0x0",
+    "difficulty": "0x0",
+    "excessBlobGas": "0x0",
+    "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "gasLimit": "0x8f0d180",
+    "gasUsed": "0x90f29a",
+    "hash": "0xb4bc6485965fe51428aa5a3efcf19ea13e47424c0998dff5e952817a7986a4d8",
+    "logsBloom": "0x800400000824045402010c10200400000002080422048000a0108440a402000008000912010308802a100000000000404000008001000200000820028004400000900004002080000000c00808800008a00300000224808000008001000000000802002002081404090020400100081088006000240041075000003210020001090010002080900008400422000c00000200060040000000400000000000040065004400120000200200000000c20090010400040004000000604200800a00220000028201000000080004020084000580080020901004002024440082106082004010000100000024000020100001000842000424008600a0400000c0004007",
+    "miner": "0xdbfe85b112cb67cd4bcce563ebeb7914450d1c82",
+    "mixHash": "0x62c56d2beebc1fdf2ca8a71cc5086d68f8400f8a465ea1a9edda0f824a7252cc",
+    "nonce": "0x0000000000000000",
+    "number": "0x6d98f68",
+    "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "parentHash": "0x40b796afe5cf1a0472a5634d46b9ec004048247b5086b2f518befe44aa5e28f0",
+    "receiptsRoot": "0x01e906286e5c76d99980713715bb4ab7b4c99c7a16c1e98231dc2602e5e54aac",
+    "requestsHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+    "size": "0x6077",
+    "stateRoot": "0x86f4fddebf37a3bad33c9366a439bb6c7cafe9ecf0544892d2dccc60a2aca8ef",
+    "timestamp": "0x6ad6d177",
+    "totalDifficulty": "0x0",
+    "transactions": [
+      "0x2d4431168300326ca85503d6265754c5ea18ecd33e14eb8172f30c05cc690687",
+      "0x95c243e17dbd7e8c3da6a25396920d1ba91587f28de54a646c8a57f3764c15b4",
+      "0x361c14743d77f9f17ff93da1a7a67348e288ba2cbd4437723d9195e73721d352",
+      "0x8fd0bb1562c96e4e06a1552e2b32365ad01adb46c6b91b58d4f9544d219f59cf",
+      "0x69ba74411d260edf49741f8135a1d392e96d016bdcb99fbd3d3880be10f71fcb",
+      "0x4293955b1ff19dd4e629fbd78aa3908faa8d8842978a5ee53e1f54c19f67e74b",
+      "0x4c363c83a171be4c68270bd250785d5c1d1024f6d637138dc547d5d4887ad619",
+      "0x10f36c34dd759a8f5fce80dc2e1020017797c07939c737f83929f87491b7bab6",
+      "0x2408833fae5c2bf868d4fb6b54c41e2cd319d691f32908d13cac2657802ecdb6",
+      "0x7d88c90790252f0a75bc5fbf8f8748ebd157f4b48f9fa420d7337a4e3ac622a5",
+      "0x2967504beca51fdce6f0d85d4b74f9cd740295b2222a8620c79b9c51c8b4ebb0",
+      "0x52efc510aa52d668c921cbc03981ff579515f50a5f34ebc9ed15b3258b460774",
+      "0x06d9c2fdbc31f21bca0d9b5f34ef1d6ffb23202cf00a04b0ccf877197a2e378a",
+      "0xf0ae868d387274faa1ab2208c94b3b02ef6dac6c977caa269de5fa75296b278c",
+      "0xaf4c4f7a4461da382449183c39f4ada2c59c1bee01f156f27c2f9fbf4bc3643f",
+      "0x33f24b3521f54a0409df6f7df232e2748183d1b916379331656e87dee59915ed",
+      "0x40db256f76d52cfba04521f94ba6fe3018fb25fe64ed54435e90dabbcd2ed5c8"
+    ],
+    "transactionsRoot": "0x690fc27f8cfd4687f2a6fca3a15c296f91ee69e3f96f607df6412f4ded67892c",
+    "uncles": [],
+    "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"
+  },
+  "cases": {
+    "balance-empty": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:04.511057+00:00",
+          "request": {
+            "id": 4,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b31505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b31505a900360405260205260005260606000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f68"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 4,
+              "jsonrpc": "2.0",
+              "result": "0x0000000000000000000000000000000000000000000000000000000000000007000000000000000000000000000000000000000000000000000000000000277b000000000000000000000000000000000000000000000000000000000000006b"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f68",
+      "bytecode": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b31505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b31505a900360405260205260005260606000f3",
+      "correction": 0,
+      "detail": "",
+      "family": "cold-warm",
+      "interpretation": {
+        "control_gas": 5,
+        "raw_words": [
+          7,
+          10107,
+          107
+        ],
+        "status": "measured",
+        "values": {
+          "cold": 10100,
+          "warm": 100
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:04.511057+00:00",
+        "request": {
+          "id": 4,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b31505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b31505a900360405260205260005260606000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f68"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 4,
+            "jsonrpc": "2.0",
+            "result": "0x0000000000000000000000000000000000000000000000000000000000000007000000000000000000000000000000000000000000000000000000000000277b000000000000000000000000000000000000000000000000000000000000006b"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "call-empty": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:05.103500+00:00",
+          "request": {
+            "id": 5,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a60006000600060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b6000505050505050505a90035a60006000600060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b6000f1505a90035a60006000600060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b6000f1505a900360405260205260005260606000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f68"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 5,
+              "jsonrpc": "2.0",
+              "result": "0x0000000000000000000000000000000000000000000000000000000000000025000000000000000000000000000000000000000000000000000000000000278d000000000000000000000000000000000000000000000000000000000000007d"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f68",
+      "bytecode": "0x5a60006000600060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b6000505050505050505a90035a60006000600060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b6000f1505a90035a60006000600060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b6000f1505a900360405260205260005260606000f3",
+      "correction": 12,
+      "detail": "zero value, zero forwarded gas; empty account",
+      "family": "cold-warm",
+      "interpretation": {
+        "control_gas": 35,
+        "raw_words": [
+          37,
+          10125,
+          125
+        ],
+        "status": "measured",
+        "values": {
+          "cold": 10100,
+          "warm": 100
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:05.103500+00:00",
+        "request": {
+          "id": 5,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a60006000600060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b6000505050505050505a90035a60006000600060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b6000f1505a90035a60006000600060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b6000f1505a900360405260205260005260606000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f68"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 5,
+            "jsonrpc": "2.0",
+            "result": "0x0000000000000000000000000000000000000000000000000000000000000025000000000000000000000000000000000000000000000000000000000000278d000000000000000000000000000000000000000000000000000000000000007d"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "call-value-empty": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:05.745106+00:00",
+          "request": {
+            "id": 6,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a60006000600060006001739baeb70184075f3ea43e6e8160ec2f162da8d28b6000505050505050505a90035a60006000600060006001739baeb70184075f3ea43e6e8160ec2f162da8d28b6000f1505a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f68"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 6,
+              "jsonrpc": "2.0",
+              "result": "0x0000000000000000000000000000000000000000000000000000000000000025000000000000000000000000000000000000000000000000000000000000a361"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f68",
+      "bytecode": "0x5a60006000600060006001739baeb70184075f3ea43e6e8160ec2f162da8d28b6000505050505050505a90035a60006000600060006001739baeb70184075f3ea43e6e8160ec2f162da8d28b6000f1505a900360205260005260406000f3",
+      "correction": 12,
+      "detail": "one wei from unfunded creation context; failure/status must be checked separately",
+      "family": "call-value",
+      "interpretation": {
+        "control_gas": 35,
+        "raw_words": [
+          37,
+          41825
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 41800
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:05.745106+00:00",
+        "request": {
+          "id": 6,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a60006000600060006001739baeb70184075f3ea43e6e8160ec2f162da8d28b6000505050505050505a90035a60006000600060006001739baeb70184075f3ea43e6e8160ec2f162da8d28b6000f1505a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f68"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 6,
+            "jsonrpc": "2.0",
+            "result": "0x0000000000000000000000000000000000000000000000000000000000000025000000000000000000000000000000000000000000000000000000000000a361"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "extcodecopy-empty": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:06.360359+00:00",
+          "request": {
+            "id": 7,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60006000525a602060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b505050505a90035a602060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b3c5a90035a602060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b3c5a900360405260205260005260606000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f68"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 7,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000001600000000000000000000000000000000000000000000000000000000000027850000000000000000000000000000000000000000000000000000000000000075"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f68",
+      "bytecode": "0x60006000525a602060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b505050505a90035a602060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b3c5a90035a602060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b3c5a900360405260205260005260606000f3",
+      "correction": 8,
+      "detail": "32 copied bytes; output memory pre-expanded",
+      "family": "cold-warm",
+      "interpretation": {
+        "control_gas": 20,
+        "raw_words": [
+          22,
+          10117,
+          117
+        ],
+        "status": "measured",
+        "values": {
+          "cold": 10103,
+          "warm": 103
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:06.360359+00:00",
+        "request": {
+          "id": 7,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60006000525a602060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b505050505a90035a602060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b3c5a90035a602060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b3c5a900360405260205260005260606000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f68"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 7,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000001600000000000000000000000000000000000000000000000000000000000027850000000000000000000000000000000000000000000000000000000000000075"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "extcodehash-empty": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:06.915402+00:00",
+          "request": {
+            "id": 8,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3f505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3f505a900360405260205260005260606000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f68"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 8,
+              "jsonrpc": "2.0",
+              "result": "0x0000000000000000000000000000000000000000000000000000000000000007000000000000000000000000000000000000000000000000000000000000277b000000000000000000000000000000000000000000000000000000000000006b"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f68",
+      "bytecode": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3f505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3f505a900360405260205260005260606000f3",
+      "correction": 0,
+      "detail": "",
+      "family": "cold-warm",
+      "interpretation": {
+        "control_gas": 5,
+        "raw_words": [
+          7,
+          10107,
+          107
+        ],
+        "status": "measured",
+        "values": {
+          "cold": 10100,
+          "warm": 100
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:06.915402+00:00",
+        "request": {
+          "id": 8,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3f505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3f505a900360405260205260005260606000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f68"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 8,
+            "jsonrpc": "2.0",
+            "result": "0x0000000000000000000000000000000000000000000000000000000000000007000000000000000000000000000000000000000000000000000000000000277b000000000000000000000000000000000000000000000000000000000000006b"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "extcodesize-empty": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:07.508162+00:00",
+          "request": {
+            "id": 9,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3b505a900360405260205260005260606000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f68"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 9,
+              "jsonrpc": "2.0",
+              "result": "0x0000000000000000000000000000000000000000000000000000000000000007000000000000000000000000000000000000000000000000000000000000277b000000000000000000000000000000000000000000000000000000000000006b"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f68",
+      "bytecode": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3b505a900360405260205260005260606000f3",
+      "correction": 0,
+      "detail": "",
+      "family": "cold-warm",
+      "interpretation": {
+        "control_gas": 5,
+        "raw_words": [
+          7,
+          10107,
+          107
+        ],
+        "status": "measured",
+        "values": {
+          "cold": 10100,
+          "warm": 100
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:07.508162+00:00",
+        "request": {
+          "id": 9,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3b505a900360405260205260005260606000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f68"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 9,
+            "jsonrpc": "2.0",
+            "result": "0x0000000000000000000000000000000000000000000000000000000000000007000000000000000000000000000000000000000000000000000000000000277b000000000000000000000000000000000000000000000000000000000000006b"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "memory-expand-1-words": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:08.090377+00:00",
+          "request": {
+            "id": 10,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a6007600050505a90035a60076000525a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f68"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 10,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000000b"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f68",
+      "bytecode": "0x5a6007600050505a90035a60076000525a900360205260005260406000f3",
+      "correction": 4,
+      "detail": "MSTORE cost includes expansion from zero words",
+      "family": "memory",
+      "interpretation": {
+        "control_gas": 10,
+        "raw_words": [
+          12,
+          11
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 3
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:08.090377+00:00",
+        "request": {
+          "id": 10,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a6007600050505a90035a60076000525a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f68"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 10,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000000b"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "memory-expand-1024-words": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:08.698344+00:00",
+          "request": {
+            "id": 11,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a6007617fe050505a90035a6007617fe0525a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f68"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 11,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000020b"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f68",
+      "bytecode": "0x5a6007617fe050505a90035a6007617fe0525a900360205260005260406000f3",
+      "correction": 4,
+      "detail": "MSTORE cost includes expansion from zero words",
+      "family": "memory",
+      "interpretation": {
+        "control_gas": 10,
+        "raw_words": [
+          12,
+          523
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 515
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:08.698344+00:00",
+        "request": {
+          "id": 11,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a6007617fe050505a90035a6007617fe0525a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f68"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 11,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000020b"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "memory-expand-32-words": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:09.312886+00:00",
+          "request": {
+            "id": 12,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a60076103e050505a90035a60076103e0525a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f68"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 12,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000001b"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f68",
+      "bytecode": "0x5a60076103e050505a90035a60076103e0525a900360205260005260406000f3",
+      "correction": 4,
+      "detail": "MSTORE cost includes expansion from zero words",
+      "family": "memory",
+      "interpretation": {
+        "control_gas": 10,
+        "raw_words": [
+          12,
+          27
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 19
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:09.312886+00:00",
+        "request": {
+          "id": 12,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a60076103e050505a90035a60076103e0525a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f68"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 12,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000001b"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "memory-expand-32768-words": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:09.930485+00:00",
+          "request": {
+            "id": 13,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a6007620fffe050505a90035a6007620fffe0525a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f68"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 13,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000400b"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f68",
+      "bytecode": "0x5a6007620fffe050505a90035a6007620fffe0525a900360205260005260406000f3",
+      "correction": 4,
+      "detail": "MSTORE cost includes expansion from zero words",
+      "family": "memory",
+      "interpretation": {
+        "control_gas": 10,
+        "raw_words": [
+          12,
+          16395
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 16387
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:09.930485+00:00",
+        "request": {
+          "id": 13,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a6007620fffe050505a90035a6007620fffe0525a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f68"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 13,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000400b"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "sload-slot0": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:10.499336+00:00",
+          "request": {
+            "id": 14,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a6000505a90035a600054505a90035a600054505a900360405260205260005260606000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f68"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 14,
+              "jsonrpc": "2.0",
+              "result": "0x00000000000000000000000000000000000000000000000000000000000000070000000000000000000000000000000000000000000000000000000000001fab000000000000000000000000000000000000000000000000000000000000006b"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f68",
+      "bytecode": "0x5a6000505a90035a600054505a90035a600054505a900360405260205260005260606000f3",
+      "correction": 0,
+      "detail": "fresh creation storage slot zero",
+      "family": "cold-warm",
+      "interpretation": {
+        "control_gas": 5,
+        "raw_words": [
+          7,
+          8107,
+          107
+        ],
+        "status": "measured",
+        "values": {
+          "cold": 8100,
+          "warm": 100
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:10.499336+00:00",
+        "request": {
+          "id": 14,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a6000505a90035a600054505a90035a600054505a900360405260205260005260606000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f68"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 14,
+            "jsonrpc": "2.0",
+            "result": "0x00000000000000000000000000000000000000000000000000000000000000070000000000000000000000000000000000000000000000000000000000001fab000000000000000000000000000000000000000000000000000000000000006b"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "sstore-transitions": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:11.096364+00:00",
+          "request": {
+            "id": 15,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a6001600050505a90035a60016000555a90035a60026000555a90035a60026000555a90035a60006000555a900360805260605260405260205260005260a06000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f68"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 15,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000000c0000000000000000000000000000000000000000000000000000000000006d04000000000000000000000000000000000000000000000000000000000000006c000000000000000000000000000000000000000000000000000000000000006c000000000000000000000000000000000000000000000000000000000000006c"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f68",
+      "bytecode": "0x5a6001600050505a90035a60016000555a90035a60026000555a90035a60026000555a90035a60006000555a900360805260605260405260205260005260a06000f3",
+      "correction": 4,
+      "detail": "refunds do not increase GAS; they are not measured",
+      "family": "storage",
+      "interpretation": {
+        "control_gas": 10,
+        "raw_words": [
+          12,
+          27908,
+          108,
+          108,
+          108
+        ],
+        "status": "measured",
+        "values": {
+          "one-to-two": 100,
+          "two-to-two": 100,
+          "two-to-zero": 100,
+          "zero-to-one": 27900
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:11.096364+00:00",
+        "request": {
+          "id": 15,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a6001600050505a90035a60016000555a90035a60026000555a90035a60026000555a90035a60006000555a900360805260605260405260205260005260a06000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f68"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 15,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000000c0000000000000000000000000000000000000000000000000000000000006d04000000000000000000000000000000000000000000000000000000000000006c000000000000000000000000000000000000000000000000000000000000006c000000000000000000000000000000000000000000000000000000000000006c"
+          },
+          "http_status": 200
+        }
+      }
+    }
+  },
+  "chain": "monad",
+  "context": {
+    "eth_blockNumber": {
+      "observed_at": "2026-10-20T02:27:03.317179+00:00",
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0x6d98f68"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "observed_at": "2026-10-20T02:27:02.733749+00:00",
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0x8f"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "observed_at": "2026-10-20T02:27:03.938240+00:00",
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x6d98f68",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0x174876e800",
+            "blobGasUsed": "0x0",
+            "difficulty": "0x0",
+            "excessBlobGas": "0x0",
+            "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "gasLimit": "0x8f0d180",
+            "gasUsed": "0x90f29a",
+            "hash": "0xb4bc6485965fe51428aa5a3efcf19ea13e47424c0998dff5e952817a7986a4d8",
+            "logsBloom": "0x800400000824045402010c10200400000002080422048000a0108440a402000008000912010308802a100000000000404000008001000200000820028004400000900004002080000000c00808800008a00300000224808000008001000000000802002002081404090020400100081088006000240041075000003210020001090010002080900008400422000c00000200060040000000400000000000040065004400120000200200000000c20090010400040004000000604200800a00220000028201000000080004020084000580080020901004002024440082106082004010000100000024000020100001000842000424008600a0400000c0004007",
+            "miner": "0xdbfe85b112cb67cd4bcce563ebeb7914450d1c82",
+            "mixHash": "0x62c56d2beebc1fdf2ca8a71cc5086d68f8400f8a465ea1a9edda0f824a7252cc",
+            "nonce": "0x0000000000000000",
+            "number": "0x6d98f68",
+            "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "parentHash": "0x40b796afe5cf1a0472a5634d46b9ec004048247b5086b2f518befe44aa5e28f0",
+            "receiptsRoot": "0x01e906286e5c76d99980713715bb4ab7b4c99c7a16c1e98231dc2602e5e54aac",
+            "requestsHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "size": "0x6077",
+            "stateRoot": "0x86f4fddebf37a3bad33c9366a439bb6c7cafe9ecf0544892d2dccc60a2aca8ef",
+            "timestamp": "0x6ad6d177",
+            "totalDifficulty": "0x0",
+            "transactions": [
+              "0x2d4431168300326ca85503d6265754c5ea18ecd33e14eb8172f30c05cc690687",
+              "0x95c243e17dbd7e8c3da6a25396920d1ba91587f28de54a646c8a57f3764c15b4",
+              "0x361c14743d77f9f17ff93da1a7a67348e288ba2cbd4437723d9195e73721d352",
+              "0x8fd0bb1562c96e4e06a1552e2b32365ad01adb46c6b91b58d4f9544d219f59cf",
+              "0x69ba74411d260edf49741f8135a1d392e96d016bdcb99fbd3d3880be10f71fcb",
+              "0x4293955b1ff19dd4e629fbd78aa3908faa8d8842978a5ee53e1f54c19f67e74b",
+              "0x4c363c83a171be4c68270bd250785d5c1d1024f6d637138dc547d5d4887ad619",
+              "0x10f36c34dd759a8f5fce80dc2e1020017797c07939c737f83929f87491b7bab6",
+              "0x2408833fae5c2bf868d4fb6b54c41e2cd319d691f32908d13cac2657802ecdb6",
+              "0x7d88c90790252f0a75bc5fbf8f8748ebd157f4b48f9fa420d7337a4e3ac622a5",
+              "0x2967504beca51fdce6f0d85d4b74f9cd740295b2222a8620c79b9c51c8b4ebb0",
+              "0x52efc510aa52d668c921cbc03981ff579515f50a5f34ebc9ed15b3258b460774",
+              "0x06d9c2fdbc31f21bca0d9b5f34ef1d6ffb23202cf00a04b0ccf877197a2e378a",
+              "0xf0ae868d387274faa1ab2208c94b3b02ef6dac6c977caa269de5fa75296b278c",
+              "0xaf4c4f7a4461da382449183c39f4ada2c59c1bee01f156f27c2f9fbf4bc3643f",
+              "0x33f24b3521f54a0409df6f7df232e2748183d1b916379331656e87dee59915ed",
+              "0x40db256f76d52cfba04521f94ba6fe3018fb25fe64ed54435e90dabbcd2ed5c8"
+            ],
+            "transactionsRoot": "0x690fc27f8cfd4687f2a6fca3a15c296f91ee69e3f96f607df6412f4ded67892c",
+            "uncles": [],
+            "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"
+          }
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber_latest_retry": null
+  },
+  "expected_chain_id": 143,
+  "observed_at": "2026-10-20T02:27:03.938262+00:00",
+  "observed_chain_id": "0x8f",
+  "phase": "secondary",
+  "rpc": {
+    "role": "secondary",
+    "source": "https://drpc.org/chainlist",
+    "source_accessed": "2026-10-18",
+    "url": "https://monad.drpc.org"
+  },
+  "status": "ok"
+}

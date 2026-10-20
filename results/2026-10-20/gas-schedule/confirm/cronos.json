@@ -1,0 +1,114 @@
+{
+  "block": {
+    "baseFeePerGas": "0x574fbde600",
+    "difficulty": "0x0",
+    "extraData": "0x",
+    "gasLimit": "0x3938700",
+    "gasUsed": "0x0",
+    "hash": "0xfcab849a59b4660d9f2a7b2b690da8c92b68e89059eb101c3bba62235f088e25",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "miner": "0x27da67fe85ae7971bd5fe1d6e442b5dc0ad7b086",
+    "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "nonce": "0x0000000000000000",
+    "number": "0x6057790",
+    "parentHash": "0x36967a0c3ebca145a5400766e3732acc814f11a47247e27610b0849a5c74f3da",
+    "receiptsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+    "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+    "size": "0x60d",
+    "stateRoot": "0x1baaed595bd9461bdfc35f3d89b3f77d40200c834d25d115dac33709e7bde512",
+    "timestamp": "0x6ad6d176",
+    "transactions": [],
+    "transactionsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+    "uncles": []
+  },
+  "cases": {},
+  "chain": "cronos",
+  "context": {
+    "eth_blockNumber": {
+      "observed_at": "2026-10-20T02:27:03.339389+00:00",
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0x6057790"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "observed_at": "2026-10-20T02:27:02.749897+00:00",
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0x19"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "observed_at": "2026-10-20T02:27:03.926031+00:00",
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x6057790",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0x574fbde600",
+            "difficulty": "0x0",
+            "extraData": "0x",
+            "gasLimit": "0x3938700",
+            "gasUsed": "0x0",
+            "hash": "0xfcab849a59b4660d9f2a7b2b690da8c92b68e89059eb101c3bba62235f088e25",
+            "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "miner": "0x27da67fe85ae7971bd5fe1d6e442b5dc0ad7b086",
+            "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "nonce": "0x0000000000000000",
+            "number": "0x6057790",
+            "parentHash": "0x36967a0c3ebca145a5400766e3732acc814f11a47247e27610b0849a5c74f3da",
+            "receiptsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "size": "0x60d",
+            "stateRoot": "0x1baaed595bd9461bdfc35f3d89b3f77d40200c834d25d115dac33709e7bde512",
+            "timestamp": "0x6ad6d176",
+            "transactions": [],
+            "transactionsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "uncles": []
+          }
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber_latest_retry": null
+  },
+  "expected_chain_id": 25,
+  "observed_at": "2026-10-20T02:27:03.926060+00:00",
+  "observed_chain_id": "0x19",
+  "phase": "confirm",
+  "rpc": {
+    "source": "https://docs.cronos.com/for-dapp-developers/chain-integration/public-rpc-endpoints",
+    "source_accessed": "2026-10-18",
+    "url": "https://evm.cronos.org"
+  },
+  "status": "ok"
+}

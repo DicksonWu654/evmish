@@ -1,0 +1,342 @@
+{
+  "block": {
+    "baseFeePerGas": "0x8",
+    "blobGasUsed": "0x0",
+    "difficulty": "0x0",
+    "excessBlobGas": "0x0",
+    "extraData": "0x726574682f76312e31312e332f6c696e7578",
+    "gasLimit": "0x2255100",
+    "gasUsed": "0xdcae25",
+    "hash": "0x88ba06f745a2c2e45872a2b8aa6f7cc988e7d7cad729853bb2466a6b65b1f899",
+    "logsBloom": "0x00000000410080020000000000000000001000000000000000000000200000010000000000000005000000000000000006000000080029001000002400000000000000000000000800000008000000008000040000000000000000008030004000000200000000000002000000001000000802200000000000008010000a00400800000800000200002000040000000000000001000000000000000200001000000000000400400000000000000000000000400000000000004000000000002000000002000000004000000000201000000000100400000000000000000000100000000000000800000002000000000200008000010000401010200100000020",
+    "miner": "0x000000000000000000000000000000000a11b005",
+    "mixHash": "0xd8f0be7b291141b5900b2c480eafba2ec2ba8e8c7aa7b2becceaa4215559fafa",
+    "nonce": "0x0000000000000000",
+    "number": "0x21e06b3",
+    "parentBeaconBlockRoot": "0x2a5dac32f2d4301110505dcf391a7fd280ec5bc104b827a02d2e164dba2be429",
+    "parentHash": "0x929bb7b613f32d0b918c46505b3a4e64b3a5e7894976ce731953b2d122780e09",
+    "receiptsRoot": "0x3c288205b3821843b8f22f7a3d03513d8e267ba0732c86dc8c48a76d51db217d",
+    "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+    "size": "0x22a4",
+    "stateRoot": "0x7809171338a21ca8ed1ff1aad2d54d6bd05c69363a6c4feed6782b96a29464bc",
+    "timestamp": "0x6ad6d2f9",
+    "transactions": [
+      "0x2d9d0efd9e2ecaaeefa4270c4328f0f9357a5f2c3515e26430aec78844770cef",
+      "0x28f14cb3714be1eda4dbfe5e216c45120a5c61d5b64c0f02feb869531f3c5c2d",
+      "0x753e92e78ed4aab3c904b7987ac1793ab4c5c62d6ef30b8481fa14d964ba6cd5",
+      "0x1bb498ad9f9d291d100a19a5a3a11636043bd318f2f2800add3a0446d062cc63",
+      "0xfbd8102ee70e5ddd5797a5dd869107b324ef6b58aced42e005d11e7eaebcc8d8",
+      "0x44ce4da4b0bf04f809484de319b407dceba95fd2fc6ca6797158f678d5d91182",
+      "0xcde84668070a56cf8179967c64e72a4b8c68ef3d2a906224ce79ba972253cb91",
+      "0xda0c8a2b045ca61368c42ef7e97dd9b0e99baa91d867860da85f90eb21758671",
+      "0x1cfb8f513470dd6cecbc92fe505219135299b0cc98af0d033ea7460aec5f91d7",
+      "0x0dfcfd95243dae050d5fce16b09e6aa8ce65f3bcfe73ce97774ce4d3b3896391",
+      "0xc82fa0f0afbf87f54d6b27ee7f23e4c5091e0e6e3d6d1d6015ec6c2c9b1f76c2",
+      "0x1db096d3304b19954d784d5224d857002638cc3ff3260adf79af9757185ea0c9",
+      "0xe93fe552b9c1240965b4a681832181ffe97348a4614b9512ee404011837c97f3",
+      "0xdcf7b5e49b01e375aa4c3edc97f86755852511bef72c6c4748ddb3011059b957",
+      "0xb424d6c240fd0121682b1ec220c9a91b63277098195ab5e67fa5cca566f2ed81",
+      "0x564953563035a544cadef103c24110ef58f314a8ab9b98a5d541e98d807ed3c8",
+      "0x6d714ae157cb0857dddd5a24433a0b9c27dacd657bff852b3602ba99794a791d",
+      "0xe26e88ee236e7a32e158f7dcd9947f489614640a1849eafc9c504fe0f554c283",
+      "0x19d5f93148c96a48f4b04d0cfc1cacd2d0e58eadeab81f478222a7f38d96d14e",
+      "0xfa8310a0227561709caad26de05286b915b98c926741abc9be6d6017f4fbd87b"
+    ],
+    "transactionsRoot": "0xdc48ce1f5993e0291fc289fa2b17626017affa63fae43bd30cbd9e078b6bb70d",
+    "uncles": [],
+    "withdrawals": [],
+    "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"
+  },
+  "call_succeeded": true,
+  "chain": "plasma",
+  "expected_chain_id": 9745,
+  "measurement": {
+    "control_gas": 35,
+    "raw_words": [
+      37,
+      34325
+    ],
+    "status": "measured",
+    "values": {
+      "operation": 34300
+    }
+  },
+  "observed_at": "2026-10-20T02:33:29.968991+00:00",
+  "observed_chain_id": "0x2611",
+  "phase": "confirm",
+  "records": {
+    "candidate_balances": [
+      {
+        "address": "0x000000000000000000000000000000000000dEaD",
+        "observed_at": "2026-10-20T02:33:32.365208+00:00",
+        "request": {
+          "id": 7,
+          "jsonrpc": "2.0",
+          "method": "eth_getBalance",
+          "params": [
+            "0x000000000000000000000000000000000000dEaD",
+            "0x21e06b3"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 7,
+            "jsonrpc": "2.0",
+            "result": "0x6d3af9c4f9735702"
+          },
+          "http_status": 200
+        }
+      }
+    ],
+    "chain_id": {
+      "observed_at": "2026-10-20T02:33:28.749753+00:00",
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0x2611"
+        },
+        "http_status": 200
+      }
+    },
+    "gas_call": {
+      "observed_at": "2026-10-20T02:33:32.973037+00:00",
+      "request": {
+        "id": 8,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x5a60006000600060006001739baeb70184075f3ea43e6e8160ec2f162da8d28b620f4240505050505050505a90035a60006000600060006001739baeb70184075f3ea43e6e8160ec2f162da8d28b620f4240f1505a900360205260005260406000f3",
+            "from": "0x000000000000000000000000000000000000dEaD",
+            "gas": "0x1c9c380",
+            "value": "0x1"
+          },
+          "0x21e06b3"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 8,
+          "jsonrpc": "2.0",
+          "result": "0x00000000000000000000000000000000000000000000000000000000000000250000000000000000000000000000000000000000000000000000000000008615"
+        },
+        "http_status": 200
+      }
+    },
+    "header": {
+      "observed_at": "2026-10-20T02:33:29.968972+00:00",
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x21e06b3",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0x8",
+            "blobGasUsed": "0x0",
+            "difficulty": "0x0",
+            "excessBlobGas": "0x0",
+            "extraData": "0x726574682f76312e31312e332f6c696e7578",
+            "gasLimit": "0x2255100",
+            "gasUsed": "0xdcae25",
+            "hash": "0x88ba06f745a2c2e45872a2b8aa6f7cc988e7d7cad729853bb2466a6b65b1f899",
+            "logsBloom": "0x00000000410080020000000000000000001000000000000000000000200000010000000000000005000000000000000006000000080029001000002400000000000000000000000800000008000000008000040000000000000000008030004000000200000000000002000000001000000802200000000000008010000a00400800000800000200002000040000000000000001000000000000000200001000000000000400400000000000000000000000400000000000004000000000002000000002000000004000000000201000000000100400000000000000000000100000000000000800000002000000000200008000010000401010200100000020",
+            "miner": "0x000000000000000000000000000000000a11b005",
+            "mixHash": "0xd8f0be7b291141b5900b2c480eafba2ec2ba8e8c7aa7b2becceaa4215559fafa",
+            "nonce": "0x0000000000000000",
+            "number": "0x21e06b3",
+            "parentBeaconBlockRoot": "0x2a5dac32f2d4301110505dcf391a7fd280ec5bc104b827a02d2e164dba2be429",
+            "parentHash": "0x929bb7b613f32d0b918c46505b3a4e64b3a5e7894976ce731953b2d122780e09",
+            "receiptsRoot": "0x3c288205b3821843b8f22f7a3d03513d8e267ba0732c86dc8c48a76d51db217d",
+            "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "size": "0x22a4",
+            "stateRoot": "0x7809171338a21ca8ed1ff1aad2d54d6bd05c69363a6c4feed6782b96a29464bc",
+            "timestamp": "0x6ad6d2f9",
+            "transactions": [
+              "0x2d9d0efd9e2ecaaeefa4270c4328f0f9357a5f2c3515e26430aec78844770cef",
+              "0x28f14cb3714be1eda4dbfe5e216c45120a5c61d5b64c0f02feb869531f3c5c2d",
+              "0x753e92e78ed4aab3c904b7987ac1793ab4c5c62d6ef30b8481fa14d964ba6cd5",
+              "0x1bb498ad9f9d291d100a19a5a3a11636043bd318f2f2800add3a0446d062cc63",
+              "0xfbd8102ee70e5ddd5797a5dd869107b324ef6b58aced42e005d11e7eaebcc8d8",
+              "0x44ce4da4b0bf04f809484de319b407dceba95fd2fc6ca6797158f678d5d91182",
+              "0xcde84668070a56cf8179967c64e72a4b8c68ef3d2a906224ce79ba972253cb91",
+              "0xda0c8a2b045ca61368c42ef7e97dd9b0e99baa91d867860da85f90eb21758671",
+              "0x1cfb8f513470dd6cecbc92fe505219135299b0cc98af0d033ea7460aec5f91d7",
+              "0x0dfcfd95243dae050d5fce16b09e6aa8ce65f3bcfe73ce97774ce4d3b3896391",
+              "0xc82fa0f0afbf87f54d6b27ee7f23e4c5091e0e6e3d6d1d6015ec6c2c9b1f76c2",
+              "0x1db096d3304b19954d784d5224d857002638cc3ff3260adf79af9757185ea0c9",
+              "0xe93fe552b9c1240965b4a681832181ffe97348a4614b9512ee404011837c97f3",
+              "0xdcf7b5e49b01e375aa4c3edc97f86755852511bef72c6c4748ddb3011059b957",
+              "0xb424d6c240fd0121682b1ec220c9a91b63277098195ab5e67fa5cca566f2ed81",
+              "0x564953563035a544cadef103c24110ef58f314a8ab9b98a5d541e98d807ed3c8",
+              "0x6d714ae157cb0857dddd5a24433a0b9c27dacd657bff852b3602ba99794a791d",
+              "0xe26e88ee236e7a32e158f7dcd9947f489614640a1849eafc9c504fe0f554c283",
+              "0x19d5f93148c96a48f4b04d0cfc1cacd2d0e58eadeab81f478222a7f38d96d14e",
+              "0xfa8310a0227561709caad26de05286b915b98c926741abc9be6d6017f4fbd87b"
+            ],
+            "transactionsRoot": "0xdc48ce1f5993e0291fc289fa2b17626017affa63fae43bd30cbd9e078b6bb70d",
+            "uncles": [],
+            "withdrawals": [],
+            "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"
+          }
+        },
+        "http_status": 200
+      }
+    },
+    "height": {
+      "observed_at": "2026-10-20T02:33:29.351244+00:00",
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0x21e06b3"
+        },
+        "http_status": 200
+      }
+    },
+    "status_call": {
+      "observed_at": "2026-10-20T02:33:33.562370+00:00",
+      "request": {
+        "id": 9,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x60006000600060006001739baeb70184075f3ea43e6e8160ec2f162da8d28b620f4240f160005260206000f3",
+            "from": "0x000000000000000000000000000000000000dEaD",
+            "gas": "0x1c9c380",
+            "value": "0x1"
+          },
+          "0x21e06b3"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 9,
+          "jsonrpc": "2.0",
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000001"
+        },
+        "http_status": 200
+      }
+    },
+    "stipend_call": {
+      "observed_at": "2026-10-20T02:33:34.166154+00:00",
+      "request": {
+        "id": 10,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x6014610028600039601460006000f060206000600060006001856000f160205260405260606000f3600761000d60003960076000f35a5f5260205ff3",
+            "from": "0x000000000000000000000000000000000000dEaD",
+            "gas": "0x1c9c380",
+            "value": "0x1"
+          },
+          "0x21e06b3"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 10,
+          "jsonrpc": "2.0",
+          "result": "0x00000000000000000000000000000000000000000000000000000000000008fa00000000000000000000000000000000000000000000000000000000000000010000000000000000000000008d51b916fcd05492ae152ff28b826885a665106c"
+        },
+        "http_status": 200
+      }
+    },
+    "target_balance": {
+      "observed_at": "2026-10-20T02:33:31.160502+00:00",
+      "request": {
+        "id": 5,
+        "jsonrpc": "2.0",
+        "method": "eth_getBalance",
+        "params": [
+          "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+          "0x21e06b3"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 5,
+          "jsonrpc": "2.0",
+          "result": "0x0"
+        },
+        "http_status": 200
+      }
+    },
+    "target_code": {
+      "observed_at": "2026-10-20T02:33:30.567667+00:00",
+      "request": {
+        "id": 4,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+          "0x21e06b3"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 4,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    },
+    "target_nonce": {
+      "observed_at": "2026-10-20T02:33:31.778688+00:00",
+      "request": {
+        "id": 6,
+        "jsonrpc": "2.0",
+        "method": "eth_getTransactionCount",
+        "params": [
+          "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+          "0x21e06b3"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 6,
+          "jsonrpc": "2.0",
+          "result": "0x0"
+        },
+        "http_status": 200
+      }
+    }
+  },
+  "rpc": {
+    "source": "https://docs.plasma.to/",
+    "source_accessed": "2026-10-18",
+    "url": "https://rpc.plasma.to"
+  },
+  "sender": "0x000000000000000000000000000000000000dEaD",
+  "status": "measured",
+  "stipend": {
+    "call_status": 1,
+    "child_address": "0x8d51b916fcd05492ae152ff28b826885a665106c",
+    "child_gasleft": 2298
+  }
+}

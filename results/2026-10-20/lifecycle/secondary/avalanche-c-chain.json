@@ -1,0 +1,7 @@
+{
+  "cases": {},
+  "chain": "avalanche-c-chain",
+  "phase": "secondary",
+  "reason": "No second listed endpoint",
+  "status": "no-secondary-rpc"
+}

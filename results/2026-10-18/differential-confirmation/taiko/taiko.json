@@ -1,0 +1,296 @@
+{
+  "account_candidates": {
+    "delegated-7702": "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+    "empty": "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+    "eoa": "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+    "system-contract": "0x0000000000000000000000000000000000000064"
+  },
+  "block": {
+    "baseFeePerGas": "0x989680",
+    "blobGasUsed": "0x0",
+    "excessBlobGas": "0x0",
+    "gasLimit": "0x2bde780",
+    "gasLimit_uint256": 46000000,
+    "hash": "0x18d05ba89c4ee22968108477d1fbc4d56480d16a262c4d354cfd6503596d078d",
+    "miner": "0x35376dd47c061bc3b8c8e8d61987019e7ed58f06",
+    "mixHash": "0xb54643c427333a47e9f148636ba0c7da96b6441044da65d106e1a61f5734ba50",
+    "number": "0xc42d22",
+    "prevRandao": null,
+    "timestamp": "0x6ad5301f",
+    "timestamp_unix": 1792356383
+  },
+  "block_number": "0xc42d22",
+  "chain": "taiko",
+  "chain_id_expected": 167000,
+  "chain_id_observed": "0x28c58",
+  "context": {
+    "eth_blockNumber": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0xc42d22"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0x28c58"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0xc42d22",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0x989680",
+            "blobGasUsed": "0x0",
+            "difficulty": "0x11b632",
+            "excessBlobGas": "0x0",
+            "extraData": "0x4b00000000a80c",
+            "gasLimit": "0x2bde780",
+            "gasUsed": "0x1b5c4",
+            "hash": "0x18d05ba89c4ee22968108477d1fbc4d56480d16a262c4d354cfd6503596d078d",
+            "logsBloom": "0x00000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000800000000000000000008000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000004000000000",
+            "miner": "0x35376dd47c061bc3b8c8e8d61987019e7ed58f06",
+            "mixHash": "0xb54643c427333a47e9f148636ba0c7da96b6441044da65d106e1a61f5734ba50",
+            "nonce": "0x0000000000000000",
+            "number": "0xc42d22",
+            "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "parentHash": "0xb6d6277d061025ef699ab6aea5628dec4ec24b78cb31f2a7f00f8e715a5e0764",
+            "receiptsRoot": "0xe3ecf0920783157f25dbc6194c6fb6d414bd72a6fdba81ef7e2be9b561218c4c",
+            "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "size": "0x34e",
+            "stateRoot": "0x4712bd5077e899f70cc05192d2b538ae9756a1464cea770df42c81db2de0f40d",
+            "timestamp": "0x6ad5301f",
+            "transactions": [
+              "0x84643e2cffbca8f716873d5a3116630038de9c382c084b920ef83612a831ffb7"
+            ],
+            "transactionsRoot": "0x581816c5f5e2173fdded5121b1a0d2b61fde36ba96b08d6eeafdca5a8795b94f",
+            "uncles": [],
+            "withdrawals": [],
+            "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"
+          }
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_delegated-7702": {
+      "address": "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+      "interpretation": {
+        "code_length_bytes": 23,
+        "eip7702_delegation_prefix": true,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 6,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+          "0xc42d22"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 6,
+          "jsonrpc": "2.0",
+          "result": "0xef0100c2e2f082ccfa00894f97466bcf2b48c6d7f3d224"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_empty": {
+      "address": "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 5,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+          "0xc42d22"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 5,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_eoa": {
+      "address": "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 4,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+          "0xc42d22"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 4,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_system-contract": {
+      "address": "0x0000000000000000000000000000000000000064",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 7,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x0000000000000000000000000000000000000064",
+          "0xc42d22"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 7,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    }
+  },
+  "error_classes": [],
+  "evidence_dir": "results/2026-10-18/differential-confirmation/taiko/endpoints/rpc-mainnet-taiko-xyz",
+  "observed_at": "2026-10-18T20:46:25Z",
+  "oracles": {},
+  "probe_count": 2,
+  "probes": {
+    "blobbasefee": {
+      "data": "0x4a60005260206000f3",
+      "interpretation": {
+        "error_class": null,
+        "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000001",
+        "status": "ok",
+        "uint256": 1
+      },
+      "meaning": "BLOBBASEFEE for the execution block.",
+      "request": {
+        "id": 9,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x4a60005260206000f3"
+          },
+          "0xc42d22"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 9,
+          "jsonrpc": "2.0",
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000001"
+        },
+        "http_status": 200
+      },
+      "vector": null
+    },
+    "chainid": {
+      "data": "0x4660005260206000f3",
+      "interpretation": {
+        "error_class": null,
+        "raw_return": "0x0000000000000000000000000000000000000000000000000000000000028c58",
+        "status": "ok",
+        "uint256": 167000
+      },
+      "meaning": "CHAINID.",
+      "request": {
+        "id": 8,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x4660005260206000f3"
+          },
+          "0xc42d22"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 8,
+          "jsonrpc": "2.0",
+          "result": "0x0000000000000000000000000000000000000000000000000000000000028c58"
+        },
+        "http_status": 200
+      },
+      "vector": null
+    }
+  },
+  "recorded_reason": null,
+  "rpc": "https://rpc.mainnet.taiko.xyz",
+  "rpc_source": "https://docs.taiko.xyz/network/differences-from-ethereum",
+  "rpc_source_accessed": "2026-10-18",
+  "status": "ok"
+}

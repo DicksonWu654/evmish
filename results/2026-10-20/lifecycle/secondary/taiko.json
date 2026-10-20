@@ -1,0 +1,7 @@
+{
+  "cases": {},
+  "chain": "taiko",
+  "phase": "secondary",
+  "reason": "No second listed endpoint",
+  "status": "no-secondary-rpc"
+}

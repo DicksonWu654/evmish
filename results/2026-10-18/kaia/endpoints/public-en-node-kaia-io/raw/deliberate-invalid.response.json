@@ -1,0 +1,11 @@
+{
+  "body": {
+    "error": {
+      "code": -32000,
+      "message": "VM error occurs while running smart contract"
+    },
+    "id": 12,
+    "jsonrpc": "2.0"
+  },
+  "http_status": 200
+}

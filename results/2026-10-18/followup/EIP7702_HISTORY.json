@@ -1,0 +1,143 @@
+{
+  "chains": {
+    "arbitrum-one": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/arbitrum-one/arbitrum-one.json",
+      "status": "none-found"
+    },
+    "avalanche-c-chain": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json",
+      "status": "none-found"
+    },
+    "base": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/base/base.json",
+      "status": "none-found"
+    },
+    "berachain": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/berachain/berachain.json",
+      "status": "none-found"
+    },
+    "blast": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/blast/blast.json",
+      "status": "none-found"
+    },
+    "bnb-smart-chain": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/bnb-smart-chain/bnb-smart-chain.json",
+      "status": "none-found"
+    },
+    "celo": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/celo/celo.json",
+      "status": "none-found"
+    },
+    "cronos": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/cronos/cronos.json",
+      "status": "none-found"
+    },
+    "ethereum": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/ethereum/ethereum.json",
+      "status": "none-found"
+    },
+    "evmos": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/evmos/evmos.json",
+      "status": "none-found"
+    },
+    "gnosis": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/gnosis/gnosis.json",
+      "status": "none-found"
+    },
+    "hyperevm": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/hyperevm/hyperevm.json",
+      "status": "none-found"
+    },
+    "kaia": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/kaia/kaia.json",
+      "status": "none-found"
+    },
+    "linea": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/linea/linea.json",
+      "status": "none-found"
+    },
+    "mantle": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/mantle/mantle.json",
+      "status": "none-found"
+    },
+    "megaeth": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/megaeth/megaeth.json",
+      "status": "none-found"
+    },
+    "monad": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/monad/monad.json",
+      "status": "none-found"
+    },
+    "op-mainnet": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/op-mainnet/op-mainnet.json",
+      "status": "none-found"
+    },
+    "plasma": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/plasma/plasma.json",
+      "status": "none-found"
+    },
+    "polygon-pos": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/polygon-pos/polygon-pos.json",
+      "status": "none-found"
+    },
+    "scroll": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/scroll/scroll.json",
+      "status": "none-found"
+    },
+    "sei-evm": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/sei-evm/sei-evm.json",
+      "status": "none-found"
+    },
+    "somnia": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/somnia/somnia.json",
+      "status": "none-found"
+    },
+    "taiko": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/taiko/taiko.json",
+      "status": "none-found"
+    },
+    "tempo": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/tempo/tempo.json",
+      "status": "none-found"
+    },
+    "tron": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/tron/tron.json",
+      "status": "none-found"
+    },
+    "zksync-era": {
+      "reason": "No real type-4 transaction or delegated-account history was captured; the fixed candidate address was excluded from chain-semantic claims.",
+      "result": "results/2026-10-18/zksync-era/zksync-era.json",
+      "status": "none-found"
+    }
+  },
+  "date": "2026-10-18",
+  "purpose": "Per-chain EIP-7702 history gate",
+  "schema": 1,
+  "status_definition": "none-found means no real type-4 transaction or delegated-account history was captured in this read-only followup evidence; fixed-address eth_getCode context is intentionally not treated as support evidence."
+}

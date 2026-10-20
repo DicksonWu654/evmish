@@ -1,0 +1,31 @@
+{
+  "sample": "results/2026-10-18/SAMPLE.json",
+  "sample_sha256": "45ece1c41c0184d43d63e24b44d2802a26a35fcaa3ea404159e7a1acca6f35eb",
+  "seed": 20261021,
+  "count": 20,
+  "rows": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    27,
+    29,
+    30,
+    41,
+    49,
+    50,
+    52,
+    62,
+    64,
+    70,
+    72,
+    74,
+    75,
+    79
+  ],
+  "prompt": "scripts/verifier_prompt.md",
+  "verification_report": "results/2026-10-18/VERIFICATION-20261021.json",
+  "separate_process_required": true
+}

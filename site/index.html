@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>EVMish: where EVM-compatible chains quietly differ</title>
+<meta name="description" content="Where EVM-compatible chains quietly differ from Ethereum. 231 read-only probe cases across 27 chains, with raw evidence.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#eceff3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0b0f17" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f1522'/%3E%3Cpath d='M14 26c6-7 12-7 18 0s12 7 18 0' fill='none' stroke='%23eceff3' stroke-width='6' stroke-linecap='round'/%3E%3Cpath d='M14 42c6-7 12-7 18 0s12 7 18 0' fill='none' stroke='%23ff6d4f' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E">
+<!-- Sharing. Replace {SITE_URL} with the deployed origin (no trailing slash). -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="EVMish">
+<meta property="og:title" content="EVMish: where EVM-compatible chains quietly differ">
+<meta property="og:description" content="Where EVM-compatible chains quietly differ from Ethereum. 231 read-only probe cases, 27 chains, raw evidence.">
+<meta property="og:url" content="https://evmish.dicksonwu.xyz/">
+<meta property="og:image" content="https://evmish.dicksonwu.xyz/cards/01-cover.png">
+<meta property="og:image:width" content="1600">
+<meta property="og:image:height" content="900">
+<meta property="og:image:alt" content="EVMish: EVM-compatible isn't EVM-equivalent. 27 chains, 231 probe cases.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="EVMish: where EVM-compatible chains quietly differ">
+<meta name="twitter:description" content="Where EVM-compatible chains quietly differ from Ethereum. 231 read-only probe cases, 27 chains, raw evidence.">
+<meta name="twitter:image" content="https://evmish.dicksonwu.xyz/cards/01-cover.png">
+<link rel="stylesheet" href="assets/style.css">
+<script>
+  try { var t = localStorage.getItem("evmish-theme"); if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+</script>
+</head>
+<body>
+<a class="skip" href="#matrix">Skip to the matrix</a>
+
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="#top"><span class="wm" aria-label="EVMish"><span class="wm-evm" aria-hidden="true">EVM</span><span class="wm-ish" aria-hidden="true">ish</span></span></a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#probe">How it works</a>
+      <a href="#findings">Findings</a>
+      <a href="#matrix">Matrix</a>
+      <a href="#gas">Gas</a>
+      <a href="#chains">By chain</a>
+      <a href="#catalog">Catalog</a>
+      <a href="#checklist">Checklist</a>
+      <a href="#method">Method</a>
+    </nav>
+    <a class="gh" href="https://github.com/DicksonWu654/evmish" rel="noopener" aria-label="EVMish on GitHub"><svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg><span>GitHub</span></a>
+    <button class="theme-btn" id="themeBtn" type="button" aria-label="Switch color theme">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.2" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 1.8a6.2 6.2 0 0 1 0 12.4z" fill="currentColor"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="kicker">
+          <span class="label">Live probe study</span>
+          <span class="label mono" data-bind="dateLong"></span>
+        </div>
+        <h1 aria-label="EVM-compatible isn't EVM-equivalent.">
+          <span class="ln ln-a">EVM-compatible</span>
+          <span class="ln ln-b">isn't EVM-<span class="k">equivalent.</span></span>
+        </h1>
+        <p class="dek">
+          We tracked <span data-bind="probes"></span> read-only probe cases across <span data-bind="chains"></span> EVM chains from <span data-bind="dateLong"></span>.
+          Valid precompile vectors, block clocks, randomness, gas costs and lifecycle boundaries returned different results;
+          every matrix cell links to its raw response or recorded endpoint limit.
+        </p>
+        <div class="stats" role="list">
+          <div class="stat" role="listitem"><span class="label">Chains</span><span class="v" data-bind="chains"></span></div>
+          <div class="stat" role="listitem"><span class="label">Probe cases</span><span class="v" data-bind="probes"></span></div>
+          <div class="stat" role="listitem"><span class="label">Confirmed differences</span><span class="v hot" data-bind="differences"></span></div>
+          <div class="stat" role="listitem"><span class="label">Latest run</span><span class="v date mono" data-bind="date"></span></div>
+        </div>
+        <div class="cta-row">
+          <a class="btn" href="#matrix">Explore the matrix
+            <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M7 1v11M2 7.5 7 12.5l5-5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg></a>
+          <a class="btn ghost" href="#findings">Read the five findings</a>
+        </div>
+      </div>
+      <figure class="scope" style="margin:0">
+        <div class="scope-head">
+          <span class="label">Every probe on every chain</span>
+          <span class="label mono" id="scopeCaption"></span>
+        </div>
+        <canvas id="scope" width="560" height="420" role="img" aria-label="Miniature matrix of all probes on all chains, with differences from Ethereum highlighted"></canvas>
+        <figcaption class="scope-foot" id="scopeLegend"></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- HOW A PROBE WORKS -->
+  <section class="sec" id="probe">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="rail"><span class="label">Mechanism</span><span class="mono">eth_call, no <code>to</code></span></div>
+        <div>
+          <h2>How a probe works</h2>
+          <p class="lede">A probe is a few bytes of contract init code. Sent to <code>eth_call</code> without a <code>to</code> address, the node runs it exactly as it would run a deployment, then hands back whatever the code returns. No transaction, no signature, no deploy.</p>
+        </div>
+      </div>
+      <div class="probe-grid">
+        <ol class="steps" id="steps" role="tablist" aria-label="Probe steps"></ol>
+        <div class="machine" id="machine" aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINDINGS -->
+  <section class="sec" id="findings">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="rail"><span class="label">Headline results</span><span class="mono" data-bind="findingsRail"></span></div>
+        <div>
+          <h2>Five results that change a multi-chain review</h2>
+          <p class="lede">Each card shows what a developer would reasonably assume, what the probe returned, and the change that makes the code hold up on every chain.</p>
+        </div>
+      </div>
+      <div class="findings" id="findingList"><p class="loading">Loading findings…</p></div>
+    </div>
+  </section>
+
+  <!-- SECOND SWEEP -->
+  <section class="sec" id="sweep">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="rail"><span class="label">Second sweep</span><span class="mono" data-bind="sweepRail"></span></div>
+        <div>
+          <h2>Second sweep: gas, real inputs and limits</h2>
+          <p class="lede" id="sweepLede"></p>
+        </div>
+      </div>
+      <ol class="sweep" id="sweepList"><li class="loading">Loading…</li></ol>
+    </div>
+  </section>
+
+  <!-- MATRIX -->
+  <section class="sec" id="matrix">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="rail"><span class="label">Centerpiece</span><span class="mono" data-bind="matrixRail"></span></div>
+        <div>
+          <h2>Chain × probe matrix</h2>
+          <p class="lede">Each cell compares one chain's answer with Ethereum's for the same probe. Pick a cell to see both raw values and the file they came from.</p>
+        </div>
+      </div>
+      <div class="mx-tools">
+        <div class="field">
+          <label class="label" for="mxCat">Category</label>
+          <select id="mxCat"><option value="__core" selected>All except the gas schedule</option><option value="">All categories</option></select>
+        </div>
+        <div class="field">
+          <label class="label" for="mxChain">Chain</label>
+          <select id="mxChain"><option value="">All chains</option></select>
+        </div>
+        <label class="toggle"><input type="checkbox" id="mxHl" checked> Highlight differences</label>
+        <label class="toggle"><input type="checkbox" id="mxOnly"> Only rows and chains with differences</label>
+      </div>
+      <div class="mx-layout">
+        <div class="mx-frame">
+          <div class="mx-scroll" id="mxScroll" tabindex="0" aria-label="Matrix, scrolls horizontally">
+            <table class="mx hl" id="mxTable"></table>
+          </div>
+          <div class="mx-count"><span id="mxCount"></span><span class="muted">Scroll sideways on small screens, or <a href="#chains">open one chain</a></span></div>
+        </div>
+        <aside class="inspector" id="inspector" aria-live="polite">
+          <p class="empty">Select a cell to inspect it.</p>
+        </aside>
+      </div>
+      <div class="mx-legend" id="mxLegend"></div>
+    </div>
+  </section>
+
+  <!-- GAS HEATMAP -->
+  <section class="sec" id="gas">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="rail"><span class="label">Gas schedule</span><span class="mono" data-bind="gasRail"></span></div>
+        <div>
+          <h2>Same opcode, different price</h2>
+          <p class="lede" id="gasLede"></p>
+        </div>
+      </div>
+      <div class="gas-stats" id="gasStats"></div>
+      <div class="gas-tools">
+        <div class="gas-fam" id="gasFam" role="group" aria-label="Operation category"></div>
+        <div class="gas-tools-row">
+          <label class="toggle"><input type="checkbox" id="gasOnly" checked> Only operations whose price differs somewhere</label>
+          <div class="gas-scale" id="gasScale"></div>
+        </div>
+      </div>
+      <div class="gas-frame" id="gasFrame">
+        <div class="gas-scroll" id="gasScroll" tabindex="0" aria-label="Gas heatmap, scrolls horizontally">
+          <table class="heat" id="gasTable"></table>
+        </div>
+        <div class="gas-tip" id="gasTip" hidden></div>
+        <div class="mx-count"><span id="gasCount"></span><span class="muted">Hover or tap a square for both values and the raw files</span></div>
+      </div>
+      <p class="gas-note" id="gasNote"></p>
+      <div class="gas-insp" id="gasInsp" aria-live="polite"></div>
+      <div class="gas-legend" id="gasLegend"></div>
+    </div>
+  </section>
+
+  <!-- PER CHAIN -->
+  <section class="sec" id="chains">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="rail"><span class="label">Per chain</span><span class="mono">diff against ethereum</span></div>
+        <div>
+          <h2>Pick a chain, see what differs</h2>
+          <p class="lede">Everything on one chain that answered differently from Ethereum, side by side with Ethereum's answer.</p>
+        </div>
+      </div>
+      <div class="chain-pick" id="chainPick" role="group" aria-label="Chains"></div>
+      <div class="cv" id="chainView"></div>
+    </div>
+  </section>
+
+  <!-- CATALOG -->
+  <section class="sec" id="catalog">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="rail"><span class="label">Catalog</span><span class="mono">CATALOG.md</span></div>
+        <div>
+          <h2>Every catalogued finding</h2>
+          <p class="lede">Measured differences, plus source-verified behaviors that need a real transaction to observe. Each row links its evidence.</p>
+        </div>
+      </div>
+      <div class="cat-tools">
+        <div class="field grow">
+          <label class="label" for="catQ">Search</label>
+          <input type="search" id="catQ" placeholder="prevrandao, 0x0b, monad, timelock…" autocomplete="off">
+        </div>
+        <div class="field">
+          <label class="label" for="catLabel">Evidence</label>
+          <select id="catLabel"><option value="">All labels</option></select>
+        </div>
+        <div class="field">
+          <label class="label" for="catChain">Chain</label>
+          <select id="catChain"><option value="">All chains</option></select>
+        </div>
+        <div class="cat-count" id="catCount"></div>
+      </div>
+      <div class="cat-list" id="catList"></div>
+      <button class="btn ghost more" id="catMore" type="button" hidden>Show all</button>
+    </div>
+  </section>
+
+  <!-- CHECKLIST -->
+  <section class="sec" id="checklist">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="rail"><span class="label">Before you deploy</span><span class="mono">docs/checklist.md</span></div>
+        <div>
+          <h2>What to check before you deploy</h2>
+          <p class="lede">Start from the target chain. Attach the RPC, block and raw response to each answer. Ticks stay in this browser only.</p>
+        </div>
+      </div>
+      <div class="check-grid" id="checkGrid"></div>
+      <p class="check-progress" id="checkProgress"></p>
+    </div>
+  </section>
+
+  <!-- METHOD -->
+  <section class="sec" id="method">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="rail"><span class="label">Method</span><span class="mono">read-only rpc</span></div>
+        <div>
+          <h2>Method and limits</h2>
+          <p class="lede" id="methodLede"></p>
+        </div>
+      </div>
+      <div class="method-grid">
+        <div>
+          <h3 class="label" style="margin-bottom:14px">Independent re-checks of random catalog samples</h3>
+          <p class="probe-note" id="roundsNote" style="margin:0 0 14px"></p>
+          <div class="rounds" id="rounds"></div>
+          <details class="endpoints"><summary class="label" id="endpointsSum">RPC endpoints used</summary><ul id="endpoints"></ul></details>
+        </div>
+        <div>
+          <h3 class="label" style="margin-bottom:14px">What read-only probes can't measure</h3>
+          <ul class="limits" id="limits"></ul>
+        </div>
+      </div>
+      <p class="ai-line">This research was run with AI agents and may contain mistakes. Every claim links its raw evidence, and corrections are welcome.</p>
+      <div class="method-grid" style="margin-top:36px">
+        <div>
+          <h3 class="label">Prior art</h3>
+          <div class="credits" id="credits"></div>
+        </div>
+        <div>
+          <h3 class="label">Run it yourself</h3>
+          <p style="margin-top:10px">The probe kit runs every check with one command and can sit in CI, so a release fails when a known answer changes on your target chain.</p>
+          <pre class="out" style="margin-top:12px">./probes/run.sh</pre>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-brand">
+      <a class="brand" href="#top"><span class="wm" aria-label="EVMish"><span class="wm-evm" aria-hidden="true">EVM</span><span class="wm-ish" aria-hidden="true">ish</span></span></a>
+      <p>Where EVM-compatible chains quietly differ from Ethereum.</p>
+    </div>
+    <div class="foot-meta">
+      <p>Snapshot of <span data-bind="date"></span>. Chains upgrade, so run the probes yourself.</p>
+      <p>Built with AI agents; every claim links its raw evidence. Corrections welcome via <a href="https://github.com/DicksonWu654/evmish/issues" rel="noopener">GitHub issues</a>.</p>
+      <p><a href="https://github.com/DicksonWu654/evmish" rel="noopener">github.com/DicksonWu654/evmish</a> · Code MIT · Data CC BY 4.0</p>
+      <!-- Author slot: set meta.author in data.json or fill this span. -->
+      <span class="author-slot" id="authorSlot"></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/sol.js"></script>
+<script src="assets/model.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

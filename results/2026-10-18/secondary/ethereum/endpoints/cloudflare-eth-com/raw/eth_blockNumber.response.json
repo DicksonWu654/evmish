@@ -1,0 +1,11 @@
+{
+  "body": {
+    "error": {
+      "code": -32046,
+      "message": "Cannot fulfill request"
+    },
+    "id": 2,
+    "jsonrpc": "2.0"
+  },
+  "http_status": 200
+}

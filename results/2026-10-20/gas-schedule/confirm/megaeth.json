@@ -1,0 +1,1765 @@
+{
+  "block": {
+    "baseFeePerGas": "0xf4240",
+    "blobGasUsed": "0x0",
+    "difficulty": "0x0",
+    "excessBlobGas": "0x0",
+    "extraData": "0x00000000fa00000001",
+    "gasLimit": "0x2540be400",
+    "gasUsed": "0x6bfc1f",
+    "hash": "0x8f240b529251d285e01c19b0bbdb6a30220d325bb0c805c5a6fa5d1db8e9da66",
+    "logsBloom": "0x00000000000001000000000000000000000000000000000000000000000000000000000002020000008000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000100020000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000400000000000000000000000000000002000000002000020000000000000020000114000000000000000080000000000000000000000000008000400000000000000000000000000000000000000000000000000000000000400000000000000100000",
+    "miner": "0x4200000000000000000000000000000000000011",
+    "miniBlockCount": "0x64",
+    "miniBlockOffset": "0xaddc5461",
+    "mixHash": "0x9b20e6613770ebabfebcd665abaff46132c04ccf7550e5895842c8336d0449f0",
+    "nonce": "0x0000000000000000",
+    "number": "0x1c4aba0",
+    "parentBeaconBlockRoot": "0x186fe0ee5129487eaa634353d0e19b78b3dc1de41e8261731adca90b186b334b",
+    "parentHash": "0xda0de85657dbdfddaa1a337d773bcae06b95d328e1677284342f603555f5945b",
+    "receiptsRoot": "0x21262bca6ca1406cba5370d68d41a79b4a194e8f6c4f724e22430aeb3df0bd85",
+    "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+    "signature": "0x6bcd4b5216c26c0d0a1ae7f15d5ec4f998b52a78b075fbffbab50ef66f8a98a63958b5998b7dcebb0569cd0596cac366891673e1f770ae8509aa87361275dcb81c",
+    "size": "0x3456",
+    "stateRoot": "0xc0c9ff5c387ab110b0b1ac6a1796b9f0b63998783d77f03f8479330b9f518b07",
+    "timestamp": "0x6ad6d173",
+    "transactions": [
+      "0xc7fc71d7788f244a8241c45e529d678e31ae101c808b42b5c920cff233e224ea",
+      "0x037172ac26d58ae3e6ce2b380822efc6fe0fe1ea05c1ccfa6b678c229dfb04a5",
+      "0x7e433e4847ccc38aa114e5ca40c897923c682b3e9ceedaf586810e0627d3e12f",
+      "0x19b11a2b55e88f9eec0145d0211fff23f5615c12b418125d45b1e0a6992ecd4f",
+      "0x32bd03083a769ad3770cd6ab6c886f303ef4011dace5238b94b63dfb2ecd08bd",
+      "0xb82b4ebe5d4eb53f24a8a87d2dd8baa45dedb90849d058ed8a08d079efb60e37",
+      "0x06b08ef39bd65d995a07bb4877612d0261f4170f293bd7f134d2936a7ea975a6",
+      "0x3d00cc72176eefef1e82e8a84f59ccbfce41202eff4fe2935c8f155531821e41",
+      "0xc6489d9cf9c77144ea4f0bbbc75a49a340c50968d29ec0e823bde744bc5b34ff",
+      "0xbb053e03d7b784a67a814017d8cd8bba0eefd225e1a974e32f4e995c3615409d",
+      "0x9efa90bbc45310b0306074adbc8b4310e1ae98a59995db0896752d18a116c7ff",
+      "0x7264f2373286821c7fb92f02e9b6d3b9f41c60299495aaa897d9a3eb0a9beb59",
+      "0xe45ec0e953ce655b06f1ad5012145aa068f687cca30974f05a7cb6cd50421a9c",
+      "0xb1f9abc91eae47c274352e8e1b91f78fbb53245be9c80c6df379118ab31576fe",
+      "0x3fc8cdaa7d6ba24328c3384a1535f3d764c11c111b61c66b13b75045d10bc8f1",
+      "0xed280b646022eb11ce62eac55aae8d4ea2f6ab590babdd6102415cdb0de1ed86",
+      "0x6488e8589f4a7287ac5b0ef55f2991b705809a5dfffaf104fc86e5ade2dc87f2",
+      "0xc2ef84cc53722d0b3491ecebaebbab194ae17e79e9e8b4de25e1f9244163ac21",
+      "0x52b1d43f089d64c6f001e3bafc9bf1f3647b04168c0a8e0251c3189f73f2c58d",
+      "0x59508c7401dd2356bed6717e8db6f026dd1a0eda532216ce08d3f4dcc86b3839",
+      "0x009634ac51b5c3db7011a25bb13eda57e311f68fcd77c5e9f2080f614a411d3d",
+      "0x6b1096e4a75162deddf29aedb786be77fbe345ec63345c28344d090f5a739d08"
+    ],
+    "transactionsRoot": "0x9b795dfd8cfba0e2c7e7cfac3c4663a2fe74bd6d2a040f71ca41e7adedb02225",
+    "txOffset": "0x2cbc6dee2",
+    "uncles": [],
+    "withdrawals": [],
+    "withdrawalsRoot": "0x33a308b949da91ba3a514c4fcba9479229d40534a197f71c96795bb3cb4c698d"
+  },
+  "cases": {
+    "log0-1-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:02.146765+00:00",
+          "request": {
+            "id": 4,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60006000525a6001600050505a90035a60016000a05a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 4,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000000c00000000000000000000000000000000000000000000000000000000000001d7"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x60006000525a6001600050505a90035a60016000a05a900360205260005260406000f3",
+      "correction": 4,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 10,
+        "raw_words": [
+          12,
+          471
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 463
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:02.146765+00:00",
+        "request": {
+          "id": 4,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60006000525a6001600050505a90035a60016000a05a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 4,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000000c00000000000000000000000000000000000000000000000000000000000001d7"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log0-256-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:02.766267+00:00",
+          "request": {
+            "id": 5,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x600060e0525a610100600050505a90035a6101006000a05a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 5,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000597f"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x600060e0525a610100600050505a90035a6101006000a05a900360205260005260406000f3",
+      "correction": 4,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 10,
+        "raw_words": [
+          12,
+          22911
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 22903
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:02.766267+00:00",
+        "request": {
+          "id": 5,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x600060e0525a610100600050505a90035a6101006000a05a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 5,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000597f"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log0-32-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:03.362469+00:00",
+          "request": {
+            "id": 6,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60006000525a6020600050505a90035a60206000a05a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 6,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000000c0000000000000000000000000000000000000000000000000000000000000c7f"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x60006000525a6020600050505a90035a60206000a05a900360205260005260406000f3",
+      "correction": 4,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 10,
+        "raw_words": [
+          12,
+          3199
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 3191
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:03.362469+00:00",
+        "request": {
+          "id": 6,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60006000525a6020600050505a90035a60206000a05a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 6,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000000c0000000000000000000000000000000000000000000000000000000000000c7f"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log0-64-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:03.949672+00:00",
+          "request": {
+            "id": 7,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60006020525a6040600050505a90035a60406000a05a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 7,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000177f"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x60006020525a6040600050505a90035a60406000a05a900360205260005260406000f3",
+      "correction": 4,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 10,
+        "raw_words": [
+          12,
+          6015
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 6007
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:03.949672+00:00",
+        "request": {
+          "id": 7,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60006020525a6040600050505a90035a60406000a05a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 7,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000177f"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log1-0-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:04.570623+00:00",
+          "request": {
+            "id": 8,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a6000600060005050505a90035a600060006000a15a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 8,
+              "jsonrpc": "2.0",
+              "result": "0x0000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000119f"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x5a6000600060005050505a90035a600060006000a15a900360205260005260406000f3",
+      "correction": 6,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 15,
+        "raw_words": [
+          17,
+          4511
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 4500
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:04.570623+00:00",
+        "request": {
+          "id": 8,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a6000600060005050505a90035a600060006000a15a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 8,
+            "jsonrpc": "2.0",
+            "result": "0x0000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000119f"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log1-1-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:05.168657+00:00",
+          "request": {
+            "id": 9,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60006000525a6000600160005050505a90035a600060016000a15a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 9,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000011f7"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x60006000525a6000600160005050505a90035a600060016000a15a900360205260005260406000f3",
+      "correction": 6,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 15,
+        "raw_words": [
+          17,
+          4599
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 4588
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:05.168657+00:00",
+        "request": {
+          "id": 9,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60006000525a6000600160005050505a90035a600060016000a15a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 9,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000001100000000000000000000000000000000000000000000000000000000000011f7"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log1-256-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:05.768909+00:00",
+          "request": {
+            "id": 10,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x600060e0525a600061010060005050505a90035a60006101006000a15a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 10,
+              "jsonrpc": "2.0",
+              "result": "0x0000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000699f"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x600060e0525a600061010060005050505a90035a60006101006000a15a900360205260005260406000f3",
+      "correction": 6,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 15,
+        "raw_words": [
+          17,
+          27039
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 27028
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:05.768909+00:00",
+        "request": {
+          "id": 10,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x600060e0525a600061010060005050505a90035a60006101006000a15a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 10,
+            "jsonrpc": "2.0",
+            "result": "0x0000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000699f"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log1-32-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:06.385312+00:00",
+          "request": {
+            "id": 11,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60006000525a6000602060005050505a90035a600060206000a15a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 11,
+              "jsonrpc": "2.0",
+              "result": "0x00000000000000000000000000000000000000000000000000000000000000110000000000000000000000000000000000000000000000000000000000001c9f"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x60006000525a6000602060005050505a90035a600060206000a15a900360205260005260406000f3",
+      "correction": 6,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 15,
+        "raw_words": [
+          17,
+          7327
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 7316
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:06.385312+00:00",
+        "request": {
+          "id": 11,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60006000525a6000602060005050505a90035a600060206000a15a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 11,
+            "jsonrpc": "2.0",
+            "result": "0x00000000000000000000000000000000000000000000000000000000000000110000000000000000000000000000000000000000000000000000000000001c9f"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log1-64-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:06.954012+00:00",
+          "request": {
+            "id": 12,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60006020525a6000604060005050505a90035a600060406000a15a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 12,
+              "jsonrpc": "2.0",
+              "result": "0x0000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000279f"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x60006020525a6000604060005050505a90035a600060406000a15a900360205260005260406000f3",
+      "correction": 6,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 15,
+        "raw_words": [
+          17,
+          10143
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 10132
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:06.954012+00:00",
+        "request": {
+          "id": 12,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60006020525a6000604060005050505a90035a600060406000a15a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 12,
+            "jsonrpc": "2.0",
+            "result": "0x0000000000000000000000000000000000000000000000000000000000000011000000000000000000000000000000000000000000000000000000000000279f"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log2-0-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:07.560355+00:00",
+          "request": {
+            "id": 13,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a6000600060006000505050505a90035a6000600060006000a25a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 13,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000001600000000000000000000000000000000000000000000000000000000000021bf"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x5a6000600060006000505050505a90035a6000600060006000a25a900360205260005260406000f3",
+      "correction": 8,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 20,
+        "raw_words": [
+          22,
+          8639
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 8625
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:07.560355+00:00",
+        "request": {
+          "id": 13,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a6000600060006000505050505a90035a6000600060006000a25a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 13,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000001600000000000000000000000000000000000000000000000000000000000021bf"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log2-1-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:08.174479+00:00",
+          "request": {
+            "id": 14,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60006000525a6000600060016000505050505a90035a6000600060016000a25a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 14,
+              "jsonrpc": "2.0",
+              "result": "0x00000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000002217"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x60006000525a6000600060016000505050505a90035a6000600060016000a25a900360205260005260406000f3",
+      "correction": 8,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 20,
+        "raw_words": [
+          22,
+          8727
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 8713
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:08.174479+00:00",
+        "request": {
+          "id": 14,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60006000525a6000600060016000505050505a90035a6000600060016000a25a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 14,
+            "jsonrpc": "2.0",
+            "result": "0x00000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000002217"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log2-256-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:08.747171+00:00",
+          "request": {
+            "id": 15,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x600060e0525a600060006101006000505050505a90035a600060006101006000a25a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 15,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000001600000000000000000000000000000000000000000000000000000000000079bf"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x600060e0525a600060006101006000505050505a90035a600060006101006000a25a900360205260005260406000f3",
+      "correction": 8,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 20,
+        "raw_words": [
+          22,
+          31167
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 31153
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:08.747171+00:00",
+        "request": {
+          "id": 15,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x600060e0525a600060006101006000505050505a90035a600060006101006000a25a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 15,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000001600000000000000000000000000000000000000000000000000000000000079bf"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log2-32-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:09.350199+00:00",
+          "request": {
+            "id": 16,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60006000525a6000600060206000505050505a90035a6000600060206000a25a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 16,
+              "jsonrpc": "2.0",
+              "result": "0x00000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000002cbf"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x60006000525a6000600060206000505050505a90035a6000600060206000a25a900360205260005260406000f3",
+      "correction": 8,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 20,
+        "raw_words": [
+          22,
+          11455
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 11441
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:09.350199+00:00",
+        "request": {
+          "id": 16,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60006000525a6000600060206000505050505a90035a6000600060206000a25a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 16,
+            "jsonrpc": "2.0",
+            "result": "0x00000000000000000000000000000000000000000000000000000000000000160000000000000000000000000000000000000000000000000000000000002cbf"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log2-64-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:09.965181+00:00",
+          "request": {
+            "id": 17,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60006020525a6000600060406000505050505a90035a6000600060406000a25a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 17,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000001600000000000000000000000000000000000000000000000000000000000037bf"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x60006020525a6000600060406000505050505a90035a6000600060406000a25a900360205260005260406000f3",
+      "correction": 8,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 20,
+        "raw_words": [
+          22,
+          14271
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 14257
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:09.965181+00:00",
+        "request": {
+          "id": 17,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60006020525a6000600060406000505050505a90035a6000600060406000a25a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 17,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000001600000000000000000000000000000000000000000000000000000000000037bf"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log3-0-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:10.573312+00:00",
+          "request": {
+            "id": 18,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a6000600060006000600050505050505a90035a60006000600060006000a35a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 18,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000001b00000000000000000000000000000000000000000000000000000000000031df"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x5a6000600060006000600050505050505a90035a60006000600060006000a35a900360205260005260406000f3",
+      "correction": 10,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 25,
+        "raw_words": [
+          27,
+          12767
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 12750
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:10.573312+00:00",
+        "request": {
+          "id": 18,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a6000600060006000600050505050505a90035a60006000600060006000a35a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 18,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000001b00000000000000000000000000000000000000000000000000000000000031df"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log3-1-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:11.167607+00:00",
+          "request": {
+            "id": 19,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60006000525a6000600060006001600050505050505a90035a60006000600060016000a35a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 19,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000001b0000000000000000000000000000000000000000000000000000000000003237"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x60006000525a6000600060006001600050505050505a90035a60006000600060016000a35a900360205260005260406000f3",
+      "correction": 10,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 25,
+        "raw_words": [
+          27,
+          12855
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 12838
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:11.167607+00:00",
+        "request": {
+          "id": 19,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60006000525a6000600060006001600050505050505a90035a60006000600060016000a35a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 19,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000001b0000000000000000000000000000000000000000000000000000000000003237"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log3-256-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:11.784354+00:00",
+          "request": {
+            "id": 20,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x600060e0525a600060006000610100600050505050505a90035a6000600060006101006000a35a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 20,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000001b00000000000000000000000000000000000000000000000000000000000089df"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x600060e0525a600060006000610100600050505050505a90035a6000600060006101006000a35a900360205260005260406000f3",
+      "correction": 10,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 25,
+        "raw_words": [
+          27,
+          35295
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 35278
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:11.784354+00:00",
+        "request": {
+          "id": 20,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x600060e0525a600060006000610100600050505050505a90035a6000600060006101006000a35a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 20,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000001b00000000000000000000000000000000000000000000000000000000000089df"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log3-32-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:12.622239+00:00",
+          "request": {
+            "id": 21,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60006000525a6000600060006020600050505050505a90035a60006000600060206000a35a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 21,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000001b0000000000000000000000000000000000000000000000000000000000003cdf"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x60006000525a6000600060006020600050505050505a90035a60006000600060206000a35a900360205260005260406000f3",
+      "correction": 10,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 25,
+        "raw_words": [
+          27,
+          15583
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 15566
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:12.622239+00:00",
+        "request": {
+          "id": 21,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60006000525a6000600060006020600050505050505a90035a60006000600060206000a35a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 21,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000001b0000000000000000000000000000000000000000000000000000000000003cdf"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log3-64-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:12.953245+00:00",
+          "request": {
+            "id": 22,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60006020525a6000600060006040600050505050505a90035a60006000600060406000a35a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 22,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000001b00000000000000000000000000000000000000000000000000000000000047df"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x60006020525a6000600060006040600050505050505a90035a60006000600060406000a35a900360205260005260406000f3",
+      "correction": 10,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 25,
+        "raw_words": [
+          27,
+          18399
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 18382
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:12.953245+00:00",
+        "request": {
+          "id": 22,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60006020525a6000600060006040600050505050505a90035a60006000600060406000a35a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 22,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000001b00000000000000000000000000000000000000000000000000000000000047df"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log4-0-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:13.573852+00:00",
+          "request": {
+            "id": 23,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a6000600060006000600060005050505050505a90035a600060006000600060006000a45a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 23,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000041ff"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x5a6000600060006000600060005050505050505a90035a600060006000600060006000a45a900360205260005260406000f3",
+      "correction": 12,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 30,
+        "raw_words": [
+          32,
+          16895
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 16875
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:13.573852+00:00",
+        "request": {
+          "id": 23,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a6000600060006000600060005050505050505a90035a600060006000600060006000a45a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 23,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000041ff"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log4-1-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:14.185375+00:00",
+          "request": {
+            "id": 24,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60006000525a6000600060006000600160005050505050505a90035a600060006000600060016000a45a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 24,
+              "jsonrpc": "2.0",
+              "result": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000004257"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x60006000525a6000600060006000600160005050505050505a90035a600060006000600060016000a45a900360205260005260406000f3",
+      "correction": 12,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 30,
+        "raw_words": [
+          32,
+          16983
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 16963
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:14.185375+00:00",
+        "request": {
+          "id": 24,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60006000525a6000600060006000600160005050505050505a90035a600060006000600060016000a45a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 24,
+            "jsonrpc": "2.0",
+            "result": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000004257"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log4-256-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:14.806666+00:00",
+          "request": {
+            "id": 25,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x600060e0525a600060006000600061010060005050505050505a90035a60006000600060006101006000a45a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 25,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000099ff"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x600060e0525a600060006000600061010060005050505050505a90035a60006000600060006101006000a45a900360205260005260406000f3",
+      "correction": 12,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 30,
+        "raw_words": [
+          32,
+          39423
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 39403
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:14.806666+00:00",
+        "request": {
+          "id": 25,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x600060e0525a600060006000600061010060005050505050505a90035a60006000600060006101006000a45a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 25,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000099ff"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log4-32-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:15.381247+00:00",
+          "request": {
+            "id": 26,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60006000525a6000600060006000602060005050505050505a90035a600060006000600060206000a45a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 26,
+              "jsonrpc": "2.0",
+              "result": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000004cff"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x60006000525a6000600060006000602060005050505050505a90035a600060006000600060206000a45a900360205260005260406000f3",
+      "correction": 12,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 30,
+        "raw_words": [
+          32,
+          19711
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 19691
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:15.381247+00:00",
+        "request": {
+          "id": 26,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60006000525a6000600060006000602060005050505050505a90035a600060006000600060206000a45a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 26,
+            "jsonrpc": "2.0",
+            "result": "0x00000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000004cff"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "log4-64-bytes": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:15.946932+00:00",
+          "request": {
+            "id": 27,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60006020525a6000600060006000604060005050505050505a90035a600060006000600060406000a45a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x1c4aba0"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 27,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000057ff"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x1c4aba0",
+      "bytecode": "0x60006020525a6000600060006000604060005050505050505a90035a600060006000600060406000a45a900360205260005260406000f3",
+      "correction": 12,
+      "detail": "payload memory pre-expanded; log discarded by eth_call",
+      "family": "log",
+      "interpretation": {
+        "control_gas": 30,
+        "raw_words": [
+          32,
+          22527
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 22507
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:15.946932+00:00",
+        "request": {
+          "id": 27,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60006020525a6000600060006000604060005050505050505a90035a600060006000600060406000a45a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x1c4aba0"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 27,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000057ff"
+          },
+          "http_status": 200
+        }
+      }
+    }
+  },
+  "chain": "megaeth",
+  "context": {
+    "eth_blockNumber": {
+      "observed_at": "2026-10-20T02:27:00.890567+00:00",
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0x1c4aba0"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "observed_at": "2026-10-20T02:27:00.276356+00:00",
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0x10e6"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "observed_at": "2026-10-20T02:27:01.526223+00:00",
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x1c4aba0",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0xf4240",
+            "blobGasUsed": "0x0",
+            "difficulty": "0x0",
+            "excessBlobGas": "0x0",
+            "extraData": "0x00000000fa00000001",
+            "gasLimit": "0x2540be400",
+            "gasUsed": "0x6bfc1f",
+            "hash": "0x8f240b529251d285e01c19b0bbdb6a30220d325bb0c805c5a6fa5d1db8e9da66",
+            "logsBloom": "0x00000000000001000000000000000000000000000000000000000000000000000000000002020000008000000000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000000100020000000000000000000000000000000000000000000000000000000000000000000000000001000000000000000000400000000000000000000000000000002000000002000020000000000000020000114000000000000000080000000000000000000000000008000400000000000000000000000000000000000000000000000000000000000400000000000000100000",
+            "miner": "0x4200000000000000000000000000000000000011",
+            "miniBlockCount": "0x64",
+            "miniBlockOffset": "0xaddc5461",
+            "mixHash": "0x9b20e6613770ebabfebcd665abaff46132c04ccf7550e5895842c8336d0449f0",
+            "nonce": "0x0000000000000000",
+            "number": "0x1c4aba0",
+            "parentBeaconBlockRoot": "0x186fe0ee5129487eaa634353d0e19b78b3dc1de41e8261731adca90b186b334b",
+            "parentHash": "0xda0de85657dbdfddaa1a337d773bcae06b95d328e1677284342f603555f5945b",
+            "receiptsRoot": "0x21262bca6ca1406cba5370d68d41a79b4a194e8f6c4f724e22430aeb3df0bd85",
+            "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "signature": "0x6bcd4b5216c26c0d0a1ae7f15d5ec4f998b52a78b075fbffbab50ef66f8a98a63958b5998b7dcebb0569cd0596cac366891673e1f770ae8509aa87361275dcb81c",
+            "size": "0x3456",
+            "stateRoot": "0xc0c9ff5c387ab110b0b1ac6a1796b9f0b63998783d77f03f8479330b9f518b07",
+            "timestamp": "0x6ad6d173",
+            "transactions": [
+              "0xc7fc71d7788f244a8241c45e529d678e31ae101c808b42b5c920cff233e224ea",
+              "0x037172ac26d58ae3e6ce2b380822efc6fe0fe1ea05c1ccfa6b678c229dfb04a5",
+              "0x7e433e4847ccc38aa114e5ca40c897923c682b3e9ceedaf586810e0627d3e12f",
+              "0x19b11a2b55e88f9eec0145d0211fff23f5615c12b418125d45b1e0a6992ecd4f",
+              "0x32bd03083a769ad3770cd6ab6c886f303ef4011dace5238b94b63dfb2ecd08bd",
+              "0xb82b4ebe5d4eb53f24a8a87d2dd8baa45dedb90849d058ed8a08d079efb60e37",
+              "0x06b08ef39bd65d995a07bb4877612d0261f4170f293bd7f134d2936a7ea975a6",
+              "0x3d00cc72176eefef1e82e8a84f59ccbfce41202eff4fe2935c8f155531821e41",
+              "0xc6489d9cf9c77144ea4f0bbbc75a49a340c50968d29ec0e823bde744bc5b34ff",
+              "0xbb053e03d7b784a67a814017d8cd8bba0eefd225e1a974e32f4e995c3615409d",
+              "0x9efa90bbc45310b0306074adbc8b4310e1ae98a59995db0896752d18a116c7ff",
+              "0x7264f2373286821c7fb92f02e9b6d3b9f41c60299495aaa897d9a3eb0a9beb59",
+              "0xe45ec0e953ce655b06f1ad5012145aa068f687cca30974f05a7cb6cd50421a9c",
+              "0xb1f9abc91eae47c274352e8e1b91f78fbb53245be9c80c6df379118ab31576fe",
+              "0x3fc8cdaa7d6ba24328c3384a1535f3d764c11c111b61c66b13b75045d10bc8f1",
+              "0xed280b646022eb11ce62eac55aae8d4ea2f6ab590babdd6102415cdb0de1ed86",
+              "0x6488e8589f4a7287ac5b0ef55f2991b705809a5dfffaf104fc86e5ade2dc87f2",
+              "0xc2ef84cc53722d0b3491ecebaebbab194ae17e79e9e8b4de25e1f9244163ac21",
+              "0x52b1d43f089d64c6f001e3bafc9bf1f3647b04168c0a8e0251c3189f73f2c58d",
+              "0x59508c7401dd2356bed6717e8db6f026dd1a0eda532216ce08d3f4dcc86b3839",
+              "0x009634ac51b5c3db7011a25bb13eda57e311f68fcd77c5e9f2080f614a411d3d",
+              "0x6b1096e4a75162deddf29aedb786be77fbe345ec63345c28344d090f5a739d08"
+            ],
+            "transactionsRoot": "0x9b795dfd8cfba0e2c7e7cfac3c4663a2fe74bd6d2a040f71ca41e7adedb02225",
+            "txOffset": "0x2cbc6dee2",
+            "uncles": [],
+            "withdrawals": [],
+            "withdrawalsRoot": "0x33a308b949da91ba3a514c4fcba9479229d40534a197f71c96795bb3cb4c698d"
+          }
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber_latest_retry": null
+  },
+  "expected_chain_id": 4326,
+  "observed_at": "2026-10-20T02:27:01.526244+00:00",
+  "observed_chain_id": "0x10e6",
+  "phase": "confirm",
+  "rpc": {
+    "source": "https://docs.megaeth.com/developer-docs/rpc",
+    "source_accessed": "2026-10-18",
+    "url": "https://mainnet.megaeth.com/rpc"
+  },
+  "status": "ok"
+}

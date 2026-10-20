@@ -1,0 +1,372 @@
+{
+  "account_candidates": {
+    "delegated-7702": "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+    "empty": "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+    "eoa": "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+    "system-contract": "0x0000000000000000000000000000000000000064"
+  },
+  "block": null,
+  "block_number": null,
+  "chain": "ethereum",
+  "chain_id_expected": 1,
+  "chain_id_observed": "0x1",
+  "context": {
+    "eth_blockNumber": {
+      "interpretation": {
+        "error_class": "jsonrpc",
+        "reason": "-32046: Cannot fulfill request",
+        "status": "rpc-rejected"
+      },
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32046,
+            "message": "Cannot fulfill request"
+          },
+          "id": 2,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0x1"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "interpretation": {
+        "error_class": "jsonrpc",
+        "reason": "-32603: Internal error",
+        "status": "rpc-rejected"
+      },
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "latest",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32603,
+            "message": "Internal error"
+          },
+          "id": 3,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_delegated-7702": {
+      "address": "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+      "interpretation": {
+        "error_class": "jsonrpc",
+        "reason": "-32603: Internal error",
+        "status": "rpc-rejected"
+      },
+      "request": {
+        "id": 6,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+          "latest"
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32603,
+            "message": "Internal error"
+          },
+          "id": 6,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_empty": {
+      "address": "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+      "interpretation": {
+        "error_class": "jsonrpc",
+        "reason": "-32603: Internal error",
+        "status": "rpc-rejected"
+      },
+      "request": {
+        "id": 5,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+          "latest"
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32603,
+            "message": "Internal error"
+          },
+          "id": 5,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_eoa": {
+      "address": "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+      "interpretation": {
+        "error_class": "jsonrpc",
+        "reason": "-32603: Internal error",
+        "status": "rpc-rejected"
+      },
+      "request": {
+        "id": 4,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+          "latest"
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32603,
+            "message": "Internal error"
+          },
+          "id": 4,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_system-contract": {
+      "address": "0x0000000000000000000000000000000000000064",
+      "interpretation": {
+        "error_class": "jsonrpc",
+        "reason": "-32603: Internal error",
+        "status": "rpc-rejected"
+      },
+      "request": {
+        "id": 7,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x0000000000000000000000000000000000000064",
+          "latest"
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32603,
+            "message": "Internal error"
+          },
+          "id": 7,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 200
+      }
+    }
+  },
+  "error_classes": [
+    "jsonrpc"
+  ],
+  "evidence_dir": "results/2026-10-18/secondary/ethereum/endpoints/cloudflare-eth-com",
+  "observed_at": "2026-10-18T19:48:37Z",
+  "oracles": {},
+  "probe_count": 5,
+  "probes": {
+    "blobbasefee": {
+      "data": "0x4a60005260206000f3",
+      "interpretation": {
+        "error_class": "jsonrpc",
+        "reason": "-32603: Internal error",
+        "status": "rpc-rejected"
+      },
+      "meaning": "BLOBBASEFEE for the execution block.",
+      "request": {
+        "id": 8,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x4a60005260206000f3"
+          },
+          "latest"
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32603,
+            "message": "Internal error"
+          },
+          "id": 8,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 200
+      },
+      "vector": null
+    },
+    "cold-warm-extcodesize": {
+      "data": "0x5a600052734337005db25dbad41da5692ba1188751ee5d98b63b5a602052734337005db25dbad41da5692ba1188751ee5d98b63b5a60405260606000f3",
+      "interpretation": {
+        "error_class": "jsonrpc",
+        "reason": "-32603: Internal error",
+        "status": "rpc-rejected"
+      },
+      "meaning": "GAS deltas for cold then warm EXTCODESIZE.",
+      "request": {
+        "id": 10,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x5a600052734337005db25dbad41da5692ba1188751ee5d98b63b5a602052734337005db25dbad41da5692ba1188751ee5d98b63b5a60405260606000f3"
+          },
+          "latest"
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32603,
+            "message": "Internal error"
+          },
+          "id": 10,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 200
+      },
+      "vector": "same EOA address twice"
+    },
+    "extcode-delegated-7702": {
+      "data": "0x734de23f3f0fb3318287378adbde030cf61714b2f33b600052734de23f3f0fb3318287378adbde030cf61714b2f33f60205260406000f3",
+      "interpretation": {
+        "error_class": "jsonrpc",
+        "reason": "-32603: Internal error",
+        "status": "rpc-rejected"
+      },
+      "meaning": "EXTCODESIZE and EXTCODEHASH for delegated-7702 candidate 0x4de23f3f0fb3318287378adbde030cf61714b2f3.",
+      "request": {
+        "id": 11,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x734de23f3f0fb3318287378adbde030cf61714b2f33b600052734de23f3f0fb3318287378adbde030cf61714b2f33f60205260406000f3"
+          },
+          "latest"
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32603,
+            "message": "Internal error"
+          },
+          "id": 11,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 200
+      },
+      "vector": null
+    },
+    "number": {
+      "data": "0x4360005260206000f3",
+      "interpretation": {
+        "error_class": "jsonrpc",
+        "reason": "-32603: Internal error",
+        "status": "rpc-rejected"
+      },
+      "meaning": "NUMBER (block.number).",
+      "request": {
+        "id": 9,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x4360005260206000f3"
+          },
+          "latest"
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32603,
+            "message": "Internal error"
+          },
+          "id": 9,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 200
+      },
+      "vector": null
+    },
+    "precompile-0x03-ripemd160": {
+      "data": "0x7f616263000000000000000000000000000000000000000000000000000000000060005260406101006003600060007300000000000000000000000000000000000000035af16000526101406000f3",
+      "interpretation": {
+        "error_class": "jsonrpc",
+        "reason": "-32603: Internal error",
+        "status": "rpc-rejected"
+      },
+      "meaning": "CALL precompile/address 0x03; return status and output words.",
+      "request": {
+        "id": 12,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x7f616263000000000000000000000000000000000000000000000000000000000060005260406101006003600060007300000000000000000000000000000000000000035af16000526101406000f3"
+          },
+          "latest"
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32603,
+            "message": "Internal error"
+          },
+          "id": 12,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 200
+      },
+      "vector": "ripemd160(abc)"
+    }
+  },
+  "recorded_reason": "block header unavailable; one or more probes were RPC-rejected",
+  "rpc": "https://cloudflare-eth.com",
+  "rpc_source": "https://developers.cloudflare.com/web3/how-to/use-ethereum-rpc/",
+  "rpc_source_accessed": "2026-10-18",
+  "status": "partial"
+}

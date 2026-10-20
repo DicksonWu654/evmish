@@ -1,0 +1,134 @@
+{
+  "block": {
+    "baseFeePerGas": "0x5f5e100",
+    "blobGasUsed": "0x0",
+    "difficulty": "0x0",
+    "excessBlobGas": "0x0",
+    "extraData": "0x",
+    "gasLimit": "0x2dc6c0",
+    "gasUsed": "0x1b5859",
+    "hash": "0xc16e5deede545c374fa537cfdca91b3be29790db11539b20ced4e80073bc9b4b",
+    "logsBloom": "0x173bea098820881451828020200a326c22808f814d010a243a829204d2034459810560b5008e930b0e0a24269f618310430411128e3002c56b008e01b48c2a500011371b4328802aa008840b582810110404a610701e50c54002388902018081781010a49a8802752da9811532058852608a8480803a0a0803202c1424202441a94a44009c80086a000026211d145410508119788439510c0e0d838163c0500a002ec9041030840453080d400d98c40022400c04c8de9c401271101056e4c054c44848ca172021f0e404409c070a27003500d301831a80029a0a0322020e6aa21760800668012006abab0a33062483f003490c5b0e81101088050480430a1410",
+    "miner": "0x0000000000000000000000000000000000000000",
+    "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "nonce": "0x0000000000000000",
+    "number": "0x2ebd547",
+    "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "parentHash": "0x377bfe9d99db4e7d3dd396ad21c481c457eb8c493aac2065e4272e5527bb41c7",
+    "receiptsRoot": "0x4639536f27dd7ef7334a200e4a89197c727240fad37a9945324f23c5612c8e06",
+    "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+    "size": "0x4789",
+    "stateRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "timestamp": "0x6ad6d175",
+    "transactions": [
+      "0x07600ca305c93a30acb3f9c7a4ce7b6d85dde2822650ad529b0a0a6b393ee37e",
+      "0x8b70408b32ae84afaef790832c4caab5f9b2a57d8f114f4c49c621864087b104",
+      "0x236d4d1a76b820522bc0d9adcfc664d4425bc23c566a0d4fce26616b55b7b948",
+      "0x05ca4ea6436ac96a569711db7e10f4c595a412f2ad2f8f8d14d372a7a9c5e7a8"
+    ],
+    "transactionsRoot": "0xf2db3065542ada5f9b1c8a247ceddef72c1aefab7a22983e18525c3dfbd257fc",
+    "uncles": [],
+    "withdrawals": [],
+    "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"
+  },
+  "cases": {},
+  "chain": "hyperevm",
+  "context": {
+    "eth_blockNumber": {
+      "observed_at": "2026-10-20T02:27:02.043782+00:00",
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0x2ebd547"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "observed_at": "2026-10-20T02:27:01.314443+00:00",
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0x3e7"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "observed_at": "2026-10-20T02:27:02.516197+00:00",
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x2ebd547",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0x5f5e100",
+            "blobGasUsed": "0x0",
+            "difficulty": "0x0",
+            "excessBlobGas": "0x0",
+            "extraData": "0x",
+            "gasLimit": "0x2dc6c0",
+            "gasUsed": "0x1b5859",
+            "hash": "0xc16e5deede545c374fa537cfdca91b3be29790db11539b20ced4e80073bc9b4b",
+            "logsBloom": "0x173bea098820881451828020200a326c22808f814d010a243a829204d2034459810560b5008e930b0e0a24269f618310430411128e3002c56b008e01b48c2a500011371b4328802aa008840b582810110404a610701e50c54002388902018081781010a49a8802752da9811532058852608a8480803a0a0803202c1424202441a94a44009c80086a000026211d145410508119788439510c0e0d838163c0500a002ec9041030840453080d400d98c40022400c04c8de9c401271101056e4c054c44848ca172021f0e404409c070a27003500d301831a80029a0a0322020e6aa21760800668012006abab0a33062483f003490c5b0e81101088050480430a1410",
+            "miner": "0x0000000000000000000000000000000000000000",
+            "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "nonce": "0x0000000000000000",
+            "number": "0x2ebd547",
+            "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "parentHash": "0x377bfe9d99db4e7d3dd396ad21c481c457eb8c493aac2065e4272e5527bb41c7",
+            "receiptsRoot": "0x4639536f27dd7ef7334a200e4a89197c727240fad37a9945324f23c5612c8e06",
+            "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "size": "0x4789",
+            "stateRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "timestamp": "0x6ad6d175",
+            "transactions": [
+              "0x07600ca305c93a30acb3f9c7a4ce7b6d85dde2822650ad529b0a0a6b393ee37e",
+              "0x8b70408b32ae84afaef790832c4caab5f9b2a57d8f114f4c49c621864087b104",
+              "0x236d4d1a76b820522bc0d9adcfc664d4425bc23c566a0d4fce26616b55b7b948",
+              "0x05ca4ea6436ac96a569711db7e10f4c595a412f2ad2f8f8d14d372a7a9c5e7a8"
+            ],
+            "transactionsRoot": "0xf2db3065542ada5f9b1c8a247ceddef72c1aefab7a22983e18525c3dfbd257fc",
+            "uncles": [],
+            "withdrawals": [],
+            "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"
+          }
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber_latest_retry": null
+  },
+  "expected_chain_id": 999,
+  "observed_at": "2026-10-20T02:27:02.516215+00:00",
+  "observed_chain_id": "0x3e7",
+  "phase": "confirm",
+  "rpc": {
+    "source": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm",
+    "source_accessed": "2026-10-18",
+    "url": "https://rpc.hyperliquid.xyz/evm"
+  },
+  "status": "ok"
+}

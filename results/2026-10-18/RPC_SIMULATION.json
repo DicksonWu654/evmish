@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "date": "2026-10-18",
+  "probe": "basefee",
+  "classification": "rpc-simulation",
+  "chain": "ethereum",
+  "rpc": "https://ethereum-rpc.publicnode.com",
+  "block_tag": "0x1901b3a",
+  "raw_result": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "decoded_result": 0,
+  "header_base_fee": 72935781,
+  "request_shape": "eth_call with no to and no gasPrice/maxFeePerGas",
+  "reason": "The geth-style simulation zeroes BASEFEE when the call omits a gas price. Comparing this result with a target call that returns the block base fee is an RPC simulation difference, not a VM divergence.",
+  "catalog_effect": "All BASEFEE comparison cells are retained as rpc-simulation in DIFFERENTIAL_MATRIX.md and excluded from CATALOG.md.",
+  "evidence": [
+    "results/2026-10-18/ethereum/ethereum.json",
+    "docs/verification.md"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "body": {
+    "error": {
+      "code": -32602,
+      "data": "{}",
+      "message": "QUANTITY not supported, just support TAG as latest"
+    },
+    "id": 23,
+    "jsonrpc": "2.0"
+  },
+  "http_status": 200
+}

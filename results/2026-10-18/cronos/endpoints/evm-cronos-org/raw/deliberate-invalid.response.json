@@ -1,0 +1,12 @@
+{
+  "body": {
+    "error": {
+      "code": -32000,
+      "data": null,
+      "message": "rpc error: code = Internal desc = invalid opcode: INVALID"
+    },
+    "id": 12,
+    "jsonrpc": "2.0"
+  },
+  "http_status": 200
+}

@@ -1,0 +1,3293 @@
+{
+  "block": {
+    "baseFeePerGas": "0x0",
+    "difficulty": "0x0",
+    "extraData": "0x",
+    "gasLimit": "0x139a261b5",
+    "gasUsed": "0x421686",
+    "hash": "0x0000000005338ab8c305022fdfd50f74ebe652ec50b385f4110ef700b58505e0",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "miner": "0x022939a4a06cbc7b384096c1af8657ec435173af",
+    "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "nonce": "0x0000000000000000",
+    "number": "0x5338ab8",
+    "parentHash": "0x0000000005338ab75dbd7d4c8a0c550267673e059bd87cd7e5ae130401736b82",
+    "receiptsRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "sha3Uncles": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "size": "0xfd4a",
+    "stateRoot": "0x",
+    "timestamp": "0x6ad6d7bf",
+    "totalDifficulty": "0x0",
+    "transactions": [
+      "0x2fa5c84fb584d7c4401bb699df646c3405fbd2429dc8711fbf493a174dfa2848",
+      "0xdbb0141940da69a4d50e3ad6ec4e06f40097c068019b9e7d58edef3eff17c2c7",
+      "0x3e47fe06c550fe029d16d25cfb0785ed1c76fcacb5911dc3731cba72a0ed41e0",
+      "0x252008429d86112df4ed308e7df8a06877833a300c0b729e329ad8cbbd9a568b",
+      "0x9623343dda439dc3d4e3753700b91fd46c2528f4737769a72aaff419c670a559",
+      "0xed78d63f61005be7e3e41e0c33d1e72a44ae27b7a88c2d52ee820708e0eccc05",
+      "0x87ba1d5b5cf9b76036735d055fd00d021aa78acb84d56d822f827af7254a1a26",
+      "0x5c1a4bcfeb2c556cdfbd8f306503c897f289cc266f0a8fa3d71a64865195cc43",
+      "0xdf07422e2da0be9c65ebbfeebc31807926725b36bb7da8d0b70aecb2940e56e9",
+      "0xec92610aeb7fcee17fae8008b18182db87d4d2e3595c159ca244af87e92c1c86",
+      "0xed6a57bfb30ea64db550a0234c1cce951b4dc2b726d4dc930b52cca836f04f74",
+      "0x917c5e57bd34f40080e92dd83fb424318f1a773f002b537693a24981acdaa476",
+      "0xfe4f6ecf84fb47ee92c925ef02b132aadf8b9bc149ebafbe8dfb602e1043b825",
+      "0xe34ee97acc596ccf07e03e21da8d551370d9dda0972ec66e60742d5959c978a8",
+      "0xd2ca74ec9633d0684ed60840444827db36ef2c23bde16f93e009e5d8cbc3a1a5",
+      "0xd8f4d4b13c10774d7b65e1b140ff697e229f025fa57ea787858ea7b0c89b1ba2",
+      "0x67c765ee195e2e2053f83007650fa5d35ad073453842bea8c22e117fefb298a2",
+      "0x7182247135e2c9672c4c4508936476a952e76c4e7ad9e0673886975f71b50a17",
+      "0xd76b787e0dc60fbf375e6ec196967a8452cffa05545e7ddc9882b3ce36095d63",
+      "0x93abba30a83531b1626aeacb4a75a3cfcbb2a9a4017d27c2052ca5ddd3bc798a",
+      "0x7ad74fda0e7276d00b72ef5b6353c22fee8ee6f713ef09228cce98b68b329ce2",
+      "0x36563b98febf599a86bab60ca504b00c0f2c30b7af82e8e87a868fd507aa4eb7",
+      "0xe104c9cb58e260d4ba32d2d1a92fb8b41133fbf6af8770c1d15b931bfa2f9341",
+      "0x67fdd0dbd7d79875f0678aed6768063b6e2fbc8dac6c272fde5fdba0f86d0024",
+      "0x0eb7933f7a89955206979698126c5796edd3eda3282d47ce31b3d1701122eff3",
+      "0xe550dcb573dac0bf0b3ed7b8888b1a4199dc874a7c2a1d914bf4174f3fda8c84",
+      "0xb8b5faec2f8dd590485511b4b65942eaf1a69484717e26da2e2a94204b06777c",
+      "0x5f499f387d08f28e485b2a1cbeb0a3903b8a85ec0615e458e5167ee4b891d651",
+      "0x3d12550e4de4eb66ae48d6b6e691c6a80bf072966db3c429a664ee5e8f20bf8a",
+      "0xc22806558e4dff77161a30884d1b5e06ef7d5c519965b3e809c67b8f776628c5",
+      "0xdb51901e804e736281701c5eafdcafb84a219ea1fd65850a71c438cac2944a98",
+      "0x37ec1e49db6498f493c63685d145cdaf1fa552abc811372dcaef1f19d0a7cd83",
+      "0x618ccf14ba81dd25091002881faab7bd82883056e6d27f8372243238468c3075",
+      "0x9cf684650446520ae94f744103fe1f87c0d76638c64341af3e1ecd4f55a7e59b",
+      "0x49073352b766e4f175f74aab0ef1378cf8fb2e7970d5f35d9185884a8b764deb",
+      "0xd9309354fc7a8649a3eeb09657e8763011f6cc26f067ce42a0d250ad07bbd435",
+      "0x6e1046ce877e6f99213160a036e3d2e874d14a18a2cfaaa1b0beba3ce6a35551",
+      "0xa346da1f7b42a9d74a00f8eac61208cb8dc886398ce438cca56eb1bf628c6af6",
+      "0x8c993cc5eda6dda11fefa396e9d71079ed4324a080fad23a6ccebe91e2acb711",
+      "0xfb271cb5002a102948e22f002247452ac1532841638a80eb8e6a12a49bae7acc",
+      "0xf333a98f96a5d11e91c8f36212cc6091c04b52d1f163c783f1c4750ce443bea0",
+      "0x9e67db1f2abc4787bb38d2d59cfd6ec0b0815c5b0f2d36620a8986887a07c05b",
+      "0x20d06b075b3a6f9f9475f2ee91b4f0942832f669485fd12aadc0d0961070f61a",
+      "0xb4234ed29ff6d4d4d22c2b69f14195ad0ba74293a2b4839f7cfbf0b74fedd0c7",
+      "0xc093f75d991f3ec677c3e830e5414c606194af58548b21966f69f039be5e1a14",
+      "0xa2b081760919bc730064a39ef41571d1b588972d30776783474aa310b7bbc765",
+      "0x4c24f82dc13e579b564e1a82fec1d428ef79ebe448b0a55364474ba65ffd4275",
+      "0xeb74f29c731a1401660aa51a95ca659a14970dfbd81152b544ea13aa083ee2e5",
+      "0x06ea10ca115fe596abef17001f34eedd15097ffb2cbac4381db951aef3a8e9b0",
+      "0x595de42bc7ce0ed2bccc6827bb61653e1d5cfff4662dd98e9a48ee4535b50d16",
+      "0xa7dd4be14bcc6cf75de91884c76c6f1dddf3c73cfda5383c08e82dfc408a5aed",
+      "0x6593f66bafb0fa8be9bda2b4a3862dae8a4d3fc618a4a5c163dba294975584b7",
+      "0xf4a91606b8553502d3fc2bbf36cfd444c7b5dc6629a444e52437b10e680678e5",
+      "0x5e5fcbfc6f15ebe3e5ef733cb88a98f06a0308c71e820015fe32f0fb7f049f98",
+      "0xf98034f0f2a0ecf4ee727922db2caf2ce3828d03712db8edb35e8b74ae4500ec",
+      "0x612badeaa496197d7cfef8a886e2c87ec3944811f3ea3906dd2a1fd706b85695",
+      "0xaabb22253e82530eeaa9ad8a88476482f33f762ed31c8522657fd96d8cb36fb4",
+      "0xeae222228491c29311956bb1c17d3c6e584681c88a0cd0889c5a24ca7fbd037d",
+      "0xd6e399c8c66c75d4c29ffc94a451996e2f0ad4d313c22da0357e62038227d132",
+      "0x35661b355c1fd9a58726ef37d17edcb94dfd9fdf7f1a1355d9e12317b541b438",
+      "0xd47c8e3b2c403a72a454f817d9c55d769fd60e2caeda693aa951ae2ae08b0f53",
+      "0xa241a5340a54feeb335065013f68d7cebe733a962c4d52d88345b3fe324a55d0",
+      "0xb83188de054dbc5f45e415ce45ae7640e47c98eb08f8a67bf538b8b7814d1d5b",
+      "0x3f1ff2cad53f4f05e2d517e016be01470c96c8f80316c52f7706f465a257fee1",
+      "0xba5dd10fa9632bd883ba291df31399a6326a9801eb368388b814cb46b68f7916",
+      "0x51ff62c81ea349c0f3bade53ddbf038d5b5473317f677e88febe39f606b895df",
+      "0xde3bad917c5f32e8d424a23d2ffc7d186e60ab5cc6cb5928688eabd7bf0329b4",
+      "0x895d8c738258cc223324f732fc4eb87faaa9410712e0223910457fde9596f164",
+      "0x35fb51839ea23c83e83659fcb6be46c3211736c17a1ac6882e030a86bdc250ac",
+      "0x07a02ba87a953399e7f0a155fd71d97f0c0f147750c608ba5e1c0121b053e442",
+      "0x93553e0d06fae48c61d60795f7a43f1b26b722fa4d2b750bbafdd7ab1e3ea316",
+      "0xfebce8575ba5952e9c54eb27010ec3088f417b250af5f2f0f2f36785b33a7dae",
+      "0x79bb878d4b65dc5cf2642dc7f7589dca3889384dbc6ee1eaf970964649ca5a8f",
+      "0x8c7aff891e920b74b32f753fd1671b1ec352e2520eaece4ee01a04c57fa2d863",
+      "0xe6ab69d89eaf5f9f182b9b5c5c12f462e622746a2de9964b1cf959f8e0481277",
+      "0x59b5764e21d6ca26c88971b110d37d206dc7fa452645998e9b808a456e157bf8",
+      "0x00efb67f3e872fc1246c3b025a8f627b0ac85aacded00eb51d1fd290837aaaa1",
+      "0x6c66ae43feee652d13ea522ba9a711229c8ce393c2534a3206ce8346f49bbd3e",
+      "0x40122d223f2a0ee7f7ea6fe2a124187d02d799b87a4a19b1b1537252ad64be26",
+      "0xb64bb53762bdfa0a21ee06475b9049b24e04cf084f413ae8ee6a8d476b798116",
+      "0xa3f976a43b95b50f360b2ef6cf28ebdad5393a807d4ebc871c27e508c26ff07a",
+      "0x8092b14268742bb10937f2e6d3c1bb141f4a40c980e0d0f03a109e7897a79d29",
+      "0x634e38f6d9bb07794dac1038ef90a9c5d218303c2955c6fa52cb38b9d3d91641",
+      "0x6a5de1a636a215db627fe7108baa93ee2e315b49d4376e853a73be191c8e2c22",
+      "0x162b4aaefedf747e195a5c2d58446f65bd84134e34bbfdea1e530a80d87dcc38",
+      "0x9bf99ab2447068037c45520a3a0215b9d9bdc66a3f44f305366fd7822e8729c1",
+      "0x5ec596012bce72d6cebb7866c84456ddd228eb3bf59fbf8d6641300f2f6ea716",
+      "0x3d6dbb1f7cef972cc489784ff972d8fc943b1d9d6aad6f364050ea30af0e3233",
+      "0x9bd9325bce99eca10163f4f183de7c906fd1d0d03938ebf49240c9c9a7eaf069",
+      "0x5bccd05737f091122728c41593a04b2ca446a258bb3475d9cbc47f9d2240f724",
+      "0x53aaaf70c81437103b0571c5a01e756b2b0d36a7a0d6143d651680c8436fd5ba",
+      "0x32e1784dd5e0707595e935452214f8e2d82047d89f2a4e9caaccdf4ed6cf3849",
+      "0x6a9493f43949afe7283c890814f73ccfaf55bf2b3d339fbe0d8cc7cf036909ec",
+      "0xf75a1a8ee9b710851c3e94fe1affce9158a684e58a90ad20059210b1ad5e812f",
+      "0x7bc986e70f881a670056185275e5c96ad7805e8f11c5c391d2246a577bd5e7cf",
+      "0x173bc774bb3aacf6fccb431d30e3d743c0361459219ec1c17b3148d74383d3bc",
+      "0x6597e4f8970445906d59c90b94ff5c6c4ba675e21c3e395181191e909e4d682d",
+      "0xf3cbeb76937264788694def908cc479a2f2cfca6b55f0fd9f8147f9a9dc47834",
+      "0x6fda725f35f6168e546c802ddeb4eb43d1c2e7db6ee95cb7b71d5e306e74d158",
+      "0x0b88f10f9a68daee65b7877a43cc012a01db0608fc34e3866e167f1c8bdac038",
+      "0x2b73bfbee028892b170592338bbb47f3cc933a4cfc4bf7ad27f574c909e08b2b",
+      "0xa5d292d3eaefd02d2d8716c5172964fbd38387514ad4fbd44e1e916ee8f20b09",
+      "0x763144e460084b511eefb722ee96f92daee19f254c3843effcbadae5b8488759",
+      "0x3ccac4c1d157ba95782d441abbec1a5bbf457923683054cf21445a96351937b5",
+      "0xfe15463a6ca047acbfa48c811614f5813a78813573a71661b09b77c114d0f60e",
+      "0xdbe97719d8d76c0ff52a77fac16fd505292a44c9cf0bb2c445caff6c27c68347",
+      "0x668ecc7f01dcc965e20907727e8bc44ecdba098d201954851c2d69df7e36c29b",
+      "0xa7fd717cb1e87f47d89ac987f5c27a015efa425a365980f57ca90ac98acc05d0",
+      "0x76fc583f2a6ac0667625b485638791ee66332bf2574cf1fd19add61ca2175817",
+      "0x26520e7caa7591fd3330d2b4ef870fb7992a752eae9184d971be752e529a506a",
+      "0x2520b6ee52b640f3ebf9640cdad56a1075521295ea35692679ca0992274c12f7",
+      "0x6fb51e88c3c181c4f22f4a2758a97736ffef6d0783a09202bdeaa900bbbb2762",
+      "0xf400d0353255ad7d1f2b9ba039fc89d9ede074750cb940932b33b3470a4ffe2a",
+      "0xbf8e6d4fe9dad4cf1a60a13e18c82d3d3b0c6961b90389205b02ed1180e4b77e",
+      "0x3b43c1dccb261b9f32f25e0339bf7321d927697ebf8d4076d9e5b718d6701973",
+      "0xe37336a86a8cb593389ff101ba7395edce3534361e0ec2222bea59fcc8326c67",
+      "0xae1d7508f30b4b77a5feae1019e657a194ce0ba79433d7e47f5627abc03798ec",
+      "0x8c72fc049192c25f9409aafa730b4b0e846940bf19008f2bba0379779969aa55",
+      "0xbcfcbf0e3230e3070216b44a9ac66b5974ac8886ceb44f4076edc525f9543ffb",
+      "0x1d76f3363a989a0b3c10a919310d194dc4ae3807097707e487bc8143f1fff2c7",
+      "0x0e59f7897c492d8e2580d3d61780fbeffdbd1d585630373198b7d19b456c6c0e",
+      "0x7da4ab47404a0ad8be1ccffed4f692115de92d26ae79168096183e29bbf71178",
+      "0xcbe66910c423961f4446643312b9bfb7cd9c800ebca5ab6c33403bbc6e32b523",
+      "0x957474337b3018c59e1c6a458dd1d58f576427d1340da50d44b6ceb2c95334dd",
+      "0x20fbe725e4f98e2a5a513fef35bbf345465968d027a1308b0b5015367510b600",
+      "0xa77a5effd977dbb4adf717b9ed71526d13ba11f8598df29c4f5f00cad3ac41c1",
+      "0x93b8ed1a29549059f8501f18e679d3a79b2728cd0b35af0f58eb40eb0812ea7e",
+      "0x9f76fff3a8db941a44597f7c522f285b3337281071b23b1266636a344aee13af",
+      "0x08817ac34c5c6a0eaf7b1573cfbad1f759fc655e76cb07cf5231de7466651c2c",
+      "0xcfd733bf3eda1416c8c8a42add995de346de7a7f71ba82b98b474d6f854ec34d",
+      "0xe3bbee9cad4c3e205529d9fa182b64ba2eb489e90974c5b1b38cb2b19917d764",
+      "0x57e282afb6bfafe0f85dc471b25c383fd6958b523ebcc6300fa63734cdf296da",
+      "0xbf6ff2d91eabf8d84f2774ed3c1ce92b7ddb459a8b82d4147db3844de84419e8",
+      "0xe4e91432d41958e7e2dfb89fb01af89fcff31f34f852c47850c329ecf5b1dee2",
+      "0x354abad99f091d57faf3b29ef8f6a30fd36d8d243d5d9454fc5bb0ff618ddbd2",
+      "0x84cd22fa12ff72356b01b87b2d068c12b70c1bbabc81841d42abc43def574e62",
+      "0xea957c94528738ced2db467e66b425dd8b69fdadeac64151d255d2d1071d8fca",
+      "0x2025ba9dd349bee685c8245041dce670fdef80dc83a01f99f34d7531f3bb3802",
+      "0x28e3d78cfb90c57da25a27cd11c74bed2fbef2628585dafe623cf21dd8ed7173",
+      "0xb92f85aaa76489ff2c1e570fcbaabfa42656c0c27e1a4d2e2584f1fa86229696",
+      "0x81fd63a9b101415651d4ae1e091939dff814cba2e93481201f9d80394ad1e9d3",
+      "0xf01fef1ce58b985039d3b3a7672642d1727556ef246e4b29376fb6b7c2e9b22f",
+      "0x37c29de9b6217a5ff82744fa608d1dc2dd284753d6814223b1cd04f117dbe243",
+      "0x8fe94be3a54af5eb4ad403e8499b16377300585cdc07ffb7740de476a0958916",
+      "0xb1f5b764411c688da9ad021f01060f9787f56a9d2b0c845d21ba315f1f125804",
+      "0x3ed5a039bf66eea23e1b078ea51e68546901057851415d4c4da915d1d053ca13",
+      "0x777a08dc43d6c12d566b1c45698d97b168dcd0a4a9e94f09ee252dda3376e9bc",
+      "0xd9f03f44f4b3b0981b7f9cf96531eec4a1de15e275eb2baab0b6adabeae275e8",
+      "0x36b93f0572eb2b3db862f0ff1c81fcaf176a55cd91fa2e1328cb2e1405f991b0",
+      "0xd267cc09d9881bba2799273f14e4dbeca1ff7a96aed7d28936d08bbca9436e48",
+      "0x8e34aa15f85f0002fa166ba41425475f3d0c849d03e430f7d76c5d5bd5ee3ec8",
+      "0x05aa3986960b48df01d1a822a6a2fc046dac9546c3fe35aa31daab561204edf3",
+      "0xe85a7b0c807f24c95c0bda4e7f0085a6903cac336617e1a94f5ffacdbe21936e",
+      "0xdb9a5d627eee3bbf459435e29cc7c155392f8550259a2b54f829ec3c1bc6d41c",
+      "0xfa6809f1a4e0af5d2463102fbf6d7b32cff73996c526930658aa19c64407ba7d",
+      "0x8523fbd26a1a43cddda56f44805290557783e00f78468f217d4acca85532857c",
+      "0xde4bd409e5d57b587ca0e88cd9e9d06d73033aaa11ba86749897d19b9597739a",
+      "0x55c779e7762e18be22fd9c5fa78e66e69f2be9dea61b845c97128f4c474715a8",
+      "0xee3a56755030bed01fdd782fe0def59c63fbbe3ed6c5b305a9f95f29cf19ca40",
+      "0x3ace4b5267d2d76f019a40d421aad5929ab42a4809a70c0e42136f8b6a068e25",
+      "0x47a70b4498add691747d0fd703e8901e10c061944eb2a8706e23db3045bee1d5",
+      "0x653143fc62fcd5b07b4cc1aeb49b915090003b6bd3fcf51568415e825e0938c1",
+      "0x4aac6ca9f6191bbe3d647a3f74bd95457eb8b4ed08c8e8e38b076692721301e2",
+      "0x3880764576d36b1a50383c0132841d61939563b58aa871ce2f75b274e32a1bd1",
+      "0xeaff19155961a08076aa3d04cc7ddb3d4abd1f0fee1d79e1cb81a06df87b210a",
+      "0x0b10a3b22e359953e9ac5c8de1e1365c8c567c354698263d3fe97dd0c7d60247",
+      "0x19b6f85a84e841db0b9f08796a71a6d1c2bd9d0d5cb4a28be049a17b8d530ab3",
+      "0xc84c7540f2cf3cd0b4d8ec8dbffcf2fcd9d67b964d2dc1b972d065238764c0ef",
+      "0x7aed779d9e4fd7bd53c6453afdb946c440330a47ecf45253c7cc73419edad6e7",
+      "0xee972ca873d88859b9b325e89ab694a422c5e755450c62ebc68063a835ced8be",
+      "0xf4e99f364d2d6e1eb66a470e64d328b8275b272b89c809888163e620ab217110",
+      "0x7e28a99b06d9a14765ca9fc2ec8d41c244e337b3180c735a618c18bd48152a29",
+      "0x531ab9825ee0fef723d510703d1c58431ad161b61090c87ea14cf86cb3f9e867",
+      "0xff3ca7b4b3efca8baa8c091c1b458ce8c3471da3ff35888e220bb1e99d907ebe",
+      "0x5ec537c6a982a85abfbf8ed0370c000621d821e16714efd08cd7b6f098d56133",
+      "0xf9cafb5ff8f3c6a7f77251dbbca16f96476db444a31df1905c650d5de62035eb",
+      "0x138aabf24d9784759132a3efc4334a0b21ec1cccdc43ad6acc6649f543e05846",
+      "0x9cd6f8f307c21232516b269372a2d3167c15d59d1e2b05e0f939becf475314c1",
+      "0xef5e5ce29a7141cb764bf036e0e41d6e2250295c00016903a1b8320bbcacb1ac",
+      "0x6918e155bd14374cba748ffabf5d241192119239ad9b710e33fa799eb7e53b75",
+      "0xfceb027f8c3080d5cc4f1b228aaf5a57e7003432bed6d7a3221b9343f29f036c",
+      "0x7457551c596dfb31a3e5c4e6b87c445dfc68d986a1f10f4c8b379efbe88728c4",
+      "0xfb6f34da0dda7f4d612f7bf7272b9a799c72415a74680a6eb62dfef3f21d874e",
+      "0x9691f2bc7d6c867ef202d905abf837659a3d11772829bab44bb7a1af98e430c9",
+      "0xf69d03b0c52b8eb1a3851d004f544dec97fbb2f3d07d570aa6a9fd46a29cd2ab",
+      "0x6fb534a21d5ed09fc7fe2e38051ab89831f9ff8d304ad9c3021732fca1b1fb9d",
+      "0x84ded818281402bfdc1b2055c8db809a73cfc3dc393136f7432bf0190ddcd49a",
+      "0x21ec61b916c76bfedc64a32994467312f93389ad4d25181571128d1a3b847dcf",
+      "0x81e3e0ab1e7e109d6e167b02f80ab53a6776abd37e9356097f8e53abf02f6e81",
+      "0x65cbb0f70497ee648676f268146be40a450ce2c2af8d732b8c78c92bdad7faf7",
+      "0x5de5568f1c7b99126383da7d430b5eadc5ccc45586ccdae2620aa0cc1c86fb70",
+      "0xaf37120f96a17fd1c31449c798ce46c72650a5b61b3f303fa93df646c4ae8cc3",
+      "0x7d1026022a4922bdd683833fa3be4e0e9707518371e475baae543c6aeb87bdf0",
+      "0x36810db1aff59b0b8f85db8670aabaa0af23290e0ea7d8beed8f62f5498ed902",
+      "0x202bf2ea336c333a49e0fbabbc53d75551d31360e7e697cb021844fcb804e334",
+      "0x20f6ed7efa79c7bf429041420e24568b040075155fc955cb9e3fba82e75138db",
+      "0xf860ede0e73a1a377ffb7786795609f0d23943ba0e81c282fe17806c00eb7a54",
+      "0x8bbb36743764a1ef03ba01653a90667c4fb08bf7237d79a96e76c7e28546201d",
+      "0xdd350e820177ddd8a901e4e36e311f7648f47d4dd3bff987bbd7238b1673951d",
+      "0xb9d9cbd639dedf3fe965528c5029c81f8851575e9f4ba72467657367826eca42",
+      "0x08cd79fc65e0506ff3c3ce9f22c9b627ea73768bf72e4349b6856eb791bfb353",
+      "0xe4af7bd6da28987b63f5cef59fc086495c10269a66cc8ea6c4bc553b9016048b",
+      "0xc3354f335ada4289e3e1cf1939616beb878e07ff0e448ff55afb019678e5f033",
+      "0xe691ff5fabdf8a1b95846258697780ce5164371219779610df8412f310b245f0",
+      "0x5b614191cae490b3a2bc2a3bdfb34e418b341a85fc8c850d03f72f40b8fa4ba2",
+      "0x911046e34d4ed0d3ed4f6960ec6c11fe1409f060978e4c26ea824011f9eb82fe",
+      "0x4e91195bc20ad4e577389964086a82ade20fdded53d8ba9d7b3debb7d8ab235c",
+      "0x65aff987e58c24477e574d442be91594d2b3897fd8b6f734f62a5d3067968ddc",
+      "0x3363b8a35e9c913f08de907178d99fea1c8684ce38719216f3fa6bac6553d083",
+      "0xcac3ee1cf606cb5b3263ddd7da90a23f2c28605a111b74112ca7444cdcbd2312",
+      "0xd688d2006a1f870a0a20988dda78d94330d991883cc8b2c4fa16d8adeff9fb6b",
+      "0xe218be951bbaae67c1f1a38c6f2c55539b21690b2e5d1dbfd8632df5e13dfa34",
+      "0x38bf15e9794aab8c084185d4b5f918f96d46cbbc148f9628ee181d3ae7eba683",
+      "0x0d83305eb75c8083ee2c90d16d864699cdd63efdb44d170487432f62de71e0d8",
+      "0x25d9f03d19b443da3deb2b4f3ff6e41220f7d57530458d3fa8d36312c497bf97",
+      "0xe2e75926a483ce2cbede2454e2c16228709c55a818eee12357133eec33dd4d55",
+      "0xbe3df8ccda45d007b83f85a759b6006c7a79410286ebbd412a26bb32278de190",
+      "0x52866fe83075e7e44fac92e81143db8c23a6559300248deb3679604f06d2d6e1",
+      "0x2c74f97d41eb24a8f256c75bcbf645e9d420c9b7155a09f4db3cf7be505186a1",
+      "0x12ea0d1baaca33238111ed7dcc19d9f0d3a4be942472daa33588f743a203e1bc",
+      "0x604452c1176e3af6cb3b441c3acbd48ae8a48357cf6c167bc7e98c11b722e34e",
+      "0x1107b495f44298cdab49b8a85ce5cbb40e7e3d028c79a6b2ebb84c0bfa0089bc",
+      "0x260a371bb1e02eff1130e09f9027e1738a4ae1b6b6e23a3f6195c7998df70559",
+      "0x0f303f50994cce13701a6a32ecb93756ff84be107ce1b3355f9993e4ed7f60fe",
+      "0xc89bc403966b0a366dda86fc43fc6e248228a85d3694ac8373907e9b3cd5191a",
+      "0x2ec55596c4d1bd1397dc23cd721a517fdf470742a93d3d052a31c0dfc583815f",
+      "0x81f4dc20aa6ab31603d2b31b5f0dd7ca01e1f08e49cc3a9c24a2ffde2f99e784",
+      "0x94a5706ce89163cbd87aa10c4b4e25d2ef5ac47ea0947a80bbe50d220d77adb1",
+      "0xe64ab8018d817279a03f214fa05ee6767464a02269625cf5f91aa6f432afb072",
+      "0x23c1f5064bd5408eae2e19891de8309d579926cf3b697c7a0af4832965b18992",
+      "0x4d25e4f5887844dd45fea9dabe075a517134f2a0cf8d141db011089fdd6826fb",
+      "0x968b006464e61b452c1bbb217456e4988da8801e47adf5392549be45b252253e",
+      "0x8c05ad94d3e3ed094fd28c32c218c8eeb7d8fbc89d2b4504e42c3421f5db9754",
+      "0xf24afffa418edd801fefcba6e7e215c03d94e74fb22e03d5063240a0175b76bc",
+      "0x5910b4dc9d255a841b2de96d45962be40189dbef963241820ca8702630576fe9",
+      "0x5c016026e1019a2de5aec08040c3a443e9bdbe33a749d5f9b879f6a1fa8b2a38",
+      "0x90fdf75da9a1c8cfc90af518b03bebc3206c34030e3790cf0c89ff8c047b87d2",
+      "0xddef6b1457e3ded2e98ff4cea4ef9112f259a82099b6323eade600aaaaed1955",
+      "0x5f594ade42a5a68ace54596a950af45674f82c331fb5e97c2285f8ed6e3fde99",
+      "0x9aa8f6d7c3d2cccdec7870d92362af5bfffd4185753e213749d41ff7b0c40013",
+      "0x67d83d551d181883b8057b39033e8c200b3e7a0d5cc3fed6fe5cdd4d0927eee3",
+      "0x666a9c4cadc387989ec5d256c3c5bbed0fdd82231e709c228b765285ffc22e75",
+      "0x8a99bce196c8c71ea28553958808e2e3be9dba6cb2226732574d1b940bf4acb4",
+      "0xe18497700f56c53eadc3a3e208952c80a6e21a2a4779b0ed13ac38fec6f23934",
+      "0x90bf888a9a8a06c2aa2ca0d479b14d880d04d1599d0952626b438ec566918aca",
+      "0x142b012d13017b684906997c081d3564f11a1fc8ea3e1f9fbd391abfc6ff1431",
+      "0xdf21b790bd884ddc0b0858393fbd52a720bb8b3be2e3d3c253af1ea4dd0df2d9",
+      "0x5e19fddff65a9c9429ba629eb7b87a7ae96b894bcf090df15cd15047f9f5489e",
+      "0xf7d92acc9a856035968ad6cc6538df9b1d5c1a546ad17604ad91f79652bad9b4",
+      "0x14fd8957cd9192df9d584ae31edc92d4e05e37c70364639b7f531ed88edbbaf2",
+      "0x800d2d3992afd5267f1885e2381661f299eb90df9e3a2bc12ce089b9502bf1dc",
+      "0xbd83bb0f824d4e3f13eca151aa91f4bd88eeb4eb5db7b289eea210a6aa2b0cd6",
+      "0x176aa9a72aebb32ca8941598c91460ffb277db8387c3377175179ae859942f55",
+      "0x58a74608109213be5dd1029258e315a3b6557a83a75dfb335945813c21e25765",
+      "0x35bf771208bb132ed619dda6b841bd81dd9f66455d403a9ab5c1b1c7f604862f",
+      "0x68765e3c1debe34295e0a6570f1292e1470020824db019565e82a4b3afefcfa7",
+      "0xf5c057fe892ec3c197cc23e3f5219bfbf3d53cb3bf7f3a8f2d103bf5ffb69704",
+      "0x5a81449c1fc32aaae886b6535fd2b8815af13fe13bfaab181b3c74cb3b43d752",
+      "0xc367564ef9a0d7d7308e31dfd1bdb05b3ad0137cff9631bc75423ac78db07209",
+      "0xb99214e58c0555254417231640dc19963abbf86a8e8befa8ef99f60fae3e9e53",
+      "0xdd302ee50d07acd4a95d24713788cd021f2a81c94c4eeb517435c65d1e148899",
+      "0x67dfedbbdd705e69790fdcf35d5ef0b6ba501c1b04bfdc683301ae9352d5fc15",
+      "0x94c59a2a35b9193b724b0b31e69b57852ac0256178e9474f67d81f50abc039d0",
+      "0x4425396ee01eedc4a98f969cdeb237d16efd90dc790737437bc0d48651938bfc",
+      "0x07509c175abc6f4f988e293178a3a468522641f9e0d228d6440563236f3f3f92",
+      "0x4c28ebbf7201ca39fe17f998c4f7f7bb33d6a9d0bff202e33d32cdcec5eaa0d1",
+      "0x9d997fce0da661d0345c35e82498be40a01a054e96314436fe20ac18e4a6e63f",
+      "0x8d8efd62b991eb03da49f23bb5ed941dc88f6d6557374231a89898f6e4313ea8",
+      "0x3125c234a986904ed6bb968c867db822b8e4f8a827cff1eace48869d6655c6e3",
+      "0xa66af34e914d9120bef2a2794569ac9e6327018d9bf27307f4c7fe068c5957ba",
+      "0xa77400905c7e3892e2ad0a7a0edd69c5b74c1e46268ee4acbee5c175cd030eec",
+      "0x738459cbe75497c7f34dfd841c89e159fec92d33d3fdb38b1eca55c7082ab6ec",
+      "0x47e720f0d0a0e046e02a4eaa03369f7333472de6268349c4ad0b48f6dacfaa59",
+      "0x37d867c2e2b80d6aaf63dfea7bbee181073dfdb8a209d874e3cf6802929c3819",
+      "0x529979fced80d490414c5650f7850ea6c8c8372e9a5bd68670389d2ad9970755",
+      "0x0ee809cb08ffa71f81f0ae24aac43f6ed22d6933ce445fb40801a29f9af96c7b",
+      "0x80571948b36b330cc5e5609f4ded33ce8cfa7b1b2f1c78e2998e3ad4dc13b98e",
+      "0x1ee397af3135793a2f586e2e2117a7d57c515229d4b9ce732d68f52791710c3b"
+    ],
+    "transactionsRoot": "0x98f61dea23e0d6efb9cbe5286d509c8583eb8c2a600eeca31ec4acaedc728218",
+    "uncles": []
+  },
+  "cases": {
+    "0x01.malformed": {
+      "address": "0x01",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:53:56.824169+00:00",
+          "request": {
+            "id": 6,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60a061008060003960006112c0525a61010061100060a060006000600162989680505050505050505a9003611200525a61010061100060a060006000600162989680f15a90611260529003611220523d6112a0525a61010061110060a060006000600162989680f15a90611280529003611240523d6112c0526102e0611000f3a8b53bdf3306a35a7103ab5504a0c9b492295564b6202b1942a84ef300107281000000000000000000000000000000000000000000000000000000000000001b307835653165303366353363653138623737326363623030393366663731663366353366356337356237346463623331613835616138623838393262346538621122334455667788991011121314151617181920212223242526272829303132",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 6,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": "unrecoverable signature vector; fixed 128-byte prefix plus trailing bytes",
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "malformed",
+      "raw": {
+        "observed_at": "2026-10-20T02:53:56.824169+00:00",
+        "request": {
+          "id": 6,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60a061008060003960006112c0525a61010061100060a060006000600162989680505050505050505a9003611200525a61010061100060a060006000600162989680f15a90611260529003611220523d6112a0525a61010061110060a060006000600162989680f15a90611280529003611240523d6112c0526102e0611000f3a8b53bdf3306a35a7103ab5504a0c9b492295564b6202b1942a84ef300107281000000000000000000000000000000000000000000000000000000000000001b307835653165303366353363653138623737326363623030393366663731663366353366356337356237346463623331613835616138623838393262346538621122334455667788991011121314151617181920212223242526272829303132",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 6,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/testdata/precompiles/ecRecover.json",
+      "vector_name": null
+    },
+    "0x01.valid": {
+      "address": "0x01",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:53:55.646931+00:00",
+          "request": {
+            "id": 4,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x608061008060003960006112c0525a610100611000608060006000600162989680505050505050505a9003611200525a610100611000608060006000600162989680f15a90611260529003611220523d6112a0525a610100611100608060006000600162989680f15a90611280529003611240523d6112c0526102e0611000f318c547e4f7b0f325ad1e56f57e26c745b09a3e503d86e00e5255ff7f715d3d1c000000000000000000000000000000000000000000000000000000000000001c73b1693892219d736caba55bdb67216e485557ea6b6af75f37096c9aa6a5a75feeb940b1d03b21e36b0e47e79769f095fe2ab855bd91e3a38756b7d75a9c4549",
+                "gas": "0x1c9c380"
+              },
+              "0x5338ab8"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "QUANTITY not supported, just support TAG as latest"
+              },
+              "id": 4,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        },
+        {
+          "observed_at": "2026-10-20T02:53:56.228239+00:00",
+          "request": {
+            "id": 5,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x608061008060003960006112c0525a610100611000608060006000600162989680505050505050505a9003611200525a610100611000608060006000600162989680f15a90611260529003611220523d6112a0525a610100611100608060006000600162989680f15a90611280529003611240523d6112c0526102e0611000f318c547e4f7b0f325ad1e56f57e26c745b09a3e503d86e00e5255ff7f715d3d1c000000000000000000000000000000000000000000000000000000000000001c73b1693892219d736caba55bdb67216e485557ea6b6af75f37096c9aa6a5a75feeb940b1d03b21e36b0e47e79769f095fe2ab855bd91e3a38756b7d75a9c4549",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 5,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": null,
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "valid",
+      "raw": {
+        "observed_at": "2026-10-20T02:53:56.228239+00:00",
+        "request": {
+          "id": 5,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x608061008060003960006112c0525a610100611000608060006000600162989680505050505050505a9003611200525a610100611000608060006000600162989680f15a90611260529003611220523d6112a0525a610100611100608060006000600162989680f15a90611280529003611240523d6112c0526102e0611000f318c547e4f7b0f325ad1e56f57e26c745b09a3e503d86e00e5255ff7f715d3d1c000000000000000000000000000000000000000000000000000000000000001c73b1693892219d736caba55bdb67216e485557ea6b6af75f37096c9aa6a5a75feeb940b1d03b21e36b0e47e79769f095fe2ab855bd91e3a38756b7d75a9c4549",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 5,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/testdata/precompiles/ecRecover.json",
+      "vector_name": "ValidKey"
+    },
+    "0x02.malformed": {
+      "address": "0x02",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:53:58.047044+00:00",
+          "request": {
+            "id": 8,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x600161008060003960006112c0525a610100611000600160006000600262989680505050505050505a9003611200525a610100611000600160006000600262989680f15a90611260529003611220523d6112a0525a610100611100600160006000600262989680f15a90611280529003611240523d6112c0526102e0611000f338",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 8,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": "one-byte length stress; arbitrary bytes are valid for this precompile",
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "malformed",
+      "raw": {
+        "observed_at": "2026-10-20T02:53:58.047044+00:00",
+        "request": {
+          "id": 8,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x600161008060003960006112c0525a610100611000600160006000600262989680505050505050505a9003611200525a610100611000600160006000600262989680f15a90611260529003611220523d6112a0525a610100611100600160006000600262989680f15a90611280529003611240523d6112c0526102e0611000f338",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 8,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/contracts_test.go",
+      "vector_name": null
+    },
+    "0x02.valid": {
+      "address": "0x02",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:53:57.435823+00:00",
+          "request": {
+            "id": 7,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x608061008060003960006112c0525a610100611000608060006000600262989680505050505050505a9003611200525a610100611000608060006000600262989680f15a90611260529003611220523d6112a0525a610100611100608060006000600262989680f15a90611280529003611240523d6112c0526102e0611000f338d18acb67d25c8bb9942764b62f18e17054f66a817bd4295423adf9ed98873e000000000000000000000000000000000000000000000000000000000000001b38d18acb67d25c8bb9942764b62f18e17054f66a817bd4295423adf9ed98873e789d1dd423d25f0772d2748d60f7e4b81bb14d086eba8e8e8efb6dcff8a4ae02",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 7,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": null,
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "valid",
+      "raw": {
+        "observed_at": "2026-10-20T02:53:57.435823+00:00",
+        "request": {
+          "id": 7,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x608061008060003960006112c0525a610100611000608060006000600262989680505050505050505a9003611200525a610100611000608060006000600262989680f15a90611260529003611220523d6112a0525a610100611100608060006000600262989680f15a90611280529003611240523d6112c0526102e0611000f338d18acb67d25c8bb9942764b62f18e17054f66a817bd4295423adf9ed98873e000000000000000000000000000000000000000000000000000000000000001b38d18acb67d25c8bb9942764b62f18e17054f66a817bd4295423adf9ed98873e789d1dd423d25f0772d2748d60f7e4b81bb14d086eba8e8e8efb6dcff8a4ae02",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 7,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/contracts_test.go",
+      "vector_name": "Sha256 benchmark"
+    },
+    "0x03.malformed": {
+      "address": "0x03",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:53:59.235562+00:00",
+          "request": {
+            "id": 10,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x600161008060003960006112c0525a610100611000600160006000600362989680505050505050505a9003611200525a610100611000600160006000600362989680f15a90611260529003611220523d6112a0525a610100611100600160006000600362989680f15a90611280529003611240523d6112c0526102e0611000f338",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 10,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": "one-byte length stress; arbitrary bytes are valid for this precompile",
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "malformed",
+      "raw": {
+        "observed_at": "2026-10-20T02:53:59.235562+00:00",
+        "request": {
+          "id": 10,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x600161008060003960006112c0525a610100611000600160006000600362989680505050505050505a9003611200525a610100611000600160006000600362989680f15a90611260529003611220523d6112a0525a610100611100600160006000600362989680f15a90611280529003611240523d6112c0526102e0611000f338",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 10,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/contracts_test.go",
+      "vector_name": null
+    },
+    "0x03.valid": {
+      "address": "0x03",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:53:58.626129+00:00",
+          "request": {
+            "id": 9,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x608061008060003960006112c0525a610100611000608060006000600362989680505050505050505a9003611200525a610100611000608060006000600362989680f15a90611260529003611220523d6112a0525a610100611100608060006000600362989680f15a90611280529003611240523d6112c0526102e0611000f338d18acb67d25c8bb9942764b62f18e17054f66a817bd4295423adf9ed98873e000000000000000000000000000000000000000000000000000000000000001b38d18acb67d25c8bb9942764b62f18e17054f66a817bd4295423adf9ed98873e789d1dd423d25f0772d2748d60f7e4b81bb14d086eba8e8e8efb6dcff8a4ae02",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 9,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": null,
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "valid",
+      "raw": {
+        "observed_at": "2026-10-20T02:53:58.626129+00:00",
+        "request": {
+          "id": 9,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x608061008060003960006112c0525a610100611000608060006000600362989680505050505050505a9003611200525a610100611000608060006000600362989680f15a90611260529003611220523d6112a0525a610100611100608060006000600362989680f15a90611280529003611240523d6112c0526102e0611000f338d18acb67d25c8bb9942764b62f18e17054f66a817bd4295423adf9ed98873e000000000000000000000000000000000000000000000000000000000000001b38d18acb67d25c8bb9942764b62f18e17054f66a817bd4295423adf9ed98873e789d1dd423d25f0772d2748d60f7e4b81bb14d086eba8e8e8efb6dcff8a4ae02",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 9,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/contracts_test.go",
+      "vector_name": "RipeMD benchmark"
+    },
+    "0x04.malformed": {
+      "address": "0x04",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:00.425788+00:00",
+          "request": {
+            "id": 12,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x600161008060003960006112c0525a610100611000600160006000600462989680505050505050505a9003611200525a610100611000600160006000600462989680f15a90611260529003611220523d6112a0525a610100611100600160006000600462989680f15a90611280529003611240523d6112c0526102e0611000f338",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 12,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": "one-byte length stress; arbitrary bytes are valid for this precompile",
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "malformed",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:00.425788+00:00",
+        "request": {
+          "id": 12,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x600161008060003960006112c0525a610100611000600160006000600462989680505050505050505a9003611200525a610100611000600160006000600462989680f15a90611260529003611220523d6112a0525a610100611100600160006000600462989680f15a90611280529003611240523d6112c0526102e0611000f338",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 12,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/contracts_test.go",
+      "vector_name": null
+    },
+    "0x04.valid": {
+      "address": "0x04",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:53:59.842967+00:00",
+          "request": {
+            "id": 11,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x608061008060003960006112c0525a610100611000608060006000600462989680505050505050505a9003611200525a610100611000608060006000600462989680f15a90611260529003611220523d6112a0525a610100611100608060006000600462989680f15a90611280529003611240523d6112c0526102e0611000f338d18acb67d25c8bb9942764b62f18e17054f66a817bd4295423adf9ed98873e000000000000000000000000000000000000000000000000000000000000001b38d18acb67d25c8bb9942764b62f18e17054f66a817bd4295423adf9ed98873e789d1dd423d25f0772d2748d60f7e4b81bb14d086eba8e8e8efb6dcff8a4ae02",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 11,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": null,
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "valid",
+      "raw": {
+        "observed_at": "2026-10-20T02:53:59.842967+00:00",
+        "request": {
+          "id": 11,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x608061008060003960006112c0525a610100611000608060006000600462989680505050505050505a9003611200525a610100611000608060006000600462989680f15a90611260529003611220523d6112a0525a610100611100608060006000600462989680f15a90611280529003611240523d6112c0526102e0611000f338d18acb67d25c8bb9942764b62f18e17054f66a817bd4295423adf9ed98873e000000000000000000000000000000000000000000000000000000000000001b38d18acb67d25c8bb9942764b62f18e17054f66a817bd4295423adf9ed98873e789d1dd423d25f0772d2748d60f7e4b81bb14d086eba8e8e8efb6dcff8a4ae02",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 11,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/contracts_test.go",
+      "vector_name": "Identity benchmark"
+    },
+    "0x05.malformed": {
+      "address": "0x05",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:01.650804+00:00",
+          "request": {
+            "id": 14,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x600161008060003960006112c0525a610100611000600160006000600562989680505050505050505a9003611200525a610100611000600160006000600562989680f15a90611260529003611220523d6112a0525a610100611100600160006000600562989680f15a90611280529003611240523d6112c0526102e0611000f301",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 14,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": "truncated 96-byte length header; missing bytes are zero-padded by the interface",
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "malformed",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:01.650804+00:00",
+        "request": {
+          "id": 14,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x600161008060003960006112c0525a610100611000600160006000600562989680505050505050505a9003611200525a610100611000600160006000600562989680f15a90611260529003611220523d6112a0525a610100611100600160006000600562989680f15a90611280529003611240523d6112c0526102e0611000f301",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 14,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/testdata/precompiles/modexp_eip2565.json",
+      "vector_name": null
+    },
+    "0x05.valid": {
+      "address": "0x05",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:01.044014+00:00",
+          "request": {
+            "id": 13,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60a161008060003960006112c0525a61010061100060a160006000600562989680505050505050505a9003611200525a61010061100060a160006000600562989680f15a90611260529003611220523d6112a0525a61010061110060a160006000600562989680f15a90611280529003611240523d6112c0526102e0611000f300000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000002003fffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2efffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 13,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": null,
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "valid",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:01.044014+00:00",
+        "request": {
+          "id": 13,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60a161008060003960006112c0525a61010061100060a160006000600562989680505050505050505a9003611200525a61010061100060a160006000600562989680f15a90611260529003611220523d6112a0525a61010061110060a160006000600562989680f15a90611280529003611240523d6112c0526102e0611000f300000000000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000000000000000000020000000000000000000000000000000000000000000000000000000000000002003fffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2efffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 13,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/testdata/precompiles/modexp_eip2565.json",
+      "vector_name": "eip_example1"
+    },
+    "0x06.malformed": {
+      "address": "0x06",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:02.831284+00:00",
+          "request": {
+            "id": 16,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x608061008060003960006112c0525a610100611000608060006000600662989680505050505050505a9003611200525a610100611000608060006000600662989680f15a90611260529003611220523d6112a0525a610100611100608060006000600662989680f15a90611280529003611240523d6112c0526102e0611000f3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 16,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": "out-of-field coordinate bytes constructed from client vector width",
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "malformed",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:02.831284+00:00",
+        "request": {
+          "id": 16,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x608061008060003960006112c0525a610100611000608060006000600662989680505050505050505a9003611200525a610100611000608060006000600662989680f15a90611260529003611220523d6112a0525a610100611100608060006000600662989680f15a90611280529003611240523d6112c0526102e0611000f3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 16,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/testdata/precompiles/bn256Add.json",
+      "vector_name": null
+    },
+    "0x06.valid": {
+      "address": "0x06",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:02.245258+00:00",
+          "request": {
+            "id": 15,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x608061008060003960006112c0525a610100611000608060006000600662989680505050505050505a9003611200525a610100611000608060006000600662989680f15a90611260529003611220523d6112a0525a610100611100608060006000600662989680f15a90611280529003611240523d6112c0526102e0611000f318b18acfb4c2c30276db5411368e7185b311dd124691610c5d3b74034e093dc9063c909c4720840cb5134cb9f59fa749755796819658d32efc0d288198f3726607c2b7f58a84bd6145f00c9c2bc0bb1a187f20ff2c92963a88019e7c6a014eed06614e20c147e940f2d70da3f74c9a17df361706a4485c742bd6788478fa17d7",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 15,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": null,
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "valid",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:02.245258+00:00",
+        "request": {
+          "id": 15,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x608061008060003960006112c0525a610100611000608060006000600662989680505050505050505a9003611200525a610100611000608060006000600662989680f15a90611260529003611220523d6112a0525a610100611100608060006000600662989680f15a90611280529003611240523d6112c0526102e0611000f318b18acfb4c2c30276db5411368e7185b311dd124691610c5d3b74034e093dc9063c909c4720840cb5134cb9f59fa749755796819658d32efc0d288198f3726607c2b7f58a84bd6145f00c9c2bc0bb1a187f20ff2c92963a88019e7c6a014eed06614e20c147e940f2d70da3f74c9a17df361706a4485c742bd6788478fa17d7",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 15,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/testdata/precompiles/bn256Add.json",
+      "vector_name": "chfast1"
+    },
+    "0x07.malformed": {
+      "address": "0x07",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:04.047278+00:00",
+          "request": {
+            "id": 18,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x606061008060003960006112c0525a610100611000606060006000600762989680505050505050505a9003611200525a610100611000606060006000600762989680f15a90611260529003611220523d6112a0525a610100611100606060006000600762989680f15a90611280529003611240523d6112c0526102e0611000f3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 18,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": "out-of-field coordinate bytes constructed from client vector width",
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "malformed",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:04.047278+00:00",
+        "request": {
+          "id": 18,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x606061008060003960006112c0525a610100611000606060006000600762989680505050505050505a9003611200525a610100611000606060006000600762989680f15a90611260529003611220523d6112a0525a610100611100606060006000600762989680f15a90611280529003611240523d6112c0526102e0611000f3ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 18,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/testdata/precompiles/bn256ScalarMul.json",
+      "vector_name": null
+    },
+    "0x07.valid": {
+      "address": "0x07",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:03.443245+00:00",
+          "request": {
+            "id": 17,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x606061008060003960006112c0525a610100611000606060006000600762989680505050505050505a9003611200525a610100611000606060006000600762989680f15a90611260529003611220523d6112a0525a610100611100606060006000600762989680f15a90611280529003611240523d6112c0526102e0611000f32bd3e6d0f3b142924f5ca7b49ce5b9d54c4703d7ae5648e61d02268b1a0a9fb721611ce0a6af85915e2f1d70300909ce2e49dfad4a4619c8390cae66cefdb20400000000000000000000000000000000000000000000000011138ce750fa15c2",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 17,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": null,
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "valid",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:03.443245+00:00",
+        "request": {
+          "id": 17,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x606061008060003960006112c0525a610100611000606060006000600762989680505050505050505a9003611200525a610100611000606060006000600762989680f15a90611260529003611220523d6112a0525a610100611100606060006000600762989680f15a90611280529003611240523d6112c0526102e0611000f32bd3e6d0f3b142924f5ca7b49ce5b9d54c4703d7ae5648e61d02268b1a0a9fb721611ce0a6af85915e2f1d70300909ce2e49dfad4a4619c8390cae66cefdb20400000000000000000000000000000000000000000000000011138ce750fa15c2",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 17,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/testdata/precompiles/bn256ScalarMul.json",
+      "vector_name": "chfast1"
+    },
+    "0x08.malformed": {
+      "address": "0x08",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:05.231412+00:00",
+          "request": {
+            "id": 20,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60bf61008060003960006112c0525a61010061100060bf60006000600862989680505050505050505a9003611200525a61010061100060bf60006000600862989680f15a90611260529003611220523d6112a0525a61010061110060bf60006000600862989680f15a90611280529003611240523d6112c0526102e0611000f31c76476f4def4bb94541d57ebba1193381ffa7aa76ada664dd31c16024c43f593034dd2920f673e204fee2811c678745fc819b55d3e9d294e45c9b03a76aef41209dd15ebff5d46c4bd888e51a93cf99a7329636c63514396b4a452003a35bf704bf11ca01483bfa8b34b43561848d28905960114c8ac04049af4b6315a416782bb8324af6cfc93537a2ad1a445cfd0ca2a71acd7ac41fadbf933c2a51be344d120a2a4cf30c1bf9845f20c6fe39e07ea2cce61f0c9bb048165fe5e4de8775",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 20,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": "191-byte truncated pair; input length is not a multiple of 192",
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "malformed",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:05.231412+00:00",
+        "request": {
+          "id": 20,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60bf61008060003960006112c0525a61010061100060bf60006000600862989680505050505050505a9003611200525a61010061100060bf60006000600862989680f15a90611260529003611220523d6112a0525a61010061110060bf60006000600862989680f15a90611280529003611240523d6112c0526102e0611000f31c76476f4def4bb94541d57ebba1193381ffa7aa76ada664dd31c16024c43f593034dd2920f673e204fee2811c678745fc819b55d3e9d294e45c9b03a76aef41209dd15ebff5d46c4bd888e51a93cf99a7329636c63514396b4a452003a35bf704bf11ca01483bfa8b34b43561848d28905960114c8ac04049af4b6315a416782bb8324af6cfc93537a2ad1a445cfd0ca2a71acd7ac41fadbf933c2a51be344d120a2a4cf30c1bf9845f20c6fe39e07ea2cce61f0c9bb048165fe5e4de8775",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 20,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/testdata/precompiles/bn256Pairing.json",
+      "vector_name": null
+    },
+    "0x08.valid": {
+      "address": "0x08",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:04.646323+00:00",
+          "request": {
+            "id": 19,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x61018061008460003960006112c0525a61010061100061018060006000600862989680505050505050505a9003611200525a61010061100061018060006000600862989680f15a90611260529003611220523d6112a0525a61010061110061018060006000600862989680f15a90611280529003611240523d6112c0526102e0611000f31c76476f4def4bb94541d57ebba1193381ffa7aa76ada664dd31c16024c43f593034dd2920f673e204fee2811c678745fc819b55d3e9d294e45c9b03a76aef41209dd15ebff5d46c4bd888e51a93cf99a7329636c63514396b4a452003a35bf704bf11ca01483bfa8b34b43561848d28905960114c8ac04049af4b6315a416782bb8324af6cfc93537a2ad1a445cfd0ca2a71acd7ac41fadbf933c2a51be344d120a2a4cf30c1bf9845f20c6fe39e07ea2cce61f0c9bb048165fe5e4de877550111e129f1cf1097710d41c4ac70fcdfa5ba2023c6ff1cbeac322de49d1b6df7c2032c61a830e3c17286de9462bf242fca2883585b93870a73853face6a6bf411198e9393920d483a7260bfb731fb5d25f1aa493335a9e71297e485b7aef312c21800deef121f1e76426a00665e5c4479674322d4f75edadd46debd5cd992f6ed090689d0585ff075ec9e99ad690c3395bc4b313370b38ef355acdadcd122975b12c85ea5db8c6deb4aab71808dcb408fe3d1e7690c43d37b4ce6cc0166fa7daa",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 19,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": null,
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "valid",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:04.646323+00:00",
+        "request": {
+          "id": 19,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x61018061008460003960006112c0525a61010061100061018060006000600862989680505050505050505a9003611200525a61010061100061018060006000600862989680f15a90611260529003611220523d6112a0525a61010061110061018060006000600862989680f15a90611280529003611240523d6112c0526102e0611000f31c76476f4def4bb94541d57ebba1193381ffa7aa76ada664dd31c16024c43f593034dd2920f673e204fee2811c678745fc819b55d3e9d294e45c9b03a76aef41209dd15ebff5d46c4bd888e51a93cf99a7329636c63514396b4a452003a35bf704bf11ca01483bfa8b34b43561848d28905960114c8ac04049af4b6315a416782bb8324af6cfc93537a2ad1a445cfd0ca2a71acd7ac41fadbf933c2a51be344d120a2a4cf30c1bf9845f20c6fe39e07ea2cce61f0c9bb048165fe5e4de877550111e129f1cf1097710d41c4ac70fcdfa5ba2023c6ff1cbeac322de49d1b6df7c2032c61a830e3c17286de9462bf242fca2883585b93870a73853face6a6bf411198e9393920d483a7260bfb731fb5d25f1aa493335a9e71297e485b7aef312c21800deef121f1e76426a00665e5c4479674322d4f75edadd46debd5cd992f6ed090689d0585ff075ec9e99ad690c3395bc4b313370b38ef355acdadcd122975b12c85ea5db8c6deb4aab71808dcb408fe3d1e7690c43d37b4ce6cc0166fa7daa",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 19,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/testdata/precompiles/bn256Pairing.json",
+      "vector_name": "jeff1"
+    },
+    "0x09.malformed": {
+      "address": "0x09",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:06.443452+00:00",
+          "request": {
+            "id": 22,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60d461008060003960006112c0525a61010061100060d460006000600962989680505050505050505a9003611200525a61010061100060d460006000600962989680f15a90611260529003611220523d6112a0525a61010061110060d460006000600962989680f15a90611280529003611240523d6112c0526102e0611000f300000c48c9bdf267e6096a3ba7ca8485ae67bb2bf894fe72f36e3cf1361d5f3af54fa5d182e6ad7f520e511f6c3e2b8c68059b6bbd41fbabd9831f79217e1319cde05b61626300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000001",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 22,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": "212-byte client invalid-length vector",
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "malformed",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:06.443452+00:00",
+        "request": {
+          "id": 22,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60d461008060003960006112c0525a61010061100060d460006000600962989680505050505050505a9003611200525a61010061100060d460006000600962989680f15a90611260529003611220523d6112a0525a61010061110060d460006000600962989680f15a90611280529003611240523d6112c0526102e0611000f300000c48c9bdf267e6096a3ba7ca8485ae67bb2bf894fe72f36e3cf1361d5f3af54fa5d182e6ad7f520e511f6c3e2b8c68059b6bbd41fbabd9831f79217e1319cde05b61626300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000001",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 22,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/testdata/precompiles/fail-blake2f.json",
+      "vector_name": null
+    },
+    "0x09.valid": {
+      "address": "0x09",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:05.832140+00:00",
+          "request": {
+            "id": 21,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60d561008060003960006112c0525a61010061100060d560006000600962989680505050505050505a9003611200525a61010061100060d560006000600962989680f15a90611260529003611220523d6112a0525a61010061110060d560006000600962989680f15a90611280529003611240523d6112c0526102e0611000f30000000c48c9bdf267e6096a3ba7ca8485ae67bb2bf894fe72f36e3cf1361d5f3af54fa5d182e6ad7f520e511f6c3e2b8c68059b6bbd41fbabd9831f79217e1319cde05b61626300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000001",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 21,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": null,
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "valid",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:05.832140+00:00",
+        "request": {
+          "id": 21,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60d561008060003960006112c0525a61010061100060d560006000600962989680505050505050505a9003611200525a61010061100060d560006000600962989680f15a90611260529003611220523d6112a0525a61010061110060d560006000600962989680f15a90611280529003611240523d6112c0526102e0611000f30000000c48c9bdf267e6096a3ba7ca8485ae67bb2bf894fe72f36e3cf1361d5f3af54fa5d182e6ad7f520e511f6c3e2b8c68059b6bbd41fbabd9831f79217e1319cde05b61626300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000001",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 21,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/testdata/precompiles/blake2F.json",
+      "vector_name": "vector 5"
+    },
+    "0x0a.malformed": {
+      "address": "0x0a",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:07.650902+00:00",
+          "request": {
+            "id": 24,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60bf61008060003960006112c0525a61010061100060bf60006000600a62989680505050505050505a9003611200525a61010061100060bf60006000600a62989680f15a90611260529003611220523d6112a0525a61010061110060bf60006000600a62989680f15a90611280529003611240523d6112c0526102e0611000f301e798154708fe7789429634053cbf9f99b619f9f084048927333fce637f549b564c0a11a0f704f4fc3e8acfe0f8245f0ad1347b378fbf96e206da11a5d3630624d25032e67a7e6a4910df5834b8fe70e6bcfeeac0352434196bdf4b2485d5a18f59a8d2a1a625a17f3fea0fe5eb8c896db3764f3185481bc22f91b4aaffcca25f26936857bc3a7c2539ea8ec3a952b7873033e038326e87ed3e1276fd140253fa08e9fc25fb2d9a98527fc22a2c9612fbeafdad446cbc7bcdbdcd780af2c1",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 24,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": "191-byte truncated proof input",
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "malformed",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:07.650902+00:00",
+        "request": {
+          "id": 24,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60bf61008060003960006112c0525a61010061100060bf60006000600a62989680505050505050505a9003611200525a61010061100060bf60006000600a62989680f15a90611260529003611220523d6112a0525a61010061110060bf60006000600a62989680f15a90611280529003611240523d6112c0526102e0611000f301e798154708fe7789429634053cbf9f99b619f9f084048927333fce637f549b564c0a11a0f704f4fc3e8acfe0f8245f0ad1347b378fbf96e206da11a5d3630624d25032e67a7e6a4910df5834b8fe70e6bcfeeac0352434196bdf4b2485d5a18f59a8d2a1a625a17f3fea0fe5eb8c896db3764f3185481bc22f91b4aaffcca25f26936857bc3a7c2539ea8ec3a952b7873033e038326e87ed3e1276fd140253fa08e9fc25fb2d9a98527fc22a2c9612fbeafdad446cbc7bcdbdcd780af2c1",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 24,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/testdata/precompiles/pointEvaluation.json",
+      "vector_name": null
+    },
+    "0x0a.valid": {
+      "address": "0x0a",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:07.056896+00:00",
+          "request": {
+            "id": 23,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60c061008060003960006112c0525a61010061100060c060006000600a62989680505050505050505a9003611200525a61010061100060c060006000600a62989680f15a90611260529003611220523d6112a0525a61010061110060c060006000600a62989680f15a90611280529003611240523d6112c0526102e0611000f301e798154708fe7789429634053cbf9f99b619f9f084048927333fce637f549b564c0a11a0f704f4fc3e8acfe0f8245f0ad1347b378fbf96e206da11a5d3630624d25032e67a7e6a4910df5834b8fe70e6bcfeeac0352434196bdf4b2485d5a18f59a8d2a1a625a17f3fea0fe5eb8c896db3764f3185481bc22f91b4aaffcca25f26936857bc3a7c2539ea8ec3a952b7873033e038326e87ed3e1276fd140253fa08e9fc25fb2d9a98527fc22a2c9612fbeafdad446cbc7bcdbdcd780af2c16a",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 23,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": null,
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "valid",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:07.056896+00:00",
+        "request": {
+          "id": 23,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60c061008060003960006112c0525a61010061100060c060006000600a62989680505050505050505a9003611200525a61010061100060c060006000600a62989680f15a90611260529003611220523d6112a0525a61010061110060c060006000600a62989680f15a90611280529003611240523d6112c0526102e0611000f301e798154708fe7789429634053cbf9f99b619f9f084048927333fce637f549b564c0a11a0f704f4fc3e8acfe0f8245f0ad1347b378fbf96e206da11a5d3630624d25032e67a7e6a4910df5834b8fe70e6bcfeeac0352434196bdf4b2485d5a18f59a8d2a1a625a17f3fea0fe5eb8c896db3764f3185481bc22f91b4aaffcca25f26936857bc3a7c2539ea8ec3a952b7873033e038326e87ed3e1276fd140253fa08e9fc25fb2d9a98527fc22a2c9612fbeafdad446cbc7bcdbdcd780af2c16a",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 23,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/testdata/precompiles/pointEvaluation.json",
+      "vector_name": "pointEvaluation1"
+    },
+    "0x0b.malformed": {
+      "address": "0x0b",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:08.827268+00:00",
+          "request": {
+            "id": 26,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x600061008060003960006112c0525a610100611000600060006000600b62989680505050505050505a9003611200525a610100611000600060006000600b62989680f15a90611260529003611220523d6112a0525a610100611100600060006000600b62989680f15a90611280529003611240523d6112c0526102e0611000f3",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 26,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": "client-test empty input; invalid length for this BLS operation",
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "malformed",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:08.827268+00:00",
+        "request": {
+          "id": 26,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x600061008060003960006112c0525a610100611000600060006000600b62989680505050505050505a9003611200525a610100611000600060006000600b62989680f15a90611260529003611220523d6112a0525a610100611100600060006000600b62989680f15a90611280529003611240523d6112c0526102e0611000f3",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 26,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/execution-spec-tests/blob/10eaa63d5da2f50b63d4359968f36542212f9f50/tests/prague/eip2537_bls_12_381_precompiles/vectors/fail-add_G1_bls.json",
+      "vector_name": null
+    },
+    "0x0b.valid": {
+      "address": "0x0b",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:08.247380+00:00",
+          "request": {
+            "id": 25,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x61010061008460003960006112c0525a61010061100061010060006000600b62989680505050505050505a9003611200525a61010061100061010060006000600b62989680f15a90611260529003611220523d6112a0525a61010061110061010060006000600b62989680f15a90611280529003611240523d6112c0526102e0611000f30000000000000000000000000000000017f1d3a73197d7942695638c4fa9ac0fc3688c4f9774b905a14e3a3f171bac586c55e83ff97a1aeffb3af00adb22c6bb0000000000000000000000000000000008b3f481e3aaa0f1a09e30ed741d8ae4fcf5e095d5d00af600db18cb2c04b3edd03cc744a2888ae40caa232946c5e7e100000000000000000000000000000000112b98340eee2777cc3c14163dea3ec97977ac3dc5c70da32e6e87578f44912e902ccef9efe28d4a78b8999dfbca942600000000000000000000000000000000186b28d92356c4dfec4b5201ad099dbdede3781f8998ddf929b4cd7756192185ca7b8f4ef7088f813270ac3d48868a21",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 25,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": null,
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "valid",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:08.247380+00:00",
+        "request": {
+          "id": 25,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x61010061008460003960006112c0525a61010061100061010060006000600b62989680505050505050505a9003611200525a61010061100061010060006000600b62989680f15a90611260529003611220523d6112a0525a61010061110061010060006000600b62989680f15a90611280529003611240523d6112c0526102e0611000f30000000000000000000000000000000017f1d3a73197d7942695638c4fa9ac0fc3688c4f9774b905a14e3a3f171bac586c55e83ff97a1aeffb3af00adb22c6bb0000000000000000000000000000000008b3f481e3aaa0f1a09e30ed741d8ae4fcf5e095d5d00af600db18cb2c04b3edd03cc744a2888ae40caa232946c5e7e100000000000000000000000000000000112b98340eee2777cc3c14163dea3ec97977ac3dc5c70da32e6e87578f44912e902ccef9efe28d4a78b8999dfbca942600000000000000000000000000000000186b28d92356c4dfec4b5201ad099dbdede3781f8998ddf929b4cd7756192185ca7b8f4ef7088f813270ac3d48868a21",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 25,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/execution-spec-tests/blob/10eaa63d5da2f50b63d4359968f36542212f9f50/tests/prague/eip2537_bls_12_381_precompiles/vectors/add_G1_bls.json",
+      "vector_name": "bls_g1add_g1+p1"
+    },
+    "0x0c.malformed": {
+      "address": "0x0c",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:10.049340+00:00",
+          "request": {
+            "id": 28,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x600061008060003960006112c0525a610100611000600060006000600c62989680505050505050505a9003611200525a610100611000600060006000600c62989680f15a90611260529003611220523d6112a0525a610100611100600060006000600c62989680f15a90611280529003611240523d6112c0526102e0611000f3",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 28,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": "client-test empty input; invalid length for this BLS operation",
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "malformed",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:10.049340+00:00",
+        "request": {
+          "id": 28,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x600061008060003960006112c0525a610100611000600060006000600c62989680505050505050505a9003611200525a610100611000600060006000600c62989680f15a90611260529003611220523d6112a0525a610100611100600060006000600c62989680f15a90611280529003611240523d6112c0526102e0611000f3",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 28,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/execution-spec-tests/blob/10eaa63d5da2f50b63d4359968f36542212f9f50/tests/prague/eip2537_bls_12_381_precompiles/vectors/fail-msm_G1_bls.json",
+      "vector_name": null
+    },
+    "0x0c.valid": {
+      "address": "0x0c",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:09.426552+00:00",
+          "request": {
+            "id": 27,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60a061008060003960006112c0525a61010061100060a060006000600c62989680505050505050505a9003611200525a61010061100060a060006000600c62989680f15a90611260529003611220523d6112a0525a61010061110060a060006000600c62989680f15a90611280529003611240523d6112c0526102e0611000f30000000000000000000000000000000017f1d3a73197d7942695638c4fa9ac0fc3688c4f9774b905a14e3a3f171bac586c55e83ff97a1aeffb3af00adb22c6bb0000000000000000000000000000000008b3f481e3aaa0f1a09e30ed741d8ae4fcf5e095d5d00af600db18cb2c04b3edd03cc744a2888ae40caa232946c5e7e10000000000000000000000000000000000000000000000000000000000000002",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 27,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": null,
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "valid",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:09.426552+00:00",
+        "request": {
+          "id": 27,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60a061008060003960006112c0525a61010061100060a060006000600c62989680505050505050505a9003611200525a61010061100060a060006000600c62989680f15a90611260529003611220523d6112a0525a61010061110060a060006000600c62989680f15a90611280529003611240523d6112c0526102e0611000f30000000000000000000000000000000017f1d3a73197d7942695638c4fa9ac0fc3688c4f9774b905a14e3a3f171bac586c55e83ff97a1aeffb3af00adb22c6bb0000000000000000000000000000000008b3f481e3aaa0f1a09e30ed741d8ae4fcf5e095d5d00af600db18cb2c04b3edd03cc744a2888ae40caa232946c5e7e10000000000000000000000000000000000000000000000000000000000000002",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 27,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/execution-spec-tests/blob/10eaa63d5da2f50b63d4359968f36542212f9f50/tests/prague/eip2537_bls_12_381_precompiles/vectors/msm_G1_bls.json",
+      "vector_name": "bls_g1msm_(g1+g1=2*g1)"
+    },
+    "0x0d.malformed": {
+      "address": "0x0d",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:11.238206+00:00",
+          "request": {
+            "id": 30,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x600061008060003960006112c0525a610100611000600060006000600d62989680505050505050505a9003611200525a610100611000600060006000600d62989680f15a90611260529003611220523d6112a0525a610100611100600060006000600d62989680f15a90611280529003611240523d6112c0526102e0611000f3",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 30,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": "client-test empty input; invalid length for this BLS operation",
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "malformed",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:11.238206+00:00",
+        "request": {
+          "id": 30,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x600061008060003960006112c0525a610100611000600060006000600d62989680505050505050505a9003611200525a610100611000600060006000600d62989680f15a90611260529003611220523d6112a0525a610100611100600060006000600d62989680f15a90611280529003611240523d6112c0526102e0611000f3",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 30,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/execution-spec-tests/blob/10eaa63d5da2f50b63d4359968f36542212f9f50/tests/prague/eip2537_bls_12_381_precompiles/vectors/fail-add_G2_bls.json",
+      "vector_name": null
+    },
+    "0x0d.valid": {
+      "address": "0x0d",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:10.628771+00:00",
+          "request": {
+            "id": 29,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x61020061008460003960006112c0525a61010061100061020060006000600d62989680505050505050505a9003611200525a61010061100061020060006000600d62989680f15a90611260529003611220523d6112a0525a61010061110061020060006000600d62989680f15a90611280529003611240523d6112c0526102e0611000f300000000000000000000000000000000024aa2b2f08f0a91260805272dc51051c6e47ad4fa403b02b4510b647ae3d1770bac0326a805bbefd48056c8c121bdb80000000000000000000000000000000013e02b6052719f607dacd3a088274f65596bd0d09920b61ab5da61bbdc7f5049334cf11213945d57e5ac7d055d042b7e000000000000000000000000000000000ce5d527727d6e118cc9cdc6da2e351aadfd9baa8cbdd3a76d429a695160d12c923ac9cc3baca289e193548608b82801000000000000000000000000000000000606c4a02ea734cc32acd2b02bc28b99cb3e287e85a763af267492ab572e99ab3f370d275cec1da1aaa9075ff05f79be00000000000000000000000000000000103121a2ceaae586d240843a398967325f8eb5a93e8fea99b62b9f88d8556c80dd726a4b30e84a36eeabaf3592937f2700000000000000000000000000000000086b990f3da2aeac0a36143b7d7c824428215140db1bb859338764cb58458f081d92664f9053b50b3fbd2e4723121b68000000000000000000000000000000000f9e7ba9a86a8f7624aa2b42dcc8772e1af4ae115685e60abc2c9b90242167acef3d0be4050bf935eed7c3b6fc7ba77e000000000000000000000000000000000d22c3652d0dc6f0fc9316e14268477c2049ef772e852108d269d9c38dba1d4802e8dae479818184c08f9a569d878451",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 29,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": null,
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "valid",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:10.628771+00:00",
+        "request": {
+          "id": 29,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x61020061008460003960006112c0525a61010061100061020060006000600d62989680505050505050505a9003611200525a61010061100061020060006000600d62989680f15a90611260529003611220523d6112a0525a61010061110061020060006000600d62989680f15a90611280529003611240523d6112c0526102e0611000f300000000000000000000000000000000024aa2b2f08f0a91260805272dc51051c6e47ad4fa403b02b4510b647ae3d1770bac0326a805bbefd48056c8c121bdb80000000000000000000000000000000013e02b6052719f607dacd3a088274f65596bd0d09920b61ab5da61bbdc7f5049334cf11213945d57e5ac7d055d042b7e000000000000000000000000000000000ce5d527727d6e118cc9cdc6da2e351aadfd9baa8cbdd3a76d429a695160d12c923ac9cc3baca289e193548608b82801000000000000000000000000000000000606c4a02ea734cc32acd2b02bc28b99cb3e287e85a763af267492ab572e99ab3f370d275cec1da1aaa9075ff05f79be00000000000000000000000000000000103121a2ceaae586d240843a398967325f8eb5a93e8fea99b62b9f88d8556c80dd726a4b30e84a36eeabaf3592937f2700000000000000000000000000000000086b990f3da2aeac0a36143b7d7c824428215140db1bb859338764cb58458f081d92664f9053b50b3fbd2e4723121b68000000000000000000000000000000000f9e7ba9a86a8f7624aa2b42dcc8772e1af4ae115685e60abc2c9b90242167acef3d0be4050bf935eed7c3b6fc7ba77e000000000000000000000000000000000d22c3652d0dc6f0fc9316e14268477c2049ef772e852108d269d9c38dba1d4802e8dae479818184c08f9a569d878451",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 29,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/execution-spec-tests/blob/10eaa63d5da2f50b63d4359968f36542212f9f50/tests/prague/eip2537_bls_12_381_precompiles/vectors/add_G2_bls.json",
+      "vector_name": "bls_g2add_g2+p2"
+    },
+    "0x0e.malformed": {
+      "address": "0x0e",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:12.451259+00:00",
+          "request": {
+            "id": 32,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x600061008060003960006112c0525a610100611000600060006000600e62989680505050505050505a9003611200525a610100611000600060006000600e62989680f15a90611260529003611220523d6112a0525a610100611100600060006000600e62989680f15a90611280529003611240523d6112c0526102e0611000f3",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 32,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": "client-test empty input; invalid length for this BLS operation",
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "malformed",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:12.451259+00:00",
+        "request": {
+          "id": 32,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x600061008060003960006112c0525a610100611000600060006000600e62989680505050505050505a9003611200525a610100611000600060006000600e62989680f15a90611260529003611220523d6112a0525a610100611100600060006000600e62989680f15a90611280529003611240523d6112c0526102e0611000f3",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 32,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/execution-spec-tests/blob/10eaa63d5da2f50b63d4359968f36542212f9f50/tests/prague/eip2537_bls_12_381_precompiles/vectors/fail-msm_G2_bls.json",
+      "vector_name": null
+    },
+    "0x0e.valid": {
+      "address": "0x0e",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:11.831330+00:00",
+          "request": {
+            "id": 31,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x61012061008460003960006112c0525a61010061100061012060006000600e62989680505050505050505a9003611200525a61010061100061012060006000600e62989680f15a90611260529003611220523d6112a0525a61010061110061012060006000600e62989680f15a90611280529003611240523d6112c0526102e0611000f300000000000000000000000000000000024aa2b2f08f0a91260805272dc51051c6e47ad4fa403b02b4510b647ae3d1770bac0326a805bbefd48056c8c121bdb80000000000000000000000000000000013e02b6052719f607dacd3a088274f65596bd0d09920b61ab5da61bbdc7f5049334cf11213945d57e5ac7d055d042b7e000000000000000000000000000000000ce5d527727d6e118cc9cdc6da2e351aadfd9baa8cbdd3a76d429a695160d12c923ac9cc3baca289e193548608b82801000000000000000000000000000000000606c4a02ea734cc32acd2b02bc28b99cb3e287e85a763af267492ab572e99ab3f370d275cec1da1aaa9075ff05f79be0000000000000000000000000000000000000000000000000000000000000002",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 31,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": null,
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "valid",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:11.831330+00:00",
+        "request": {
+          "id": 31,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x61012061008460003960006112c0525a61010061100061012060006000600e62989680505050505050505a9003611200525a61010061100061012060006000600e62989680f15a90611260529003611220523d6112a0525a61010061110061012060006000600e62989680f15a90611280529003611240523d6112c0526102e0611000f300000000000000000000000000000000024aa2b2f08f0a91260805272dc51051c6e47ad4fa403b02b4510b647ae3d1770bac0326a805bbefd48056c8c121bdb80000000000000000000000000000000013e02b6052719f607dacd3a088274f65596bd0d09920b61ab5da61bbdc7f5049334cf11213945d57e5ac7d055d042b7e000000000000000000000000000000000ce5d527727d6e118cc9cdc6da2e351aadfd9baa8cbdd3a76d429a695160d12c923ac9cc3baca289e193548608b82801000000000000000000000000000000000606c4a02ea734cc32acd2b02bc28b99cb3e287e85a763af267492ab572e99ab3f370d275cec1da1aaa9075ff05f79be0000000000000000000000000000000000000000000000000000000000000002",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 31,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/execution-spec-tests/blob/10eaa63d5da2f50b63d4359968f36542212f9f50/tests/prague/eip2537_bls_12_381_precompiles/vectors/msm_G2_bls.json",
+      "vector_name": "bls_g2msm_(g2+g2=2*g2)"
+    },
+    "0x0f.malformed": {
+      "address": "0x0f",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:13.631336+00:00",
+          "request": {
+            "id": 34,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x600061008060003960006112c0525a610100611000600060006000600f62989680505050505050505a9003611200525a610100611000600060006000600f62989680f15a90611260529003611220523d6112a0525a610100611100600060006000600f62989680f15a90611280529003611240523d6112c0526102e0611000f3",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 34,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": "client-test empty input; invalid length for this BLS operation",
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "malformed",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:13.631336+00:00",
+        "request": {
+          "id": 34,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x600061008060003960006112c0525a610100611000600060006000600f62989680505050505050505a9003611200525a610100611000600060006000600f62989680f15a90611260529003611220523d6112a0525a610100611100600060006000600f62989680f15a90611280529003611240523d6112c0526102e0611000f3",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 34,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/execution-spec-tests/blob/10eaa63d5da2f50b63d4359968f36542212f9f50/tests/prague/eip2537_bls_12_381_precompiles/vectors/fail-pairing_check_bls.json",
+      "vector_name": null
+    },
+    "0x0f.valid": {
+      "address": "0x0f",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:13.048869+00:00",
+          "request": {
+            "id": 33,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x61030061008460003960006112c0525a61010061100061030060006000600f62989680505050505050505a9003611200525a61010061100061030060006000600f62989680f15a90611260529003611220523d6112a0525a61010061110061030060006000600f62989680f15a90611280529003611240523d6112c0526102e0611000f30000000000000000000000000000000017f1d3a73197d7942695638c4fa9ac0fc3688c4f9774b905a14e3a3f171bac586c55e83ff97a1aeffb3af00adb22c6bb0000000000000000000000000000000008b3f481e3aaa0f1a09e30ed741d8ae4fcf5e095d5d00af600db18cb2c04b3edd03cc744a2888ae40caa232946c5e7e100000000000000000000000000000000024aa2b2f08f0a91260805272dc51051c6e47ad4fa403b02b4510b647ae3d1770bac0326a805bbefd48056c8c121bdb80000000000000000000000000000000013e02b6052719f607dacd3a088274f65596bd0d09920b61ab5da61bbdc7f5049334cf11213945d57e5ac7d055d042b7e000000000000000000000000000000000ce5d527727d6e118cc9cdc6da2e351aadfd9baa8cbdd3a76d429a695160d12c923ac9cc3baca289e193548608b82801000000000000000000000000000000000606c4a02ea734cc32acd2b02bc28b99cb3e287e85a763af267492ab572e99ab3f370d275cec1da1aaa9075ff05f79be0000000000000000000000000000000017f1d3a73197d7942695638c4fa9ac0fc3688c4f9774b905a14e3a3f171bac586c55e83ff97a1aeffb3af00adb22c6bb0000000000000000000000000000000008b3f481e3aaa0f1a09e30ed741d8ae4fcf5e095d5d00af600db18cb2c04b3edd03cc744a2888ae40caa232946c5e7e100000000000000000000000000000000024aa2b2f08f0a91260805272dc51051c6e47ad4fa403b02b4510b647ae3d1770bac0326a805bbefd48056c8c121bdb80000000000000000000000000000000013e02b6052719f607dacd3a088274f65596bd0d09920b61ab5da61bbdc7f5049334cf11213945d57e5ac7d055d042b7e000000000000000000000000000000000d1b3cc2c7027888be51d9ef691d77bcb679afda66c73f17f9ee3837a55024f78c71363275a75d75d86bab79f74782aa0000000000000000000000000000000013fa4d4a0ad8b1ce186ed5061789213d993923066dddaf1040bc3ff59f825c78df74f2d75467e25e0f55f8a00fa030ed",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 33,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": null,
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "valid",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:13.048869+00:00",
+        "request": {
+          "id": 33,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x61030061008460003960006112c0525a61010061100061030060006000600f62989680505050505050505a9003611200525a61010061100061030060006000600f62989680f15a90611260529003611220523d6112a0525a61010061110061030060006000600f62989680f15a90611280529003611240523d6112c0526102e0611000f30000000000000000000000000000000017f1d3a73197d7942695638c4fa9ac0fc3688c4f9774b905a14e3a3f171bac586c55e83ff97a1aeffb3af00adb22c6bb0000000000000000000000000000000008b3f481e3aaa0f1a09e30ed741d8ae4fcf5e095d5d00af600db18cb2c04b3edd03cc744a2888ae40caa232946c5e7e100000000000000000000000000000000024aa2b2f08f0a91260805272dc51051c6e47ad4fa403b02b4510b647ae3d1770bac0326a805bbefd48056c8c121bdb80000000000000000000000000000000013e02b6052719f607dacd3a088274f65596bd0d09920b61ab5da61bbdc7f5049334cf11213945d57e5ac7d055d042b7e000000000000000000000000000000000ce5d527727d6e118cc9cdc6da2e351aadfd9baa8cbdd3a76d429a695160d12c923ac9cc3baca289e193548608b82801000000000000000000000000000000000606c4a02ea734cc32acd2b02bc28b99cb3e287e85a763af267492ab572e99ab3f370d275cec1da1aaa9075ff05f79be0000000000000000000000000000000017f1d3a73197d7942695638c4fa9ac0fc3688c4f9774b905a14e3a3f171bac586c55e83ff97a1aeffb3af00adb22c6bb0000000000000000000000000000000008b3f481e3aaa0f1a09e30ed741d8ae4fcf5e095d5d00af600db18cb2c04b3edd03cc744a2888ae40caa232946c5e7e100000000000000000000000000000000024aa2b2f08f0a91260805272dc51051c6e47ad4fa403b02b4510b647ae3d1770bac0326a805bbefd48056c8c121bdb80000000000000000000000000000000013e02b6052719f607dacd3a088274f65596bd0d09920b61ab5da61bbdc7f5049334cf11213945d57e5ac7d055d042b7e000000000000000000000000000000000d1b3cc2c7027888be51d9ef691d77bcb679afda66c73f17f9ee3837a55024f78c71363275a75d75d86bab79f74782aa0000000000000000000000000000000013fa4d4a0ad8b1ce186ed5061789213d993923066dddaf1040bc3ff59f825c78df74f2d75467e25e0f55f8a00fa030ed",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 33,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/execution-spec-tests/blob/10eaa63d5da2f50b63d4359968f36542212f9f50/tests/prague/eip2537_bls_12_381_precompiles/vectors/pairing_check_bls.json",
+      "vector_name": "bls_pairing_e(G1,G2)*e(G1,-G2)=1"
+    },
+    "0x10.malformed": {
+      "address": "0x10",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:14.843581+00:00",
+          "request": {
+            "id": 36,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x600061008060003960006112c0525a610100611000600060006000601062989680505050505050505a9003611200525a610100611000600060006000601062989680f15a90611260529003611220523d6112a0525a610100611100600060006000601062989680f15a90611280529003611240523d6112c0526102e0611000f3",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 36,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": "client-test empty input; invalid length for this BLS operation",
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "malformed",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:14.843581+00:00",
+        "request": {
+          "id": 36,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x600061008060003960006112c0525a610100611000600060006000601062989680505050505050505a9003611200525a610100611000600060006000601062989680f15a90611260529003611220523d6112a0525a610100611100600060006000601062989680f15a90611280529003611240523d6112c0526102e0611000f3",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 36,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/execution-spec-tests/blob/10eaa63d5da2f50b63d4359968f36542212f9f50/tests/prague/eip2537_bls_12_381_precompiles/vectors/fail-map_fp_to_G1_bls.json",
+      "vector_name": null
+    },
+    "0x10.valid": {
+      "address": "0x10",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:14.252958+00:00",
+          "request": {
+            "id": 35,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x604061008060003960006112c0525a610100611000604060006000601062989680505050505050505a9003611200525a610100611000604060006000601062989680f15a90611260529003611220523d6112a0525a610100611100604060006000601062989680f15a90611280529003611240523d6112c0526102e0611000f300000000000000000000000000000000147e1ed29f06e4c5079b9d14fc89d2820d32419b990c1c7bb7dbea2a36a045124b31ffbde7c99329c05c559af1c6cc82",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 35,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": null,
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "valid",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:14.252958+00:00",
+        "request": {
+          "id": 35,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x604061008060003960006112c0525a610100611000604060006000601062989680505050505050505a9003611200525a610100611000604060006000601062989680f15a90611260529003611220523d6112a0525a610100611100604060006000601062989680f15a90611280529003611240523d6112c0526102e0611000f300000000000000000000000000000000147e1ed29f06e4c5079b9d14fc89d2820d32419b990c1c7bb7dbea2a36a045124b31ffbde7c99329c05c559af1c6cc82",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 35,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/execution-spec-tests/blob/10eaa63d5da2f50b63d4359968f36542212f9f50/tests/prague/eip2537_bls_12_381_precompiles/vectors/map_fp_to_G1_bls.json",
+      "vector_name": "bls_g1map_616263"
+    },
+    "0x100.malformed": {
+      "address": "0x100",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:16.060795+00:00",
+          "request": {
+            "id": 38,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x609f61008360003960006112c0525a610100611000609f6000600061010062989680505050505050505a9003611200525a610100611000609f6000600061010062989680f15a90611260529003611220523d6112a0525a610100611100609f6000600061010062989680f15a90611280529003611240523d6112c0526102e0611000f34cee90eb86eaa050036147a12d49004b6b9c72bd725d39d4785011fe190f0b4da73bd4903f0ce3b639bbbf6e8e80d16931ff4bcf5993d58468e8fb19086e8cac36dbcd03009df8c59286b162af3bd7fcc0450c9aa81be5d10d312af6c66b1d604aebd3099c618202fcfe16ae7770b0c49ab5eadf74b754204a3bb6060e44eff37618b065f9832de4ca6ca971a7a1adc826d0f7c00181a5fb2ddf79ae00b4e1",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 38,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": "159-byte truncated signature input",
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "malformed",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:16.060795+00:00",
+        "request": {
+          "id": 38,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x609f61008360003960006112c0525a610100611000609f6000600061010062989680505050505050505a9003611200525a610100611000609f6000600061010062989680f15a90611260529003611220523d6112a0525a610100611100609f6000600061010062989680f15a90611280529003611240523d6112c0526102e0611000f34cee90eb86eaa050036147a12d49004b6b9c72bd725d39d4785011fe190f0b4da73bd4903f0ce3b639bbbf6e8e80d16931ff4bcf5993d58468e8fb19086e8cac36dbcd03009df8c59286b162af3bd7fcc0450c9aa81be5d10d312af6c66b1d604aebd3099c618202fcfe16ae7770b0c49ab5eadf74b754204a3bb6060e44eff37618b065f9832de4ca6ca971a7a1adc826d0f7c00181a5fb2ddf79ae00b4e1",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 38,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/testdata/precompiles/p256Verify.json",
+      "vector_name": null
+    },
+    "0x100.valid": {
+      "address": "0x100",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:15.458125+00:00",
+          "request": {
+            "id": 37,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60a061008360003960006112c0525a61010061100060a06000600061010062989680505050505050505a9003611200525a61010061100060a06000600061010062989680f15a90611260529003611220523d6112a0525a61010061110060a06000600061010062989680f15a90611280529003611240523d6112c0526102e0611000f34cee90eb86eaa050036147a12d49004b6b9c72bd725d39d4785011fe190f0b4da73bd4903f0ce3b639bbbf6e8e80d16931ff4bcf5993d58468e8fb19086e8cac36dbcd03009df8c59286b162af3bd7fcc0450c9aa81be5d10d312af6c66b1d604aebd3099c618202fcfe16ae7770b0c49ab5eadf74b754204a3bb6060e44eff37618b065f9832de4ca6ca971a7a1adc826d0f7c00181a5fb2ddf79ae00b4e10e",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 37,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": null,
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "valid",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:15.458125+00:00",
+        "request": {
+          "id": 37,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60a061008360003960006112c0525a61010061100060a06000600061010062989680505050505050505a9003611200525a61010061100060a06000600061010062989680f15a90611260529003611220523d6112a0525a61010061110060a06000600061010062989680f15a90611280529003611240523d6112c0526102e0611000f34cee90eb86eaa050036147a12d49004b6b9c72bd725d39d4785011fe190f0b4da73bd4903f0ce3b639bbbf6e8e80d16931ff4bcf5993d58468e8fb19086e8cac36dbcd03009df8c59286b162af3bd7fcc0450c9aa81be5d10d312af6c66b1d604aebd3099c618202fcfe16ae7770b0c49ab5eadf74b754204a3bb6060e44eff37618b065f9832de4ca6ca971a7a1adc826d0f7c00181a5fb2ddf79ae00b4e10e",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 37,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/go-ethereum/blob/943517bd622a05c70185e5154916aff43b1964d8/core/vm/testdata/precompiles/p256Verify.json",
+      "vector_name": "CallP256Verify"
+    },
+    "0x11.malformed": {
+      "address": "0x11",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:17.234200+00:00",
+          "request": {
+            "id": 40,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x600061008060003960006112c0525a610100611000600060006000601162989680505050505050505a9003611200525a610100611000600060006000601162989680f15a90611260529003611220523d6112a0525a610100611100600060006000601162989680f15a90611280529003611240523d6112c0526102e0611000f3",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 40,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": "client-test empty input; invalid length for this BLS operation",
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "malformed",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:17.234200+00:00",
+        "request": {
+          "id": 40,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x600061008060003960006112c0525a610100611000600060006000601162989680505050505050505a9003611200525a610100611000600060006000601162989680f15a90611260529003611220523d6112a0525a610100611100600060006000601162989680f15a90611280529003611240523d6112c0526102e0611000f3",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 40,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/execution-spec-tests/blob/10eaa63d5da2f50b63d4359968f36542212f9f50/tests/prague/eip2537_bls_12_381_precompiles/vectors/fail-map_fp2_to_G2_bls.json",
+      "vector_name": null
+    },
+    "0x11.valid": {
+      "address": "0x11",
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:54:16.650121+00:00",
+          "request": {
+            "id": 39,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x608061008060003960006112c0525a610100611000608060006000601162989680505050505050505a9003611200525a610100611000608060006000601162989680f15a90611260529003611220523d6112a0525a610100611100608060006000601162989680f15a90611280529003611240523d6112c0526102e0611000f300000000000000000000000000000000138879a9559e24cecee8697b8b4ad32cced053138ab913b99872772dc753a2967ed50aabc907937aefb2439ba06cc50c000000000000000000000000000000000a1ae7999ea9bab1dcc9ef8887a6cb6e8f1e22566015428d220b7eec90ffa70ad1f624018a9ad11e78d588bd3617f9f2",
+                "gas": "0x1c9c380"
+              },
+              "latest"
+            ]
+          },
+          "response": {
+            "body": {
+              "error": {
+                "code": -32602,
+                "data": "{}",
+                "message": "invalid address"
+              },
+              "id": 39,
+              "jsonrpc": "2.0"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "latest",
+      "description": null,
+      "interpretation": {
+        "error": {
+          "code": -32602,
+          "data": "{}",
+          "message": "invalid address"
+        },
+        "status": "rpc-rejected"
+      },
+      "kind": "valid",
+      "raw": {
+        "observed_at": "2026-10-20T02:54:16.650121+00:00",
+        "request": {
+          "id": 39,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x608061008060003960006112c0525a610100611000608060006000601162989680505050505050505a9003611200525a610100611000608060006000601162989680f15a90611260529003611220523d6112a0525a610100611100608060006000601162989680f15a90611280529003611240523d6112c0526102e0611000f300000000000000000000000000000000138879a9559e24cecee8697b8b4ad32cced053138ab913b99872772dc753a2967ed50aabc907937aefb2439ba06cc50c000000000000000000000000000000000a1ae7999ea9bab1dcc9ef8887a6cb6e8f1e22566015428d220b7eec90ffa70ad1f624018a9ad11e78d588bd3617f9f2",
+              "gas": "0x1c9c380"
+            },
+            "latest"
+          ]
+        },
+        "response": {
+          "body": {
+            "error": {
+              "code": -32602,
+              "data": "{}",
+              "message": "invalid address"
+            },
+            "id": 39,
+            "jsonrpc": "2.0"
+          },
+          "http_status": 200
+        }
+      },
+      "source": "https://github.com/ethereum/execution-spec-tests/blob/10eaa63d5da2f50b63d4359968f36542212f9f50/tests/prague/eip2537_bls_12_381_precompiles/vectors/map_fp2_to_G2_bls.json",
+      "vector_name": "bls_g2map_616263"
+    }
+  },
+  "chain": "tron",
+  "context": {
+    "eth_blockNumber": {
+      "observed_at": "2026-10-20T02:53:54.433057+00:00",
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0x5338ab8"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "observed_at": "2026-10-20T02:53:53.915228+00:00",
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0x2b6653dc"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "observed_at": "2026-10-20T02:53:55.125366+00:00",
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x5338ab8",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0x0",
+            "difficulty": "0x0",
+            "extraData": "0x",
+            "gasLimit": "0x139a261b5",
+            "gasUsed": "0x421686",
+            "hash": "0x0000000005338ab8c305022fdfd50f74ebe652ec50b385f4110ef700b58505e0",
+            "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "miner": "0x022939a4a06cbc7b384096c1af8657ec435173af",
+            "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "nonce": "0x0000000000000000",
+            "number": "0x5338ab8",
+            "parentHash": "0x0000000005338ab75dbd7d4c8a0c550267673e059bd87cd7e5ae130401736b82",
+            "receiptsRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "sha3Uncles": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "size": "0xfd4a",
+            "stateRoot": "0x",
+            "timestamp": "0x6ad6d7bf",
+            "totalDifficulty": "0x0",
+            "transactions": [
+              "0x2fa5c84fb584d7c4401bb699df646c3405fbd2429dc8711fbf493a174dfa2848",
+              "0xdbb0141940da69a4d50e3ad6ec4e06f40097c068019b9e7d58edef3eff17c2c7",
+              "0x3e47fe06c550fe029d16d25cfb0785ed1c76fcacb5911dc3731cba72a0ed41e0",
+              "0x252008429d86112df4ed308e7df8a06877833a300c0b729e329ad8cbbd9a568b",
+              "0x9623343dda439dc3d4e3753700b91fd46c2528f4737769a72aaff419c670a559",
+              "0xed78d63f61005be7e3e41e0c33d1e72a44ae27b7a88c2d52ee820708e0eccc05",
+              "0x87ba1d5b5cf9b76036735d055fd00d021aa78acb84d56d822f827af7254a1a26",
+              "0x5c1a4bcfeb2c556cdfbd8f306503c897f289cc266f0a8fa3d71a64865195cc43",
+              "0xdf07422e2da0be9c65ebbfeebc31807926725b36bb7da8d0b70aecb2940e56e9",
+              "0xec92610aeb7fcee17fae8008b18182db87d4d2e3595c159ca244af87e92c1c86",
+              "0xed6a57bfb30ea64db550a0234c1cce951b4dc2b726d4dc930b52cca836f04f74",
+              "0x917c5e57bd34f40080e92dd83fb424318f1a773f002b537693a24981acdaa476",
+              "0xfe4f6ecf84fb47ee92c925ef02b132aadf8b9bc149ebafbe8dfb602e1043b825",
+              "0xe34ee97acc596ccf07e03e21da8d551370d9dda0972ec66e60742d5959c978a8",
+              "0xd2ca74ec9633d0684ed60840444827db36ef2c23bde16f93e009e5d8cbc3a1a5",
+              "0xd8f4d4b13c10774d7b65e1b140ff697e229f025fa57ea787858ea7b0c89b1ba2",
+              "0x67c765ee195e2e2053f83007650fa5d35ad073453842bea8c22e117fefb298a2",
+              "0x7182247135e2c9672c4c4508936476a952e76c4e7ad9e0673886975f71b50a17",
+              "0xd76b787e0dc60fbf375e6ec196967a8452cffa05545e7ddc9882b3ce36095d63",
+              "0x93abba30a83531b1626aeacb4a75a3cfcbb2a9a4017d27c2052ca5ddd3bc798a",
+              "0x7ad74fda0e7276d00b72ef5b6353c22fee8ee6f713ef09228cce98b68b329ce2",
+              "0x36563b98febf599a86bab60ca504b00c0f2c30b7af82e8e87a868fd507aa4eb7",
+              "0xe104c9cb58e260d4ba32d2d1a92fb8b41133fbf6af8770c1d15b931bfa2f9341",
+              "0x67fdd0dbd7d79875f0678aed6768063b6e2fbc8dac6c272fde5fdba0f86d0024",
+              "0x0eb7933f7a89955206979698126c5796edd3eda3282d47ce31b3d1701122eff3",
+              "0xe550dcb573dac0bf0b3ed7b8888b1a4199dc874a7c2a1d914bf4174f3fda8c84",
+              "0xb8b5faec2f8dd590485511b4b65942eaf1a69484717e26da2e2a94204b06777c",
+              "0x5f499f387d08f28e485b2a1cbeb0a3903b8a85ec0615e458e5167ee4b891d651",
+              "0x3d12550e4de4eb66ae48d6b6e691c6a80bf072966db3c429a664ee5e8f20bf8a",
+              "0xc22806558e4dff77161a30884d1b5e06ef7d5c519965b3e809c67b8f776628c5",
+              "0xdb51901e804e736281701c5eafdcafb84a219ea1fd65850a71c438cac2944a98",
+              "0x37ec1e49db6498f493c63685d145cdaf1fa552abc811372dcaef1f19d0a7cd83",
+              "0x618ccf14ba81dd25091002881faab7bd82883056e6d27f8372243238468c3075",
+              "0x9cf684650446520ae94f744103fe1f87c0d76638c64341af3e1ecd4f55a7e59b",
+              "0x49073352b766e4f175f74aab0ef1378cf8fb2e7970d5f35d9185884a8b764deb",
+              "0xd9309354fc7a8649a3eeb09657e8763011f6cc26f067ce42a0d250ad07bbd435",
+              "0x6e1046ce877e6f99213160a036e3d2e874d14a18a2cfaaa1b0beba3ce6a35551",
+              "0xa346da1f7b42a9d74a00f8eac61208cb8dc886398ce438cca56eb1bf628c6af6",
+              "0x8c993cc5eda6dda11fefa396e9d71079ed4324a080fad23a6ccebe91e2acb711",
+              "0xfb271cb5002a102948e22f002247452ac1532841638a80eb8e6a12a49bae7acc",
+              "0xf333a98f96a5d11e91c8f36212cc6091c04b52d1f163c783f1c4750ce443bea0",
+              "0x9e67db1f2abc4787bb38d2d59cfd6ec0b0815c5b0f2d36620a8986887a07c05b",
+              "0x20d06b075b3a6f9f9475f2ee91b4f0942832f669485fd12aadc0d0961070f61a",
+              "0xb4234ed29ff6d4d4d22c2b69f14195ad0ba74293a2b4839f7cfbf0b74fedd0c7",
+              "0xc093f75d991f3ec677c3e830e5414c606194af58548b21966f69f039be5e1a14",
+              "0xa2b081760919bc730064a39ef41571d1b588972d30776783474aa310b7bbc765",
+              "0x4c24f82dc13e579b564e1a82fec1d428ef79ebe448b0a55364474ba65ffd4275",
+              "0xeb74f29c731a1401660aa51a95ca659a14970dfbd81152b544ea13aa083ee2e5",
+              "0x06ea10ca115fe596abef17001f34eedd15097ffb2cbac4381db951aef3a8e9b0",
+              "0x595de42bc7ce0ed2bccc6827bb61653e1d5cfff4662dd98e9a48ee4535b50d16",
+              "0xa7dd4be14bcc6cf75de91884c76c6f1dddf3c73cfda5383c08e82dfc408a5aed",
+              "0x6593f66bafb0fa8be9bda2b4a3862dae8a4d3fc618a4a5c163dba294975584b7",
+              "0xf4a91606b8553502d3fc2bbf36cfd444c7b5dc6629a444e52437b10e680678e5",
+              "0x5e5fcbfc6f15ebe3e5ef733cb88a98f06a0308c71e820015fe32f0fb7f049f98",
+              "0xf98034f0f2a0ecf4ee727922db2caf2ce3828d03712db8edb35e8b74ae4500ec",
+              "0x612badeaa496197d7cfef8a886e2c87ec3944811f3ea3906dd2a1fd706b85695",
+              "0xaabb22253e82530eeaa9ad8a88476482f33f762ed31c8522657fd96d8cb36fb4",
+              "0xeae222228491c29311956bb1c17d3c6e584681c88a0cd0889c5a24ca7fbd037d",
+              "0xd6e399c8c66c75d4c29ffc94a451996e2f0ad4d313c22da0357e62038227d132",
+              "0x35661b355c1fd9a58726ef37d17edcb94dfd9fdf7f1a1355d9e12317b541b438",
+              "0xd47c8e3b2c403a72a454f817d9c55d769fd60e2caeda693aa951ae2ae08b0f53",
+              "0xa241a5340a54feeb335065013f68d7cebe733a962c4d52d88345b3fe324a55d0",
+              "0xb83188de054dbc5f45e415ce45ae7640e47c98eb08f8a67bf538b8b7814d1d5b",
+              "0x3f1ff2cad53f4f05e2d517e016be01470c96c8f80316c52f7706f465a257fee1",
+              "0xba5dd10fa9632bd883ba291df31399a6326a9801eb368388b814cb46b68f7916",
+              "0x51ff62c81ea349c0f3bade53ddbf038d5b5473317f677e88febe39f606b895df",
+              "0xde3bad917c5f32e8d424a23d2ffc7d186e60ab5cc6cb5928688eabd7bf0329b4",
+              "0x895d8c738258cc223324f732fc4eb87faaa9410712e0223910457fde9596f164",
+              "0x35fb51839ea23c83e83659fcb6be46c3211736c17a1ac6882e030a86bdc250ac",
+              "0x07a02ba87a953399e7f0a155fd71d97f0c0f147750c608ba5e1c0121b053e442",
+              "0x93553e0d06fae48c61d60795f7a43f1b26b722fa4d2b750bbafdd7ab1e3ea316",
+              "0xfebce8575ba5952e9c54eb27010ec3088f417b250af5f2f0f2f36785b33a7dae",
+              "0x79bb878d4b65dc5cf2642dc7f7589dca3889384dbc6ee1eaf970964649ca5a8f",
+              "0x8c7aff891e920b74b32f753fd1671b1ec352e2520eaece4ee01a04c57fa2d863",
+              "0xe6ab69d89eaf5f9f182b9b5c5c12f462e622746a2de9964b1cf959f8e0481277",
+              "0x59b5764e21d6ca26c88971b110d37d206dc7fa452645998e9b808a456e157bf8",
+              "0x00efb67f3e872fc1246c3b025a8f627b0ac85aacded00eb51d1fd290837aaaa1",
+              "0x6c66ae43feee652d13ea522ba9a711229c8ce393c2534a3206ce8346f49bbd3e",
+              "0x40122d223f2a0ee7f7ea6fe2a124187d02d799b87a4a19b1b1537252ad64be26",
+              "0xb64bb53762bdfa0a21ee06475b9049b24e04cf084f413ae8ee6a8d476b798116",
+              "0xa3f976a43b95b50f360b2ef6cf28ebdad5393a807d4ebc871c27e508c26ff07a",
+              "0x8092b14268742bb10937f2e6d3c1bb141f4a40c980e0d0f03a109e7897a79d29",
+              "0x634e38f6d9bb07794dac1038ef90a9c5d218303c2955c6fa52cb38b9d3d91641",
+              "0x6a5de1a636a215db627fe7108baa93ee2e315b49d4376e853a73be191c8e2c22",
+              "0x162b4aaefedf747e195a5c2d58446f65bd84134e34bbfdea1e530a80d87dcc38",
+              "0x9bf99ab2447068037c45520a3a0215b9d9bdc66a3f44f305366fd7822e8729c1",
+              "0x5ec596012bce72d6cebb7866c84456ddd228eb3bf59fbf8d6641300f2f6ea716",
+              "0x3d6dbb1f7cef972cc489784ff972d8fc943b1d9d6aad6f364050ea30af0e3233",
+              "0x9bd9325bce99eca10163f4f183de7c906fd1d0d03938ebf49240c9c9a7eaf069",
+              "0x5bccd05737f091122728c41593a04b2ca446a258bb3475d9cbc47f9d2240f724",
+              "0x53aaaf70c81437103b0571c5a01e756b2b0d36a7a0d6143d651680c8436fd5ba",
+              "0x32e1784dd5e0707595e935452214f8e2d82047d89f2a4e9caaccdf4ed6cf3849",
+              "0x6a9493f43949afe7283c890814f73ccfaf55bf2b3d339fbe0d8cc7cf036909ec",
+              "0xf75a1a8ee9b710851c3e94fe1affce9158a684e58a90ad20059210b1ad5e812f",
+              "0x7bc986e70f881a670056185275e5c96ad7805e8f11c5c391d2246a577bd5e7cf",
+              "0x173bc774bb3aacf6fccb431d30e3d743c0361459219ec1c17b3148d74383d3bc",
+              "0x6597e4f8970445906d59c90b94ff5c6c4ba675e21c3e395181191e909e4d682d",
+              "0xf3cbeb76937264788694def908cc479a2f2cfca6b55f0fd9f8147f9a9dc47834",
+              "0x6fda725f35f6168e546c802ddeb4eb43d1c2e7db6ee95cb7b71d5e306e74d158",
+              "0x0b88f10f9a68daee65b7877a43cc012a01db0608fc34e3866e167f1c8bdac038",
+              "0x2b73bfbee028892b170592338bbb47f3cc933a4cfc4bf7ad27f574c909e08b2b",
+              "0xa5d292d3eaefd02d2d8716c5172964fbd38387514ad4fbd44e1e916ee8f20b09",
+              "0x763144e460084b511eefb722ee96f92daee19f254c3843effcbadae5b8488759",
+              "0x3ccac4c1d157ba95782d441abbec1a5bbf457923683054cf21445a96351937b5",
+              "0xfe15463a6ca047acbfa48c811614f5813a78813573a71661b09b77c114d0f60e",
+              "0xdbe97719d8d76c0ff52a77fac16fd505292a44c9cf0bb2c445caff6c27c68347",
+              "0x668ecc7f01dcc965e20907727e8bc44ecdba098d201954851c2d69df7e36c29b",
+              "0xa7fd717cb1e87f47d89ac987f5c27a015efa425a365980f57ca90ac98acc05d0",
+              "0x76fc583f2a6ac0667625b485638791ee66332bf2574cf1fd19add61ca2175817",
+              "0x26520e7caa7591fd3330d2b4ef870fb7992a752eae9184d971be752e529a506a",
+              "0x2520b6ee52b640f3ebf9640cdad56a1075521295ea35692679ca0992274c12f7",
+              "0x6fb51e88c3c181c4f22f4a2758a97736ffef6d0783a09202bdeaa900bbbb2762",
+              "0xf400d0353255ad7d1f2b9ba039fc89d9ede074750cb940932b33b3470a4ffe2a",
+              "0xbf8e6d4fe9dad4cf1a60a13e18c82d3d3b0c6961b90389205b02ed1180e4b77e",
+              "0x3b43c1dccb261b9f32f25e0339bf7321d927697ebf8d4076d9e5b718d6701973",
+              "0xe37336a86a8cb593389ff101ba7395edce3534361e0ec2222bea59fcc8326c67",
+              "0xae1d7508f30b4b77a5feae1019e657a194ce0ba79433d7e47f5627abc03798ec",
+              "0x8c72fc049192c25f9409aafa730b4b0e846940bf19008f2bba0379779969aa55",
+              "0xbcfcbf0e3230e3070216b44a9ac66b5974ac8886ceb44f4076edc525f9543ffb",
+              "0x1d76f3363a989a0b3c10a919310d194dc4ae3807097707e487bc8143f1fff2c7",
+              "0x0e59f7897c492d8e2580d3d61780fbeffdbd1d585630373198b7d19b456c6c0e",
+              "0x7da4ab47404a0ad8be1ccffed4f692115de92d26ae79168096183e29bbf71178",
+              "0xcbe66910c423961f4446643312b9bfb7cd9c800ebca5ab6c33403bbc6e32b523",
+              "0x957474337b3018c59e1c6a458dd1d58f576427d1340da50d44b6ceb2c95334dd",
+              "0x20fbe725e4f98e2a5a513fef35bbf345465968d027a1308b0b5015367510b600",
+              "0xa77a5effd977dbb4adf717b9ed71526d13ba11f8598df29c4f5f00cad3ac41c1",
+              "0x93b8ed1a29549059f8501f18e679d3a79b2728cd0b35af0f58eb40eb0812ea7e",
+              "0x9f76fff3a8db941a44597f7c522f285b3337281071b23b1266636a344aee13af",
+              "0x08817ac34c5c6a0eaf7b1573cfbad1f759fc655e76cb07cf5231de7466651c2c",
+              "0xcfd733bf3eda1416c8c8a42add995de346de7a7f71ba82b98b474d6f854ec34d",
+              "0xe3bbee9cad4c3e205529d9fa182b64ba2eb489e90974c5b1b38cb2b19917d764",
+              "0x57e282afb6bfafe0f85dc471b25c383fd6958b523ebcc6300fa63734cdf296da",
+              "0xbf6ff2d91eabf8d84f2774ed3c1ce92b7ddb459a8b82d4147db3844de84419e8",
+              "0xe4e91432d41958e7e2dfb89fb01af89fcff31f34f852c47850c329ecf5b1dee2",
+              "0x354abad99f091d57faf3b29ef8f6a30fd36d8d243d5d9454fc5bb0ff618ddbd2",
+              "0x84cd22fa12ff72356b01b87b2d068c12b70c1bbabc81841d42abc43def574e62",
+              "0xea957c94528738ced2db467e66b425dd8b69fdadeac64151d255d2d1071d8fca",
+              "0x2025ba9dd349bee685c8245041dce670fdef80dc83a01f99f34d7531f3bb3802",
+              "0x28e3d78cfb90c57da25a27cd11c74bed2fbef2628585dafe623cf21dd8ed7173",
+              "0xb92f85aaa76489ff2c1e570fcbaabfa42656c0c27e1a4d2e2584f1fa86229696",
+              "0x81fd63a9b101415651d4ae1e091939dff814cba2e93481201f9d80394ad1e9d3",
+              "0xf01fef1ce58b985039d3b3a7672642d1727556ef246e4b29376fb6b7c2e9b22f",
+              "0x37c29de9b6217a5ff82744fa608d1dc2dd284753d6814223b1cd04f117dbe243",
+              "0x8fe94be3a54af5eb4ad403e8499b16377300585cdc07ffb7740de476a0958916",
+              "0xb1f5b764411c688da9ad021f01060f9787f56a9d2b0c845d21ba315f1f125804",
+              "0x3ed5a039bf66eea23e1b078ea51e68546901057851415d4c4da915d1d053ca13",
+              "0x777a08dc43d6c12d566b1c45698d97b168dcd0a4a9e94f09ee252dda3376e9bc",
+              "0xd9f03f44f4b3b0981b7f9cf96531eec4a1de15e275eb2baab0b6adabeae275e8",
+              "0x36b93f0572eb2b3db862f0ff1c81fcaf176a55cd91fa2e1328cb2e1405f991b0",
+              "0xd267cc09d9881bba2799273f14e4dbeca1ff7a96aed7d28936d08bbca9436e48",
+              "0x8e34aa15f85f0002fa166ba41425475f3d0c849d03e430f7d76c5d5bd5ee3ec8",
+              "0x05aa3986960b48df01d1a822a6a2fc046dac9546c3fe35aa31daab561204edf3",
+              "0xe85a7b0c807f24c95c0bda4e7f0085a6903cac336617e1a94f5ffacdbe21936e",
+              "0xdb9a5d627eee3bbf459435e29cc7c155392f8550259a2b54f829ec3c1bc6d41c",
+              "0xfa6809f1a4e0af5d2463102fbf6d7b32cff73996c526930658aa19c64407ba7d",
+              "0x8523fbd26a1a43cddda56f44805290557783e00f78468f217d4acca85532857c",
+              "0xde4bd409e5d57b587ca0e88cd9e9d06d73033aaa11ba86749897d19b9597739a",
+              "0x55c779e7762e18be22fd9c5fa78e66e69f2be9dea61b845c97128f4c474715a8",
+              "0xee3a56755030bed01fdd782fe0def59c63fbbe3ed6c5b305a9f95f29cf19ca40",
+              "0x3ace4b5267d2d76f019a40d421aad5929ab42a4809a70c0e42136f8b6a068e25",
+              "0x47a70b4498add691747d0fd703e8901e10c061944eb2a8706e23db3045bee1d5",
+              "0x653143fc62fcd5b07b4cc1aeb49b915090003b6bd3fcf51568415e825e0938c1",
+              "0x4aac6ca9f6191bbe3d647a3f74bd95457eb8b4ed08c8e8e38b076692721301e2",
+              "0x3880764576d36b1a50383c0132841d61939563b58aa871ce2f75b274e32a1bd1",
+              "0xeaff19155961a08076aa3d04cc7ddb3d4abd1f0fee1d79e1cb81a06df87b210a",
+              "0x0b10a3b22e359953e9ac5c8de1e1365c8c567c354698263d3fe97dd0c7d60247",
+              "0x19b6f85a84e841db0b9f08796a71a6d1c2bd9d0d5cb4a28be049a17b8d530ab3",
+              "0xc84c7540f2cf3cd0b4d8ec8dbffcf2fcd9d67b964d2dc1b972d065238764c0ef",
+              "0x7aed779d9e4fd7bd53c6453afdb946c440330a47ecf45253c7cc73419edad6e7",
+              "0xee972ca873d88859b9b325e89ab694a422c5e755450c62ebc68063a835ced8be",
+              "0xf4e99f364d2d6e1eb66a470e64d328b8275b272b89c809888163e620ab217110",
+              "0x7e28a99b06d9a14765ca9fc2ec8d41c244e337b3180c735a618c18bd48152a29",
+              "0x531ab9825ee0fef723d510703d1c58431ad161b61090c87ea14cf86cb3f9e867",
+              "0xff3ca7b4b3efca8baa8c091c1b458ce8c3471da3ff35888e220bb1e99d907ebe",
+              "0x5ec537c6a982a85abfbf8ed0370c000621d821e16714efd08cd7b6f098d56133",
+              "0xf9cafb5ff8f3c6a7f77251dbbca16f96476db444a31df1905c650d5de62035eb",
+              "0x138aabf24d9784759132a3efc4334a0b21ec1cccdc43ad6acc6649f543e05846",
+              "0x9cd6f8f307c21232516b269372a2d3167c15d59d1e2b05e0f939becf475314c1",
+              "0xef5e5ce29a7141cb764bf036e0e41d6e2250295c00016903a1b8320bbcacb1ac",
+              "0x6918e155bd14374cba748ffabf5d241192119239ad9b710e33fa799eb7e53b75",
+              "0xfceb027f8c3080d5cc4f1b228aaf5a57e7003432bed6d7a3221b9343f29f036c",
+              "0x7457551c596dfb31a3e5c4e6b87c445dfc68d986a1f10f4c8b379efbe88728c4",
+              "0xfb6f34da0dda7f4d612f7bf7272b9a799c72415a74680a6eb62dfef3f21d874e",
+              "0x9691f2bc7d6c867ef202d905abf837659a3d11772829bab44bb7a1af98e430c9",
+              "0xf69d03b0c52b8eb1a3851d004f544dec97fbb2f3d07d570aa6a9fd46a29cd2ab",
+              "0x6fb534a21d5ed09fc7fe2e38051ab89831f9ff8d304ad9c3021732fca1b1fb9d",
+              "0x84ded818281402bfdc1b2055c8db809a73cfc3dc393136f7432bf0190ddcd49a",
+              "0x21ec61b916c76bfedc64a32994467312f93389ad4d25181571128d1a3b847dcf",
+              "0x81e3e0ab1e7e109d6e167b02f80ab53a6776abd37e9356097f8e53abf02f6e81",
+              "0x65cbb0f70497ee648676f268146be40a450ce2c2af8d732b8c78c92bdad7faf7",
+              "0x5de5568f1c7b99126383da7d430b5eadc5ccc45586ccdae2620aa0cc1c86fb70",
+              "0xaf37120f96a17fd1c31449c798ce46c72650a5b61b3f303fa93df646c4ae8cc3",
+              "0x7d1026022a4922bdd683833fa3be4e0e9707518371e475baae543c6aeb87bdf0",
+              "0x36810db1aff59b0b8f85db8670aabaa0af23290e0ea7d8beed8f62f5498ed902",
+              "0x202bf2ea336c333a49e0fbabbc53d75551d31360e7e697cb021844fcb804e334",
+              "0x20f6ed7efa79c7bf429041420e24568b040075155fc955cb9e3fba82e75138db",
+              "0xf860ede0e73a1a377ffb7786795609f0d23943ba0e81c282fe17806c00eb7a54",
+              "0x8bbb36743764a1ef03ba01653a90667c4fb08bf7237d79a96e76c7e28546201d",
+              "0xdd350e820177ddd8a901e4e36e311f7648f47d4dd3bff987bbd7238b1673951d",
+              "0xb9d9cbd639dedf3fe965528c5029c81f8851575e9f4ba72467657367826eca42",
+              "0x08cd79fc65e0506ff3c3ce9f22c9b627ea73768bf72e4349b6856eb791bfb353",
+              "0xe4af7bd6da28987b63f5cef59fc086495c10269a66cc8ea6c4bc553b9016048b",
+              "0xc3354f335ada4289e3e1cf1939616beb878e07ff0e448ff55afb019678e5f033",
+              "0xe691ff5fabdf8a1b95846258697780ce5164371219779610df8412f310b245f0",
+              "0x5b614191cae490b3a2bc2a3bdfb34e418b341a85fc8c850d03f72f40b8fa4ba2",
+              "0x911046e34d4ed0d3ed4f6960ec6c11fe1409f060978e4c26ea824011f9eb82fe",
+              "0x4e91195bc20ad4e577389964086a82ade20fdded53d8ba9d7b3debb7d8ab235c",
+              "0x65aff987e58c24477e574d442be91594d2b3897fd8b6f734f62a5d3067968ddc",
+              "0x3363b8a35e9c913f08de907178d99fea1c8684ce38719216f3fa6bac6553d083",
+              "0xcac3ee1cf606cb5b3263ddd7da90a23f2c28605a111b74112ca7444cdcbd2312",
+              "0xd688d2006a1f870a0a20988dda78d94330d991883cc8b2c4fa16d8adeff9fb6b",
+              "0xe218be951bbaae67c1f1a38c6f2c55539b21690b2e5d1dbfd8632df5e13dfa34",
+              "0x38bf15e9794aab8c084185d4b5f918f96d46cbbc148f9628ee181d3ae7eba683",
+              "0x0d83305eb75c8083ee2c90d16d864699cdd63efdb44d170487432f62de71e0d8",
+              "0x25d9f03d19b443da3deb2b4f3ff6e41220f7d57530458d3fa8d36312c497bf97",
+              "0xe2e75926a483ce2cbede2454e2c16228709c55a818eee12357133eec33dd4d55",
+              "0xbe3df8ccda45d007b83f85a759b6006c7a79410286ebbd412a26bb32278de190",
+              "0x52866fe83075e7e44fac92e81143db8c23a6559300248deb3679604f06d2d6e1",
+              "0x2c74f97d41eb24a8f256c75bcbf645e9d420c9b7155a09f4db3cf7be505186a1",
+              "0x12ea0d1baaca33238111ed7dcc19d9f0d3a4be942472daa33588f743a203e1bc",
+              "0x604452c1176e3af6cb3b441c3acbd48ae8a48357cf6c167bc7e98c11b722e34e",
+              "0x1107b495f44298cdab49b8a85ce5cbb40e7e3d028c79a6b2ebb84c0bfa0089bc",
+              "0x260a371bb1e02eff1130e09f9027e1738a4ae1b6b6e23a3f6195c7998df70559",
+              "0x0f303f50994cce13701a6a32ecb93756ff84be107ce1b3355f9993e4ed7f60fe",
+              "0xc89bc403966b0a366dda86fc43fc6e248228a85d3694ac8373907e9b3cd5191a",
+              "0x2ec55596c4d1bd1397dc23cd721a517fdf470742a93d3d052a31c0dfc583815f",
+              "0x81f4dc20aa6ab31603d2b31b5f0dd7ca01e1f08e49cc3a9c24a2ffde2f99e784",
+              "0x94a5706ce89163cbd87aa10c4b4e25d2ef5ac47ea0947a80bbe50d220d77adb1",
+              "0xe64ab8018d817279a03f214fa05ee6767464a02269625cf5f91aa6f432afb072",
+              "0x23c1f5064bd5408eae2e19891de8309d579926cf3b697c7a0af4832965b18992",
+              "0x4d25e4f5887844dd45fea9dabe075a517134f2a0cf8d141db011089fdd6826fb",
+              "0x968b006464e61b452c1bbb217456e4988da8801e47adf5392549be45b252253e",
+              "0x8c05ad94d3e3ed094fd28c32c218c8eeb7d8fbc89d2b4504e42c3421f5db9754",
+              "0xf24afffa418edd801fefcba6e7e215c03d94e74fb22e03d5063240a0175b76bc",
+              "0x5910b4dc9d255a841b2de96d45962be40189dbef963241820ca8702630576fe9",
+              "0x5c016026e1019a2de5aec08040c3a443e9bdbe33a749d5f9b879f6a1fa8b2a38",
+              "0x90fdf75da9a1c8cfc90af518b03bebc3206c34030e3790cf0c89ff8c047b87d2",
+              "0xddef6b1457e3ded2e98ff4cea4ef9112f259a82099b6323eade600aaaaed1955",
+              "0x5f594ade42a5a68ace54596a950af45674f82c331fb5e97c2285f8ed6e3fde99",
+              "0x9aa8f6d7c3d2cccdec7870d92362af5bfffd4185753e213749d41ff7b0c40013",
+              "0x67d83d551d181883b8057b39033e8c200b3e7a0d5cc3fed6fe5cdd4d0927eee3",
+              "0x666a9c4cadc387989ec5d256c3c5bbed0fdd82231e709c228b765285ffc22e75",
+              "0x8a99bce196c8c71ea28553958808e2e3be9dba6cb2226732574d1b940bf4acb4",
+              "0xe18497700f56c53eadc3a3e208952c80a6e21a2a4779b0ed13ac38fec6f23934",
+              "0x90bf888a9a8a06c2aa2ca0d479b14d880d04d1599d0952626b438ec566918aca",
+              "0x142b012d13017b684906997c081d3564f11a1fc8ea3e1f9fbd391abfc6ff1431",
+              "0xdf21b790bd884ddc0b0858393fbd52a720bb8b3be2e3d3c253af1ea4dd0df2d9",
+              "0x5e19fddff65a9c9429ba629eb7b87a7ae96b894bcf090df15cd15047f9f5489e",
+              "0xf7d92acc9a856035968ad6cc6538df9b1d5c1a546ad17604ad91f79652bad9b4",
+              "0x14fd8957cd9192df9d584ae31edc92d4e05e37c70364639b7f531ed88edbbaf2",
+              "0x800d2d3992afd5267f1885e2381661f299eb90df9e3a2bc12ce089b9502bf1dc",
+              "0xbd83bb0f824d4e3f13eca151aa91f4bd88eeb4eb5db7b289eea210a6aa2b0cd6",
+              "0x176aa9a72aebb32ca8941598c91460ffb277db8387c3377175179ae859942f55",
+              "0x58a74608109213be5dd1029258e315a3b6557a83a75dfb335945813c21e25765",
+              "0x35bf771208bb132ed619dda6b841bd81dd9f66455d403a9ab5c1b1c7f604862f",
+              "0x68765e3c1debe34295e0a6570f1292e1470020824db019565e82a4b3afefcfa7",
+              "0xf5c057fe892ec3c197cc23e3f5219bfbf3d53cb3bf7f3a8f2d103bf5ffb69704",
+              "0x5a81449c1fc32aaae886b6535fd2b8815af13fe13bfaab181b3c74cb3b43d752",
+              "0xc367564ef9a0d7d7308e31dfd1bdb05b3ad0137cff9631bc75423ac78db07209",
+              "0xb99214e58c0555254417231640dc19963abbf86a8e8befa8ef99f60fae3e9e53",
+              "0xdd302ee50d07acd4a95d24713788cd021f2a81c94c4eeb517435c65d1e148899",
+              "0x67dfedbbdd705e69790fdcf35d5ef0b6ba501c1b04bfdc683301ae9352d5fc15",
+              "0x94c59a2a35b9193b724b0b31e69b57852ac0256178e9474f67d81f50abc039d0",
+              "0x4425396ee01eedc4a98f969cdeb237d16efd90dc790737437bc0d48651938bfc",
+              "0x07509c175abc6f4f988e293178a3a468522641f9e0d228d6440563236f3f3f92",
+              "0x4c28ebbf7201ca39fe17f998c4f7f7bb33d6a9d0bff202e33d32cdcec5eaa0d1",
+              "0x9d997fce0da661d0345c35e82498be40a01a054e96314436fe20ac18e4a6e63f",
+              "0x8d8efd62b991eb03da49f23bb5ed941dc88f6d6557374231a89898f6e4313ea8",
+              "0x3125c234a986904ed6bb968c867db822b8e4f8a827cff1eace48869d6655c6e3",
+              "0xa66af34e914d9120bef2a2794569ac9e6327018d9bf27307f4c7fe068c5957ba",
+              "0xa77400905c7e3892e2ad0a7a0edd69c5b74c1e46268ee4acbee5c175cd030eec",
+              "0x738459cbe75497c7f34dfd841c89e159fec92d33d3fdb38b1eca55c7082ab6ec",
+              "0x47e720f0d0a0e046e02a4eaa03369f7333472de6268349c4ad0b48f6dacfaa59",
+              "0x37d867c2e2b80d6aaf63dfea7bbee181073dfdb8a209d874e3cf6802929c3819",
+              "0x529979fced80d490414c5650f7850ea6c8c8372e9a5bd68670389d2ad9970755",
+              "0x0ee809cb08ffa71f81f0ae24aac43f6ed22d6933ce445fb40801a29f9af96c7b",
+              "0x80571948b36b330cc5e5609f4ded33ce8cfa7b1b2f1c78e2998e3ad4dc13b98e",
+              "0x1ee397af3135793a2f586e2e2117a7d57c515229d4b9ce732d68f52791710c3b"
+            ],
+            "transactionsRoot": "0x98f61dea23e0d6efb9cbe5286d509c8583eb8c2a600eeca31ec4acaedc728218",
+            "uncles": []
+          }
+        },
+        "http_status": 200
+      }
+    }
+  },
+  "expected_chain_id": 728126428,
+  "observed_at": "2026-10-20T02:53:55.125386+00:00",
+  "observed_chain_id": "0x2b6653dc",
+  "phase": "confirm",
+  "rpc": {
+    "source": "https://developers.tron.network/docs/connect-to-the-tron-network",
+    "source_accessed": "2026-10-18",
+    "url": "https://api.trongrid.io/jsonrpc"
+  },
+  "status": "ok"
+}

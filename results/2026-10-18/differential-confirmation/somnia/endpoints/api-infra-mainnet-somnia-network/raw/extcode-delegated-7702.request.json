@@ -1,0 +1,11 @@
+{
+  "id": 18,
+  "jsonrpc": "2.0",
+  "method": "eth_call",
+  "params": [
+    {
+      "data": "0x734de23f3f0fb3318287378adbde030cf61714b2f33b600052734de23f3f0fb3318287378adbde030cf61714b2f33f60205260406000f3"
+    },
+    "0x1a58ba3d"
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "chains": {
+    "ethereum": {
+      "comparison": {
+        "classification": "rpc-rejected",
+        "differences": [
+          {
+            "field": "status",
+            "primary": "ok",
+            "secondary": "rpc-rejected"
+          },
+          {
+            "field": "error_class",
+            "primary": null,
+            "secondary": "jsonrpc"
+          },
+          {
+            "field": "uint256",
+            "primary": 18885316680498289337291817282235810165935516964337885988781116750490932047928,
+            "secondary": null
+          },
+          {
+            "field": "header_value",
+            "primary": 18885316680498289337291817282235810165935516964337885988781116750490932047928,
+            "secondary": null
+          },
+          {
+            "field": "header_matches",
+            "primary": true,
+            "secondary": null
+          }
+        ],
+        "moving_block_values_compared": false,
+        "note": "uint256, header_value, and raw_return may differ because each endpoint was queried at its own latest block; header_matches is the compared semantic result.",
+        "primary": {
+          "error_class": null,
+          "header_matches": true,
+          "header_value": 18885316680498289337291817282235810165935516964337885988781116750490932047928,
+          "raw_return": "0x29c0b5dfe3cc8fa2ee9bbf47447b444d5f135e96cdbd1138f56e758ccdef7038",
+          "status": "ok",
+          "uint256": 18885316680498289337291817282235810165935516964337885988781116750490932047928
+        },
+        "secondary": {
+          "error_class": "jsonrpc",
+          "header_matches": null,
+          "header_value": null,
+          "raw_return": null,
+          "status": "rpc-rejected",
+          "uint256": null
+        }
+      },
+      "primary": {
+        "block_number": "0x1901ce2",
+        "chain_id_expected": 1,
+        "chain_id_observed": "0x1",
+        "observed_at": "2026-10-18T20:19:22Z",
+        "prevrandao": {
+          "error_class": null,
+          "header_matches": true,
+          "header_value": 18885316680498289337291817282235810165935516964337885988781116750490932047928,
+          "raw_return": "0x29c0b5dfe3cc8fa2ee9bbf47447b444d5f135e96cdbd1138f56e758ccdef7038",
+          "status": "ok",
+          "uint256": 18885316680498289337291817282235810165935516964337885988781116750490932047928
+        },
+        "raw_evidence_dir": "results/2026-10-18/entropy-followup/ethereum/primary/endpoints/ethereum-rpc-publicnode-com",
+        "result": "results/2026-10-18/entropy-followup/ethereum/primary/ethereum.json",
+        "rpc": "https://ethereum-rpc.publicnode.com",
+        "rpc_source": "https://www.publicnode.com/",
+        "rpc_source_accessed": "2026-10-18",
+        "status": "ok"
+      },
+      "secondary": {
+        "block_number": null,
+        "chain_id_expected": 1,
+        "chain_id_observed": "0x1",
+        "observed_at": "2026-10-18T20:19:22Z",
+        "prevrandao": {
+          "error_class": "jsonrpc",
+          "header_matches": null,
+          "header_value": null,
+          "raw_return": null,
+          "status": "rpc-rejected",
+          "uint256": null
+        },
+        "raw_evidence_dir": "results/2026-10-18/entropy-followup/ethereum/secondary/endpoints/cloudflare-eth-com",
+        "result": "results/2026-10-18/entropy-followup/ethereum/secondary/ethereum.json",
+        "rpc": "https://cloudflare-eth.com",
+        "rpc_source": "https://developers.cloudflare.com/web3/how-to/use-ethereum-rpc/",
+        "rpc_source_accessed": "2026-10-18",
+        "status": "partial"
+      }
+    },
+    "zksync-era": {
+      "comparison": {
+        "classification": "header-disagreement",
+        "differences": [],
+        "moving_block_values_compared": false,
+        "note": "uint256, header_value, and raw_return may differ because each endpoint was queried at its own latest block; header_matches is the compared semantic result.",
+        "primary": {
+          "error_class": null,
+          "header_matches": false,
+          "header_value": 0,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000008e1bc9bf04000",
+          "status": "ok",
+          "uint256": 2500000000000000
+        },
+        "secondary": {
+          "error_class": null,
+          "header_matches": false,
+          "header_value": 0,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000008e1bc9bf04000",
+          "status": "ok",
+          "uint256": 2500000000000000
+        }
+      },
+      "primary": {
+        "block_number": "0x45306bd",
+        "chain_id_expected": 324,
+        "chain_id_observed": "0x144",
+        "observed_at": "2026-10-18T20:19:40Z",
+        "prevrandao": {
+          "error_class": null,
+          "header_matches": false,
+          "header_value": 0,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000008e1bc9bf04000",
+          "status": "ok",
+          "uint256": 2500000000000000
+        },
+        "raw_evidence_dir": "results/2026-10-18/entropy-followup/zksync-era/primary/endpoints/mainnet-era-zksync-io",
+        "result": "results/2026-10-18/entropy-followup/zksync-era/primary/zksync-era.json",
+        "rpc": "https://mainnet.era.zksync.io",
+        "rpc_source": "https://docs.zksync.io/zksync-era/tooling/node-providers",
+        "rpc_source_accessed": "2026-10-18",
+        "status": "ok"
+      },
+      "secondary": {
+        "block_number": "0x45306bd",
+        "chain_id_expected": 324,
+        "chain_id_observed": "0x144",
+        "observed_at": "2026-10-18T20:19:40Z",
+        "prevrandao": {
+          "error_class": null,
+          "header_matches": false,
+          "header_value": 0,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000008e1bc9bf04000",
+          "status": "ok",
+          "uint256": 2500000000000000
+        },
+        "raw_evidence_dir": "results/2026-10-18/entropy-followup/zksync-era/secondary/endpoints/zksync-drpc-org",
+        "result": "results/2026-10-18/entropy-followup/zksync-era/secondary/zksync-era.json",
+        "rpc": "https://zksync.drpc.org",
+        "rpc_source": "https://drpc.org/chainlist",
+        "rpc_source_accessed": "2026-10-18",
+        "status": "ok"
+      }
+    }
+  },
+  "date": "2026-10-18",
+  "probe": "prevrandao",
+  "purpose": "independent endpoint follow-up for PREVRANDAO; catalog labels are not changed automatically",
+  "schema": 1
+}

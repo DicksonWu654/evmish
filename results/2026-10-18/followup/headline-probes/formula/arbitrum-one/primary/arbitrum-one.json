@@ -1,0 +1,382 @@
+{
+  "account_candidates": {
+    "delegated-7702": "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+    "empty": "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+    "eoa": "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+    "system-contract": "0x0000000000000000000000000000000000000064"
+  },
+  "block": {
+    "baseFeePerGas": "0x1321f30",
+    "blobGasUsed": null,
+    "excessBlobGas": null,
+    "gasLimit": "0x4000000000000",
+    "gasLimit_uint256": 1125899906842624,
+    "hash": "0x566958070157a8ac87cce6e5e4964912489323683b3c01d16d328a06279d20a4",
+    "miner": "0xa4b000000000000000000073657175656e636572",
+    "mixHash": "0x0000000000028ca80000000001901db7000000000000003d0001000000000000",
+    "number": "0x1ec2cd60",
+    "prevRandao": null,
+    "timestamp": "0x6ad533c9",
+    "timestamp_unix": 1792357321
+  },
+  "block_number": "0x1ec2cd60",
+  "chain": "arbitrum-one",
+  "chain_id_expected": 42161,
+  "chain_id_observed": "0xa4b1",
+  "context": {
+    "eth_blockNumber": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0x1ec2cd60"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0xa4b1"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x1ec2cd60",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0x1321f30",
+            "difficulty": "0x1",
+            "extraData": "0x0698dea21a8ededed149f8dcfb645b656d259431cd40ac1ccff3fbbfb389a39a",
+            "gasLimit": "0x4000000000000",
+            "gasUsed": "0xe3af8",
+            "hash": "0x566958070157a8ac87cce6e5e4964912489323683b3c01d16d328a06279d20a4",
+            "l1BlockNumber": "0x1901db7",
+            "logsBloom": "0x0110000140000010400000000000000000000000000200000000000000300000000000500000000140000000000000000020500100402000000104040020004010001001000100080000000800010100000000080204000000010000000000080000000000000000000000043000000000000000400052000080001000080000004020001008008100080000400000810000000000000000001000000000000002080000000000020000400000800000000000000000000002400020000000040080a00210000000202000080800000400000000060000000000000000004a000010040000200000000000000002300014000001000000000000000000000000",
+            "miner": "0xa4b000000000000000000073657175656e636572",
+            "mixHash": "0x0000000000028ca80000000001901db7000000000000003d0001000000000000",
+            "nonce": "0x000000000027a0da",
+            "number": "0x1ec2cd60",
+            "parentHash": "0x4ff69d8f2917c6dfeec103900fc7d4b3f5776d9d27ba32b3630f084bb1046115",
+            "receiptsRoot": "0x1a46f045ab60852deac1423e73bdc47e0d500bbeee017bf85b0e3de9d388d41f",
+            "sendCount": "0x28ca8",
+            "sendRoot": "0x0698dea21a8ededed149f8dcfb645b656d259431cd40ac1ccff3fbbfb389a39a",
+            "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "size": "0xfa2",
+            "stateRoot": "0x56372bfb7c42a89309477fb5cfb61b2dc5ab9f1846136a1d8e3c117b55e6760f",
+            "timestamp": "0x6ad533c9",
+            "transactions": [
+              "0x356d25718b211a79ddc7963359e2e823d10205495abf8a231013211338135fce",
+              "0x0e195c43cc67979d6c51b4909e92f98ddf27f0bcc64aa47bbe8459c159357204",
+              "0x30795e98fcf0af518dec46c96cdeb9236d475713c442ddc3772ff8a0e7fec778",
+              "0x49e0ffaad8a575c94c59f28b005c432f4372a1e339a7ee672d30329d4a23a59c",
+              "0xbc541b3cd917631fa20ec8ad73b3fa3ab07432399d6c9e49d09ec87e1b124118",
+              "0xcb44eb8f4804f3f65553615d1496b14c69b7bff06f52acdd96729681e5699ce5",
+              "0xb271b7bf1d733cfa091c52f331ecd221a9077e1d7a2413ec335d84de8fb218bd",
+              "0x0a2018ab6ded03bf14a5e8708b43ed67fe963908340e2d1e9f5a6240fafdd4bf",
+              "0x69a7153f0482966b6591a2345c53c4a0377c04c4617f9330eb1d0fc4b186d007"
+            ],
+            "transactionsRoot": "0xb8eb772c806a6694f0164054f14981ab919af3ac3913237e00bf3c58e68e53ea",
+            "uncles": []
+          }
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_delegated-7702": {
+      "address": "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+      "interpretation": {
+        "code_length_bytes": 23,
+        "eip7702_delegation_prefix": true,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 6,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+          "0x1ec2cd60"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 6,
+          "jsonrpc": "2.0",
+          "result": "0xef01008a67b5020ee254ef48e3b6a04927f39baf7e408a"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_empty": {
+      "address": "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 5,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+          "0x1ec2cd60"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 5,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_eoa": {
+      "address": "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 4,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+          "0x1ec2cd60"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 4,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_system-contract": {
+      "address": "0x0000000000000000000000000000000000000064",
+      "interpretation": {
+        "code_length_bytes": 1,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 7,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x0000000000000000000000000000000000000064",
+          "0x1ec2cd60"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 7,
+          "jsonrpc": "2.0",
+          "result": "0xfe"
+        },
+        "http_status": 200
+      }
+    }
+  },
+  "error_classes": [],
+  "evidence_dir": "results/2026-10-18/followup/headline-probes/formula/arbitrum-one/primary/endpoints/arb1-arbitrum-io-rpc",
+  "observed_at": "2026-10-18T21:01:33Z",
+  "oracles": {
+    "arb-gasinfo-l1-base-fee-estimate": {
+      "data": "0xf5d6ded7",
+      "interpretation": {
+        "error_class": null,
+        "raw_return": "0x0000000000000000000000000000000000000000000000000000000000137960",
+        "status": "ok",
+        "uint256": 1276256
+      },
+      "method": "getL1BaseFeeEstimate()",
+      "request": {
+        "id": 10,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0xf5d6ded7",
+            "to": "0x000000000000000000000000000000000000006C"
+          },
+          "0x1ec2cd60"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 10,
+          "jsonrpc": "2.0",
+          "result": "0x0000000000000000000000000000000000000000000000000000000000137960"
+        },
+        "http_status": 200
+      },
+      "to": "0x000000000000000000000000000000000000006C"
+    },
+    "arb-gasinfo-l1-gas-price-estimate": {
+      "data": "0x055f362f",
+      "interpretation": {
+        "error_class": null,
+        "raw_return": "0x0000000000000000000000000000000000000000000000000000000000137960",
+        "status": "ok",
+        "uint256": 1276256
+      },
+      "method": "getL1GasPriceEstimate()",
+      "request": {
+        "id": 11,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x055f362f",
+            "to": "0x000000000000000000000000000000000000006C"
+          },
+          "0x1ec2cd60"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 11,
+          "jsonrpc": "2.0",
+          "result": "0x0000000000000000000000000000000000000000000000000000000000137960"
+        },
+        "http_status": 200
+      },
+      "to": "0x000000000000000000000000000000000000006C"
+    }
+  },
+  "probe_count": 2,
+  "probes": {
+    "create": {
+      "data": "0x30600052600a61001b604039600a60406000f060205260406000f3600060005260206000f3",
+      "interpretation": {
+        "error_class": null,
+        "formula": "keccak256(rlp([creator, nonce]))[12:]",
+        "formula_matches": true,
+        "formula_nonce_candidates": [
+          "0x02033f13228cce65cba457d62b31df9808717ee0",
+          "0xf4d9599afd90b5038b18e3b551bc21a97ed21c37",
+          "0x109f93893af4c4b0afc7a9e97b59991260f98313"
+        ],
+        "raw_return": "0x000000000000000000000000bd770416a3345f91e4b34576cb804a576fa48eb1000000000000000000000000f4d9599afd90b5038b18e3b551bc21a97ed21c37",
+        "status": "ok",
+        "uint256": 125246907076467293134398980958396284729921935983615002719060199271690975510098264772756777593966994594708505847882364679756855,
+        "words": [
+          1081653400516622714672900043860770829562561203889,
+          1397840815523076466699159265359708166239426845751
+        ]
+      },
+      "meaning": "CREATE returns creator and child address words.",
+      "request": {
+        "id": 8,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x30600052600a61001b604039600a60406000f060205260406000f3600060005260206000f3"
+          },
+          "0x1ec2cd60"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 8,
+          "jsonrpc": "2.0",
+          "result": "0x000000000000000000000000bd770416a3345f91e4b34576cb804a576fa48eb1000000000000000000000000f4d9599afd90b5038b18e3b551bc21a97ed21c37"
+        },
+        "http_status": 200
+      },
+      "vector": null
+    },
+    "create2": {
+      "data": "0x30600052600a61003c6040397f0000000000000000000000000000000000000000000000000000000000000042600a60406000f560205260406000f3600060005260206000f3",
+      "interpretation": {
+        "error_class": null,
+        "formula": "keccak256(0xff ++ creator ++ salt ++ keccak256(init_code))[12:]",
+        "formula_expected_child": "0x9e7b5b08042c78e5c8af8c4042ab37f5bc9fbdef",
+        "formula_matches": true,
+        "raw_return": "0x000000000000000000000000bd770416a3345f91e4b34576cb804a576fa48eb10000000000000000000000009e7b5b08042c78e5c8af8c4042ab37f5bc9fbdef",
+        "status": "ok",
+        "uint256": 125246907076467293134398980958396284729921935983615002719060199271690975510097771703404649929962460059695841267524656473030127,
+        "words": [
+          1081653400516622714672900043860770829562561203889,
+          904771463395412462164624252695127808531220119023
+        ]
+      },
+      "meaning": "CREATE2 returns creator and child address words.",
+      "request": {
+        "id": 9,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x30600052600a61003c6040397f0000000000000000000000000000000000000000000000000000000000000042600a60406000f560205260406000f3600060005260206000f3"
+          },
+          "0x1ec2cd60"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 9,
+          "jsonrpc": "2.0",
+          "result": "0x000000000000000000000000bd770416a3345f91e4b34576cb804a576fa48eb10000000000000000000000009e7b5b08042c78e5c8af8c4042ab37f5bc9fbdef"
+        },
+        "http_status": 200
+      },
+      "vector": "salt=0x42"
+    }
+  },
+  "recorded_reason": null,
+  "rpc": "https://arb1.arbitrum.io/rpc",
+  "rpc_source": "https://docs.arbitrum.io/build-decentralized-apps/reference/node-providers",
+  "rpc_source_accessed": "2026-10-18",
+  "status": "ok"
+}

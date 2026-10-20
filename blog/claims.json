@@ -1,0 +1,212 @@
+{
+  "claims": [
+    {
+      "id": "scope",
+      "claim": "The dated kit ran read-only creation probes across 27 registry chains and retained endpoint, block, timestamp, raw response, and error class.",
+      "evidence": [
+        "probes/README.md",
+        "probes/run_creation_probes.py",
+        "results/2026-10-18/SUMMARY.md"
+      ]
+    },
+    {
+      "id": "headline-examples",
+      "claim": "The five lead examples are measured controls: empty-input BLS-range dispatch, zkSync RIPEMD160 failure, Arbitrum NUMBER/header mismatch, non-Ethereum PREVRANDAO/header values, and Monad cold-access gas.",
+      "evidence": [
+        "results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json",
+        "results/2026-10-18/zksync-era/zksync-era.json",
+        "results/2026-10-18/arbitrum-one/arbitrum-one.json",
+        "results/2026-10-18/monad/monad.json",
+        "CATALOG.md"
+      ]
+    },
+    {
+      "id": "bls-empty-dispatch",
+      "claim": "Ethereum returned CALL status 0 for empty-input controls at 0x0b-0x11, while Avalanche C-Chain, Blast, HyperEVM, and Scroll returned status 1 with two zero output words; this establishes dispatch behavior for the tested control, not valid BLS support.",
+      "evidence": [
+        "results/2026-10-18/ethereum/ethereum.json",
+        "results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json",
+        "results/2026-10-18/blast/blast.json",
+        "results/2026-10-18/hyperevm/hyperevm.json",
+        "results/2026-10-18/scroll/scroll.json",
+        "results/2026-10-18/differential-confirmation/REPORT.json",
+        "examples/07_precompiles_and_system_addresses.sol"
+      ]
+    },
+    {
+      "id": "ripemd160-vector",
+      "claim": "The same RIPEMD160 vector returned inner CALL status 1 on Ethereum and status 0 on zkSync Era while both outer creation calls completed.",
+      "evidence": [
+        "results/2026-10-18/ethereum/ethereum.json",
+        "results/2026-10-18/zksync-era/zksync-era.json",
+        "results/2026-10-18/followup/headline-probes/REPORT.json",
+        "results/2026-10-18/differential-confirmation/zksync-era/zksync-era.json",
+        "examples/07_precompiles_and_system_addresses.sol"
+      ]
+    },
+    {
+      "id": "arbitrum-number",
+      "claim": "At Arbitrum block tag 0x1ec262a3, NUMBER returned 26221369 while the captured L2 header number was 516055715; Ethereum NUMBER 26221370 matched its header at 0x1901b3a.",
+      "evidence": [
+        "results/2026-10-18/arbitrum-one/arbitrum-one.json",
+        "results/2026-10-18/ethereum/ethereum.json",
+        "results/2026-10-18/block-context-followup/COMPARISON.json",
+        "results/2026-10-18/differential-confirmation/arbitrum-one/arbitrum-one.json"
+      ]
+    },
+    {
+      "id": "prevrandao-constants",
+      "claim": "zkSync Era returned PREVRANDAO 2500000000000000 with captured header value 0, and Avalanche C-Chain returned 1 with captured header value 0; both controls completed with header_matches=false.",
+      "evidence": [
+        "results/2026-10-18/zksync-era/zksync-era.json",
+        "results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json",
+        "results/2026-10-18/entropy-followup/COMPARISON.json",
+        "results/2026-10-18/differential-confirmation/zksync-era/zksync-era.json",
+        "results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json"
+      ]
+    },
+    {
+      "id": "monad-cold-access",
+      "claim": "The cold/warm EXTCODESIZE control measured gas delta 2614 and warm delta 114 on Ethereum, versus 10111 and 112 on Monad.",
+      "evidence": [
+        "results/2026-10-18/ethereum/ethereum.json",
+        "results/2026-10-18/monad/monad.json",
+        "results/2026-10-18/differential-confirmation/monad/monad.json",
+        "results/2026-10-18/fee-oracle-followup/COMPARISON.json",
+        "examples/05_fee_and_gas.sol"
+      ]
+    },
+    {
+      "id": "monad-code-size-caveat",
+      "claim": "Monad documentation states a 131072-byte code-size limit, while the followup read-only candidates at 131072 and 131073 bytes returned zero; the call result alone is inconclusive because a gas cap can also produce zero.",
+      "evidence": [
+        "results/2026-10-18/followup/headline-probes/REPORT.json",
+        "docs/top10.md",
+        "examples/10_code_size_and_modularity.sol",
+        "docs/needs-deploy.md"
+      ]
+    },
+    {
+      "id": "create2-negative",
+      "claim": "The focused EVM-bytecode CREATE2 checks returned formula_matches=true on Ethereum, zkSync Era, and Arbitrum; the commonly cited zkSync difference applies to EraVM-native contracts.",
+      "evidence": [
+        "results/2026-10-18/followup/headline-probes/REPORT.json",
+        "results/2026-10-18/followup/headline-probes/formula/ethereum/primary/ethereum.json",
+        "results/2026-10-18/followup/headline-probes/formula/zksync-era/primary/zksync-era.json",
+        "results/2026-10-18/followup/headline-probes/formula/arbitrum-one/primary/arbitrum-one.json",
+        "https://docs.zksync.io/zksync-protocol/era-vm"
+      ]
+    },
+    {
+      "id": "delegated-account-code",
+      "claim": "The fixed EIP-7702 candidate is delegated on Ethereum and empty on several target endpoints; this is account state, so it is retained as state-only context and removed from the differential catalog.",
+      "evidence": [
+        "results/2026-10-18/ethereum/ethereum.json",
+        "results/2026-10-18/megaeth/megaeth.json",
+        "results/2026-10-18/zksync-era/zksync-era.json",
+        "results/2026-10-18/followup/EIP7702_HISTORY.json",
+        "docs/verification.md"
+      ]
+    },
+    {
+      "id": "matrix",
+      "claim": "The generated blog matrix includes only chains that differ from Ethereum in at least one displayed measured dimension and excludes HyperEVM NUMBER because its endpoint failed fixed-tag stability.",
+      "evidence": [
+        "blog/chain-matrix.md",
+        "blog/chain-matrix.svg",
+        "scripts/build_blog_matrix.py",
+        "results/2026-10-18/ENDPOINT_QUALITY.json"
+      ]
+    },
+    {
+      "id": "method",
+      "claim": "The probes use no-to eth_call creation code and retain raw responses, block context, endpoint, and error classification under the read-only method.",
+      "evidence": [
+        "probes/README.md",
+        "probes/run_creation_probes.py"
+      ]
+    },
+    {
+      "id": "rpc-error-class",
+      "claim": "The kit distinguishes an RPC-level rejection from a VM execution failure and from a successful empty control; TRON's creation shape was rejected before VM execution.",
+      "evidence": [
+        "results/2026-10-18/tron/tron.json",
+        "results/2026-10-18/polygon-pos/polygon-pos.json",
+        "results/2026-10-18/followup/OPCODE_COVERAGE.json",
+        "probes/run_creation_probes.py"
+      ]
+    },
+    {
+      "id": "sender-aliasing-finality",
+      "claim": "OP and Arbitrum cross-domain sender aliasing and sequencer finality are source-backed classes requiring chain-specific messenger and finality checks.",
+      "evidence": [
+        "docs/top10.md",
+        "https://docs.arbitrum.io/how-arbitrum-works/deep-dives/l1-to-l2-messaging#address-aliasing",
+        "https://docs.optimism.io/op-stack/transactions/transaction-flow",
+        "https://docs.optimism.io/op-stack/transactions/transaction-finality",
+        "https://docs.arbitrum.io/how-arbitrum-works/deep-dives/finality"
+      ]
+    },
+    {
+      "id": "prior-art",
+      "claim": "The catalog credits mds1/evm-diff and shemnon/evm-directory at pinned revisions and describes the live-response coverage difference.",
+      "evidence": [
+        "CATALOG.md",
+        "https://github.com/mds1/evm-diff/tree/6beeefe8a91484cf9e3c23d59b364ef3bba673b4",
+        "https://github.com/shemnon/evm-directory/tree/f06b85450e87772221ff636aa3df29ae20f563b6",
+        "docs/endpoint-audit.md"
+      ]
+    },
+    {
+      "id": "stateful-limits",
+      "claim": "Sender aliasing, sequencer finality, rebasing balances, configured fee currencies, native-value behavior, and exact maximum code-size limits remain stateful or bounded follow-ups under the read-only rules.",
+      "evidence": [
+        "docs/needs-deploy.md",
+        "docs/top10.md",
+        "README.md"
+      ]
+    },
+    {
+      "id": "deployment-boundary",
+      "claim": "Fork-gated opcode statuses and code-size boundary probes show why Ethereum compilation does not establish target-chain deployability.",
+      "evidence": [
+        "results/2026-10-18/followup/headline-probes/REPORT.json",
+        "results/2026-10-18/followup/OPCODE_COVERAGE.json",
+        "examples/01_fork_gated_opcodes.sol",
+        "CATALOG.md"
+      ]
+    },
+    {
+      "id": "fee-gas-impact",
+      "claim": "Monad gasUsed/gasLimit history and cold-access pricing, together with OP/Arbitrum fee-oracle checks, show why execution gas is not a complete cross-chain quote.",
+      "evidence": [
+        "results/2026-10-18/followup/history/REPORT.json",
+        "results/2026-10-18/fee-oracle-followup/COMPARISON.json",
+        "results/2026-10-18/ethereum/ethereum.json",
+        "results/2026-10-18/monad/monad.json",
+        "examples/05_fee_and_gas.sol"
+      ]
+    },
+    {
+      "id": "somnia-entropy-caveat",
+      "claim": "Somnia returns non-zero PREVRANDAO, but its RPC header exposes no prevRandao field to compare; the catalog therefore keeps this observation doc-only and makes no security claim.",
+      "evidence": [
+        "results/2026-10-18/somnia/somnia.json",
+        "results/2026-10-18/differential-confirmation/somnia/somnia.json",
+        "docs/verification.md",
+        "CATALOG.md"
+      ]
+    },
+    {
+      "id": "rejection-vs-unsupported",
+      "claim": "TRON rejected the creation-shaped RPC request before VM execution, while Polygon accepted BLOBHASH(0) and returned an invalid-opcode execution failure; these are distinct evidence classes.",
+      "evidence": [
+        "results/2026-10-18/tron/endpoints/api-trongrid-io-jsonrpc/raw/create.request.json",
+        "results/2026-10-18/tron/endpoints/api-trongrid-io-jsonrpc/raw/create.response.json",
+        "results/2026-10-18/polygon-pos/endpoints/polygon-bor-rpc-publicnode-com/raw/blobhash.request.json",
+        "results/2026-10-18/polygon-pos/endpoints/polygon-bor-rpc-publicnode-com/raw/blobhash.response.json",
+        "probes/run_creation_probes.py"
+      ]
+    }
+  ]
+}

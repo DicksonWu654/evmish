@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=800">
+<title>EVMish Cards</title>
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+  /* Launch cards: 800x450 CSS px, rendered at 2x to 1600x900. Same vellum sheet,
+     ink and diff tokens as the site; the left rail carries the card's index. */
+  html, body { margin: 0; width: 800px; height: 450px; overflow: hidden; background: var(--paper); }
+  .card { position: relative; width: 800px; height: 450px; padding: 30px 40px 26px; display: grid; grid-template-rows: auto 1fr auto; gap: 14px; box-sizing: border-box; }
+  .card::before { content: ""; position: absolute; inset: 0; background-image: linear-gradient(var(--rule-2) 1px, transparent 1px), linear-gradient(90deg, var(--rule-2) 1px, transparent 1px); background-size: 25px 25px; opacity: .55; pointer-events: none; }
+  .card > * { position: relative; }
+  .top { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+  .brand { font-size: 24px; line-height: 1; }
+  .brand.big-wm { font-size: 34px; }
+  .card.cover::after { content: "≈"; position: absolute; right: -10px; top: -78px; font-family: var(--f-body); font-style: italic; font-size: 360px; line-height: 1; color: var(--diff); opacity: .07; pointer-events: none; }
+  .tag { font-family: var(--f-display); font-stretch: 78%; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; font-size: 15px; color: var(--muted); }
+  .foot { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; border-top: 2px solid var(--ink); padding-top: 10px; }
+  .foot .k { font-family: var(--f-mono); font-size: 15px; color: var(--ink-2); }
+  .foot .k b { color: var(--ink); font-weight: 700; }
+  h1, h2 { font-family: var(--f-display); margin: 0; letter-spacing: -0.02em; text-wrap: balance; }
+  .thesis { font-size: 58px; font-weight: 850; line-height: .98; letter-spacing: -0.035em; }
+  .thesis .a { color: var(--muted); display: block; white-space: nowrap; }
+  .thesis .b { display: block; white-space: nowrap; }
+  .thesis .k { color: var(--diff); }
+  .big { font-family: var(--f-display); font-weight: 850; font-variant-numeric: tabular-nums; letter-spacing: -0.03em; line-height: 1; }
+  .ttl { font-size: 38px; font-weight: 850; line-height: 1.02; }
+  .term { background: var(--code-bg); color: var(--code-ink); border-radius: 6px; padding: 14px 16px; font-family: var(--f-mono); font-size: 15px; line-height: 1.45; white-space: pre-wrap; overflow-wrap: anywhere; }
+  .term .e { color: #9fb0ff; } .term .t { color: #ff9b85; } .term .d { color: var(--code-dim); }
+  .pills { display: flex; flex-wrap: wrap; gap: 6px; }
+  .pill { font-family: var(--f-display); font-stretch: 88%; font-weight: 750; font-size: 17px; padding: 4px 10px; border-radius: 3px; background: var(--diff-soft); color: var(--diff); border: 1px solid color-mix(in srgb, var(--diff) 35%, transparent); }
+  .lbl { font-family: var(--f-display); font-stretch: 78%; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; font-size: 14px; color: var(--muted); display: block; margin-bottom: 6px; }
+  .row { display: grid; gap: 24px; min-height: 0; }
+  .col { display: grid; gap: 14px; align-content: start; min-width: 0; }
+  canvas { display: block; }
+  .vs { display: grid; grid-template-columns: auto auto; gap: 2px 16px; align-items: baseline; justify-content: start; }
+  .vs .n { font-size: 34px; }
+  .vs .who { font-family: var(--f-display); font-stretch: 85%; font-weight: 700; font-size: 18px; color: var(--ink-2); }
+  .n.t { color: var(--diff); } .n.e { color: var(--ref); } .n.i { color: var(--ink); }
+  .steps3 { display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; gap: 10px; align-items: stretch; }
+  .box { background: var(--sheet); border: 1px solid var(--rule); border-radius: 5px; padding: 12px 14px; display: grid; gap: 6px; align-content: start; min-width: 0; }
+  .box .h { font-family: var(--f-display); font-weight: 800; font-size: 20px; }
+  .box code { font-size: 15px; overflow-wrap: anywhere; color: var(--ink); }
+  .arrow { align-self: center; font-family: var(--f-mono); font-size: 24px; color: var(--muted); }
+  .sub { font-family: var(--f-body); font-size: 20px; line-height: 1.35; color: var(--ink-2); }
+  .pill.quiet { background: var(--paper-2); color: var(--ink-2); border-color: var(--rule); }
+  .gstat { display: grid; grid-template-columns: auto auto; gap: 14px; align-items: center; }
+  .hm { display: grid; grid-template-columns: 128px 600px; gap: 10px; align-items: start; }
+  .hm-l { display: grid; grid-auto-rows: 21px; font-family: var(--f-display); font-stretch: 85%; font-weight: 700; font-size: 15px; color: var(--ink-2); text-align: right; }
+  .hm-l span { line-height: 21px; white-space: nowrap; }
+  .hm-l .e { color: var(--ref); }
+  .hm-f { display: flex; align-items: center; gap: 8px; font-family: var(--f-display); font-stretch: 85%; font-weight: 700; font-size: 15px; color: var(--ink-2); padding-left: 138px; }
+  .hm-k { display: inline-flex; align-items: center; gap: 6px; } .hm-k i { width: 12px; height: 12px; border-radius: 2px; display: inline-block; }
+  .hm-ramp { width: 120px; height: 10px; border-radius: 2px; background: linear-gradient(90deg, var(--hc2), var(--hc1) 25%, var(--h0) 50%, var(--hw1) 75%, var(--hw2)); }
+  .cbars { display: grid; gap: 10px; background: var(--sheet); border: 1px solid var(--rule); border-radius: 5px; padding: 16px 18px; }
+  .cb { display: grid; grid-template-columns: 112px minmax(0, 1fr) auto; gap: 12px; align-items: center; }
+  .cb .cn { font-family: var(--f-display); font-stretch: 85%; font-weight: 750; font-size: 17px; white-space: nowrap; }
+  .cb .ct { height: 22px; background: var(--paper-2); border-radius: 2px; overflow: hidden; }
+  .cb .ct i { display: block; height: 100%; border-radius: 2px; }
+  .cb.t .ct i { background: var(--diff); } .cbars.down .cb.t .ct i { background: var(--hc2); }
+  .cb.e .ct i { background: var(--ref); } .cb.e .cn { color: var(--ref); }
+  .cb.g .ct i { background: repeating-linear-gradient(135deg, var(--ink-2) 0 2px, transparent 2px 6px); outline: 1.5px solid var(--ink-2); outline-offset: -1.5px; }
+  .cb.g .cn { font-size: 15px; color: var(--ink-2); }
+  .cb .cv { font-family: var(--f-mono); font-weight: 700; font-size: 18px; text-align: right; font-variant-numeric: tabular-nums; }
+  .cr { display: flex; align-items: baseline; gap: 10px; margin-top: 2px; }
+  .cr .big { font-size: 46px; color: var(--diff); } .cbars.down .cr .big { color: var(--hc2); }
+</style>
+</head>
+<body>
+<div class="card" id="card"></div>
+<script src="../assets/model.js"></script>
+<script src="cards.js"></script>
+</body>
+</html>

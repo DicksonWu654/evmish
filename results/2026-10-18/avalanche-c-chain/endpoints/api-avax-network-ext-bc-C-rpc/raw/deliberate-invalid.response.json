@@ -1,0 +1,12 @@
+{
+  "body": {
+    "error": {
+      "code": 0,
+      "data": "0x",
+      "message": "invalid opcode: INVALID"
+    },
+    "id": 12,
+    "jsonrpc": "2.0"
+  },
+  "http_status": 200
+}

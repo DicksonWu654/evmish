@@ -1,0 +1,1170 @@
+{
+  "chains": {
+    "arbitrum-one": {
+      "comparison": {
+        "classification": "header-disagreement",
+        "moving_block_values_compared": false,
+        "note": "NUMBER and TIMESTAMP header values, and BLOCKHASH returns, can differ at moving latest blocks; status, header_matches, and the depth-257 zero rule are the stable semantic comparisons.",
+        "probes": {
+          "blockhash-n-minus-1": {
+            "all_differences": [],
+            "classification": "match",
+            "moving_block_values_compared": false,
+            "primary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": null,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "status": "ok",
+              "uint256": 0
+            },
+            "secondary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": null,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "status": "ok",
+              "uint256": 0
+            },
+            "stable_differences": [],
+            "value_changed_at_moving_block": false
+          },
+          "blockhash-n-minus-256": {
+            "all_differences": [],
+            "classification": "match",
+            "moving_block_values_compared": false,
+            "primary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": null,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "status": "ok",
+              "uint256": 0
+            },
+            "secondary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": null,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "status": "ok",
+              "uint256": 0
+            },
+            "stable_differences": [],
+            "value_changed_at_moving_block": false
+          },
+          "blockhash-n-minus-257": {
+            "all_differences": [],
+            "classification": "match",
+            "moving_block_values_compared": false,
+            "primary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": true,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": true,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "status": "ok",
+              "uint256": 0
+            },
+            "secondary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": true,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": true,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "status": "ok",
+              "uint256": 0
+            },
+            "stable_differences": [],
+            "value_changed_at_moving_block": false
+          },
+          "number": {
+            "all_differences": [
+              {
+                "field": "uint256",
+                "primary": 26221870,
+                "secondary": 26221872
+              },
+              {
+                "field": "raw_return",
+                "primary": "0x0000000000000000000000000000000000000000000000000000000001901d2e",
+                "secondary": "0x0000000000000000000000000000000000000000000000000000000001901d30"
+              },
+              {
+                "field": "header_value",
+                "primary": 516077318,
+                "secondary": 516077351
+              }
+            ],
+            "classification": "header-disagreement",
+            "moving_block_values_compared": false,
+            "primary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": false,
+              "header_value": 516077318,
+              "matches_expected_zero": null,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000001901d2e",
+              "status": "ok",
+              "uint256": 26221870
+            },
+            "secondary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": false,
+              "header_value": 516077351,
+              "matches_expected_zero": null,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000001901d30",
+              "status": "ok",
+              "uint256": 26221872
+            },
+            "stable_differences": [],
+            "value_changed_at_moving_block": true
+          },
+          "timestamp": {
+            "all_differences": [
+              {
+                "field": "uint256",
+                "primary": 1792355688,
+                "secondary": 1792355698
+              },
+              {
+                "field": "raw_return",
+                "primary": "0x000000000000000000000000000000000000000000000000000000006ad52d68",
+                "secondary": "0x000000000000000000000000000000000000000000000000000000006ad52d72"
+              },
+              {
+                "field": "header_value",
+                "primary": 1792355688,
+                "secondary": 1792355698
+              }
+            ],
+            "classification": "match",
+            "moving_block_values_compared": false,
+            "primary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": true,
+              "header_value": 1792355688,
+              "matches_expected_zero": null,
+              "raw_return": "0x000000000000000000000000000000000000000000000000000000006ad52d68",
+              "status": "ok",
+              "uint256": 1792355688
+            },
+            "secondary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": true,
+              "header_value": 1792355698,
+              "matches_expected_zero": null,
+              "raw_return": "0x000000000000000000000000000000000000000000000000000000006ad52d72",
+              "status": "ok",
+              "uint256": 1792355698
+            },
+            "stable_differences": [],
+            "value_changed_at_moving_block": true
+          }
+        }
+      },
+      "primary": {
+        "block": {
+          "baseFeePerGas": "0x1312d00",
+          "blobGasUsed": null,
+          "excessBlobGas": null,
+          "gasLimit": "0x4000000000000",
+          "gasLimit_uint256": 1125899906842624,
+          "hash": "0xb478d01b7051cd9e2e5a5393059742eda2c6773ffc866c6c9226dc2069248e87",
+          "miner": "0xa4b000000000000000000073657175656e636572",
+          "mixHash": "0x0000000000028ca80000000001901d2e000000000000003d0001000000000000",
+          "number": "0x1ec2b706",
+          "prevRandao": null,
+          "timestamp": "0x6ad52d68",
+          "timestamp_unix": 1792355688
+        },
+        "block_number": "0x1ec2b706",
+        "chain_id_expected": 42161,
+        "chain_id_observed": "0xa4b1",
+        "observed_at": "2026-10-18T20:34:49Z",
+        "probes": {
+          "blockhash-n-minus-1": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": null,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "status": "ok",
+            "uint256": 0
+          },
+          "blockhash-n-minus-256": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": null,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "status": "ok",
+            "uint256": 0
+          },
+          "blockhash-n-minus-257": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": true,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": true,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "status": "ok",
+            "uint256": 0
+          },
+          "number": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": false,
+            "header_value": 516077318,
+            "matches_expected_zero": null,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000001901d2e",
+            "status": "ok",
+            "uint256": 26221870
+          },
+          "timestamp": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": true,
+            "header_value": 1792355688,
+            "matches_expected_zero": null,
+            "raw_return": "0x000000000000000000000000000000000000000000000000000000006ad52d68",
+            "status": "ok",
+            "uint256": 1792355688
+          }
+        },
+        "raw_evidence_dir": "results/2026-10-18/block-context-followup/arbitrum-one/primary/endpoints/arb1-arbitrum-io-rpc",
+        "result": "results/2026-10-18/block-context-followup/arbitrum-one/primary/arbitrum-one.json",
+        "rpc": "https://arb1.arbitrum.io/rpc",
+        "rpc_source": "https://docs.arbitrum.io/build-decentralized-apps/reference/node-providers",
+        "rpc_source_accessed": "2026-10-18",
+        "status": "ok"
+      },
+      "secondary": {
+        "block": {
+          "baseFeePerGas": "0x131b9a0",
+          "blobGasUsed": null,
+          "excessBlobGas": null,
+          "gasLimit": "0x4000000000000",
+          "gasLimit_uint256": 1125899906842624,
+          "hash": "0x5082716656f73664d522b8a5b11e7259821ecb0b2aefac85b5a024afe38d4b67",
+          "miner": "0xa4b000000000000000000073657175656e636572",
+          "mixHash": "0x0000000000028ca80000000001901d30000000000000003d0001000000000000",
+          "number": "0x1ec2b727",
+          "prevRandao": null,
+          "timestamp": "0x6ad52d72",
+          "timestamp_unix": 1792355698
+        },
+        "block_number": "0x1ec2b727",
+        "chain_id_expected": 42161,
+        "chain_id_observed": "0xa4b1",
+        "observed_at": "2026-10-18T20:34:49Z",
+        "probes": {
+          "blockhash-n-minus-1": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": null,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "status": "ok",
+            "uint256": 0
+          },
+          "blockhash-n-minus-256": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": null,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "status": "ok",
+            "uint256": 0
+          },
+          "blockhash-n-minus-257": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": true,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": true,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "status": "ok",
+            "uint256": 0
+          },
+          "number": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": false,
+            "header_value": 516077351,
+            "matches_expected_zero": null,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000001901d30",
+            "status": "ok",
+            "uint256": 26221872
+          },
+          "timestamp": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": true,
+            "header_value": 1792355698,
+            "matches_expected_zero": null,
+            "raw_return": "0x000000000000000000000000000000000000000000000000000000006ad52d72",
+            "status": "ok",
+            "uint256": 1792355698
+          }
+        },
+        "raw_evidence_dir": "results/2026-10-18/block-context-followup/arbitrum-one/secondary/endpoints/arbitrum-one-publicnode-com",
+        "result": "results/2026-10-18/block-context-followup/arbitrum-one/secondary/arbitrum-one.json",
+        "rpc": "https://arbitrum-one.publicnode.com",
+        "rpc_source": "https://www.publicnode.com/",
+        "rpc_source_accessed": "2026-10-18",
+        "status": "ok"
+      }
+    },
+    "ethereum": {
+      "comparison": {
+        "classification": "rpc-rejected",
+        "moving_block_values_compared": false,
+        "note": "NUMBER and TIMESTAMP header values, and BLOCKHASH returns, can differ at moving latest blocks; status, header_matches, and the depth-257 zero rule are the stable semantic comparisons.",
+        "probes": {
+          "blockhash-n-minus-1": {
+            "all_differences": [
+              {
+                "field": "status",
+                "primary": "ok",
+                "secondary": "rpc-rejected"
+              },
+              {
+                "field": "error_class",
+                "primary": null,
+                "secondary": "jsonrpc"
+              },
+              {
+                "field": "uint256",
+                "primary": 0,
+                "secondary": null
+              },
+              {
+                "field": "raw_return",
+                "primary": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "secondary": null
+              }
+            ],
+            "classification": "rpc-rejected",
+            "moving_block_values_compared": false,
+            "primary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": null,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "status": "ok",
+              "uint256": 0
+            },
+            "secondary": {
+              "error_class": "jsonrpc",
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": null,
+              "raw_return": null,
+              "status": "rpc-rejected",
+              "uint256": null
+            },
+            "stable_differences": [
+              {
+                "field": "status",
+                "primary": "ok",
+                "secondary": "rpc-rejected"
+              },
+              {
+                "field": "error_class",
+                "primary": null,
+                "secondary": "jsonrpc"
+              }
+            ],
+            "value_changed_at_moving_block": true
+          },
+          "blockhash-n-minus-256": {
+            "all_differences": [
+              {
+                "field": "status",
+                "primary": "ok",
+                "secondary": "rpc-rejected"
+              },
+              {
+                "field": "error_class",
+                "primary": null,
+                "secondary": "jsonrpc"
+              },
+              {
+                "field": "uint256",
+                "primary": 0,
+                "secondary": null
+              },
+              {
+                "field": "raw_return",
+                "primary": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "secondary": null
+              }
+            ],
+            "classification": "rpc-rejected",
+            "moving_block_values_compared": false,
+            "primary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": null,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "status": "ok",
+              "uint256": 0
+            },
+            "secondary": {
+              "error_class": "jsonrpc",
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": null,
+              "raw_return": null,
+              "status": "rpc-rejected",
+              "uint256": null
+            },
+            "stable_differences": [
+              {
+                "field": "status",
+                "primary": "ok",
+                "secondary": "rpc-rejected"
+              },
+              {
+                "field": "error_class",
+                "primary": null,
+                "secondary": "jsonrpc"
+              }
+            ],
+            "value_changed_at_moving_block": true
+          },
+          "blockhash-n-minus-257": {
+            "all_differences": [
+              {
+                "field": "status",
+                "primary": "ok",
+                "secondary": "rpc-rejected"
+              },
+              {
+                "field": "error_class",
+                "primary": null,
+                "secondary": "jsonrpc"
+              },
+              {
+                "field": "uint256",
+                "primary": 0,
+                "secondary": null
+              },
+              {
+                "field": "raw_return",
+                "primary": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "secondary": null
+              },
+              {
+                "field": "expected_zero_by_evm_depth_rule",
+                "primary": true,
+                "secondary": null
+              },
+              {
+                "field": "matches_expected_zero",
+                "primary": true,
+                "secondary": null
+              }
+            ],
+            "classification": "rpc-rejected",
+            "moving_block_values_compared": false,
+            "primary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": true,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": true,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "status": "ok",
+              "uint256": 0
+            },
+            "secondary": {
+              "error_class": "jsonrpc",
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": null,
+              "raw_return": null,
+              "status": "rpc-rejected",
+              "uint256": null
+            },
+            "stable_differences": [
+              {
+                "field": "status",
+                "primary": "ok",
+                "secondary": "rpc-rejected"
+              },
+              {
+                "field": "error_class",
+                "primary": null,
+                "secondary": "jsonrpc"
+              },
+              {
+                "field": "matches_expected_zero",
+                "primary": true,
+                "secondary": null
+              }
+            ],
+            "value_changed_at_moving_block": true
+          },
+          "number": {
+            "all_differences": [
+              {
+                "field": "status",
+                "primary": "ok",
+                "secondary": "rpc-rejected"
+              },
+              {
+                "field": "error_class",
+                "primary": null,
+                "secondary": "jsonrpc"
+              },
+              {
+                "field": "uint256",
+                "primary": 26221869,
+                "secondary": null
+              },
+              {
+                "field": "raw_return",
+                "primary": "0x0000000000000000000000000000000000000000000000000000000001901d2d",
+                "secondary": null
+              },
+              {
+                "field": "header_value",
+                "primary": 26221869,
+                "secondary": null
+              },
+              {
+                "field": "header_matches",
+                "primary": true,
+                "secondary": null
+              }
+            ],
+            "classification": "rpc-rejected",
+            "moving_block_values_compared": false,
+            "primary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": true,
+              "header_value": 26221869,
+              "matches_expected_zero": null,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000001901d2d",
+              "status": "ok",
+              "uint256": 26221869
+            },
+            "secondary": {
+              "error_class": "jsonrpc",
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": null,
+              "raw_return": null,
+              "status": "rpc-rejected",
+              "uint256": null
+            },
+            "stable_differences": [
+              {
+                "field": "status",
+                "primary": "ok",
+                "secondary": "rpc-rejected"
+              },
+              {
+                "field": "error_class",
+                "primary": null,
+                "secondary": "jsonrpc"
+              },
+              {
+                "field": "header_matches",
+                "primary": true,
+                "secondary": null
+              }
+            ],
+            "value_changed_at_moving_block": true
+          },
+          "timestamp": {
+            "all_differences": [
+              {
+                "field": "status",
+                "primary": "ok",
+                "secondary": "rpc-rejected"
+              },
+              {
+                "field": "error_class",
+                "primary": null,
+                "secondary": "jsonrpc"
+              },
+              {
+                "field": "uint256",
+                "primary": 1792355651,
+                "secondary": null
+              },
+              {
+                "field": "raw_return",
+                "primary": "0x000000000000000000000000000000000000000000000000000000006ad52d43",
+                "secondary": null
+              },
+              {
+                "field": "header_value",
+                "primary": 1792355651,
+                "secondary": null
+              },
+              {
+                "field": "header_matches",
+                "primary": true,
+                "secondary": null
+              }
+            ],
+            "classification": "rpc-rejected",
+            "moving_block_values_compared": false,
+            "primary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": true,
+              "header_value": 1792355651,
+              "matches_expected_zero": null,
+              "raw_return": "0x000000000000000000000000000000000000000000000000000000006ad52d43",
+              "status": "ok",
+              "uint256": 1792355651
+            },
+            "secondary": {
+              "error_class": "jsonrpc",
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": null,
+              "raw_return": null,
+              "status": "rpc-rejected",
+              "uint256": null
+            },
+            "stable_differences": [
+              {
+                "field": "status",
+                "primary": "ok",
+                "secondary": "rpc-rejected"
+              },
+              {
+                "field": "error_class",
+                "primary": null,
+                "secondary": "jsonrpc"
+              },
+              {
+                "field": "header_matches",
+                "primary": true,
+                "secondary": null
+              }
+            ],
+            "value_changed_at_moving_block": true
+          }
+        }
+      },
+      "primary": {
+        "block": {
+          "baseFeePerGas": "0x3149697",
+          "blobGasUsed": "0x0",
+          "excessBlobGas": "0xa6ac559",
+          "gasLimit": "0x3938700",
+          "gasLimit_uint256": 60000000,
+          "hash": "0xebcd1014a4d85a685366c211e67826f3c5bed25e6787545406ded68fffdebd25",
+          "miner": "0x4838b106fce9647bdf1e7877bf73ce8b0bad5f97",
+          "mixHash": "0x561729ef07c114fb0ebffb9760435fc1d41badca1642df641ca7ee75eb103530",
+          "number": "0x1901d2d",
+          "prevRandao": null,
+          "timestamp": "0x6ad52d43",
+          "timestamp_unix": 1792355651
+        },
+        "block_number": "0x1901d2d",
+        "chain_id_expected": 1,
+        "chain_id_observed": "0x1",
+        "observed_at": "2026-10-18T20:34:20Z",
+        "probes": {
+          "blockhash-n-minus-1": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": null,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "status": "ok",
+            "uint256": 0
+          },
+          "blockhash-n-minus-256": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": null,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "status": "ok",
+            "uint256": 0
+          },
+          "blockhash-n-minus-257": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": true,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": true,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "status": "ok",
+            "uint256": 0
+          },
+          "number": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": true,
+            "header_value": 26221869,
+            "matches_expected_zero": null,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000001901d2d",
+            "status": "ok",
+            "uint256": 26221869
+          },
+          "timestamp": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": true,
+            "header_value": 1792355651,
+            "matches_expected_zero": null,
+            "raw_return": "0x000000000000000000000000000000000000000000000000000000006ad52d43",
+            "status": "ok",
+            "uint256": 1792355651
+          }
+        },
+        "raw_evidence_dir": "results/2026-10-18/block-context-followup/ethereum/primary/endpoints/ethereum-rpc-publicnode-com",
+        "result": "results/2026-10-18/block-context-followup/ethereum/primary/ethereum.json",
+        "rpc": "https://ethereum-rpc.publicnode.com",
+        "rpc_source": "https://www.publicnode.com/",
+        "rpc_source_accessed": "2026-10-18",
+        "status": "ok"
+      },
+      "secondary": {
+        "block": null,
+        "block_number": null,
+        "chain_id_expected": 1,
+        "chain_id_observed": "0x1",
+        "observed_at": "2026-10-18T20:34:20Z",
+        "probes": {
+          "blockhash-n-minus-1": {
+            "error_class": "jsonrpc",
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": null,
+            "raw_return": null,
+            "status": "rpc-rejected",
+            "uint256": null
+          },
+          "blockhash-n-minus-256": {
+            "error_class": "jsonrpc",
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": null,
+            "raw_return": null,
+            "status": "rpc-rejected",
+            "uint256": null
+          },
+          "blockhash-n-minus-257": {
+            "error_class": "jsonrpc",
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": null,
+            "raw_return": null,
+            "status": "rpc-rejected",
+            "uint256": null
+          },
+          "number": {
+            "error_class": "jsonrpc",
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": null,
+            "raw_return": null,
+            "status": "rpc-rejected",
+            "uint256": null
+          },
+          "timestamp": {
+            "error_class": "jsonrpc",
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": null,
+            "raw_return": null,
+            "status": "rpc-rejected",
+            "uint256": null
+          }
+        },
+        "raw_evidence_dir": "results/2026-10-18/block-context-followup/ethereum/secondary/endpoints/cloudflare-eth-com",
+        "result": "results/2026-10-18/block-context-followup/ethereum/secondary/ethereum.json",
+        "rpc": "https://cloudflare-eth.com",
+        "rpc_source": "https://developers.cloudflare.com/web3/how-to/use-ethereum-rpc/",
+        "rpc_source_accessed": "2026-10-18",
+        "status": "partial"
+      }
+    },
+    "op-mainnet": {
+      "comparison": {
+        "classification": "match",
+        "moving_block_values_compared": false,
+        "note": "NUMBER and TIMESTAMP header values, and BLOCKHASH returns, can differ at moving latest blocks; status, header_matches, and the depth-257 zero rule are the stable semantic comparisons.",
+        "probes": {
+          "blockhash-n-minus-1": {
+            "all_differences": [],
+            "classification": "match",
+            "moving_block_values_compared": false,
+            "primary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": null,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "status": "ok",
+              "uint256": 0
+            },
+            "secondary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": null,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "status": "ok",
+              "uint256": 0
+            },
+            "stable_differences": [],
+            "value_changed_at_moving_block": false
+          },
+          "blockhash-n-minus-256": {
+            "all_differences": [],
+            "classification": "match",
+            "moving_block_values_compared": false,
+            "primary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": null,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "status": "ok",
+              "uint256": 0
+            },
+            "secondary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": null,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "status": "ok",
+              "uint256": 0
+            },
+            "stable_differences": [],
+            "value_changed_at_moving_block": false
+          },
+          "blockhash-n-minus-257": {
+            "all_differences": [],
+            "classification": "match",
+            "moving_block_values_compared": false,
+            "primary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": true,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": true,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "status": "ok",
+              "uint256": 0
+            },
+            "secondary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": true,
+              "header_matches": null,
+              "header_value": null,
+              "matches_expected_zero": true,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "status": "ok",
+              "uint256": 0
+            },
+            "stable_differences": [],
+            "value_changed_at_moving_block": false
+          },
+          "number": {
+            "all_differences": [
+              {
+                "field": "uint256",
+                "primary": 158378465,
+                "secondary": 158378469
+              },
+              {
+                "field": "raw_return",
+                "primary": "0x000000000000000000000000000000000000000000000000000000000970a9e1",
+                "secondary": "0x000000000000000000000000000000000000000000000000000000000970a9e5"
+              },
+              {
+                "field": "header_value",
+                "primary": 158378465,
+                "secondary": 158378469
+              }
+            ],
+            "classification": "match",
+            "moving_block_values_compared": false,
+            "primary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": true,
+              "header_value": 158378465,
+              "matches_expected_zero": null,
+              "raw_return": "0x000000000000000000000000000000000000000000000000000000000970a9e1",
+              "status": "ok",
+              "uint256": 158378465
+            },
+            "secondary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": true,
+              "header_value": 158378469,
+              "matches_expected_zero": null,
+              "raw_return": "0x000000000000000000000000000000000000000000000000000000000970a9e5",
+              "status": "ok",
+              "uint256": 158378469
+            },
+            "stable_differences": [],
+            "value_changed_at_moving_block": true
+          },
+          "timestamp": {
+            "all_differences": [
+              {
+                "field": "uint256",
+                "primary": 1792355707,
+                "secondary": 1792355715
+              },
+              {
+                "field": "raw_return",
+                "primary": "0x000000000000000000000000000000000000000000000000000000006ad52d7b",
+                "secondary": "0x000000000000000000000000000000000000000000000000000000006ad52d83"
+              },
+              {
+                "field": "header_value",
+                "primary": 1792355707,
+                "secondary": 1792355715
+              }
+            ],
+            "classification": "match",
+            "moving_block_values_compared": false,
+            "primary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": true,
+              "header_value": 1792355707,
+              "matches_expected_zero": null,
+              "raw_return": "0x000000000000000000000000000000000000000000000000000000006ad52d7b",
+              "status": "ok",
+              "uint256": 1792355707
+            },
+            "secondary": {
+              "error_class": null,
+              "expected_zero_by_evm_depth_rule": null,
+              "header_matches": true,
+              "header_value": 1792355715,
+              "matches_expected_zero": null,
+              "raw_return": "0x000000000000000000000000000000000000000000000000000000006ad52d83",
+              "status": "ok",
+              "uint256": 1792355715
+            },
+            "stable_differences": [],
+            "value_changed_at_moving_block": true
+          }
+        }
+      },
+      "primary": {
+        "block": {
+          "baseFeePerGas": "0x931",
+          "blobGasUsed": "0x493310",
+          "excessBlobGas": "0x0",
+          "gasLimit": "0x2625a00",
+          "gasLimit_uint256": 40000000,
+          "hash": "0x4b9481df249d220aa505a4be4187887e2f91af9c788bcb93c14f19b6642f1c9b",
+          "miner": "0x4200000000000000000000000000000000000011",
+          "mixHash": "0xac2dfb45cfada870402020df6370ae41ec6d08964763429d450945c067a356d8",
+          "number": "0x970a9e1",
+          "prevRandao": null,
+          "timestamp": "0x6ad52d7b",
+          "timestamp_unix": 1792355707
+        },
+        "block_number": "0x970a9e1",
+        "chain_id_expected": 10,
+        "chain_id_observed": "0xa",
+        "observed_at": "2026-10-18T20:35:06Z",
+        "probes": {
+          "blockhash-n-minus-1": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": null,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "status": "ok",
+            "uint256": 0
+          },
+          "blockhash-n-minus-256": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": null,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "status": "ok",
+            "uint256": 0
+          },
+          "blockhash-n-minus-257": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": true,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": true,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "status": "ok",
+            "uint256": 0
+          },
+          "number": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": true,
+            "header_value": 158378465,
+            "matches_expected_zero": null,
+            "raw_return": "0x000000000000000000000000000000000000000000000000000000000970a9e1",
+            "status": "ok",
+            "uint256": 158378465
+          },
+          "timestamp": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": true,
+            "header_value": 1792355707,
+            "matches_expected_zero": null,
+            "raw_return": "0x000000000000000000000000000000000000000000000000000000006ad52d7b",
+            "status": "ok",
+            "uint256": 1792355707
+          }
+        },
+        "raw_evidence_dir": "results/2026-10-18/block-context-followup/op-mainnet/primary/endpoints/mainnet-optimism-io",
+        "result": "results/2026-10-18/block-context-followup/op-mainnet/primary/op-mainnet.json",
+        "rpc": "https://mainnet.optimism.io",
+        "rpc_source": "https://docs.optimism.io/app-developers/reference/rpc-providers",
+        "rpc_source_accessed": "2026-10-18",
+        "status": "ok"
+      },
+      "secondary": {
+        "block": {
+          "baseFeePerGas": "0x93b",
+          "blobGasUsed": "0x37d110",
+          "excessBlobGas": "0x0",
+          "gasLimit": "0x2625a00",
+          "gasLimit_uint256": 40000000,
+          "hash": "0xa56e0ee856034e522960cfc56e192d2850d77d7c8bfbfe44bc84d1bb15787197",
+          "miner": "0x4200000000000000000000000000000000000011",
+          "mixHash": "0xc6ee9d79a22b7e42c207f06d7af3a233bb3c4f33601f9c54bbd30cfd3049d0bb",
+          "number": "0x970a9e5",
+          "prevRandao": null,
+          "timestamp": "0x6ad52d83",
+          "timestamp_unix": 1792355715
+        },
+        "block_number": "0x970a9e5",
+        "chain_id_expected": 10,
+        "chain_id_observed": "0xa",
+        "observed_at": "2026-10-18T20:35:06Z",
+        "probes": {
+          "blockhash-n-minus-1": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": null,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "status": "ok",
+            "uint256": 0
+          },
+          "blockhash-n-minus-256": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": null,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "status": "ok",
+            "uint256": 0
+          },
+          "blockhash-n-minus-257": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": true,
+            "header_matches": null,
+            "header_value": null,
+            "matches_expected_zero": true,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "status": "ok",
+            "uint256": 0
+          },
+          "number": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": true,
+            "header_value": 158378469,
+            "matches_expected_zero": null,
+            "raw_return": "0x000000000000000000000000000000000000000000000000000000000970a9e5",
+            "status": "ok",
+            "uint256": 158378469
+          },
+          "timestamp": {
+            "error_class": null,
+            "expected_zero_by_evm_depth_rule": null,
+            "header_matches": true,
+            "header_value": 1792355715,
+            "matches_expected_zero": null,
+            "raw_return": "0x000000000000000000000000000000000000000000000000000000006ad52d83",
+            "status": "ok",
+            "uint256": 1792355715
+          }
+        },
+        "raw_evidence_dir": "results/2026-10-18/block-context-followup/op-mainnet/secondary/endpoints/optimism-publicnode-com",
+        "result": "results/2026-10-18/block-context-followup/op-mainnet/secondary/op-mainnet.json",
+        "rpc": "https://optimism.publicnode.com",
+        "rpc_source": "https://www.publicnode.com/",
+        "rpc_source_accessed": "2026-10-18",
+        "status": "ok"
+      }
+    }
+  },
+  "date": "2026-10-18",
+  "probe_set": [
+    "number",
+    "timestamp",
+    "blockhash-n-minus-1",
+    "blockhash-n-minus-256",
+    "blockhash-n-minus-257"
+  ],
+  "purpose": "independent endpoint follow-up for block context and BLOCKHASH boundaries; catalog labels are not changed automatically",
+  "schema": 1
+}

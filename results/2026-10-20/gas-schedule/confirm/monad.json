@@ -1,0 +1,965 @@
+{
+  "block": {
+    "baseFeePerGas": "0x174876e800",
+    "blobGasUsed": "0x0",
+    "difficulty": "0x0",
+    "excessBlobGas": "0x0",
+    "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "gasLimit": "0x8f0d180",
+    "gasUsed": "0x90640e",
+    "hash": "0x0fd7d3d45685694234db1787ec771dc8d680bcbeedfa5eed4e552dc6efb88db3",
+    "logsBloom": "0x8400002000a4004400200810000180000000000002040000000084212000000088040920018180c800100004000000000004004016000202002820028004480000101010002108000000040800000000b00000000444800000000000100100000802002202080402890022410040280080000002040051092000001210000041490802002001800211400000400008100a004c00400000004001000000000408000064000000042010400104004200802004100000960000007040008002482200200082030000000401040000900000800c0000c000000001204000020060002000000011000000400000000080208000400044008004000002020040004001",
+    "miner": "0x77635d2681292a32af70654499b14a64d1b9cd26",
+    "mixHash": "0x6fccf04aedb5498e0a2c78eb16b12dbd312c7171bd1008bf98b2f4b3b98a3662",
+    "nonce": "0x0000000000000000",
+    "number": "0x6d98f5f",
+    "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "parentHash": "0xad8c282524a9572f1c82c92d98085c8c80c7fca7ecacde001816c3157f8bd121",
+    "receiptsRoot": "0x91037398905b0a2b4b165b5322d0c127da557da68269343e5427c3b9bace75da",
+    "requestsHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+    "size": "0x320",
+    "stateRoot": "0x3dcd087f0105d18b5818a332505e03fc2e021eba3ddc9c958bdd7cf4cebf40cc",
+    "timestamp": "0x6ad6d174",
+    "totalDifficulty": "0x0",
+    "transactions": [
+      "0x0df858acadd74e1a432d096f8620747d91c759674be114b73b5c1c3390713e20",
+      "0xace2a2f752cad8f7531bedbf5b6eaac3e6764ab8c63b761fc95904ecfbf21510",
+      "0xe438bbd4dd17a137389a82f56ef5eb43829623c1ae099f822910645d4ff19a3a",
+      "0x2c891a47d5ecb166ae89f574e7d52ff629878580b9729d7c9ca26b8c25bbe14d",
+      "0x8c0c9c44d1ea4c75ee3dd8b62b00644aa4a88999b0e5e417da79f09879230e88",
+      "0x95e5f9b2e34ccac45698bf768a7b68b851d99bab2270c994f8be7fcd21778ecd",
+      "0xadb3fbcd382cd057fa7c2bf7d1801c6f8c5958f0647580cf3f03569f71845d40",
+      "0xaef1619672fe7d53a0a6c03dfece7459594f4582509ac30a7d355ed5cacc0285",
+      "0xad6d25da1189b12e034681aa926b25588e4cc0bf87ab54c92274f57f4821880c",
+      "0xccc82717d797116ce5172b951502178e0dd31f4be571e3640235659483abc827",
+      "0x70adff8ce7c30bdb7801f78658787153ec2b86cfed5c01810049e4749d485389",
+      "0xb78ee611815e7bcc350daa225760514727c5f8eb8dfe64cce6f184728b8ba135",
+      "0x61248b7e1cc01d17effb36f656f8d5144cdd2aa6f8c3fad63ee497ee70270807"
+    ],
+    "transactionsRoot": "0x41583828a12faad19a0b11da93f139d0778dbc4a76bb7fea90834e86ae5b2b03",
+    "uncles": [],
+    "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"
+  },
+  "cases": {
+    "balance-empty": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:01.825212+00:00",
+          "request": {
+            "id": 4,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b31505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b31505a900360405260205260005260606000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f5f"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 4,
+              "jsonrpc": "2.0",
+              "result": "0x0000000000000000000000000000000000000000000000000000000000000007000000000000000000000000000000000000000000000000000000000000277b000000000000000000000000000000000000000000000000000000000000006b"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f5f",
+      "bytecode": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b31505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b31505a900360405260205260005260606000f3",
+      "correction": 0,
+      "detail": "",
+      "family": "cold-warm",
+      "interpretation": {
+        "control_gas": 5,
+        "raw_words": [
+          7,
+          10107,
+          107
+        ],
+        "status": "measured",
+        "values": {
+          "cold": 10100,
+          "warm": 100
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:01.825212+00:00",
+        "request": {
+          "id": 4,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b31505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b31505a900360405260205260005260606000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f5f"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 4,
+            "jsonrpc": "2.0",
+            "result": "0x0000000000000000000000000000000000000000000000000000000000000007000000000000000000000000000000000000000000000000000000000000277b000000000000000000000000000000000000000000000000000000000000006b"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "call-empty": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:02.419173+00:00",
+          "request": {
+            "id": 5,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a60006000600060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b6000505050505050505a90035a60006000600060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b6000f1505a90035a60006000600060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b6000f1505a900360405260205260005260606000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f5f"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 5,
+              "jsonrpc": "2.0",
+              "result": "0x0000000000000000000000000000000000000000000000000000000000000025000000000000000000000000000000000000000000000000000000000000278d000000000000000000000000000000000000000000000000000000000000007d"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f5f",
+      "bytecode": "0x5a60006000600060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b6000505050505050505a90035a60006000600060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b6000f1505a90035a60006000600060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b6000f1505a900360405260205260005260606000f3",
+      "correction": 12,
+      "detail": "zero value, zero forwarded gas; empty account",
+      "family": "cold-warm",
+      "interpretation": {
+        "control_gas": 35,
+        "raw_words": [
+          37,
+          10125,
+          125
+        ],
+        "status": "measured",
+        "values": {
+          "cold": 10100,
+          "warm": 100
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:02.419173+00:00",
+        "request": {
+          "id": 5,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a60006000600060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b6000505050505050505a90035a60006000600060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b6000f1505a90035a60006000600060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b6000f1505a900360405260205260005260606000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f5f"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 5,
+            "jsonrpc": "2.0",
+            "result": "0x0000000000000000000000000000000000000000000000000000000000000025000000000000000000000000000000000000000000000000000000000000278d000000000000000000000000000000000000000000000000000000000000007d"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "call-value-empty": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:03.039434+00:00",
+          "request": {
+            "id": 6,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a60006000600060006001739baeb70184075f3ea43e6e8160ec2f162da8d28b6000505050505050505a90035a60006000600060006001739baeb70184075f3ea43e6e8160ec2f162da8d28b6000f1505a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f5f"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 6,
+              "jsonrpc": "2.0",
+              "result": "0x0000000000000000000000000000000000000000000000000000000000000025000000000000000000000000000000000000000000000000000000000000a361"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f5f",
+      "bytecode": "0x5a60006000600060006001739baeb70184075f3ea43e6e8160ec2f162da8d28b6000505050505050505a90035a60006000600060006001739baeb70184075f3ea43e6e8160ec2f162da8d28b6000f1505a900360205260005260406000f3",
+      "correction": 12,
+      "detail": "one wei from unfunded creation context; failure/status must be checked separately",
+      "family": "call-value",
+      "interpretation": {
+        "control_gas": 35,
+        "raw_words": [
+          37,
+          41825
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 41800
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:03.039434+00:00",
+        "request": {
+          "id": 6,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a60006000600060006001739baeb70184075f3ea43e6e8160ec2f162da8d28b6000505050505050505a90035a60006000600060006001739baeb70184075f3ea43e6e8160ec2f162da8d28b6000f1505a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f5f"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 6,
+            "jsonrpc": "2.0",
+            "result": "0x0000000000000000000000000000000000000000000000000000000000000025000000000000000000000000000000000000000000000000000000000000a361"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "extcodecopy-empty": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:03.625368+00:00",
+          "request": {
+            "id": 7,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x60006000525a602060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b505050505a90035a602060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b3c5a90035a602060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b3c5a900360405260205260005260606000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f5f"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 7,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000001600000000000000000000000000000000000000000000000000000000000027850000000000000000000000000000000000000000000000000000000000000075"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f5f",
+      "bytecode": "0x60006000525a602060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b505050505a90035a602060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b3c5a90035a602060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b3c5a900360405260205260005260606000f3",
+      "correction": 8,
+      "detail": "32 copied bytes; output memory pre-expanded",
+      "family": "cold-warm",
+      "interpretation": {
+        "control_gas": 20,
+        "raw_words": [
+          22,
+          10117,
+          117
+        ],
+        "status": "measured",
+        "values": {
+          "cold": 10103,
+          "warm": 103
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:03.625368+00:00",
+        "request": {
+          "id": 7,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x60006000525a602060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b505050505a90035a602060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b3c5a90035a602060006000739baeb70184075f3ea43e6e8160ec2f162da8d28b3c5a900360405260205260005260606000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f5f"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 7,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000001600000000000000000000000000000000000000000000000000000000000027850000000000000000000000000000000000000000000000000000000000000075"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "extcodehash-empty": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:04.222276+00:00",
+          "request": {
+            "id": 8,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3f505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3f505a900360405260205260005260606000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f5f"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 8,
+              "jsonrpc": "2.0",
+              "result": "0x0000000000000000000000000000000000000000000000000000000000000007000000000000000000000000000000000000000000000000000000000000277b000000000000000000000000000000000000000000000000000000000000006b"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f5f",
+      "bytecode": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3f505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3f505a900360405260205260005260606000f3",
+      "correction": 0,
+      "detail": "",
+      "family": "cold-warm",
+      "interpretation": {
+        "control_gas": 5,
+        "raw_words": [
+          7,
+          10107,
+          107
+        ],
+        "status": "measured",
+        "values": {
+          "cold": 10100,
+          "warm": 100
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:04.222276+00:00",
+        "request": {
+          "id": 8,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3f505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3f505a900360405260205260005260606000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f5f"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 8,
+            "jsonrpc": "2.0",
+            "result": "0x0000000000000000000000000000000000000000000000000000000000000007000000000000000000000000000000000000000000000000000000000000277b000000000000000000000000000000000000000000000000000000000000006b"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "extcodesize-empty": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:04.824365+00:00",
+          "request": {
+            "id": 9,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3b505a900360405260205260005260606000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f5f"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 9,
+              "jsonrpc": "2.0",
+              "result": "0x0000000000000000000000000000000000000000000000000000000000000007000000000000000000000000000000000000000000000000000000000000277b000000000000000000000000000000000000000000000000000000000000006b"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f5f",
+      "bytecode": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3b505a900360405260205260005260606000f3",
+      "correction": 0,
+      "detail": "",
+      "family": "cold-warm",
+      "interpretation": {
+        "control_gas": 5,
+        "raw_words": [
+          7,
+          10107,
+          107
+        ],
+        "status": "measured",
+        "values": {
+          "cold": 10100,
+          "warm": 100
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:04.824365+00:00",
+        "request": {
+          "id": 9,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3b505a900360405260205260005260606000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f5f"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 9,
+            "jsonrpc": "2.0",
+            "result": "0x0000000000000000000000000000000000000000000000000000000000000007000000000000000000000000000000000000000000000000000000000000277b000000000000000000000000000000000000000000000000000000000000006b"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "memory-expand-1-words": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:05.419228+00:00",
+          "request": {
+            "id": 10,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a6007600050505a90035a60076000525a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f5f"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 10,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000000b"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f5f",
+      "bytecode": "0x5a6007600050505a90035a60076000525a900360205260005260406000f3",
+      "correction": 4,
+      "detail": "MSTORE cost includes expansion from zero words",
+      "family": "memory",
+      "interpretation": {
+        "control_gas": 10,
+        "raw_words": [
+          12,
+          11
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 3
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:05.419228+00:00",
+        "request": {
+          "id": 10,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a6007600050505a90035a60076000525a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f5f"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 10,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000000b"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "memory-expand-1024-words": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:06.026724+00:00",
+          "request": {
+            "id": 11,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a6007617fe050505a90035a6007617fe0525a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f5f"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 11,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000020b"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f5f",
+      "bytecode": "0x5a6007617fe050505a90035a6007617fe0525a900360205260005260406000f3",
+      "correction": 4,
+      "detail": "MSTORE cost includes expansion from zero words",
+      "family": "memory",
+      "interpretation": {
+        "control_gas": 10,
+        "raw_words": [
+          12,
+          523
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 515
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:06.026724+00:00",
+        "request": {
+          "id": 11,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a6007617fe050505a90035a6007617fe0525a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f5f"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 11,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000020b"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "memory-expand-32-words": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:06.620883+00:00",
+          "request": {
+            "id": 12,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a60076103e050505a90035a60076103e0525a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f5f"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 12,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000001b"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f5f",
+      "bytecode": "0x5a60076103e050505a90035a60076103e0525a900360205260005260406000f3",
+      "correction": 4,
+      "detail": "MSTORE cost includes expansion from zero words",
+      "family": "memory",
+      "interpretation": {
+        "control_gas": 10,
+        "raw_words": [
+          12,
+          27
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 19
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:06.620883+00:00",
+        "request": {
+          "id": 12,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a60076103e050505a90035a60076103e0525a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f5f"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 12,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000001b"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "memory-expand-32768-words": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:07.219089+00:00",
+          "request": {
+            "id": 13,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a6007620fffe050505a90035a6007620fffe0525a900360205260005260406000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f5f"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 13,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000400b"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f5f",
+      "bytecode": "0x5a6007620fffe050505a90035a6007620fffe0525a900360205260005260406000f3",
+      "correction": 4,
+      "detail": "MSTORE cost includes expansion from zero words",
+      "family": "memory",
+      "interpretation": {
+        "control_gas": 10,
+        "raw_words": [
+          12,
+          16395
+        ],
+        "status": "measured",
+        "values": {
+          "operation": 16387
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:07.219089+00:00",
+        "request": {
+          "id": 13,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a6007620fffe050505a90035a6007620fffe0525a900360205260005260406000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f5f"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 13,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000400b"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "sload-slot0": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:07.826342+00:00",
+          "request": {
+            "id": 14,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a6000505a90035a600054505a90035a600054505a900360405260205260005260606000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f5f"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 14,
+              "jsonrpc": "2.0",
+              "result": "0x00000000000000000000000000000000000000000000000000000000000000070000000000000000000000000000000000000000000000000000000000001fab000000000000000000000000000000000000000000000000000000000000006b"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f5f",
+      "bytecode": "0x5a6000505a90035a600054505a90035a600054505a900360405260205260005260606000f3",
+      "correction": 0,
+      "detail": "fresh creation storage slot zero",
+      "family": "cold-warm",
+      "interpretation": {
+        "control_gas": 5,
+        "raw_words": [
+          7,
+          8107,
+          107
+        ],
+        "status": "measured",
+        "values": {
+          "cold": 8100,
+          "warm": 100
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:07.826342+00:00",
+        "request": {
+          "id": 14,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a6000505a90035a600054505a90035a600054505a900360405260205260005260606000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f5f"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 14,
+            "jsonrpc": "2.0",
+            "result": "0x00000000000000000000000000000000000000000000000000000000000000070000000000000000000000000000000000000000000000000000000000001fab000000000000000000000000000000000000000000000000000000000000006b"
+          },
+          "http_status": 200
+        }
+      }
+    },
+    "sstore-transitions": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:27:08.429989+00:00",
+          "request": {
+            "id": 15,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a6001600050505a90035a60016000555a90035a60026000555a90035a60026000555a90035a60006000555a900360805260605260405260205260005260a06000f3",
+                "gas": "0x1c9c380"
+              },
+              "0x6d98f5f"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 15,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000000c0000000000000000000000000000000000000000000000000000000000006d04000000000000000000000000000000000000000000000000000000000000006c000000000000000000000000000000000000000000000000000000000000006c000000000000000000000000000000000000000000000000000000000000006c"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0x6d98f5f",
+      "bytecode": "0x5a6001600050505a90035a60016000555a90035a60026000555a90035a60026000555a90035a60006000555a900360805260605260405260205260005260a06000f3",
+      "correction": 4,
+      "detail": "refunds do not increase GAS; they are not measured",
+      "family": "storage",
+      "interpretation": {
+        "control_gas": 10,
+        "raw_words": [
+          12,
+          27908,
+          108,
+          108,
+          108
+        ],
+        "status": "measured",
+        "values": {
+          "one-to-two": 100,
+          "two-to-two": 100,
+          "two-to-zero": 100,
+          "zero-to-one": 27900
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:27:08.429989+00:00",
+        "request": {
+          "id": 15,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a6001600050505a90035a60016000555a90035a60026000555a90035a60026000555a90035a60006000555a900360805260605260405260205260005260a06000f3",
+              "gas": "0x1c9c380"
+            },
+            "0x6d98f5f"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 15,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000000c0000000000000000000000000000000000000000000000000000000000006d04000000000000000000000000000000000000000000000000000000000000006c000000000000000000000000000000000000000000000000000000000000006c000000000000000000000000000000000000000000000000000000000000006c"
+          },
+          "http_status": 200
+        }
+      }
+    }
+  },
+  "chain": "monad",
+  "context": {
+    "eth_blockNumber": {
+      "observed_at": "2026-10-20T02:27:00.621182+00:00",
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0x6d98f5f"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "observed_at": "2026-10-20T02:27:00.020578+00:00",
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0x8f"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "observed_at": "2026-10-20T02:27:01.220003+00:00",
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x6d98f5f",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0x174876e800",
+            "blobGasUsed": "0x0",
+            "difficulty": "0x0",
+            "excessBlobGas": "0x0",
+            "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "gasLimit": "0x8f0d180",
+            "gasUsed": "0x90640e",
+            "hash": "0x0fd7d3d45685694234db1787ec771dc8d680bcbeedfa5eed4e552dc6efb88db3",
+            "logsBloom": "0x8400002000a4004400200810000180000000000002040000000084212000000088040920018180c800100004000000000004004016000202002820028004480000101010002108000000040800000000b00000000444800000000000100100000802002202080402890022410040280080000002040051092000001210000041490802002001800211400000400008100a004c00400000004001000000000408000064000000042010400104004200802004100000960000007040008002482200200082030000000401040000900000800c0000c000000001204000020060002000000011000000400000000080208000400044008004000002020040004001",
+            "miner": "0x77635d2681292a32af70654499b14a64d1b9cd26",
+            "mixHash": "0x6fccf04aedb5498e0a2c78eb16b12dbd312c7171bd1008bf98b2f4b3b98a3662",
+            "nonce": "0x0000000000000000",
+            "number": "0x6d98f5f",
+            "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "parentHash": "0xad8c282524a9572f1c82c92d98085c8c80c7fca7ecacde001816c3157f8bd121",
+            "receiptsRoot": "0x91037398905b0a2b4b165b5322d0c127da557da68269343e5427c3b9bace75da",
+            "requestsHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "size": "0x320",
+            "stateRoot": "0x3dcd087f0105d18b5818a332505e03fc2e021eba3ddc9c958bdd7cf4cebf40cc",
+            "timestamp": "0x6ad6d174",
+            "totalDifficulty": "0x0",
+            "transactions": [
+              "0x0df858acadd74e1a432d096f8620747d91c759674be114b73b5c1c3390713e20",
+              "0xace2a2f752cad8f7531bedbf5b6eaac3e6764ab8c63b761fc95904ecfbf21510",
+              "0xe438bbd4dd17a137389a82f56ef5eb43829623c1ae099f822910645d4ff19a3a",
+              "0x2c891a47d5ecb166ae89f574e7d52ff629878580b9729d7c9ca26b8c25bbe14d",
+              "0x8c0c9c44d1ea4c75ee3dd8b62b00644aa4a88999b0e5e417da79f09879230e88",
+              "0x95e5f9b2e34ccac45698bf768a7b68b851d99bab2270c994f8be7fcd21778ecd",
+              "0xadb3fbcd382cd057fa7c2bf7d1801c6f8c5958f0647580cf3f03569f71845d40",
+              "0xaef1619672fe7d53a0a6c03dfece7459594f4582509ac30a7d355ed5cacc0285",
+              "0xad6d25da1189b12e034681aa926b25588e4cc0bf87ab54c92274f57f4821880c",
+              "0xccc82717d797116ce5172b951502178e0dd31f4be571e3640235659483abc827",
+              "0x70adff8ce7c30bdb7801f78658787153ec2b86cfed5c01810049e4749d485389",
+              "0xb78ee611815e7bcc350daa225760514727c5f8eb8dfe64cce6f184728b8ba135",
+              "0x61248b7e1cc01d17effb36f656f8d5144cdd2aa6f8c3fad63ee497ee70270807"
+            ],
+            "transactionsRoot": "0x41583828a12faad19a0b11da93f139d0778dbc4a76bb7fea90834e86ae5b2b03",
+            "uncles": [],
+            "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"
+          }
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber_latest_retry": null
+  },
+  "expected_chain_id": 143,
+  "observed_at": "2026-10-20T02:27:01.220022+00:00",
+  "observed_chain_id": "0x8f",
+  "phase": "confirm",
+  "rpc": {
+    "source": "https://docs.monad.xyz/developer-essentials/network-information",
+    "source_accessed": "2026-10-18",
+    "url": "https://rpc.monad.xyz"
+  },
+  "status": "ok"
+}

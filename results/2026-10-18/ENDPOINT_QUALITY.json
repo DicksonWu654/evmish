@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "date": "2026-10-18",
+  "purpose": "Record endpoint comparability decisions used by the differential catalog",
+  "chains": {
+    "hyperevm": {
+      "rpc": "https://rpc.hyperliquid.xyz/evm",
+      "status": "unstable",
+      "probes": [
+        "number",
+        "timestamp",
+        "basefee",
+        "gaslimit",
+        "blockhash-n-minus-1",
+        "blockhash-n-minus-256",
+        "blockhash-n-minus-257",
+        "prevrandao"
+      ],
+      "block_tag": "0x2ea1269",
+      "reason": "Independent round-1 and round-2 verification observed moving NUMBER and TIMESTAMP values for repeated calls using historical block tags; affected block-context cells are excluded as endpoint artifacts.",
+      "evidence": "docs/verification.md"
+    },
+    "cronos": {
+      "rpc": "https://evm.cronos.org",
+      "status": "unstable",
+      "probes": [
+        "number",
+        "timestamp",
+        "basefee",
+        "blockhash-n-minus-1",
+        "blockhash-n-minus-256",
+        "blockhash-n-minus-257",
+        "prevrandao"
+      ],
+      "block_tag": "0x601355d",
+      "reason": "Independent round-2 verification observed current-time TIMESTAMP values for repeated historical tags; affected block-context cells are excluded as endpoint artifacts.",
+      "evidence": "docs/verification.md"
+    }
+  },
+  "default": {
+    "status": "not-assessed",
+    "reason": "The runner now records same-tag stability checks for every block-context probe on future endpoint runs."
+  }
+}

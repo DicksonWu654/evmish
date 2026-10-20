@@ -1,0 +1,5 @@
+{
+  "chain": "bnb-smart-chain",
+  "phase": "secondary",
+  "status": "no-secondary-rpc"
+}

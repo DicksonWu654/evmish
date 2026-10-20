@@ -1,0 +1,196 @@
+{
+  "block": {
+    "baseFeePerGas": "0x5d21dba00",
+    "blobGasUsed": "0x0",
+    "difficulty": "0x1",
+    "excessBlobGas": "0x0",
+    "extraData": "0x",
+    "gasLimit": "0x1dcd6500",
+    "gasUsed": "0x26446",
+    "hash": "0x9be00d03fd63cd96b745e6f878e33fa926da553d2ff9bf9fde03883c6209146b",
+    "logsBloom": "0x00000000020000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000008000080000000010000000000000008000000000000000000000000000000200000000000000000000000000000000010000000000000000000000000000000000000000000000000000004000004000000000000000000000000000000000000000000000000000000800000000000010000000000000002000400000000000000000000008000000000000000000000000000000000004040000000000000000000000000000000000000000000000000000000",
+    "miner": "0xdee887a963d65b218b381d3fad9e4567606ed169",
+    "mixHash": "0x156251908b5f78feef0ea3a4690f615273d4bb2cb27359e19868d86d511c7fb0",
+    "nonce": "0x0000000000000000",
+    "number": "0xdb97f8e",
+    "parentHash": "0xdfeff56c2fecf173999648cb926f238231ac57dd875dbd5682b84f660aa0fd6f",
+    "randomReveal": "0xafc4df2c63e13b6256b75a6b5cb3d5ae82132eb402533c11a20c956f734e299f4d9d238aa68f13c3fb2a461b8a9eb6740a76c3afdabf27533fd52c5035b4cc8baae9b700864d18c9dddbeb82a6668b858f14cdaced42549f2ae1740294bb0c28",
+    "receiptsRoot": "0xcd686ca9f7ba2a2de12eb9f837c160e0ad00aae35c01d78ebbd34e7c27ffa32d",
+    "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+    "size": "0xdb1",
+    "stateRoot": "0xb158e1c0ff754fffb1a5a86df2f0b0e458545ca68382d19e1421ed22b4463653",
+    "timestamp": "0x6ad6d23b",
+    "transactions": [
+      "0x17efbce29061975c6e08b464acb0cc8b17941d5c7f5296de19edc1e1363d80f1",
+      "0x0c073d82191a5981ae87e9555c7ee30d6f4bd95eb06f5c1f8a2d33d0a73b8809"
+    ],
+    "transactionsRoot": "0x31b582a93d4a199e543b3183cb5f566a2a233835ab51cff128e54b54e8db6e9f",
+    "uncles": []
+  },
+  "cases": {
+    "extcodehash-empty": {
+      "attempts": [
+        {
+          "observed_at": "2026-10-20T02:30:21.147831+00:00",
+          "request": {
+            "id": 4,
+            "jsonrpc": "2.0",
+            "method": "eth_call",
+            "params": [
+              {
+                "data": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3f505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3f505a900360405260205260005260606000f3",
+                "gas": "0x1c9c380"
+              },
+              "0xdb97f8e"
+            ]
+          },
+          "response": {
+            "body": {
+              "id": 4,
+              "jsonrpc": "2.0",
+              "result": "0x000000000000000000000000000000000000000000000000000000000000000700000000000000000000000000000000000000000000000000000000000001970000000000000000000000000000000000000000000000000000000000000197"
+            },
+            "http_status": 200
+          }
+        }
+      ],
+      "block_tag": "0xdb97f8e",
+      "bytecode": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3f505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3f505a900360405260205260005260606000f3",
+      "correction": 0,
+      "detail": "",
+      "family": "cold-warm",
+      "interpretation": {
+        "control_gas": 5,
+        "raw_words": [
+          7,
+          407,
+          407
+        ],
+        "status": "measured",
+        "values": {
+          "cold": 400,
+          "warm": 400
+        }
+      },
+      "raw": {
+        "observed_at": "2026-10-20T02:30:21.147831+00:00",
+        "request": {
+          "id": 4,
+          "jsonrpc": "2.0",
+          "method": "eth_call",
+          "params": [
+            {
+              "data": "0x5a739baeb70184075f3ea43e6e8160ec2f162da8d28b505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3f505a90035a739baeb70184075f3ea43e6e8160ec2f162da8d28b3f505a900360405260205260005260606000f3",
+              "gas": "0x1c9c380"
+            },
+            "0xdb97f8e"
+          ]
+        },
+        "response": {
+          "body": {
+            "id": 4,
+            "jsonrpc": "2.0",
+            "result": "0x000000000000000000000000000000000000000000000000000000000000000700000000000000000000000000000000000000000000000000000000000001970000000000000000000000000000000000000000000000000000000000000197"
+          },
+          "http_status": 200
+        }
+      }
+    }
+  },
+  "chain": "kaia",
+  "context": {
+    "eth_blockNumber": {
+      "observed_at": "2026-10-20T02:30:19.982550+00:00",
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0xdb97f8e"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "observed_at": "2026-10-20T02:30:19.395009+00:00",
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0x2019"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "observed_at": "2026-10-20T02:30:20.580856+00:00",
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0xdb97f8e",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0x5d21dba00",
+            "blobGasUsed": "0x0",
+            "difficulty": "0x1",
+            "excessBlobGas": "0x0",
+            "extraData": "0x",
+            "gasLimit": "0x1dcd6500",
+            "gasUsed": "0x26446",
+            "hash": "0x9be00d03fd63cd96b745e6f878e33fa926da553d2ff9bf9fde03883c6209146b",
+            "logsBloom": "0x00000000020000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000020000000000000008000080000000010000000000000008000000000000000000000000000000200000000000000000000000000000000010000000000000000000000000000000000000000000000000000004000004000000000000000000000000000000000000000000000000000000800000000000010000000000000002000400000000000000000000008000000000000000000000000000000000004040000000000000000000000000000000000000000000000000000000",
+            "miner": "0xdee887a963d65b218b381d3fad9e4567606ed169",
+            "mixHash": "0x156251908b5f78feef0ea3a4690f615273d4bb2cb27359e19868d86d511c7fb0",
+            "nonce": "0x0000000000000000",
+            "number": "0xdb97f8e",
+            "parentHash": "0xdfeff56c2fecf173999648cb926f238231ac57dd875dbd5682b84f660aa0fd6f",
+            "randomReveal": "0xafc4df2c63e13b6256b75a6b5cb3d5ae82132eb402533c11a20c956f734e299f4d9d238aa68f13c3fb2a461b8a9eb6740a76c3afdabf27533fd52c5035b4cc8baae9b700864d18c9dddbeb82a6668b858f14cdaced42549f2ae1740294bb0c28",
+            "receiptsRoot": "0xcd686ca9f7ba2a2de12eb9f837c160e0ad00aae35c01d78ebbd34e7c27ffa32d",
+            "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "size": "0xdb1",
+            "stateRoot": "0xb158e1c0ff754fffb1a5a86df2f0b0e458545ca68382d19e1421ed22b4463653",
+            "timestamp": "0x6ad6d23b",
+            "transactions": [
+              "0x17efbce29061975c6e08b464acb0cc8b17941d5c7f5296de19edc1e1363d80f1",
+              "0x0c073d82191a5981ae87e9555c7ee30d6f4bd95eb06f5c1f8a2d33d0a73b8809"
+            ],
+            "transactionsRoot": "0x31b582a93d4a199e543b3183cb5f566a2a233835ab51cff128e54b54e8db6e9f",
+            "uncles": []
+          }
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber_latest_retry": null
+  },
+  "expected_chain_id": 8217,
+  "observed_at": "2026-10-20T02:30:20.580884+00:00",
+  "observed_chain_id": "0x2019",
+  "phase": "secondary",
+  "rpc": {
+    "role": "secondary",
+    "source": "https://docs.kaia.io/references/public-en/",
+    "source_accessed": "2026-10-20",
+    "url": "https://archive-en.node.kaia.io"
+  },
+  "status": "ok"
+}

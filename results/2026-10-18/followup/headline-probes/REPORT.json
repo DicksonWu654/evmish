@@ -1,0 +1,283 @@
+{
+  "code_size_chains": {
+    "ethereum": {
+      "primary": {
+        "block_number": "0x1901dba",
+        "chain_id_observed": "0x1",
+        "observed_at": "2026-10-18T21:01:33Z",
+        "probes": {
+          "oversized-runtime-create-24576": {
+            "error_class": null,
+            "formula_matches": null,
+            "raw_return": "0x000000000000000000000000f4d9599afd90b5038b18e3b551bc21a97ed21c37",
+            "size_rejected": false,
+            "status": "ok",
+            "uint256": 1397840815523076466699159265359708166239426845751
+          },
+          "oversized-runtime-create-24577": {
+            "error_class": null,
+            "formula_matches": null,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "size_rejected": true,
+            "status": "ok",
+            "uint256": 0
+          }
+        },
+        "raw_evidence_dir": "results/2026-10-18/followup/headline-probes/code-size/ethereum/primary/endpoints/ethereum-rpc-publicnode-com",
+        "result": "results/2026-10-18/followup/headline-probes/code-size/ethereum/primary/ethereum.json",
+        "rpc": "https://ethereum-rpc.publicnode.com",
+        "status": "ok"
+      }
+    },
+    "monad": {
+      "primary": {
+        "block_number": "0x6d43a0a",
+        "chain_id_observed": "0x8f",
+        "observed_at": "2026-10-18T21:01:33Z",
+        "probes": {
+          "oversized-runtime-create-131072": {
+            "error_class": null,
+            "formula_matches": null,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "size_rejected": true,
+            "status": "ok",
+            "uint256": 0
+          },
+          "oversized-runtime-create-131073": {
+            "error_class": null,
+            "formula_matches": null,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "size_rejected": true,
+            "status": "ok",
+            "uint256": 0
+          },
+          "oversized-runtime-create-24576": {
+            "error_class": null,
+            "formula_matches": null,
+            "raw_return": "0x000000000000000000000000f4d9599afd90b5038b18e3b551bc21a97ed21c37",
+            "size_rejected": false,
+            "status": "ok",
+            "uint256": 1397840815523076466699159265359708166239426845751
+          },
+          "oversized-runtime-create-24577": {
+            "error_class": null,
+            "formula_matches": null,
+            "raw_return": "0x000000000000000000000000f4d9599afd90b5038b18e3b551bc21a97ed21c37",
+            "size_rejected": false,
+            "status": "ok",
+            "uint256": 1397840815523076466699159265359708166239426845751
+          }
+        },
+        "raw_evidence_dir": "results/2026-10-18/followup/headline-probes/code-size/monad/primary/endpoints/rpc-monad-xyz",
+        "result": "results/2026-10-18/followup/headline-probes/code-size/monad/primary/monad.json",
+        "rpc": "https://rpc.monad.xyz",
+        "status": "ok"
+      }
+    }
+  },
+  "date": "2026-10-18",
+  "formula_chains": {
+    "arbitrum-one": {
+      "primary": {
+        "block_number": "0x1ec2cd60",
+        "chain_id_observed": "0xa4b1",
+        "observed_at": "2026-10-18T21:01:33Z",
+        "probes": {
+          "create": {
+            "error_class": null,
+            "formula_matches": true,
+            "raw_return": "0x000000000000000000000000bd770416a3345f91e4b34576cb804a576fa48eb1000000000000000000000000f4d9599afd90b5038b18e3b551bc21a97ed21c37",
+            "size_rejected": false,
+            "status": "ok",
+            "uint256": 125246907076467293134398980958396284729921935983615002719060199271690975510098264772756777593966994594708505847882364679756855
+          },
+          "create2": {
+            "error_class": null,
+            "formula_matches": true,
+            "raw_return": "0x000000000000000000000000bd770416a3345f91e4b34576cb804a576fa48eb10000000000000000000000009e7b5b08042c78e5c8af8c4042ab37f5bc9fbdef",
+            "size_rejected": false,
+            "status": "ok",
+            "uint256": 125246907076467293134398980958396284729921935983615002719060199271690975510097771703404649929962460059695841267524656473030127
+          }
+        },
+        "raw_evidence_dir": "results/2026-10-18/followup/headline-probes/formula/arbitrum-one/primary/endpoints/arb1-arbitrum-io-rpc",
+        "result": "results/2026-10-18/followup/headline-probes/formula/arbitrum-one/primary/arbitrum-one.json",
+        "rpc": "https://arb1.arbitrum.io/rpc",
+        "status": "ok"
+      },
+      "secondary": {
+        "block_number": "0x1ec2cd78",
+        "chain_id_observed": "0xa4b1",
+        "observed_at": "2026-10-18T21:01:33Z",
+        "probes": {
+          "create": {
+            "error_class": null,
+            "formula_matches": true,
+            "raw_return": "0x000000000000000000000000bd770416a3345f91e4b34576cb804a576fa48eb1000000000000000000000000f4d9599afd90b5038b18e3b551bc21a97ed21c37",
+            "size_rejected": false,
+            "status": "ok",
+            "uint256": 125246907076467293134398980958396284729921935983615002719060199271690975510098264772756777593966994594708505847882364679756855
+          },
+          "create2": {
+            "error_class": null,
+            "formula_matches": true,
+            "raw_return": "0x000000000000000000000000bd770416a3345f91e4b34576cb804a576fa48eb10000000000000000000000009e7b5b08042c78e5c8af8c4042ab37f5bc9fbdef",
+            "size_rejected": false,
+            "status": "ok",
+            "uint256": 125246907076467293134398980958396284729921935983615002719060199271690975510097771703404649929962460059695841267524656473030127
+          }
+        },
+        "raw_evidence_dir": "results/2026-10-18/followup/headline-probes/formula/arbitrum-one/secondary/endpoints/arbitrum-one-publicnode-com",
+        "result": "results/2026-10-18/followup/headline-probes/formula/arbitrum-one/secondary/arbitrum-one.json",
+        "rpc": "https://arbitrum-one.publicnode.com",
+        "status": "ok"
+      }
+    },
+    "ethereum": {
+      "primary": {
+        "block_number": "0x1901db5",
+        "chain_id_observed": "0x1",
+        "observed_at": "2026-10-18T21:01:33Z",
+        "probes": {
+          "create": {
+            "error_class": null,
+            "formula_matches": true,
+            "raw_return": "0x000000000000000000000000bd770416a3345f91e4b34576cb804a576fa48eb1000000000000000000000000f4d9599afd90b5038b18e3b551bc21a97ed21c37",
+            "size_rejected": false,
+            "status": "ok",
+            "uint256": 125246907076467293134398980958396284729921935983615002719060199271690975510098264772756777593966994594708505847882364679756855
+          },
+          "create2": {
+            "error_class": null,
+            "formula_matches": true,
+            "raw_return": "0x000000000000000000000000bd770416a3345f91e4b34576cb804a576fa48eb10000000000000000000000009e7b5b08042c78e5c8af8c4042ab37f5bc9fbdef",
+            "size_rejected": false,
+            "status": "ok",
+            "uint256": 125246907076467293134398980958396284729921935983615002719060199271690975510097771703404649929962460059695841267524656473030127
+          }
+        },
+        "raw_evidence_dir": "results/2026-10-18/followup/headline-probes/formula/ethereum/primary/endpoints/ethereum-rpc-publicnode-com",
+        "result": "results/2026-10-18/followup/headline-probes/formula/ethereum/primary/ethereum.json",
+        "rpc": "https://ethereum-rpc.publicnode.com",
+        "status": "ok"
+      },
+      "secondary": {
+        "block_number": null,
+        "chain_id_observed": "0x1",
+        "observed_at": "2026-10-18T21:01:33Z",
+        "probes": {
+          "create": {
+            "error_class": "jsonrpc",
+            "formula_matches": null,
+            "raw_return": null,
+            "size_rejected": null,
+            "status": "rpc-rejected",
+            "uint256": null
+          },
+          "create2": {
+            "error_class": "jsonrpc",
+            "formula_matches": null,
+            "raw_return": null,
+            "size_rejected": null,
+            "status": "rpc-rejected",
+            "uint256": null
+          }
+        },
+        "raw_evidence_dir": "results/2026-10-18/followup/headline-probes/formula/ethereum/secondary/endpoints/cloudflare-eth-com",
+        "result": "results/2026-10-18/followup/headline-probes/formula/ethereum/secondary/ethereum.json",
+        "rpc": "https://cloudflare-eth.com",
+        "status": "partial"
+      }
+    },
+    "tron": {
+      "primary": {
+        "block_number": "0x532feca",
+        "chain_id_observed": "0x2b6653dc",
+        "observed_at": "2026-10-18T21:01:33Z",
+        "probes": {
+          "create": {
+            "error_class": "jsonrpc",
+            "formula_matches": null,
+            "raw_return": null,
+            "size_rejected": null,
+            "status": "rpc-rejected",
+            "uint256": null
+          },
+          "create2": {
+            "error_class": "jsonrpc",
+            "formula_matches": null,
+            "raw_return": null,
+            "size_rejected": null,
+            "status": "rpc-rejected",
+            "uint256": null
+          }
+        },
+        "raw_evidence_dir": "results/2026-10-18/followup/headline-probes/formula/tron/primary/endpoints/api-trongrid-io-jsonrpc",
+        "result": "results/2026-10-18/followup/headline-probes/formula/tron/primary/tron.json",
+        "rpc": "https://api.trongrid.io/jsonrpc",
+        "status": "degraded"
+      },
+      "secondary": null,
+      "secondary_reason": "No independent endpoint is registered; the primary RPC result and its raw rejection are retained."
+    },
+    "zksync-era": {
+      "primary": {
+        "block_number": "0x4530819",
+        "chain_id_observed": "0x144",
+        "observed_at": "2026-10-18T21:01:33Z",
+        "probes": {
+          "create": {
+            "error_class": null,
+            "formula_matches": true,
+            "raw_return": "0x000000000000000000000000bd770416a3345f91e4b34576cb804a576fa48eb1000000000000000000000000f4d9599afd90b5038b18e3b551bc21a97ed21c37",
+            "size_rejected": false,
+            "status": "ok",
+            "uint256": 125246907076467293134398980958396284729921935983615002719060199271690975510098264772756777593966994594708505847882364679756855
+          },
+          "create2": {
+            "error_class": null,
+            "formula_matches": true,
+            "raw_return": "0x000000000000000000000000bd770416a3345f91e4b34576cb804a576fa48eb10000000000000000000000009e7b5b08042c78e5c8af8c4042ab37f5bc9fbdef",
+            "size_rejected": false,
+            "status": "ok",
+            "uint256": 125246907076467293134398980958396284729921935983615002719060199271690975510097771703404649929962460059695841267524656473030127
+          }
+        },
+        "raw_evidence_dir": "results/2026-10-18/followup/headline-probes/formula/zksync-era/primary/endpoints/mainnet-era-zksync-io",
+        "result": "results/2026-10-18/followup/headline-probes/formula/zksync-era/primary/zksync-era.json",
+        "rpc": "https://mainnet.era.zksync.io",
+        "status": "ok"
+      },
+      "secondary": {
+        "block_number": "0x453081c",
+        "chain_id_observed": "0x144",
+        "observed_at": "2026-10-18T21:01:33Z",
+        "probes": {
+          "create": {
+            "error_class": null,
+            "formula_matches": true,
+            "raw_return": "0x000000000000000000000000bd770416a3345f91e4b34576cb804a576fa48eb1000000000000000000000000f4d9599afd90b5038b18e3b551bc21a97ed21c37",
+            "size_rejected": false,
+            "status": "ok",
+            "uint256": 125246907076467293134398980958396284729921935983615002719060199271690975510098264772756777593966994594708505847882364679756855
+          },
+          "create2": {
+            "error_class": null,
+            "formula_matches": true,
+            "raw_return": "0x000000000000000000000000bd770416a3345f91e4b34576cb804a576fa48eb10000000000000000000000009e7b5b08042c78e5c8af8c4042ab37f5bc9fbdef",
+            "size_rejected": false,
+            "status": "ok",
+            "uint256": 125246907076467293134398980958396284729921935983615002719060199271690975510097771703404649929962460059695841267524656473030127
+          }
+        },
+        "raw_evidence_dir": "results/2026-10-18/followup/headline-probes/formula/zksync-era/secondary/endpoints/zksync-drpc-org",
+        "result": "results/2026-10-18/followup/headline-probes/formula/zksync-era/secondary/zksync-era.json",
+        "rpc": "https://zksync.drpc.org",
+        "status": "ok"
+      }
+    }
+  },
+  "purpose": "follow-up focused CREATE/CREATE2 and code-size probes; RPC/VM failures remain distinct",
+  "recorded_reasons": {},
+  "schema": 1
+}

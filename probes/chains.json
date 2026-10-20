@@ -1,0 +1,396 @@
+{
+  "ethereum": {
+    "chain_id": 1,
+    "rpcs": [
+      {
+        "url": "https://ethereum-rpc.publicnode.com",
+        "source": "https://www.publicnode.com/",
+        "source_accessed": "2026-10-18",
+        "provider": "PublicNode",
+        "operator_type": "third-party"
+      },
+      {
+        "url": "https://cloudflare-eth.com",
+        "source": "https://developers.cloudflare.com/web3/how-to/use-ethereum-rpc/",
+        "source_accessed": "2026-10-18",
+        "role": "secondary",
+        "provider": "Cloudflare",
+        "operator_type": "third-party"
+      }
+    ],
+    "explorer": "https://etherscan.io"
+  },
+  "tron": {
+    "chain_id": 728126428,
+    "rpcs": [
+      {
+        "url": "https://api.trongrid.io/jsonrpc",
+        "source": "https://developers.tron.network/docs/connect-to-the-tron-network",
+        "source_accessed": "2026-10-18"
+      }
+    ],
+    "explorer": "https://tronscan.org"
+  },
+  "zksync-era": {
+    "chain_id": 324,
+    "rpcs": [
+      {
+        "url": "https://mainnet.era.zksync.io",
+        "source": "https://docs.zksync.io/zksync-era/tooling/node-providers",
+        "source_accessed": "2026-10-18"
+      },
+      {
+        "url": "https://zksync.drpc.org",
+        "source": "https://drpc.org/chainlist",
+        "source_accessed": "2026-10-18",
+        "role": "secondary",
+        "provider": "dRPC",
+        "operator_type": "third-party"
+      }
+    ],
+    "explorer": "https://explorer.zksync.io"
+  },
+  "arbitrum-one": {
+    "chain_id": 42161,
+    "rpcs": [
+      {
+        "url": "https://arb1.arbitrum.io/rpc",
+        "source": "https://docs.arbitrum.io/build-decentralized-apps/reference/node-providers",
+        "source_accessed": "2026-10-18"
+      },
+      {
+        "url": "https://arbitrum-one.publicnode.com",
+        "source": "https://www.publicnode.com/",
+        "source_accessed": "2026-10-18",
+        "role": "secondary",
+        "provider": "PublicNode",
+        "operator_type": "third-party"
+      }
+    ],
+    "explorer": "https://arbiscan.io"
+  },
+  "op-mainnet": {
+    "chain_id": 10,
+    "rpcs": [
+      {
+        "url": "https://mainnet.optimism.io",
+        "source": "https://docs.optimism.io/app-developers/reference/rpc-providers",
+        "source_accessed": "2026-10-18"
+      },
+      {
+        "url": "https://optimism.publicnode.com",
+        "source": "https://www.publicnode.com/",
+        "source_accessed": "2026-10-18",
+        "role": "secondary",
+        "provider": "PublicNode",
+        "operator_type": "third-party"
+      }
+    ],
+    "explorer": "https://optimistic.etherscan.io"
+  },
+  "base": {
+    "chain_id": 8453,
+    "rpcs": [
+      {
+        "url": "https://mainnet.base.org",
+        "source": "https://docs.base.org/base-chain/api-reference/rpc-overview",
+        "source_accessed": "2026-10-18"
+      },
+      {
+        "url": "https://base.publicnode.com",
+        "source": "https://www.publicnode.com/",
+        "source_accessed": "2026-10-18",
+        "role": "secondary",
+        "provider": "PublicNode",
+        "operator_type": "third-party"
+      }
+    ],
+    "explorer": "https://basescan.org"
+  },
+  "polygon-pos": {
+    "chain_id": 137,
+    "rpcs": [
+      {
+        "url": "https://polygon-bor-rpc.publicnode.com",
+        "source": "https://www.publicnode.com/",
+        "source_accessed": "2026-10-18",
+        "provider": "PublicNode",
+        "operator_type": "third-party"
+      },
+      {
+        "url": "https://polygon.drpc.org",
+        "source": "https://docs.polygon.technology/pos/reference/rpc-endpoints.md",
+        "source_accessed": "2026-10-20",
+        "role": "secondary",
+        "provider": "dRPC",
+        "operator_type": "third-party"
+      }
+    ],
+    "explorer": "https://polygonscan.com"
+  },
+  "bnb-smart-chain": {
+    "chain_id": 56,
+    "rpcs": [
+      {
+        "url": "https://bsc-dataseed.binance.org",
+        "source": "https://docs.bnbchain.org/bnb-smart-chain/developers/json_rpc/json-rpc-endpoint/",
+        "source_accessed": "2026-10-18"
+      }
+    ],
+    "explorer": "https://bscscan.com"
+  },
+  "avalanche-c-chain": {
+    "chain_id": 43114,
+    "rpcs": [
+      {
+        "url": "https://api.avax.network/ext/bc/C/rpc",
+        "source": "https://build.avax.network/docs/quickstart/avalanche-consensus",
+        "source_accessed": "2026-10-18"
+      }
+    ],
+    "explorer": "https://snowtrace.io"
+  },
+  "scroll": {
+    "chain_id": 534352,
+    "rpcs": [
+      {
+        "url": "https://rpc.scroll.io",
+        "source": "https://docs.scroll.io/",
+        "source_accessed": "2026-10-18"
+      }
+    ],
+    "explorer": "https://scrollscan.com"
+  },
+  "linea": {
+    "chain_id": 59144,
+    "rpcs": [
+      {
+        "url": "https://rpc.linea.build",
+        "source": "https://docs.linea.build/network",
+        "source_accessed": "2026-10-18"
+      }
+    ],
+    "explorer": "https://lineascan.build"
+  },
+  "mantle": {
+    "chain_id": 5000,
+    "rpcs": [
+      {
+        "url": "https://rpc.mantle.xyz",
+        "source": "https://docs.mantle.xyz/network",
+        "source_accessed": "2026-10-18"
+      }
+    ],
+    "explorer": "https://mantlescan.xyz"
+  },
+  "blast": {
+    "chain_id": 81457,
+    "rpcs": [
+      {
+        "url": "https://rpc.blast.io",
+        "source": "https://metalayerlabs.mintlify.app/building/network-information",
+        "source_accessed": "2026-10-18"
+      }
+    ],
+    "explorer": "https://blastscan.io"
+  },
+  "monad": {
+    "chain_id": 143,
+    "rpcs": [
+      {
+        "url": "https://rpc.monad.xyz",
+        "source": "https://docs.monad.xyz/developer-essentials/network-information",
+        "source_accessed": "2026-10-18"
+      },
+      {
+        "url": "https://monad.drpc.org",
+        "source": "https://drpc.org/chainlist",
+        "source_accessed": "2026-10-18",
+        "role": "secondary",
+        "provider": "dRPC",
+        "operator_type": "third-party"
+      }
+    ],
+    "explorer": "https://monadscan.com"
+  },
+  "megaeth": {
+    "chain_id": 4326,
+    "rpcs": [
+      {
+        "url": "https://mainnet.megaeth.com/rpc",
+        "source": "https://docs.megaeth.com/developer-docs/rpc",
+        "source_accessed": "2026-10-18"
+      },
+      {
+        "url": "https://megaeth.drpc.org",
+        "source": "https://drpc.org/chainlist",
+        "source_accessed": "2026-10-18",
+        "role": "secondary",
+        "provider": "dRPC",
+        "operator_type": "third-party"
+      }
+    ],
+    "explorer": "https://megaeth.blockscout.com"
+  },
+  "hyperevm": {
+    "chain_id": 999,
+    "rpcs": [
+      {
+        "url": "https://rpc.hyperliquid.xyz/evm",
+        "source": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm",
+        "source_accessed": "2026-10-18"
+      }
+    ],
+    "explorer": "https://purrsec.com"
+  },
+  "tempo": {
+    "chain_id": 4217,
+    "rpcs": [
+      {
+        "url": "https://rpc.tempo.xyz",
+        "source": "https://tempo.xyz/developers/docs/network",
+        "source_accessed": "2026-10-18"
+      },
+      {
+        "url": "https://tempo.drpc.org",
+        "source": "https://tempo.xyz/developers/docs/partners/rpc-and-nodes",
+        "source_accessed": "2026-10-20",
+        "role": "secondary",
+        "provider": "dRPC",
+        "operator_type": "third-party"
+      }
+    ],
+    "explorer": "https://explorer.tempo.xyz"
+  },
+  "plasma": {
+    "chain_id": 9745,
+    "rpcs": [
+      {
+        "url": "https://rpc.plasma.to",
+        "source": "https://docs.plasma.to/",
+        "source_accessed": "2026-10-18"
+      }
+    ],
+    "explorer": "https://plasmascan.to"
+  },
+  "berachain": {
+    "chain_id": 80094,
+    "rpcs": [
+      {
+        "url": "https://rpc.berachain.com",
+        "source": "https://docs.berachain.com/nodes/operations/self-hosted-rpc",
+        "source_accessed": "2026-10-18"
+      }
+    ],
+    "explorer": "https://berascan.com"
+  },
+  "sei-evm": {
+    "chain_id": 1329,
+    "rpcs": [
+      {
+        "url": "https://evm-rpc.sei-apis.com",
+        "source": "https://docs.sei.io/evm/networks",
+        "source_accessed": "2026-10-18"
+      },
+      {
+        "url": "https://sei-evm-rpc.publicnode.com",
+        "source": "https://www.publicnode.com/",
+        "source_accessed": "2026-10-20",
+        "role": "secondary",
+        "provider": "PublicNode",
+        "operator_type": "third-party"
+      }
+    ],
+    "explorer": "https://seitrace.com/pacific-1"
+  },
+  "somnia": {
+    "chain_id": 5031,
+    "rpcs": [
+      {
+        "url": "https://api.infra.mainnet.somnia.network",
+        "source": "https://docs.somnia.network/",
+        "source_accessed": "2026-10-18"
+      },
+      {
+        "url": "https://somnia.publicnode.com",
+        "source": "https://docs.somnia.network/developer/deployment-and-production/ecosystem/ecosystem-tools/rpc.md",
+        "source_accessed": "2026-10-20",
+        "role": "secondary",
+        "provider": "PublicNode",
+        "operator_type": "third-party"
+      }
+    ],
+    "explorer": "https://shannon-explorer.somnia.network"
+  },
+  "celo": {
+    "chain_id": 42220,
+    "rpcs": [
+      {
+        "url": "https://forno.celo.org",
+        "source": "https://docs.celo.org/operate/operators/public-rpc-node",
+        "source_accessed": "2026-10-18"
+      }
+    ],
+    "explorer": "https://celoscan.io"
+  },
+  "taiko": {
+    "chain_id": 167000,
+    "rpcs": [
+      {
+        "url": "https://rpc.mainnet.taiko.xyz",
+        "source": "https://docs.taiko.xyz/network/differences-from-ethereum",
+        "source_accessed": "2026-10-18"
+      }
+    ],
+    "explorer": "https://taikoscan.io"
+  },
+  "cronos": {
+    "chain_id": 25,
+    "rpcs": [
+      {
+        "url": "https://evm.cronos.org",
+        "source": "https://docs.cronos.com/for-dapp-developers/chain-integration/public-rpc-endpoints",
+        "source_accessed": "2026-10-18"
+      }
+    ],
+    "explorer": "https://cronoscan.com"
+  },
+  "kaia": {
+    "chain_id": 8217,
+    "rpcs": [
+      {
+        "url": "https://public-en.node.kaia.io",
+        "source": "https://docs.kaia.io/references/json-rpc/",
+        "source_accessed": "2026-10-18"
+      },
+      {
+        "url": "https://klaytn.drpc.org",
+        "source": "https://docs.kaia.io/references/public-en/",
+        "source_accessed": "2026-10-20",
+        "role": "secondary",
+        "provider": "dRPC",
+        "operator_type": "third-party"
+      }
+    ],
+    "explorer": "https://kaiascan.io"
+  },
+  "gnosis": {
+    "chain_id": 100,
+    "rpcs": [
+      {
+        "url": "https://rpc.gnosischain.com",
+        "source": "https://docs.gnosischain.com/tools/rpc",
+        "source_accessed": "2026-10-18"
+      }
+    ],
+    "explorer": "https://gnosisscan.io"
+  },
+  "evmos": {
+    "chain_id": 9001,
+    "rpcs": [],
+    "rpc_source": "https://docs.evmos.org/",
+    "rpc_source_accessed": "2026-10-18",
+    "rpc_status": "No no-key public EVM JSON-RPC endpoint was available during this run; see the recorded reason in the dated result.",
+    "explorer": "https://escan.live"
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "account_candidates": {
+    "delegated-7702": "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+    "empty": "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+    "eoa": "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+    "system-contract": "0x0000000000000000000000000000000000000064"
+  },
+  "block": {
+    "baseFeePerGas": "0x7",
+    "blobGasUsed": "0x0",
+    "excessBlobGas": "0x0",
+    "gasLimit": "0x77359400",
+    "gasLimit_uint256": 2000000000,
+    "hash": "0x7fc67152f8886800a5bcc2725ee7e2a7c90f160a3f25667b51df38d26adee445",
+    "miner": "0xfd5fb23e06e46347d8724486cdb681507592e237",
+    "mixHash": "0xea5ed85e3563c68cf96ce0c5388b11eff4d84f7b898725058bf3b59387d51406",
+    "number": "0x1edc734",
+    "prevRandao": null,
+    "timestamp": "0x6ad52fc7",
+    "timestamp_unix": 1792356295
+  },
+  "block_number": "0x1edc734",
+  "chain": "linea",
+  "chain_id_expected": 59144,
+  "chain_id_observed": "0xe708",
+  "context": {
+    "eth_blockNumber": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0x1edc734"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0xe708"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x1edc734",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0x7",
+            "blobGasUsed": "0x0",
+            "difficulty": "0x0",
+            "excessBlobGas": "0x0",
+            "extraData": "0x0100007530000f42400000a3b000000000000000000000000000000000000000",
+            "gasLimit": "0x77359400",
+            "gasUsed": "0x5155f",
+            "hash": "0x7fc67152f8886800a5bcc2725ee7e2a7c90f160a3f25667b51df38d26adee445",
+            "logsBloom": "0x0000000000000040000000800000000000000000000000200000010000000000000000000000c0000000000000020000000008000000000000040004002400000400000000c2000000000008020000000000000000440000400040020000000000000000010008400000000008000000000000000010040000c0001000000000000000000000000000100800002004000000000000000000000000000000000002000000000000000000000000200000000100000000000000000008200000000000010a000000000000000000000000000182008000008000000002000040000010000020000010000000000000000000008000200000000000040000000000",
+            "miner": "0xfd5fb23e06e46347d8724486cdb681507592e237",
+            "mixHash": "0xea5ed85e3563c68cf96ce0c5388b11eff4d84f7b898725058bf3b59387d51406",
+            "nonce": "0x0000000000000000",
+            "number": "0x1edc734",
+            "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "parentHash": "0xd8da5c616cc797977b2f4ec570693f2c75f2862ebef608653c9334d6c5ca2079",
+            "receiptsRoot": "0x70491eb67c94742787536cafdff67ad32b70ce17f640fe241730dcec1a6def66",
+            "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "size": "0xd4e",
+            "stateRoot": "0xc54b7489aadef3550ed4dbb79e767eca16680bf9a4bd4302e531ecbb52e9f4b0",
+            "timestamp": "0x6ad52fc7",
+            "transactions": [
+              "0xcc6a4e279eab090895fb8060e9a8c96b64e4b7c0a16a3f0303787a8d51819ef4",
+              "0x13f21c473eeeb667eba019967dff58b0b016f69a1c79dda3eca5b886dd65ae11"
+            ],
+            "transactionsRoot": "0xff3b974e8d5c2b3490850d437207909d3f74da86733a86496597f054c80c92f2",
+            "uncles": [],
+            "withdrawals": [],
+            "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"
+          }
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_delegated-7702": {
+      "address": "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 6,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+          "0x1edc734"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 6,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_empty": {
+      "address": "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 5,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+          "0x1edc734"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 5,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_eoa": {
+      "address": "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 4,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+          "0x1edc734"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 4,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_system-contract": {
+      "address": "0x0000000000000000000000000000000000000064",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 7,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x0000000000000000000000000000000000000064",
+          "0x1edc734"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 7,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    }
+  },
+  "error_classes": [],
+  "evidence_dir": "results/2026-10-18/differential-confirmation/linea/endpoints/rpc-linea-build",
+  "observed_at": "2026-10-18T20:44:59Z",
+  "oracles": {
+    "linea-fee-oracle": {
+      "data": "0x",
+      "interpretation": {
+        "error_class": null,
+        "raw_return": "0x",
+        "status": "ok",
+        "uint256": null
+      },
+      "method": "Linea fee-oracle system-contract candidate",
+      "request": {
+        "id": 11,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x",
+            "to": "0x5300000000000000000000000000000000000002"
+          },
+          "0x1edc734"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 11,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      },
+      "to": "0x5300000000000000000000000000000000000002"
+    }
+  },
+  "probe_count": 3,
+  "probes": {
+    "blobbasefee": {
+      "data": "0x4a60005260206000f3",
+      "interpretation": {
+        "error_class": null,
+        "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000001",
+        "status": "ok",
+        "uint256": 1
+      },
+      "meaning": "BLOBBASEFEE for the execution block.",
+      "request": {
+        "id": 9,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x4a60005260206000f3"
+          },
+          "0x1edc734"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 9,
+          "jsonrpc": "2.0",
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000001"
+        },
+        "http_status": 200
+      },
+      "vector": null
+    },
+    "chainid": {
+      "data": "0x4660005260206000f3",
+      "interpretation": {
+        "error_class": null,
+        "raw_return": "0x000000000000000000000000000000000000000000000000000000000000e708",
+        "status": "ok",
+        "uint256": 59144
+      },
+      "meaning": "CHAINID.",
+      "request": {
+        "id": 8,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x4660005260206000f3"
+          },
+          "0x1edc734"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 8,
+          "jsonrpc": "2.0",
+          "result": "0x000000000000000000000000000000000000000000000000000000000000e708"
+        },
+        "http_status": 200
+      },
+      "vector": null
+    },
+    "extcode-delegated-7702": {
+      "data": "0x734de23f3f0fb3318287378adbde030cf61714b2f33b600052734de23f3f0fb3318287378adbde030cf61714b2f33f60205260406000f3",
+      "interpretation": {
+        "error_class": null,
+        "extcodehash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+        "extcodesize": 0,
+        "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470",
+        "status": "ok",
+        "uint256": 89477152217924674838424037953991966239322087453347756267410168184682657981552,
+        "words": [
+          0,
+          89477152217924674838424037953991966239322087453347756267410168184682657981552
+        ]
+      },
+      "meaning": "EXTCODESIZE and EXTCODEHASH for delegated-7702 candidate 0x4de23f3f0fb3318287378adbde030cf61714b2f3.",
+      "request": {
+        "id": 10,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x734de23f3f0fb3318287378adbde030cf61714b2f33b600052734de23f3f0fb3318287378adbde030cf61714b2f33f60205260406000f3"
+          },
+          "0x1edc734"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 10,
+          "jsonrpc": "2.0",
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000c5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+        },
+        "http_status": 200
+      },
+      "vector": null
+    }
+  },
+  "recorded_reason": null,
+  "rpc": "https://rpc.linea.build",
+  "rpc_source": "https://docs.linea.build/network",
+  "rpc_source_accessed": "2026-10-18",
+  "status": "ok"
+}

@@ -1,0 +1,7 @@
+{
+  "cases": {},
+  "chain": "celo",
+  "phase": "secondary",
+  "reason": "No second listed endpoint",
+  "status": "no-secondary-rpc"
+}

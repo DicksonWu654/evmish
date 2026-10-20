@@ -1,0 +1,130 @@
+{
+  "chains": {
+    "arbitrum-one": [
+      "number",
+      "prevrandao",
+      "extcode-system-contract"
+    ],
+    "avalanche-c-chain": [
+      "prevrandao",
+      "precompile-0x0b-address-0b",
+      "precompile-0x0c-address-0c",
+      "precompile-0x0d-address-0d",
+      "precompile-0x0e-address-0e",
+      "precompile-0x0f-address-0f",
+      "precompile-0x10-address-10",
+      "precompile-0x11-address-11",
+      "extcode-delegated-7702"
+    ],
+    "berachain": [
+      "oversized-runtime-create"
+    ],
+    "blast": [
+      "basefee",
+      "precompile-0x0b-address-0b",
+      "precompile-0x0c-address-0c",
+      "precompile-0x0d-address-0d",
+      "precompile-0x0e-address-0e",
+      "precompile-0x0f-address-0f",
+      "precompile-0x10-address-10",
+      "precompile-0x11-address-11",
+      "precompile-0x100-p256verify",
+      "extcode-delegated-7702"
+    ],
+    "bnb-smart-chain": [
+      "prevrandao"
+    ],
+    "celo": [
+      "oversized-runtime-create",
+      "extcode-delegated-7702"
+    ],
+    "cronos": [
+      "basefee",
+      "blobbasefee",
+      "gaslimit",
+      "timestamp"
+    ],
+    "hyperevm": [
+      "number",
+      "gaslimit",
+      "timestamp",
+      "precompile-0x0b-address-0b",
+      "precompile-0x0c-address-0c",
+      "precompile-0x0d-address-0d",
+      "precompile-0x0e-address-0e",
+      "precompile-0x0f-address-0f",
+      "precompile-0x10-address-10",
+      "precompile-0x11-address-11",
+      "extcode-delegated-7702"
+    ],
+    "kaia": [
+      "basefee",
+      "gaslimit",
+      "extcode-delegated-7702"
+    ],
+    "linea": [
+      "extcode-delegated-7702"
+    ],
+    "megaeth": [
+      "gaslimit",
+      "oversized-runtime-create",
+      "extcode-delegated-7702"
+    ],
+    "monad": [
+      "oversized-runtime-create",
+      "cold-warm-extcodesize",
+      "estimate-gas"
+    ],
+    "polygon-pos": [
+      "blobhash",
+      "blobbasefee",
+      "prevrandao",
+      "coinbase",
+      "oversized-runtime-create",
+      "precompile-0x0a-kzg-point-evaluation"
+    ],
+    "scroll": [
+      "basefee",
+      "blobhash",
+      "blobbasefee",
+      "coinbase",
+      "precompile-0x03-ripemd160",
+      "precompile-0x0a-kzg-point-evaluation",
+      "precompile-0x0b-address-0b",
+      "precompile-0x0c-address-0c",
+      "precompile-0x0d-address-0d",
+      "precompile-0x0e-address-0e",
+      "precompile-0x0f-address-0f",
+      "precompile-0x10-address-10",
+      "precompile-0x11-address-11",
+      "extcode-delegated-7702"
+    ],
+    "sei-evm": [
+      "coinbase"
+    ],
+    "somnia": [
+      "basefee",
+      "blobbasefee",
+      "prevrandao",
+      "coinbase",
+      "oversized-runtime-create",
+      "cold-warm-extcodesize",
+      "estimate-gas",
+      "precompile-0x100-p256verify",
+      "extcode-delegated-7702"
+    ],
+    "tempo": [
+      "extcode-delegated-7702"
+    ],
+    "zksync-era": [
+      "basefee",
+      "prevrandao",
+      "coinbase",
+      "precompile-0x03-ripemd160",
+      "extcode-delegated-7702"
+    ]
+  },
+  "date": "2026-10-18",
+  "purpose": "later-block confirmation of differential probe cells; rejected and unavailable cells are not catalog divergences",
+  "schema": 1
+}

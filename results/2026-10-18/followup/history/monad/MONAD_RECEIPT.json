@@ -1,0 +1,11 @@
+{
+  "block_number": "0x6d43c6a",
+  "comparison": "gasUsed and gasLimit retained; this single read-only sample is not a universal fee rule",
+  "gas_limit": "0x22a0ac",
+  "gas_limit_uint256": 2269356,
+  "gas_used": "0x22a0ac",
+  "gas_used_uint256": 2269356,
+  "rpc": "https://rpc.monad.xyz",
+  "status": "ok",
+  "transaction_hash": "0x3050c8901cebce9709dd6c7a517ed0b5997cc66eb605f51a5db38f9fbdd09125"
+}

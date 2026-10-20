@@ -1,0 +1,139 @@
+{
+  "block": {
+    "baseFeePerGas": "0x1342aa0",
+    "difficulty": "0x1",
+    "extraData": "0xd029982fa873b02f4e7d5301998788549239736b34bc7c0746712eaa8b54769b",
+    "gasLimit": "0x4000000000000",
+    "gasUsed": "0x555d8d",
+    "hash": "0xf45bd2b0cedba83aeed0cffa43e379fdc6d1adc9a9d47782f039b8b695f8c175",
+    "l1BlockNumber": "0x190400f",
+    "logsBloom": "0x0000100000000018208800010c4004001000000081450310000005600b250210000010400200002112008044c20600022904c0810a062042084200000c2002280402180102500409002206288020241001880e001900024000200a048800000008000009021000180000401520000c00004406020000020408500012010800010809001001a00000020084801041040440020481404400a00001188400000000ca0900401200000000028020002081400100010241a0004000841002044042012538a8020220c02020101002044000000400000e00112000004040c010c020064010400200001000040800008040a0001202588400a001000900002820501024",
+    "miner": "0xa4b000000000000000000073657175656e636572",
+    "mixHash": "0x0000000000028cc8000000000190400f000000000000003d0001000000000000",
+    "nonce": "0x000000000027a4ad",
+    "number": "0x1ec8a86d",
+    "parentHash": "0x2254b35325d560d5a0a102b5ec1f9a6ee835ce08630f0d8b8bf3a429c89cce75",
+    "receiptsRoot": "0x74d2c7b823d54395336676041072b370cb0bdf6f29ed75ed1120cef829bc6143",
+    "sendCount": "0x28cc8",
+    "sendRoot": "0xd029982fa873b02f4e7d5301998788549239736b34bc7c0746712eaa8b54769b",
+    "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+    "size": "0x2a34",
+    "stateRoot": "0xd4bb580415dde5606b9ba134182c39b4df24bc97c049a54ffa8fbacfeda123c4",
+    "timestamp": "0x6ad6d176",
+    "transactions": [
+      "0x6f68d3e5731db7ccfaa86d6a189e9dfab9ecde6480cc35ac347f67de55119b40",
+      "0xd4f78f61eab50f4b25b74921390f1c1c8d2259d49ffd21dd24a96a972b114650",
+      "0xef067e48f83a3e70c62e48f12a61381ef037294d11609290008ebd83a271e583",
+      "0x021433220e0ab1558099e125d13ce5b97b3780de892350a7a43fc89804062eb6",
+      "0xc204129625fd315c6d35acc346e45fbe021bbc1a33c7f4107be8fb33030b20e6",
+      "0xe16179c2d49373dd1b653c74a09e3ce45d7ad98f0560d86ad77cb4b348dc21c7",
+      "0x840e12d7abb77b2545ddd7f7038956ed4d31660a24387316ddf39fe923aca17d",
+      "0x62782ed7e32f6480ed714a0b8f82574a7f814ebca5b3cf5eb3f436c7c2baa196"
+    ],
+    "transactionsRoot": "0x35bb9d7a2053d4fb3f225435e5579a1abb9ad0977e3ea343fe444b940f90e1bc",
+    "uncles": []
+  },
+  "cases": {},
+  "chain": "arbitrum-one",
+  "context": {
+    "eth_blockNumber": {
+      "observed_at": "2026-10-20T02:27:03.170737+00:00",
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0x1ec8a86d"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "observed_at": "2026-10-20T02:27:02.680004+00:00",
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0xa4b1"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "observed_at": "2026-10-20T02:27:03.780670+00:00",
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x1ec8a86d",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0x1342aa0",
+            "difficulty": "0x1",
+            "extraData": "0xd029982fa873b02f4e7d5301998788549239736b34bc7c0746712eaa8b54769b",
+            "gasLimit": "0x4000000000000",
+            "gasUsed": "0x555d8d",
+            "hash": "0xf45bd2b0cedba83aeed0cffa43e379fdc6d1adc9a9d47782f039b8b695f8c175",
+            "l1BlockNumber": "0x190400f",
+            "logsBloom": "0x0000100000000018208800010c4004001000000081450310000005600b250210000010400200002112008044c20600022904c0810a062042084200000c2002280402180102500409002206288020241001880e001900024000200a048800000008000009021000180000401520000c00004406020000020408500012010800010809001001a00000020084801041040440020481404400a00001188400000000ca0900401200000000028020002081400100010241a0004000841002044042012538a8020220c02020101002044000000400000e00112000004040c010c020064010400200001000040800008040a0001202588400a001000900002820501024",
+            "miner": "0xa4b000000000000000000073657175656e636572",
+            "mixHash": "0x0000000000028cc8000000000190400f000000000000003d0001000000000000",
+            "nonce": "0x000000000027a4ad",
+            "number": "0x1ec8a86d",
+            "parentHash": "0x2254b35325d560d5a0a102b5ec1f9a6ee835ce08630f0d8b8bf3a429c89cce75",
+            "receiptsRoot": "0x74d2c7b823d54395336676041072b370cb0bdf6f29ed75ed1120cef829bc6143",
+            "sendCount": "0x28cc8",
+            "sendRoot": "0xd029982fa873b02f4e7d5301998788549239736b34bc7c0746712eaa8b54769b",
+            "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "size": "0x2a34",
+            "stateRoot": "0xd4bb580415dde5606b9ba134182c39b4df24bc97c049a54ffa8fbacfeda123c4",
+            "timestamp": "0x6ad6d176",
+            "transactions": [
+              "0x6f68d3e5731db7ccfaa86d6a189e9dfab9ecde6480cc35ac347f67de55119b40",
+              "0xd4f78f61eab50f4b25b74921390f1c1c8d2259d49ffd21dd24a96a972b114650",
+              "0xef067e48f83a3e70c62e48f12a61381ef037294d11609290008ebd83a271e583",
+              "0x021433220e0ab1558099e125d13ce5b97b3780de892350a7a43fc89804062eb6",
+              "0xc204129625fd315c6d35acc346e45fbe021bbc1a33c7f4107be8fb33030b20e6",
+              "0xe16179c2d49373dd1b653c74a09e3ce45d7ad98f0560d86ad77cb4b348dc21c7",
+              "0x840e12d7abb77b2545ddd7f7038956ed4d31660a24387316ddf39fe923aca17d",
+              "0x62782ed7e32f6480ed714a0b8f82574a7f814ebca5b3cf5eb3f436c7c2baa196"
+            ],
+            "transactionsRoot": "0x35bb9d7a2053d4fb3f225435e5579a1abb9ad0977e3ea343fe444b940f90e1bc",
+            "uncles": []
+          }
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber_latest_retry": null
+  },
+  "expected_chain_id": 42161,
+  "observed_at": "2026-10-20T02:27:03.780693+00:00",
+  "observed_chain_id": "0xa4b1",
+  "phase": "secondary",
+  "rpc": {
+    "role": "secondary",
+    "source": "https://www.publicnode.com/",
+    "source_accessed": "2026-10-18",
+    "url": "https://arbitrum-one.publicnode.com"
+  },
+  "status": "ok"
+}

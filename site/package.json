@@ -1,0 +1,15 @@
+{
+  "name": "evmish-site",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Static site and launch cards for EVMish",
+  "scripts": {
+    "build": "node tools/build-data.mjs",
+    "serve": "node tools/serve.mjs 4173",
+    "shots": "node tools/shots.mjs",
+    "cards": "node tools/cards.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.47.2"
+  }
+}

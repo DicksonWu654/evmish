@@ -1,0 +1,7 @@
+{
+  "cases": {},
+  "chain": "evmos",
+  "phase": "initial",
+  "reason": "No no-key public EVM JSON-RPC endpoint was available during this run; see the recorded reason in the dated result.",
+  "status": "no-public-rpc"
+}

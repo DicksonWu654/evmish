@@ -1,0 +1,26 @@
+{
+  "account_candidates": {
+    "delegated-7702": "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+    "empty": "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+    "eoa": "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+    "system-contract": "0x0000000000000000000000000000000000000064"
+  },
+  "attempts": [],
+  "block": null,
+  "block_number": null,
+  "chain": "evmos",
+  "chain_id_expected": 9001,
+  "chain_id_observed": null,
+  "context": {},
+  "error_classes": [],
+  "explorer": "https://escan.live",
+  "observed_at": "2026-10-18T18:55:54Z",
+  "oracles": {},
+  "probe_count": 0,
+  "probes": {},
+  "recorded_reason": "No no-key public EVM JSON-RPC endpoint was available during this run; see the recorded reason in the dated result.",
+  "rpc": null,
+  "rpc_source": "https://docs.evmos.org/",
+  "rpc_source_accessed": "2026-10-18",
+  "status": "unavailable"
+}

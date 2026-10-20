@@ -1,0 +1,11 @@
+{
+  "body": {
+    "error": {
+      "code": -32000,
+      "message": "user-specified gas exceeds provider limit"
+    },
+    "id": 8,
+    "jsonrpc": "2.0"
+  },
+  "http_status": 200
+}

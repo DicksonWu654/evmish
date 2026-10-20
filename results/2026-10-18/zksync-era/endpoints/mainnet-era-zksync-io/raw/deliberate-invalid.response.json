@@ -1,0 +1,12 @@
+{
+  "body": {
+    "error": {
+      "code": 3,
+      "data": "0x",
+      "message": "execution reverted"
+    },
+    "id": 12,
+    "jsonrpc": "2.0"
+  },
+  "http_status": 200
+}

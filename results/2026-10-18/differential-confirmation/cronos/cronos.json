@@ -1,0 +1,384 @@
+{
+  "account_candidates": {
+    "delegated-7702": "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+    "empty": "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+    "eoa": "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+    "system-contract": "0x0000000000000000000000000000000000000064"
+  },
+  "block": {
+    "baseFeePerGas": "0x574fbde600",
+    "blobGasUsed": null,
+    "excessBlobGas": null,
+    "gasLimit": "0x3938700",
+    "gasLimit_uint256": 60000000,
+    "hash": "0xd231e017b8f44a67a01ba97f1c20d13ca30733a6e2b01981f545ff319bef44b6",
+    "miner": "0xf0847b3207b452248455c3ce5703a1831e4f5cf1",
+    "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "number": "0x60172e1",
+    "prevRandao": null,
+    "timestamp": "0x6ad52f9c",
+    "timestamp_unix": 1792356252
+  },
+  "block_number": "0x60172e1",
+  "chain": "cronos",
+  "chain_id_expected": 25,
+  "chain_id_observed": "0x19",
+  "context": {
+    "eth_blockNumber": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0x60172e1"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0x19"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x60172e1",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0x574fbde600",
+            "difficulty": "0x0",
+            "extraData": "0x",
+            "gasLimit": "0x3938700",
+            "gasUsed": "0x0",
+            "hash": "0xd231e017b8f44a67a01ba97f1c20d13ca30733a6e2b01981f545ff319bef44b6",
+            "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "miner": "0xf0847b3207b452248455c3ce5703a1831e4f5cf1",
+            "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "nonce": "0x0000000000000000",
+            "number": "0x60172e1",
+            "parentHash": "0x0888230d81348b5699c47920239662d8ecd044b74c07a3fb8c5c46dbc94e2c68",
+            "receiptsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "size": "0x60d",
+            "stateRoot": "0xd38f86b1e3178830ee1c22d8904f373cc45a536ad25c2d39fce253f75bab5c2a",
+            "timestamp": "0x6ad52f9c",
+            "transactions": [],
+            "transactionsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+            "uncles": []
+          }
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_delegated-7702": {
+      "address": "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+      "interpretation": {
+        "code_length_bytes": 23,
+        "eip7702_delegation_prefix": true,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 6,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+          "0x60172e1"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 6,
+          "jsonrpc": "2.0",
+          "result": "0xef0100a4d1cc11a0a79d87da4b521fcde1dbe915b03f5c"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_empty": {
+      "address": "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 5,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+          "0x60172e1"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 5,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_eoa": {
+      "address": "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 4,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+          "0x60172e1"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 4,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_system-contract": {
+      "address": "0x0000000000000000000000000000000000000064",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 7,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x0000000000000000000000000000000000000064",
+          "0x60172e1"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 7,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    }
+  },
+  "error_classes": [],
+  "evidence_dir": "results/2026-10-18/differential-confirmation/cronos/endpoints/evm-cronos-org",
+  "observed_at": "2026-10-18T20:44:12Z",
+  "oracles": {},
+  "probe_count": 5,
+  "probes": {
+    "basefee": {
+      "data": "0x4860005260206000f3",
+      "interpretation": {
+        "error_class": null,
+        "header_matches": true,
+        "header_value": 375000000000,
+        "raw_return": "0x000000000000000000000000000000000000000000000000000000574fbde600",
+        "status": "ok",
+        "uint256": 375000000000
+      },
+      "meaning": "BASEFEE.",
+      "request": {
+        "id": 8,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x4860005260206000f3"
+          },
+          "0x60172e1"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 8,
+          "jsonrpc": "2.0",
+          "result": "0x000000000000000000000000000000000000000000000000000000574fbde600"
+        },
+        "http_status": 200
+      },
+      "vector": null
+    },
+    "blobbasefee": {
+      "data": "0x4a60005260206000f3",
+      "interpretation": {
+        "error_class": null,
+        "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "status": "ok",
+        "uint256": 0
+      },
+      "meaning": "BLOBBASEFEE for the execution block.",
+      "request": {
+        "id": 10,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x4a60005260206000f3"
+          },
+          "0x60172e1"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 10,
+          "jsonrpc": "2.0",
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "http_status": 200
+      },
+      "vector": null
+    },
+    "chainid": {
+      "data": "0x4660005260206000f3",
+      "interpretation": {
+        "error_class": null,
+        "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000019",
+        "status": "ok",
+        "uint256": 25
+      },
+      "meaning": "CHAINID.",
+      "request": {
+        "id": 9,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x4660005260206000f3"
+          },
+          "0x60172e1"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 9,
+          "jsonrpc": "2.0",
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000019"
+        },
+        "http_status": 200
+      },
+      "vector": null
+    },
+    "gaslimit": {
+      "data": "0x4560005260206000f3",
+      "interpretation": {
+        "error_class": null,
+        "header_matches": false,
+        "header_value": 60000000,
+        "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "status": "ok",
+        "uint256": 0
+      },
+      "meaning": "GASLIMIT value.",
+      "request": {
+        "id": 11,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x4560005260206000f3"
+          },
+          "0x60172e1"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 11,
+          "jsonrpc": "2.0",
+          "result": "0x0000000000000000000000000000000000000000000000000000000000000000"
+        },
+        "http_status": 200
+      },
+      "vector": null
+    },
+    "timestamp": {
+      "data": "0x4260005260206000f3",
+      "interpretation": {
+        "error_class": null,
+        "header_matches": false,
+        "header_value": 1792356252,
+        "raw_return": "0x000000000000000000000000000000000000000000000000000000006ad52fa3",
+        "status": "ok",
+        "uint256": 1792356259
+      },
+      "meaning": "TIMESTAMP value.",
+      "request": {
+        "id": 12,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x4260005260206000f3"
+          },
+          "0x60172e1"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 12,
+          "jsonrpc": "2.0",
+          "result": "0x000000000000000000000000000000000000000000000000000000006ad52fa3"
+        },
+        "http_status": 200
+      },
+      "vector": null
+    }
+  },
+  "recorded_reason": null,
+  "rpc": "https://evm.cronos.org",
+  "rpc_source": "https://docs.cronos.com/for-dapp-developers/chain-integration/public-rpc-endpoints",
+  "rpc_source_accessed": "2026-10-18",
+  "status": "ok"
+}

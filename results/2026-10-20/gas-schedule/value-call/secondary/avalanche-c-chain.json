@@ -1,0 +1,5 @@
+{
+  "chain": "avalanche-c-chain",
+  "phase": "secondary",
+  "status": "no-secondary-rpc"
+}

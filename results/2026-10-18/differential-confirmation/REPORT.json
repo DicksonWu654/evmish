@@ -1,0 +1,376 @@
+{
+  "chains": {
+    "arbitrum-one": {
+      "block_number": "0x1ec2bde1",
+      "observed_at": "2026-10-18T20:43:14Z",
+      "probes": [
+        "number",
+        "chainid",
+        "prevrandao",
+        "extcode-system-contract"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/arbitrum-one/endpoints/arb1-arbitrum-io-rpc",
+      "result": "results/2026-10-18/differential-confirmation/arbitrum-one/arbitrum-one.json",
+      "rpc": "https://arb1.arbitrum.io/rpc",
+      "status": "ok"
+    },
+    "avalanche-c-chain": {
+      "block_number": "0x5d600b4",
+      "observed_at": "2026-10-18T20:43:21Z",
+      "probes": [
+        "chainid",
+        "blobbasefee",
+        "prevrandao",
+        "precompile-0x0b-address-0b",
+        "precompile-0x0c-address-0c",
+        "precompile-0x0d-address-0d",
+        "precompile-0x0e-address-0e",
+        "precompile-0x0f-address-0f",
+        "precompile-0x10-address-10",
+        "precompile-0x11-address-11",
+        "extcode-delegated-7702"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/avalanche-c-chain/endpoints/api-avax-network-ext-bc-C-rpc",
+      "result": "results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json",
+      "rpc": "https://api.avax.network/ext/bc/C/rpc",
+      "status": "ok"
+    },
+    "base": {
+      "block_number": "0x3256948",
+      "observed_at": "2026-10-18T20:43:32Z",
+      "probes": [
+        "chainid",
+        "blobbasefee"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/base/endpoints/mainnet-base-org",
+      "result": "results/2026-10-18/differential-confirmation/base/base.json",
+      "rpc": "https://mainnet.base.org",
+      "status": "ok"
+    },
+    "berachain": {
+      "block_number": "0x1a638de",
+      "observed_at": "2026-10-18T20:43:37Z",
+      "probes": [
+        "chainid",
+        "blobbasefee",
+        "oversized-runtime-create"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/berachain/endpoints/rpc-berachain-com",
+      "result": "results/2026-10-18/differential-confirmation/berachain/berachain.json",
+      "rpc": "https://rpc.berachain.com",
+      "status": "ok"
+    },
+    "blast": {
+      "block_number": "0x27d6894",
+      "observed_at": "2026-10-18T20:43:43Z",
+      "probes": [
+        "basefee",
+        "chainid",
+        "blobbasefee",
+        "precompile-0x0b-address-0b",
+        "precompile-0x0c-address-0c",
+        "precompile-0x0d-address-0d",
+        "precompile-0x0e-address-0e",
+        "precompile-0x0f-address-0f",
+        "precompile-0x10-address-10",
+        "precompile-0x11-address-11",
+        "precompile-0x100-p256verify",
+        "extcode-delegated-7702"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/blast/endpoints/rpc-blast-io",
+      "result": "results/2026-10-18/differential-confirmation/blast/blast.json",
+      "rpc": "https://rpc.blast.io",
+      "status": "ok"
+    },
+    "bnb-smart-chain": {
+      "block_number": "0x7a7a94a",
+      "observed_at": "2026-10-18T20:43:56Z",
+      "probes": [
+        "chainid",
+        "blobbasefee",
+        "prevrandao"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/bnb-smart-chain/endpoints/bsc-dataseed-binance-org",
+      "result": "results/2026-10-18/differential-confirmation/bnb-smart-chain/bnb-smart-chain.json",
+      "rpc": "https://bsc-dataseed.binance.org",
+      "status": "ok"
+    },
+    "celo": {
+      "block_number": "0x4cba73d",
+      "observed_at": "2026-10-18T20:44:05Z",
+      "probes": [
+        "chainid",
+        "blobbasefee",
+        "oversized-runtime-create",
+        "extcode-delegated-7702"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/celo/endpoints/forno-celo-org",
+      "result": "results/2026-10-18/differential-confirmation/celo/celo.json",
+      "rpc": "https://forno.celo.org",
+      "status": "ok"
+    },
+    "cronos": {
+      "block_number": "0x60172e1",
+      "observed_at": "2026-10-18T20:44:12Z",
+      "probes": [
+        "basefee",
+        "chainid",
+        "blobbasefee",
+        "gaslimit",
+        "timestamp"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/cronos/endpoints/evm-cronos-org",
+      "result": "results/2026-10-18/differential-confirmation/cronos/cronos.json",
+      "rpc": "https://evm.cronos.org",
+      "status": "ok"
+    },
+    "gnosis": {
+      "block_number": "0x2e906e2",
+      "observed_at": "2026-10-18T20:44:20Z",
+      "probes": [
+        "chainid",
+        "blobbasefee"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/gnosis/endpoints/rpc-gnosischain-com",
+      "result": "results/2026-10-18/differential-confirmation/gnosis/gnosis.json",
+      "rpc": "https://rpc.gnosischain.com",
+      "status": "ok"
+    },
+    "hyperevm": {
+      "block_number": "0x2ea2c8c",
+      "observed_at": "2026-10-18T20:44:32Z",
+      "probes": [
+        "number",
+        "chainid",
+        "blobbasefee",
+        "gaslimit",
+        "timestamp",
+        "precompile-0x0b-address-0b",
+        "precompile-0x0c-address-0c",
+        "precompile-0x0d-address-0d",
+        "precompile-0x0e-address-0e",
+        "precompile-0x0f-address-0f",
+        "precompile-0x10-address-10",
+        "precompile-0x11-address-11",
+        "extcode-delegated-7702"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/hyperevm/endpoints/rpc-hyperliquid-xyz-evm",
+      "result": "results/2026-10-18/differential-confirmation/hyperevm/hyperevm.json",
+      "rpc": "https://rpc.hyperliquid.xyz/evm",
+      "status": "ok"
+    },
+    "kaia": {
+      "block_number": "0xdb7dd1e",
+      "observed_at": "2026-10-18T20:44:50Z",
+      "probes": [
+        "basefee",
+        "chainid",
+        "blobbasefee",
+        "gaslimit",
+        "extcode-delegated-7702"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/kaia/endpoints/public-en-node-kaia-io",
+      "result": "results/2026-10-18/differential-confirmation/kaia/kaia.json",
+      "rpc": "https://public-en.node.kaia.io",
+      "status": "ok"
+    },
+    "linea": {
+      "block_number": "0x1edc734",
+      "observed_at": "2026-10-18T20:44:59Z",
+      "probes": [
+        "chainid",
+        "blobbasefee",
+        "extcode-delegated-7702"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/linea/endpoints/rpc-linea-build",
+      "result": "results/2026-10-18/differential-confirmation/linea/linea.json",
+      "rpc": "https://rpc.linea.build",
+      "status": "ok"
+    },
+    "mantle": {
+      "block_number": "0x6161ee4",
+      "observed_at": "2026-10-18T20:45:06Z",
+      "probes": [
+        "chainid",
+        "blobbasefee"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/mantle/endpoints/rpc-mantle-xyz",
+      "result": "results/2026-10-18/differential-confirmation/mantle/mantle.json",
+      "rpc": "https://rpc.mantle.xyz",
+      "status": "ok"
+    },
+    "monad": {
+      "block_number": "0x6d42caa",
+      "observed_at": "2026-10-18T20:45:18Z",
+      "probes": [
+        "chainid",
+        "blobbasefee",
+        "oversized-runtime-create",
+        "cold-warm-extcodesize",
+        "estimate-gas"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/monad/endpoints/rpc-monad-xyz",
+      "result": "results/2026-10-18/differential-confirmation/monad/monad.json",
+      "rpc": "https://rpc.monad.xyz",
+      "status": "ok"
+    },
+    "op-mainnet": {
+      "block_number": "0x970ab17",
+      "observed_at": "2026-10-18T20:45:26Z",
+      "probes": [
+        "chainid",
+        "blobbasefee"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/op-mainnet/endpoints/mainnet-optimism-io",
+      "result": "results/2026-10-18/differential-confirmation/op-mainnet/op-mainnet.json",
+      "rpc": "https://mainnet.optimism.io",
+      "status": "ok"
+    },
+    "plasma": {
+      "block_number": "0x21c63a9",
+      "observed_at": "2026-10-18T20:45:32Z",
+      "probes": [
+        "chainid",
+        "blobbasefee"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/plasma/endpoints/rpc-plasma-to",
+      "result": "results/2026-10-18/differential-confirmation/plasma/plasma.json",
+      "rpc": "https://rpc.plasma.to",
+      "status": "ok"
+    },
+    "polygon-pos": {
+      "block_number": "0x5b54b20",
+      "observed_at": "2026-10-18T20:45:38Z",
+      "probes": [
+        "chainid",
+        "blobhash",
+        "blobbasefee",
+        "prevrandao",
+        "coinbase",
+        "oversized-runtime-create",
+        "precompile-0x0a-kzg-point-evaluation"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/polygon-pos/endpoints/polygon-bor-rpc-publicnode-com",
+      "result": "results/2026-10-18/differential-confirmation/polygon-pos/polygon-pos.json",
+      "rpc": "https://polygon-bor-rpc.publicnode.com",
+      "status": "ok"
+    },
+    "scroll": {
+      "block_number": "0x21c7e8e",
+      "observed_at": "2026-10-18T20:45:48Z",
+      "probes": [
+        "basefee",
+        "chainid",
+        "blobhash",
+        "blobbasefee",
+        "coinbase",
+        "precompile-0x03-ripemd160",
+        "precompile-0x0a-kzg-point-evaluation",
+        "precompile-0x0b-address-0b",
+        "precompile-0x0c-address-0c",
+        "precompile-0x0d-address-0d",
+        "precompile-0x0e-address-0e",
+        "precompile-0x0f-address-0f",
+        "precompile-0x10-address-10",
+        "precompile-0x11-address-11",
+        "extcode-delegated-7702"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/scroll/endpoints/rpc-scroll-io",
+      "result": "results/2026-10-18/differential-confirmation/scroll/scroll.json",
+      "rpc": "https://rpc.scroll.io",
+      "status": "ok"
+    },
+    "sei-evm": {
+      "block_number": "0xe351acf",
+      "observed_at": "2026-10-18T20:46:05Z",
+      "probes": [
+        "chainid",
+        "blobbasefee",
+        "coinbase"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/sei-evm/endpoints/evm-rpc-sei-apis-com",
+      "result": "results/2026-10-18/differential-confirmation/sei-evm/sei-evm.json",
+      "rpc": "https://evm-rpc.sei-apis.com",
+      "status": "ok"
+    },
+    "somnia": {
+      "block_number": "0x1a58ba3d",
+      "observed_at": "2026-10-18T20:46:14Z",
+      "probes": [
+        "basefee",
+        "chainid",
+        "blobbasefee",
+        "prevrandao",
+        "coinbase",
+        "oversized-runtime-create",
+        "cold-warm-extcodesize",
+        "estimate-gas",
+        "precompile-0x100-p256verify",
+        "extcode-delegated-7702"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/somnia/endpoints/api-infra-mainnet-somnia-network",
+      "result": "results/2026-10-18/differential-confirmation/somnia/somnia.json",
+      "rpc": "https://api.infra.mainnet.somnia.network",
+      "status": "ok"
+    },
+    "taiko": {
+      "block_number": "0xc42d22",
+      "observed_at": "2026-10-18T20:46:25Z",
+      "probes": [
+        "chainid",
+        "blobbasefee"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/taiko/endpoints/rpc-mainnet-taiko-xyz",
+      "result": "results/2026-10-18/differential-confirmation/taiko/taiko.json",
+      "rpc": "https://rpc.mainnet.taiko.xyz",
+      "status": "ok"
+    },
+    "tempo": {
+      "block_number": "0x2ab4899",
+      "observed_at": "2026-10-18T20:46:30Z",
+      "probes": [
+        "chainid",
+        "blobbasefee",
+        "extcode-delegated-7702"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/tempo/endpoints/rpc-tempo-xyz",
+      "result": "results/2026-10-18/differential-confirmation/tempo/tempo.json",
+      "rpc": "https://rpc.tempo.xyz",
+      "status": "ok"
+    },
+    "zksync-era": {
+      "block_number": "0x45307ae",
+      "observed_at": "2026-10-18T20:46:35Z",
+      "probes": [
+        "basefee",
+        "chainid",
+        "blobbasefee",
+        "prevrandao",
+        "coinbase",
+        "precompile-0x03-ripemd160",
+        "extcode-delegated-7702"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/zksync-era/endpoints/mainnet-era-zksync-io",
+      "result": "results/2026-10-18/differential-confirmation/zksync-era/zksync-era.json",
+      "rpc": "https://mainnet.era.zksync.io",
+      "status": "ok"
+    },
+    "megaeth": {
+      "block_number": "0x1c36a11",
+      "observed_at": "2026-10-19T03:45:00Z",
+      "probes": [
+        "gaslimit",
+        "number",
+        "oversized-runtime-create",
+        "timestamp"
+      ],
+      "raw_evidence_dir": "results/2026-10-18/differential-confirmation/megaeth/endpoints/mainnet-megaeth-com-rpc",
+      "result": "results/2026-10-18/differential-confirmation/megaeth/megaeth.json",
+      "rpc": "https://mainnet.megaeth.com/rpc",
+      "status": "ok"
+    }
+  },
+  "date": "2026-10-18",
+  "purpose": "later-block confirmation of differential probe cells; rejected and unavailable cells are not catalog divergences",
+  "schema": 1
+}

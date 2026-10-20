@@ -1,0 +1,16 @@
+{
+  "block_range": {
+    "from": "0x1ec2c892",
+    "to": "0x1ec2d062"
+  },
+  "contract": "0x4dbd4fc535ac27206064b68ffcf827b0a60bab3f",
+  "log_count": 0,
+  "logs": [],
+  "reason": "No matching message logs were returned in the sampled 2,000-block window; aliasing remains source-verified and not a live relay claim.",
+  "rpc": "https://arb1.arbitrum.io/rpc",
+  "source_chain": "arbitrum-one",
+  "status": "ok",
+  "topics": [
+    "0xb0d31c0833693d03cc72ace951c7034401b03d074d0d51cc48b9aedae9754b64"
+  ]
+}

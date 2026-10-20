@@ -1,0 +1,1394 @@
+{
+  "generated_by": "scripts/build_auditor_triage.py",
+  "date": "2026-10-18",
+  "catalog": "CATALOG.md",
+  "matrix": "results/2026-10-18/DIFFERENTIAL_MATRIX.md",
+  "catalog_rows": 80,
+  "chains": [
+    "arbitrum-one",
+    "avalanche-c-chain",
+    "berachain",
+    "blast",
+    "bnb-smart-chain",
+    "celo",
+    "cronos",
+    "hyperevm",
+    "kaia",
+    "megaeth",
+    "monad",
+    "multiple / source scope",
+    "polygon-pos",
+    "scroll",
+    "sei-evm",
+    "somnia",
+    "zksync-era"
+  ],
+  "findings": [
+    {
+      "catalog_row": 1,
+      "evidence_label": "probe-verified",
+      "chain": "arbitrum-one",
+      "divergence": "NUMBER/header semantics: Ethereum header_matches=True, target header_matches=False. Later-block confirmation at 0x1ec2bde1 retained the diff classification.",
+      "security_consequence": "The number control returned 26221369 on arbitrum-one; its captured header field was 516055715, while Ethereum's corresponding control returned 26221370 against 26221370. Consumers must use the target's observed header relationship.",
+      "evidence": "[primary](results/2026-10-18/arbitrum-one/arbitrum-one.json); [later-block confirmation](results/2026-10-18/differential-confirmation/arbitrum-one/arbitrum-one.json)",
+      "evidence_links": [
+        "results/2026-10-18/arbitrum-one/arbitrum-one.json",
+        "results/2026-10-18/differential-confirmation/arbitrum-one/arbitrum-one.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "clocks",
+      "priority": 3,
+      "fixture": "examples/04_clock_hash_finality.sol",
+      "review_action": "Use the target header and finality policy for timelocks, epochs, and randomness inputs."
+    },
+    {
+      "catalog_row": 2,
+      "evidence_label": "probe-verified",
+      "chain": "arbitrum-one",
+      "divergence": "PREVRANDAO/header semantics: Ethereum header_matches=True, target header_matches=False. Later-block confirmation at 0x1ec2bde1 retained the diff classification.",
+      "security_consequence": "The prevrandao control returned 1 on arbitrum-one; its captured header field was 1048771880846671244263589368267434973902130137255812988697313280, while Ethereum's corresponding control returned 106600626929271759665793101738270503678199746837553421085339734761515830593084 against 106600626929271759665793101738270503678199746837553421085339734761515830593084. Consumers must use the target's observed header relationship.",
+      "evidence": "[primary](results/2026-10-18/arbitrum-one/arbitrum-one.json); [later-block confirmation](results/2026-10-18/differential-confirmation/arbitrum-one/arbitrum-one.json)",
+      "evidence_links": [
+        "results/2026-10-18/arbitrum-one/arbitrum-one.json",
+        "results/2026-10-18/differential-confirmation/arbitrum-one/arbitrum-one.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "clocks",
+      "priority": 3,
+      "fixture": "examples/04_clock_hash_finality.sol",
+      "review_action": "Use the target header and finality policy for timelocks, epochs, and randomness inputs."
+    },
+    {
+      "catalog_row": 3,
+      "evidence_label": "probe-verified",
+      "chain": "arbitrum-one",
+      "divergence": "EXTCODESIZE on a system candidate: Ethereum code-size signature=(0, False), target=(1, True). Later-block confirmation at 0x1ec2bde1 retained the diff classification.",
+      "security_consequence": "The fixed extcode-system-contract address probe observed EXTCODESIZE 1 on arbitrum-one, versus 0 on Ethereum; address state and predeploy registries must be checked on the target.",
+      "evidence": "[primary](results/2026-10-18/arbitrum-one/arbitrum-one.json); [later-block confirmation](results/2026-10-18/differential-confirmation/arbitrum-one/arbitrum-one.json)",
+      "evidence_links": [
+        "results/2026-10-18/arbitrum-one/arbitrum-one.json",
+        "results/2026-10-18/differential-confirmation/arbitrum-one/arbitrum-one.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "code-size",
+      "priority": 4,
+      "fixture": "examples/10_code_size_and_modularity.sol",
+      "review_action": "Test the target's init and runtime boundaries with a target-chain deployment gate."
+    },
+    {
+      "catalog_row": 4,
+      "evidence_label": "probe-verified",
+      "chain": "avalanche-c-chain",
+      "divergence": "PREVRANDAO/header semantics: Ethereum header_matches=True, target header_matches=False. Later-block confirmation at 0x5d600b4 retained the diff classification.",
+      "security_consequence": "The prevrandao control returned 1 on avalanche-c-chain; its captured header field was 0, while Ethereum's corresponding control returned 106600626929271759665793101738270503678199746837553421085339734761515830593084 against 106600626929271759665793101738270503678199746837553421085339734761515830593084. Consumers must use the target's observed header relationship.",
+      "evidence": "[primary](results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json); [later-block confirmation](results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json)",
+      "evidence_links": [
+        "results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json",
+        "results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "clocks",
+      "priority": 3,
+      "fixture": "examples/04_clock_hash_finality.sol",
+      "review_action": "Use the target header and finality policy for timelocks, epochs, and randomness inputs."
+    },
+    {
+      "catalog_row": 5,
+      "evidence_label": "probe-verified",
+      "chain": "avalanche-c-chain",
+      "divergence": "Address 0x0b empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x5d600b4 retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0b-address-0b control returned CALL status 1 with 2 output words on avalanche-c-chain, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json); [later-block confirmation](results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json)",
+      "evidence_links": [
+        "results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json",
+        "results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 6,
+      "evidence_label": "probe-verified",
+      "chain": "avalanche-c-chain",
+      "divergence": "Address 0x0c empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x5d600b4 retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0c-address-0c control returned CALL status 1 with 2 output words on avalanche-c-chain, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json); [later-block confirmation](results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json)",
+      "evidence_links": [
+        "results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json",
+        "results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 7,
+      "evidence_label": "probe-verified",
+      "chain": "avalanche-c-chain",
+      "divergence": "Address 0x0d empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x5d600b4 retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0d-address-0d control returned CALL status 1 with 2 output words on avalanche-c-chain, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json); [later-block confirmation](results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json)",
+      "evidence_links": [
+        "results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json",
+        "results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 8,
+      "evidence_label": "probe-verified",
+      "chain": "avalanche-c-chain",
+      "divergence": "Address 0x0e empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x5d600b4 retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0e-address-0e control returned CALL status 1 with 2 output words on avalanche-c-chain, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json); [later-block confirmation](results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json)",
+      "evidence_links": [
+        "results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json",
+        "results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 9,
+      "evidence_label": "probe-verified",
+      "chain": "avalanche-c-chain",
+      "divergence": "Address 0x0f empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x5d600b4 retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0f-address-0f control returned CALL status 1 with 2 output words on avalanche-c-chain, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json); [later-block confirmation](results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json)",
+      "evidence_links": [
+        "results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json",
+        "results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 10,
+      "evidence_label": "probe-verified",
+      "chain": "avalanche-c-chain",
+      "divergence": "Address 0x10 empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x5d600b4 retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x10-address-10 control returned CALL status 1 with 2 output words on avalanche-c-chain, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json); [later-block confirmation](results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json)",
+      "evidence_links": [
+        "results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json",
+        "results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 11,
+      "evidence_label": "probe-verified",
+      "chain": "avalanche-c-chain",
+      "divergence": "Address 0x11 empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x5d600b4 retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x11-address-11 control returned CALL status 1 with 2 output words on avalanche-c-chain, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json); [later-block confirmation](results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json)",
+      "evidence_links": [
+        "results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json",
+        "results/2026-10-18/differential-confirmation/avalanche-c-chain/avalanche-c-chain.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 12,
+      "evidence_label": "probe-verified",
+      "chain": "berachain",
+      "divergence": "24,577-byte runtime CREATE boundary: Ethereum size_rejected=True, target size_rejected=False. Later-block confirmation at 0x1a638de retained the diff classification.",
+      "security_consequence": "The 24,577-byte CREATE control reported size_rejected=False on berachain, versus True on Ethereum; the boundary needs a target deployment test.",
+      "evidence": "[primary](results/2026-10-18/berachain/berachain.json); [later-block confirmation](results/2026-10-18/differential-confirmation/berachain/berachain.json)",
+      "evidence_links": [
+        "results/2026-10-18/berachain/berachain.json",
+        "results/2026-10-18/differential-confirmation/berachain/berachain.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "value",
+      "priority": 3,
+      "fixture": "examples/09_native_asset_and_fee_currency.sol",
+      "review_action": "Test native value, fee currency, balance, and refund paths with the target asset model."
+    },
+    {
+      "catalog_row": 13,
+      "evidence_label": "probe-verified",
+      "chain": "blast",
+      "divergence": "Address 0x0b empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x27d6894 retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0b-address-0b control returned CALL status 1 with 2 output words on blast, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/blast/blast.json); [later-block confirmation](results/2026-10-18/differential-confirmation/blast/blast.json)",
+      "evidence_links": [
+        "results/2026-10-18/blast/blast.json",
+        "results/2026-10-18/differential-confirmation/blast/blast.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 14,
+      "evidence_label": "probe-verified",
+      "chain": "blast",
+      "divergence": "Address 0x0c empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x27d6894 retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0c-address-0c control returned CALL status 1 with 2 output words on blast, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/blast/blast.json); [later-block confirmation](results/2026-10-18/differential-confirmation/blast/blast.json)",
+      "evidence_links": [
+        "results/2026-10-18/blast/blast.json",
+        "results/2026-10-18/differential-confirmation/blast/blast.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 15,
+      "evidence_label": "probe-verified",
+      "chain": "blast",
+      "divergence": "Address 0x0d empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x27d6894 retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0d-address-0d control returned CALL status 1 with 2 output words on blast, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/blast/blast.json); [later-block confirmation](results/2026-10-18/differential-confirmation/blast/blast.json)",
+      "evidence_links": [
+        "results/2026-10-18/blast/blast.json",
+        "results/2026-10-18/differential-confirmation/blast/blast.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 16,
+      "evidence_label": "probe-verified",
+      "chain": "blast",
+      "divergence": "Address 0x0e empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x27d6894 retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0e-address-0e control returned CALL status 1 with 2 output words on blast, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/blast/blast.json); [later-block confirmation](results/2026-10-18/differential-confirmation/blast/blast.json)",
+      "evidence_links": [
+        "results/2026-10-18/blast/blast.json",
+        "results/2026-10-18/differential-confirmation/blast/blast.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 17,
+      "evidence_label": "probe-verified",
+      "chain": "blast",
+      "divergence": "Address 0x0f empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x27d6894 retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0f-address-0f control returned CALL status 1 with 2 output words on blast, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/blast/blast.json); [later-block confirmation](results/2026-10-18/differential-confirmation/blast/blast.json)",
+      "evidence_links": [
+        "results/2026-10-18/blast/blast.json",
+        "results/2026-10-18/differential-confirmation/blast/blast.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 18,
+      "evidence_label": "probe-verified",
+      "chain": "blast",
+      "divergence": "Address 0x10 empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x27d6894 retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x10-address-10 control returned CALL status 1 with 2 output words on blast, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/blast/blast.json); [later-block confirmation](results/2026-10-18/differential-confirmation/blast/blast.json)",
+      "evidence_links": [
+        "results/2026-10-18/blast/blast.json",
+        "results/2026-10-18/differential-confirmation/blast/blast.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 19,
+      "evidence_label": "probe-verified",
+      "chain": "blast",
+      "divergence": "Address 0x11 empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x27d6894 retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x11-address-11 control returned CALL status 1 with 2 output words on blast, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/blast/blast.json); [later-block confirmation](results/2026-10-18/differential-confirmation/blast/blast.json)",
+      "evidence_links": [
+        "results/2026-10-18/blast/blast.json",
+        "results/2026-10-18/differential-confirmation/blast/blast.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 20,
+      "evidence_label": "probe-verified",
+      "chain": "blast",
+      "divergence": "P256VERIFY candidate at 0x100: Ethereum call/output signature=(1, ('0x0000000000000000000000000000000000000\u2026, target=(0, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x27d6894 retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x100-p256verify control returned CALL status 0 with 2 output words on blast, versus status 1 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/blast/blast.json); [later-block confirmation](results/2026-10-18/differential-confirmation/blast/blast.json)",
+      "evidence_links": [
+        "results/2026-10-18/blast/blast.json",
+        "results/2026-10-18/differential-confirmation/blast/blast.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 21,
+      "evidence_label": "probe-verified",
+      "chain": "bnb-smart-chain",
+      "divergence": "PREVRANDAO/header semantics: Ethereum header_matches=True, target header_matches=False. Later-block confirmation at 0x7a7a94a retained the diff classification.",
+      "security_consequence": "The prevrandao control returned 2 on bnb-smart-chain; its captured header field was 100, while Ethereum's corresponding control returned 106600626929271759665793101738270503678199746837553421085339734761515830593084 against 106600626929271759665793101738270503678199746837553421085339734761515830593084. Consumers must use the target's observed header relationship.",
+      "evidence": "[primary](results/2026-10-18/bnb-smart-chain/bnb-smart-chain.json); [later-block confirmation](results/2026-10-18/differential-confirmation/bnb-smart-chain/bnb-smart-chain.json)",
+      "evidence_links": [
+        "results/2026-10-18/bnb-smart-chain/bnb-smart-chain.json",
+        "results/2026-10-18/differential-confirmation/bnb-smart-chain/bnb-smart-chain.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "clocks",
+      "priority": 3,
+      "fixture": "examples/04_clock_hash_finality.sol",
+      "review_action": "Use the target header and finality policy for timelocks, epochs, and randomness inputs."
+    },
+    {
+      "catalog_row": 22,
+      "evidence_label": "probe-verified",
+      "chain": "celo",
+      "divergence": "24,577-byte runtime CREATE boundary: Ethereum size_rejected=True, target size_rejected=False. Later-block confirmation at 0x4cba73d retained the diff classification.",
+      "security_consequence": "The 24,577-byte CREATE control reported size_rejected=False on celo, versus True on Ethereum; the boundary needs a target deployment test.",
+      "evidence": "[primary](results/2026-10-18/celo/celo.json); [later-block confirmation](results/2026-10-18/differential-confirmation/celo/celo.json)",
+      "evidence_links": [
+        "results/2026-10-18/celo/celo.json",
+        "results/2026-10-18/differential-confirmation/celo/celo.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "value",
+      "priority": 3,
+      "fixture": "examples/09_native_asset_and_fee_currency.sol",
+      "review_action": "Test native value, fee currency, balance, and refund paths with the target asset model."
+    },
+    {
+      "catalog_row": 23,
+      "evidence_label": "probe-verified",
+      "chain": "cronos",
+      "divergence": "BLOBBASEFEE value semantics: Ethereum signature=(False,), target=(True,). Later-block confirmation at 0x60172e1 retained the diff classification.",
+      "security_consequence": "The blobbasefee control returned 0 on cronos, with captured header value unknown; Ethereum returned 4099553 with header unknown. Fee logic needs a target-specific value check.",
+      "evidence": "[primary](results/2026-10-18/cronos/cronos.json); [later-block confirmation](results/2026-10-18/differential-confirmation/cronos/cronos.json)",
+      "evidence_links": [
+        "results/2026-10-18/cronos/cronos.json",
+        "results/2026-10-18/differential-confirmation/cronos/cronos.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "deployment",
+      "priority": 4,
+      "fixture": "examples/01_fork_gated_opcodes.sol",
+      "review_action": "Compile for the target fork and run the opcode probe before accepting deployment bytecode."
+    },
+    {
+      "catalog_row": 24,
+      "evidence_label": "probe-verified",
+      "chain": "cronos",
+      "divergence": "GASLIMIT/header semantics: Ethereum header_matches=True, target header_matches=False. Later-block confirmation at 0x60172e1 retained the diff classification.",
+      "security_consequence": "The gaslimit control returned 0 on cronos; its captured header field was 60000000, while Ethereum's corresponding control returned 60000000 against 60000000. Consumers must use the target's observed header relationship.",
+      "evidence": "[primary](results/2026-10-18/cronos/cronos.json); [later-block confirmation](results/2026-10-18/differential-confirmation/cronos/cronos.json)",
+      "evidence_links": [
+        "results/2026-10-18/cronos/cronos.json",
+        "results/2026-10-18/differential-confirmation/cronos/cronos.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "fees",
+      "priority": 4,
+      "fixture": "examples/05_fee_and_gas.sol",
+      "review_action": "Price the operation with the target fee oracle and charging rule; do not infer cost from Ethereum gas alone."
+    },
+    {
+      "catalog_row": 25,
+      "evidence_label": "probe-verified",
+      "chain": "hyperevm",
+      "divergence": "Address 0x0b empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x2ea2c8c retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0b-address-0b control returned CALL status 1 with 2 output words on hyperevm, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/hyperevm/hyperevm.json); [later-block confirmation](results/2026-10-18/differential-confirmation/hyperevm/hyperevm.json)",
+      "evidence_links": [
+        "results/2026-10-18/hyperevm/hyperevm.json",
+        "results/2026-10-18/differential-confirmation/hyperevm/hyperevm.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 26,
+      "evidence_label": "probe-verified",
+      "chain": "hyperevm",
+      "divergence": "Address 0x0c empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x2ea2c8c retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0c-address-0c control returned CALL status 1 with 2 output words on hyperevm, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/hyperevm/hyperevm.json); [later-block confirmation](results/2026-10-18/differential-confirmation/hyperevm/hyperevm.json)",
+      "evidence_links": [
+        "results/2026-10-18/hyperevm/hyperevm.json",
+        "results/2026-10-18/differential-confirmation/hyperevm/hyperevm.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 27,
+      "evidence_label": "probe-verified",
+      "chain": "hyperevm",
+      "divergence": "Address 0x0d empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x2ea2c8c retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0d-address-0d control returned CALL status 1 with 2 output words on hyperevm, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/hyperevm/hyperevm.json); [later-block confirmation](results/2026-10-18/differential-confirmation/hyperevm/hyperevm.json)",
+      "evidence_links": [
+        "results/2026-10-18/hyperevm/hyperevm.json",
+        "results/2026-10-18/differential-confirmation/hyperevm/hyperevm.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 28,
+      "evidence_label": "probe-verified",
+      "chain": "hyperevm",
+      "divergence": "Address 0x0e empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x2ea2c8c retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0e-address-0e control returned CALL status 1 with 2 output words on hyperevm, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/hyperevm/hyperevm.json); [later-block confirmation](results/2026-10-18/differential-confirmation/hyperevm/hyperevm.json)",
+      "evidence_links": [
+        "results/2026-10-18/hyperevm/hyperevm.json",
+        "results/2026-10-18/differential-confirmation/hyperevm/hyperevm.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 29,
+      "evidence_label": "probe-verified",
+      "chain": "hyperevm",
+      "divergence": "Address 0x0f empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x2ea2c8c retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0f-address-0f control returned CALL status 1 with 2 output words on hyperevm, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/hyperevm/hyperevm.json); [later-block confirmation](results/2026-10-18/differential-confirmation/hyperevm/hyperevm.json)",
+      "evidence_links": [
+        "results/2026-10-18/hyperevm/hyperevm.json",
+        "results/2026-10-18/differential-confirmation/hyperevm/hyperevm.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 30,
+      "evidence_label": "probe-verified",
+      "chain": "hyperevm",
+      "divergence": "Address 0x10 empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x2ea2c8c retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x10-address-10 control returned CALL status 1 with 2 output words on hyperevm, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/hyperevm/hyperevm.json); [later-block confirmation](results/2026-10-18/differential-confirmation/hyperevm/hyperevm.json)",
+      "evidence_links": [
+        "results/2026-10-18/hyperevm/hyperevm.json",
+        "results/2026-10-18/differential-confirmation/hyperevm/hyperevm.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 31,
+      "evidence_label": "probe-verified",
+      "chain": "hyperevm",
+      "divergence": "Address 0x11 empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x2ea2c8c retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x11-address-11 control returned CALL status 1 with 2 output words on hyperevm, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/hyperevm/hyperevm.json); [later-block confirmation](results/2026-10-18/differential-confirmation/hyperevm/hyperevm.json)",
+      "evidence_links": [
+        "results/2026-10-18/hyperevm/hyperevm.json",
+        "results/2026-10-18/differential-confirmation/hyperevm/hyperevm.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 32,
+      "evidence_label": "probe-verified",
+      "chain": "kaia",
+      "divergence": "GASLIMIT/header semantics: Ethereum header_matches=True, target header_matches=False. Later-block confirmation at 0xdb7dd1e retained the diff classification.",
+      "security_consequence": "The gaslimit control returned 0 on kaia; its captured header field was 500000000, while Ethereum's corresponding control returned 60000000 against 60000000. Consumers must use the target's observed header relationship.",
+      "evidence": "[primary](results/2026-10-18/kaia/kaia.json); [later-block confirmation](results/2026-10-18/differential-confirmation/kaia/kaia.json)",
+      "evidence_links": [
+        "results/2026-10-18/kaia/kaia.json",
+        "results/2026-10-18/differential-confirmation/kaia/kaia.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "fees",
+      "priority": 4,
+      "fixture": "examples/05_fee_and_gas.sol",
+      "review_action": "Price the operation with the target fee oracle and charging rule; do not infer cost from Ethereum gas alone."
+    },
+    {
+      "catalog_row": 33,
+      "evidence_label": "probe-verified",
+      "chain": "megaeth",
+      "divergence": "NUMBER/header semantics: Ethereum header_matches=True, target header_matches=False. Later-block confirmation at 0x1c36a11 retained the diff classification.",
+      "security_consequence": "The number control returned 29583761 on megaeth; its captured header field was 29583745, while Ethereum's corresponding control returned 26221370 against 26221370. Consumers must use the target's observed header relationship.",
+      "evidence": "[primary](results/2026-10-18/megaeth/megaeth.json); [later-block confirmation](results/2026-10-18/differential-confirmation/megaeth/megaeth.json)",
+      "evidence_links": [
+        "results/2026-10-18/megaeth/megaeth.json",
+        "results/2026-10-18/differential-confirmation/megaeth/megaeth.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "clocks",
+      "priority": 3,
+      "fixture": "examples/04_clock_hash_finality.sol",
+      "review_action": "Use the target header and finality policy for timelocks, epochs, and randomness inputs."
+    },
+    {
+      "catalog_row": 34,
+      "evidence_label": "probe-verified",
+      "chain": "megaeth",
+      "divergence": "GASLIMIT/header semantics: Ethereum header_matches=True, target header_matches=False. Later-block confirmation at 0x1c36a11 retained the diff classification.",
+      "security_consequence": "The gaslimit control returned 18446744073709551615 on megaeth; its captured header field was 10000000000, while Ethereum's corresponding control returned 60000000 against 60000000. Consumers must use the target's observed header relationship.",
+      "evidence": "[primary](results/2026-10-18/megaeth/megaeth.json); [later-block confirmation](results/2026-10-18/differential-confirmation/megaeth/megaeth.json)",
+      "evidence_links": [
+        "results/2026-10-18/megaeth/megaeth.json",
+        "results/2026-10-18/differential-confirmation/megaeth/megaeth.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "fees",
+      "priority": 4,
+      "fixture": "examples/05_fee_and_gas.sol",
+      "review_action": "Price the operation with the target fee oracle and charging rule; do not infer cost from Ethereum gas alone."
+    },
+    {
+      "catalog_row": 35,
+      "evidence_label": "probe-verified",
+      "chain": "megaeth",
+      "divergence": "TIMESTAMP/header semantics: Ethereum header_matches=True, target header_matches=False. Later-block confirmation at 0x1c36a11 retained the diff classification.",
+      "security_consequence": "The timestamp control returned 1792380778 on megaeth; its captured header field was 1792380756, while Ethereum's corresponding control returned 1792349651 against 1792349651. Consumers must use the target's observed header relationship.",
+      "evidence": "[primary](results/2026-10-18/megaeth/megaeth.json); [later-block confirmation](results/2026-10-18/differential-confirmation/megaeth/megaeth.json)",
+      "evidence_links": [
+        "results/2026-10-18/megaeth/megaeth.json",
+        "results/2026-10-18/differential-confirmation/megaeth/megaeth.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "clocks",
+      "priority": 3,
+      "fixture": "examples/04_clock_hash_finality.sol",
+      "review_action": "Use the target header and finality policy for timelocks, epochs, and randomness inputs."
+    },
+    {
+      "catalog_row": 36,
+      "evidence_label": "probe-verified",
+      "chain": "megaeth",
+      "divergence": "24,577-byte runtime CREATE boundary: Ethereum executes the probe; the target returned execution-failure (evm-execution). Later-block confirmation at 0x1c36a11 retained the unsupported classification.",
+      "security_consequence": "The oversized-runtime-create creation call returned an EVM execution failure on megaeth while Ethereum executed it; this probe establishes a VM compatibility boundary, not the cause of the failure.",
+      "evidence": "[primary](results/2026-10-18/megaeth/megaeth.json); [later-block confirmation](results/2026-10-18/differential-confirmation/megaeth/megaeth.json)",
+      "evidence_links": [
+        "results/2026-10-18/megaeth/megaeth.json",
+        "results/2026-10-18/differential-confirmation/megaeth/megaeth.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "value",
+      "priority": 3,
+      "fixture": "examples/09_native_asset_and_fee_currency.sol",
+      "review_action": "Test native value, fee currency, balance, and refund paths with the target asset model."
+    },
+    {
+      "catalog_row": 37,
+      "evidence_label": "probe-verified",
+      "chain": "monad",
+      "divergence": "24,577-byte runtime CREATE boundary: Ethereum size_rejected=True, target size_rejected=False. Later-block confirmation at 0x6d42caa retained the diff classification.",
+      "security_consequence": "The 24,577-byte CREATE control reported size_rejected=False on monad, versus True on Ethereum; the boundary needs a target deployment test.",
+      "evidence": "[primary](results/2026-10-18/monad/monad.json); [later-block confirmation](results/2026-10-18/differential-confirmation/monad/monad.json)",
+      "evidence_links": [
+        "results/2026-10-18/monad/monad.json",
+        "results/2026-10-18/differential-confirmation/monad/monad.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "value",
+      "priority": 3,
+      "fixture": "examples/09_native_asset_and_fee_currency.sol",
+      "review_action": "Test native value, fee currency, balance, and refund paths with the target asset model."
+    },
+    {
+      "catalog_row": 38,
+      "evidence_label": "probe-verified",
+      "chain": "monad",
+      "divergence": "Cold versus warm EXTCODESIZE gas: Ethereum gas signature=(2614, 114), target gas signature=(10111, 112). Later-block confirmation at 0x6d42caa retained the diff classification.",
+      "security_consequence": "The cold-warm-extcodesize control measured gas delta 10111 and warm delta 112 on monad, versus Ethereum's 2614; treat this as a measured gas-schedule or estimator difference.",
+      "evidence": "[primary](results/2026-10-18/monad/monad.json); [later-block confirmation](results/2026-10-18/differential-confirmation/monad/monad.json)",
+      "evidence_links": [
+        "results/2026-10-18/monad/monad.json",
+        "results/2026-10-18/differential-confirmation/monad/monad.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "accounts",
+      "priority": 5,
+      "fixture": "examples/08_account_code_and_aa.sol",
+      "review_action": "Remove EOA-by-code assumptions; test an EOA, smart account, delegated account, and system address."
+    },
+    {
+      "catalog_row": 39,
+      "evidence_label": "probe-verified",
+      "chain": "monad",
+      "divergence": "eth_estimateGas versus GAS: Ethereum gas signature=(2614,), target gas signature=(10111,). Later-block confirmation at 0x6d42caa retained the diff classification.",
+      "security_consequence": "The estimate-gas control measured gas delta 10111 on monad, versus Ethereum's 2614; treat this as a measured gas-schedule or estimator difference.",
+      "evidence": "[primary](results/2026-10-18/monad/monad.json); [later-block confirmation](results/2026-10-18/differential-confirmation/monad/monad.json)",
+      "evidence_links": [
+        "results/2026-10-18/monad/monad.json",
+        "results/2026-10-18/differential-confirmation/monad/monad.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "fees",
+      "priority": 4,
+      "fixture": "examples/05_fee_and_gas.sol",
+      "review_action": "Price the operation with the target fee oracle and charging rule; do not infer cost from Ethereum gas alone."
+    },
+    {
+      "catalog_row": 40,
+      "evidence_label": "probe-verified",
+      "chain": "polygon-pos",
+      "divergence": "BLOBHASH(0) zero semantics: Ethereum executes the probe; the target returned execution-failure (evm-execution). Later-block confirmation at 0x5b54b20 retained the unsupported classification.",
+      "security_consequence": "The blobhash creation call returned an EVM execution failure on polygon-pos while Ethereum executed it; this probe establishes a VM compatibility boundary, not the cause of the failure.",
+      "evidence": "[primary](results/2026-10-18/polygon-pos/polygon-pos.json); [later-block confirmation](results/2026-10-18/differential-confirmation/polygon-pos/polygon-pos.json)",
+      "evidence_links": [
+        "results/2026-10-18/polygon-pos/polygon-pos.json",
+        "results/2026-10-18/differential-confirmation/polygon-pos/polygon-pos.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "deployment",
+      "priority": 4,
+      "fixture": "examples/01_fork_gated_opcodes.sol",
+      "review_action": "Compile for the target fork and run the opcode probe before accepting deployment bytecode."
+    },
+    {
+      "catalog_row": 41,
+      "evidence_label": "probe-verified",
+      "chain": "polygon-pos",
+      "divergence": "BLOBBASEFEE value semantics: Ethereum executes the probe; the target returned execution-failure (evm-execution). Later-block confirmation at 0x5b54b20 retained the unsupported classification.",
+      "security_consequence": "The blobbasefee creation call returned an EVM execution failure on polygon-pos while Ethereum executed it; this probe establishes a VM compatibility boundary, not the cause of the failure.",
+      "evidence": "[primary](results/2026-10-18/polygon-pos/polygon-pos.json); [later-block confirmation](results/2026-10-18/differential-confirmation/polygon-pos/polygon-pos.json)",
+      "evidence_links": [
+        "results/2026-10-18/polygon-pos/polygon-pos.json",
+        "results/2026-10-18/differential-confirmation/polygon-pos/polygon-pos.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "deployment",
+      "priority": 4,
+      "fixture": "examples/01_fork_gated_opcodes.sol",
+      "review_action": "Compile for the target fork and run the opcode probe before accepting deployment bytecode."
+    },
+    {
+      "catalog_row": 42,
+      "evidence_label": "probe-verified",
+      "chain": "polygon-pos",
+      "divergence": "PREVRANDAO/header semantics: Ethereum header_matches=True, target header_matches=False. Later-block confirmation at 0x5b54b20 retained the diff classification.",
+      "security_consequence": "The prevrandao control returned 1 on polygon-pos; its captured header field was 0, while Ethereum's corresponding control returned 106600626929271759665793101738270503678199746837553421085339734761515830593084 against 106600626929271759665793101738270503678199746837553421085339734761515830593084. Consumers must use the target's observed header relationship.",
+      "evidence": "[primary](results/2026-10-18/polygon-pos/polygon-pos.json); [later-block confirmation](results/2026-10-18/differential-confirmation/polygon-pos/polygon-pos.json)",
+      "evidence_links": [
+        "results/2026-10-18/polygon-pos/polygon-pos.json",
+        "results/2026-10-18/differential-confirmation/polygon-pos/polygon-pos.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "clocks",
+      "priority": 3,
+      "fixture": "examples/04_clock_hash_finality.sol",
+      "review_action": "Use the target header and finality policy for timelocks, epochs, and randomness inputs."
+    },
+    {
+      "catalog_row": 43,
+      "evidence_label": "probe-verified",
+      "chain": "polygon-pos",
+      "divergence": "COINBASE/header semantics: Ethereum header_matches=True, target header_matches=False. Later-block confirmation at 0x5b54b20 retained the diff classification.",
+      "security_consequence": "The coinbase control returned 724419980294028408346356269100487419364989232816 on polygon-pos; its captured header field was 0, while Ethereum's corresponding control returned 412311598482915581890913355723629879470649597847 against 412311598482915581890913355723629879470649597847. Consumers must use the target's observed header relationship.",
+      "evidence": "[primary](results/2026-10-18/polygon-pos/polygon-pos.json); [later-block confirmation](results/2026-10-18/differential-confirmation/polygon-pos/polygon-pos.json)",
+      "evidence_links": [
+        "results/2026-10-18/polygon-pos/polygon-pos.json",
+        "results/2026-10-18/differential-confirmation/polygon-pos/polygon-pos.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "clocks",
+      "priority": 3,
+      "fixture": "examples/04_clock_hash_finality.sol",
+      "review_action": "Use the target header and finality policy for timelocks, epochs, and randomness inputs."
+    },
+    {
+      "catalog_row": 44,
+      "evidence_label": "probe-verified",
+      "chain": "polygon-pos",
+      "divergence": "24,577-byte runtime CREATE boundary: Ethereum size_rejected=True, target size_rejected=False. Later-block confirmation at 0x5b54b20 retained the diff classification.",
+      "security_consequence": "The 24,577-byte CREATE control reported size_rejected=False on polygon-pos, versus True on Ethereum; the boundary needs a target deployment test.",
+      "evidence": "[primary](results/2026-10-18/polygon-pos/polygon-pos.json); [later-block confirmation](results/2026-10-18/differential-confirmation/polygon-pos/polygon-pos.json)",
+      "evidence_links": [
+        "results/2026-10-18/polygon-pos/polygon-pos.json",
+        "results/2026-10-18/differential-confirmation/polygon-pos/polygon-pos.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "value",
+      "priority": 3,
+      "fixture": "examples/09_native_asset_and_fee_currency.sol",
+      "review_action": "Test native value, fee currency, balance, and refund paths with the target asset model."
+    },
+    {
+      "catalog_row": 45,
+      "evidence_label": "probe-verified",
+      "chain": "polygon-pos",
+      "divergence": "KZG point-evaluation invalid-length control: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x5b54b20 retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0a-kzg-point-evaluation control returned CALL status 1 with 2 output words on polygon-pos, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/polygon-pos/polygon-pos.json); [later-block confirmation](results/2026-10-18/differential-confirmation/polygon-pos/polygon-pos.json)",
+      "evidence_links": [
+        "results/2026-10-18/polygon-pos/polygon-pos.json",
+        "results/2026-10-18/differential-confirmation/polygon-pos/polygon-pos.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 46,
+      "evidence_label": "probe-verified",
+      "chain": "scroll",
+      "divergence": "BLOBHASH(0) zero semantics: Ethereum executes the probe; the target returned execution-failure (evm-execution). Later-block confirmation at 0x21c7e8e retained the unsupported classification.",
+      "security_consequence": "The blobhash creation call returned an EVM execution failure on scroll while Ethereum executed it; this probe establishes a VM compatibility boundary, not the cause of the failure.",
+      "evidence": "[primary](results/2026-10-18/scroll/scroll.json); [later-block confirmation](results/2026-10-18/differential-confirmation/scroll/scroll.json)",
+      "evidence_links": [
+        "results/2026-10-18/scroll/scroll.json",
+        "results/2026-10-18/differential-confirmation/scroll/scroll.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "deployment",
+      "priority": 4,
+      "fixture": "examples/01_fork_gated_opcodes.sol",
+      "review_action": "Compile for the target fork and run the opcode probe before accepting deployment bytecode."
+    },
+    {
+      "catalog_row": 47,
+      "evidence_label": "probe-verified",
+      "chain": "scroll",
+      "divergence": "BLOBBASEFEE value semantics: Ethereum executes the probe; the target returned execution-failure (evm-execution). Later-block confirmation at 0x21c7e8e retained the unsupported classification.",
+      "security_consequence": "The blobbasefee creation call returned an EVM execution failure on scroll while Ethereum executed it; this probe establishes a VM compatibility boundary, not the cause of the failure.",
+      "evidence": "[primary](results/2026-10-18/scroll/scroll.json); [later-block confirmation](results/2026-10-18/differential-confirmation/scroll/scroll.json)",
+      "evidence_links": [
+        "results/2026-10-18/scroll/scroll.json",
+        "results/2026-10-18/differential-confirmation/scroll/scroll.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "deployment",
+      "priority": 4,
+      "fixture": "examples/01_fork_gated_opcodes.sol",
+      "review_action": "Compile for the target fork and run the opcode probe before accepting deployment bytecode."
+    },
+    {
+      "catalog_row": 48,
+      "evidence_label": "probe-verified",
+      "chain": "scroll",
+      "divergence": "COINBASE/header semantics: Ethereum header_matches=True, target header_matches=False. Later-block confirmation at 0x21c7e8e retained the diff classification.",
+      "security_consequence": "The coinbase control returned 473846233978378680511350941857232385279071879173 on scroll; its captured header field was 0, while Ethereum's corresponding control returned 412311598482915581890913355723629879470649597847 against 412311598482915581890913355723629879470649597847. Consumers must use the target's observed header relationship.",
+      "evidence": "[primary](results/2026-10-18/scroll/scroll.json); [later-block confirmation](results/2026-10-18/differential-confirmation/scroll/scroll.json)",
+      "evidence_links": [
+        "results/2026-10-18/scroll/scroll.json",
+        "results/2026-10-18/differential-confirmation/scroll/scroll.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "clocks",
+      "priority": 3,
+      "fixture": "examples/04_clock_hash_finality.sol",
+      "review_action": "Use the target header and finality policy for timelocks, epochs, and randomness inputs."
+    },
+    {
+      "catalog_row": 49,
+      "evidence_label": "probe-verified",
+      "chain": "scroll",
+      "divergence": "RIPEMD160 vector: Ethereum call/output signature=(1, ('0x0000000000000000000000008eb208f7e05d9\u2026, target=(0, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x21c7e8e retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x03-ripemd160 control returned CALL status 0 with 2 output words on scroll, versus status 1 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/scroll/scroll.json); [later-block confirmation](results/2026-10-18/differential-confirmation/scroll/scroll.json)",
+      "evidence_links": [
+        "results/2026-10-18/scroll/scroll.json",
+        "results/2026-10-18/differential-confirmation/scroll/scroll.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 50,
+      "evidence_label": "probe-verified",
+      "chain": "scroll",
+      "divergence": "KZG point-evaluation invalid-length control: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x21c7e8e retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0a-kzg-point-evaluation control returned CALL status 1 with 2 output words on scroll, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/scroll/scroll.json); [later-block confirmation](results/2026-10-18/differential-confirmation/scroll/scroll.json)",
+      "evidence_links": [
+        "results/2026-10-18/scroll/scroll.json",
+        "results/2026-10-18/differential-confirmation/scroll/scroll.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 51,
+      "evidence_label": "probe-verified",
+      "chain": "scroll",
+      "divergence": "Address 0x0b empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x21c7e8e retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0b-address-0b control returned CALL status 1 with 2 output words on scroll, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/scroll/scroll.json); [later-block confirmation](results/2026-10-18/differential-confirmation/scroll/scroll.json)",
+      "evidence_links": [
+        "results/2026-10-18/scroll/scroll.json",
+        "results/2026-10-18/differential-confirmation/scroll/scroll.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 52,
+      "evidence_label": "probe-verified",
+      "chain": "scroll",
+      "divergence": "Address 0x0c empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x21c7e8e retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0c-address-0c control returned CALL status 1 with 2 output words on scroll, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/scroll/scroll.json); [later-block confirmation](results/2026-10-18/differential-confirmation/scroll/scroll.json)",
+      "evidence_links": [
+        "results/2026-10-18/scroll/scroll.json",
+        "results/2026-10-18/differential-confirmation/scroll/scroll.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 53,
+      "evidence_label": "probe-verified",
+      "chain": "scroll",
+      "divergence": "Address 0x0d empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x21c7e8e retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0d-address-0d control returned CALL status 1 with 2 output words on scroll, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/scroll/scroll.json); [later-block confirmation](results/2026-10-18/differential-confirmation/scroll/scroll.json)",
+      "evidence_links": [
+        "results/2026-10-18/scroll/scroll.json",
+        "results/2026-10-18/differential-confirmation/scroll/scroll.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 54,
+      "evidence_label": "probe-verified",
+      "chain": "scroll",
+      "divergence": "Address 0x0e empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x21c7e8e retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0e-address-0e control returned CALL status 1 with 2 output words on scroll, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/scroll/scroll.json); [later-block confirmation](results/2026-10-18/differential-confirmation/scroll/scroll.json)",
+      "evidence_links": [
+        "results/2026-10-18/scroll/scroll.json",
+        "results/2026-10-18/differential-confirmation/scroll/scroll.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 55,
+      "evidence_label": "probe-verified",
+      "chain": "scroll",
+      "divergence": "Address 0x0f empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x21c7e8e retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x0f-address-0f control returned CALL status 1 with 2 output words on scroll, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/scroll/scroll.json); [later-block confirmation](results/2026-10-18/differential-confirmation/scroll/scroll.json)",
+      "evidence_links": [
+        "results/2026-10-18/scroll/scroll.json",
+        "results/2026-10-18/differential-confirmation/scroll/scroll.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 56,
+      "evidence_label": "probe-verified",
+      "chain": "scroll",
+      "divergence": "Address 0x10 empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x21c7e8e retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x10-address-10 control returned CALL status 1 with 2 output words on scroll, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/scroll/scroll.json); [later-block confirmation](results/2026-10-18/differential-confirmation/scroll/scroll.json)",
+      "evidence_links": [
+        "results/2026-10-18/scroll/scroll.json",
+        "results/2026-10-18/differential-confirmation/scroll/scroll.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 57,
+      "evidence_label": "probe-verified",
+      "chain": "scroll",
+      "divergence": "Address 0x11 empty-input behavior: Ethereum call/output signature=(0, ('0x0000000000000000000000000000000000000\u2026, target=(1, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x21c7e8e retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x11-address-11 control returned CALL status 1 with 2 output words on scroll, versus status 0 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/scroll/scroll.json); [later-block confirmation](results/2026-10-18/differential-confirmation/scroll/scroll.json)",
+      "evidence_links": [
+        "results/2026-10-18/scroll/scroll.json",
+        "results/2026-10-18/differential-confirmation/scroll/scroll.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 58,
+      "evidence_label": "probe-verified",
+      "chain": "sei-evm",
+      "divergence": "COINBASE/header semantics: Ethereum header_matches=True, target header_matches=False. Later-block confirmation at 0xe351acf retained the diff classification.",
+      "security_consequence": "The coinbase control returned 228175015640180254278578825382183880963336122431 on sei-evm; its captured header field was 215063076713280872453172048429641272888829685798, while Ethereum's corresponding control returned 412311598482915581890913355723629879470649597847 against 412311598482915581890913355723629879470649597847. Consumers must use the target's observed header relationship.",
+      "evidence": "[primary](results/2026-10-18/sei-evm/sei-evm.json); [later-block confirmation](results/2026-10-18/differential-confirmation/sei-evm/sei-evm.json)",
+      "evidence_links": [
+        "results/2026-10-18/sei-evm/sei-evm.json",
+        "results/2026-10-18/differential-confirmation/sei-evm/sei-evm.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "clocks",
+      "priority": 3,
+      "fixture": "examples/04_clock_hash_finality.sol",
+      "review_action": "Use the target header and finality policy for timelocks, epochs, and randomness inputs."
+    },
+    {
+      "catalog_row": 59,
+      "evidence_label": "probe-verified",
+      "chain": "somnia",
+      "divergence": "BLOBBASEFEE value semantics: Ethereum signature=(False,), target=(True,). Later-block confirmation at 0x1a58ba3d retained the diff classification.",
+      "security_consequence": "The blobbasefee control returned 0 on somnia, with captured header value unknown; Ethereum returned 4099553 with header unknown. Fee logic needs a target-specific value check.",
+      "evidence": "[primary](results/2026-10-18/somnia/somnia.json); [later-block confirmation](results/2026-10-18/differential-confirmation/somnia/somnia.json)",
+      "evidence_links": [
+        "results/2026-10-18/somnia/somnia.json",
+        "results/2026-10-18/differential-confirmation/somnia/somnia.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "deployment",
+      "priority": 4,
+      "fixture": "examples/01_fork_gated_opcodes.sol",
+      "review_action": "Compile for the target fork and run the opcode probe before accepting deployment bytecode."
+    },
+    {
+      "catalog_row": 60,
+      "evidence_label": "doc-only",
+      "chain": "somnia",
+      "divergence": "PREVRANDAO returned non-zero entropy 55645536456785984955205034316154297721839518834051032156080315426124922263123 on somnia; the RPC header exposes no `prevRandao` field to compare, so this is not a proven header divergence.",
+      "security_consequence": "The target returned non-zero entropy, but no header field is available for comparison; this control does not establish a security or randomness consequence.",
+      "evidence": "[primary](results/2026-10-18/somnia/somnia.json); [later-block observation](results/2026-10-18/differential-confirmation/somnia/somnia.json); [round-3 review](docs/verification.md)",
+      "evidence_links": [
+        "results/2026-10-18/somnia/somnia.json",
+        "results/2026-10-18/differential-confirmation/somnia/somnia.json",
+        "docs/verification.md"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "clocks",
+      "priority": 3,
+      "fixture": "examples/04_clock_hash_finality.sol",
+      "review_action": "Use the target header and finality policy for timelocks, epochs, and randomness inputs."
+    },
+    {
+      "catalog_row": 61,
+      "evidence_label": "probe-verified",
+      "chain": "somnia",
+      "divergence": "COINBASE/header semantics: Ethereum header_matches=True, target header_matches=False. Later-block confirmation at 0x1a58ba3d retained the diff classification.",
+      "security_consequence": "The coinbase control returned 6766843554139614963276475245568155207484986524 on somnia; its captured header field was 0, while Ethereum's corresponding control returned 412311598482915581890913355723629879470649597847 against 412311598482915581890913355723629879470649597847. Consumers must use the target's observed header relationship.",
+      "evidence": "[primary](results/2026-10-18/somnia/somnia.json); [later-block confirmation](results/2026-10-18/differential-confirmation/somnia/somnia.json)",
+      "evidence_links": [
+        "results/2026-10-18/somnia/somnia.json",
+        "results/2026-10-18/differential-confirmation/somnia/somnia.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "clocks",
+      "priority": 3,
+      "fixture": "examples/04_clock_hash_finality.sol",
+      "review_action": "Use the target header and finality policy for timelocks, epochs, and randomness inputs."
+    },
+    {
+      "catalog_row": 62,
+      "evidence_label": "probe-verified",
+      "chain": "somnia",
+      "divergence": "24,577-byte runtime CREATE boundary: Ethereum executes the probe; the target returned execution-failure (evm-execution). Later-block confirmation at 0x1a58ba3d retained the unsupported classification.",
+      "security_consequence": "The oversized-runtime-create creation call returned an EVM execution failure on somnia while Ethereum executed it; this probe establishes a VM compatibility boundary, not the cause of the failure.",
+      "evidence": "[primary](results/2026-10-18/somnia/somnia.json); [later-block confirmation](results/2026-10-18/differential-confirmation/somnia/somnia.json)",
+      "evidence_links": [
+        "results/2026-10-18/somnia/somnia.json",
+        "results/2026-10-18/differential-confirmation/somnia/somnia.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "value",
+      "priority": 3,
+      "fixture": "examples/09_native_asset_and_fee_currency.sol",
+      "review_action": "Test native value, fee currency, balance, and refund paths with the target asset model."
+    },
+    {
+      "catalog_row": 63,
+      "evidence_label": "probe-verified",
+      "chain": "somnia",
+      "divergence": "Cold versus warm EXTCODESIZE gas: Ethereum gas signature=(2614, 114), target gas signature=(114, 114). Later-block confirmation at 0x1a58ba3d retained the diff classification.",
+      "security_consequence": "The cold-warm-extcodesize control measured gas delta 114 and warm delta 114 on somnia, versus Ethereum's 2614; treat this as a measured gas-schedule or estimator difference.",
+      "evidence": "[primary](results/2026-10-18/somnia/somnia.json); [later-block confirmation](results/2026-10-18/differential-confirmation/somnia/somnia.json)",
+      "evidence_links": [
+        "results/2026-10-18/somnia/somnia.json",
+        "results/2026-10-18/differential-confirmation/somnia/somnia.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "accounts",
+      "priority": 5,
+      "fixture": "examples/08_account_code_and_aa.sol",
+      "review_action": "Remove EOA-by-code assumptions; test an EOA, smart account, delegated account, and system address."
+    },
+    {
+      "catalog_row": 64,
+      "evidence_label": "probe-verified",
+      "chain": "somnia",
+      "divergence": "eth_estimateGas versus GAS: Ethereum gas signature=(2614,), target gas signature=(114,). Later-block confirmation at 0x1a58ba3d retained the diff classification.",
+      "security_consequence": "The estimate-gas control measured gas delta 114 on somnia, versus Ethereum's 2614; treat this as a measured gas-schedule or estimator difference.",
+      "evidence": "[primary](results/2026-10-18/somnia/somnia.json); [later-block confirmation](results/2026-10-18/differential-confirmation/somnia/somnia.json)",
+      "evidence_links": [
+        "results/2026-10-18/somnia/somnia.json",
+        "results/2026-10-18/differential-confirmation/somnia/somnia.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "fees",
+      "priority": 4,
+      "fixture": "examples/05_fee_and_gas.sol",
+      "review_action": "Price the operation with the target fee oracle and charging rule; do not infer cost from Ethereum gas alone."
+    },
+    {
+      "catalog_row": 65,
+      "evidence_label": "probe-verified",
+      "chain": "somnia",
+      "divergence": "P256VERIFY candidate at 0x100: Ethereum call/output signature=(1, ('0x0000000000000000000000000000000000000\u2026, target=(0, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x1a58ba3d retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x100-p256verify control returned CALL status 0 with 2 output words on somnia, versus status 1 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/somnia/somnia.json); [later-block confirmation](results/2026-10-18/differential-confirmation/somnia/somnia.json)",
+      "evidence_links": [
+        "results/2026-10-18/somnia/somnia.json",
+        "results/2026-10-18/differential-confirmation/somnia/somnia.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 66,
+      "evidence_label": "probe-verified",
+      "chain": "zksync-era",
+      "divergence": "PREVRANDAO/header semantics: Ethereum header_matches=True, target header_matches=False. Later-block confirmation at 0x45307ae retained the diff classification.",
+      "security_consequence": "The prevrandao control returned 2500000000000000 on zksync-era; its captured header field was 0, while Ethereum's corresponding control returned 106600626929271759665793101738270503678199746837553421085339734761515830593084 against 106600626929271759665793101738270503678199746837553421085339734761515830593084. Consumers must use the target's observed header relationship.",
+      "evidence": "[primary](results/2026-10-18/zksync-era/zksync-era.json); [later-block confirmation](results/2026-10-18/differential-confirmation/zksync-era/zksync-era.json)",
+      "evidence_links": [
+        "results/2026-10-18/zksync-era/zksync-era.json",
+        "results/2026-10-18/differential-confirmation/zksync-era/zksync-era.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "clocks",
+      "priority": 3,
+      "fixture": "examples/04_clock_hash_finality.sol",
+      "review_action": "Use the target header and finality policy for timelocks, epochs, and randomness inputs."
+    },
+    {
+      "catalog_row": 67,
+      "evidence_label": "probe-verified",
+      "chain": "zksync-era",
+      "divergence": "COINBASE/header semantics: Ethereum header_matches=True, target header_matches=False. Later-block confirmation at 0x45307ae retained the diff classification.",
+      "security_consequence": "The coinbase control returned 32769 on zksync-era; its captured header field was 0, while Ethereum's corresponding control returned 412311598482915581890913355723629879470649597847 against 412311598482915581890913355723629879470649597847. Consumers must use the target's observed header relationship.",
+      "evidence": "[primary](results/2026-10-18/zksync-era/zksync-era.json); [later-block confirmation](results/2026-10-18/differential-confirmation/zksync-era/zksync-era.json)",
+      "evidence_links": [
+        "results/2026-10-18/zksync-era/zksync-era.json",
+        "results/2026-10-18/differential-confirmation/zksync-era/zksync-era.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "clocks",
+      "priority": 3,
+      "fixture": "examples/04_clock_hash_finality.sol",
+      "review_action": "Use the target header and finality policy for timelocks, epochs, and randomness inputs."
+    },
+    {
+      "catalog_row": 68,
+      "evidence_label": "probe-verified",
+      "chain": "zksync-era",
+      "divergence": "RIPEMD160 vector: Ethereum call/output signature=(1, ('0x0000000000000000000000008eb208f7e05d9\u2026, target=(0, ('0x0000000000000000000000000000000000000\u2026. Later-block confirmation at 0x45307ae retained the diff classification.",
+      "security_consequence": "The supplied precompile-0x03-ripemd160 control returned CALL status 0 with 2 output words on zksync-era, versus status 1 with 2 output words on Ethereum; this establishes only the tested vector's dispatch behavior.",
+      "evidence": "[primary](results/2026-10-18/zksync-era/zksync-era.json); [later-block confirmation](results/2026-10-18/differential-confirmation/zksync-era/zksync-era.json)",
+      "evidence_links": [
+        "results/2026-10-18/zksync-era/zksync-era.json",
+        "results/2026-10-18/differential-confirmation/zksync-era/zksync-era.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 69,
+      "evidence_label": "source-verified",
+      "chain": "multiple / source scope",
+      "divergence": "L1-to-L2 sender aliasing",
+      "security_consequence": "OP and Arbitrum message paths can represent an L1 sender through an alias; compare messenger rules before using onlyOwner.",
+      "evidence": "[official source](https://docs.arbitrum.io/how-arbitrum-works/deep-dives/l1-to-l2-messaging#address-aliasing); [official source](https://docs.optimism.io/op-stack/transactions/transaction-flow); [local context](docs/top10.md); [followup evidence](results/2026-10-18/followup/history/REPORT.json)",
+      "evidence_links": [
+        "https://docs.arbitrum.io/how-arbitrum-works/deep-dives/l1-to-l2-messaging#address-aliasing",
+        "https://docs.optimism.io/op-stack/transactions/transaction-flow",
+        "docs/top10.md",
+        "results/2026-10-18/followup/history/REPORT.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "authorization",
+      "priority": 5,
+      "fixture": "examples/03_cross_domain_sender.sol",
+      "review_action": "Trace the authenticated cross-domain sender and test the administrator check with the messenger's aliasing rule."
+    },
+    {
+      "catalog_row": 70,
+      "evidence_label": "source-verified",
+      "chain": "multiple / source scope",
+      "divergence": "Sequencer ordering and finality",
+      "security_consequence": "Rollup ordering and finality windows are chain protocols, not Ethereum block-finality guarantees.",
+      "evidence": "[official source](https://docs.optimism.io/op-stack/transactions/transaction-finality); [official source](https://docs.arbitrum.io/how-arbitrum-works/deep-dives/finality); [local context](docs/top10.md)",
+      "evidence_links": [
+        "https://docs.optimism.io/op-stack/transactions/transaction-finality",
+        "https://docs.arbitrum.io/how-arbitrum-works/deep-dives/finality",
+        "docs/top10.md"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "clocks",
+      "priority": 3,
+      "fixture": "examples/04_clock_hash_finality.sol",
+      "review_action": "Use the target header and finality policy for timelocks, epochs, and randomness inputs."
+    },
+    {
+      "catalog_row": 71,
+      "evidence_label": "source-verified",
+      "chain": "multiple / source scope",
+      "divergence": "Blast ETH yield/rebasing model",
+      "security_consequence": "Value movement and yield accounting need chain-specific balance and transfer tests.",
+      "evidence": "[official source](https://metalayerlabs.mintlify.app/building/guides/eth-yield); [local context](docs/top10.md)",
+      "evidence_links": [
+        "https://metalayerlabs.mintlify.app/building/guides/eth-yield",
+        "docs/top10.md"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "value",
+      "priority": 3,
+      "fixture": "examples/09_native_asset_and_fee_currency.sol",
+      "review_action": "Test native value, fee currency, balance, and refund paths with the target asset model."
+    },
+    {
+      "catalog_row": 72,
+      "evidence_label": "source-verified",
+      "chain": "multiple / source scope",
+      "divergence": "Celo fee currencies",
+      "security_consequence": "Fee payment can use configured currencies, so native-asset assumptions in tooling need review.",
+      "evidence": "[official source](https://docs.celo.org/build/fee-abstraction/add-fee-currency); [local context](docs/top10.md)",
+      "evidence_links": [
+        "https://docs.celo.org/build/fee-abstraction/add-fee-currency",
+        "docs/top10.md"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "fees",
+      "priority": 4,
+      "fixture": "examples/05_fee_and_gas.sol",
+      "review_action": "Price the operation with the target fee oracle and charging rule; do not infer cost from Ethereum gas alone."
+    },
+    {
+      "catalog_row": 73,
+      "evidence_label": "source-verified",
+      "chain": "multiple / source scope",
+      "divergence": "Mantle fee/native-asset model",
+      "security_consequence": "The fee mechanism and native-value paths are chain-specific and stateful.",
+      "evidence": "[official source](https://docs.mantle.xyz/network/system-information/fee-mechanism); [local context](docs/top10.md)",
+      "evidence_links": [
+        "https://docs.mantle.xyz/network/system-information/fee-mechanism",
+        "docs/top10.md"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "fees",
+      "priority": 4,
+      "fixture": "examples/05_fee_and_gas.sol",
+      "review_action": "Price the operation with the target fee oracle and charging rule; do not infer cost from Ethereum gas alone."
+    },
+    {
+      "catalog_row": 74,
+      "evidence_label": "source-verified",
+      "chain": "multiple / source scope",
+      "divergence": "TRON 0x09 precompile collision",
+      "security_consequence": "TVM's precompile/address set includes a BatchValidateSign path at 0x09.",
+      "evidence": "[official source](https://developers.tron.network/docs/tvm-vs-evm); [local context](docs/top10.md); [followup evidence](results/2026-10-18/followup/history/REPORT.json)",
+      "evidence_links": [
+        "https://developers.tron.network/docs/tvm-vs-evm",
+        "docs/top10.md",
+        "results/2026-10-18/followup/history/REPORT.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "precompiles",
+      "priority": 4,
+      "fixture": "examples/07_precompiles_and_system_addresses.sol",
+      "review_action": "Run the known-answer vector at the target address and treat empty success as a distinct result."
+    },
+    {
+      "catalog_row": 75,
+      "evidence_label": "source-verified",
+      "chain": "multiple / source scope",
+      "divergence": "Monad gas-limit charging",
+      "security_consequence": "Monad documents charging by gas limit rather than ordinary gas used.",
+      "evidence": "[official source](https://docs.monad.xyz/developer-essentials/gas-pricing); [local context](docs/top10.md); [followup evidence](results/2026-10-18/followup/history/REPORT.json)",
+      "evidence_links": [
+        "https://docs.monad.xyz/developer-essentials/gas-pricing",
+        "docs/top10.md",
+        "results/2026-10-18/followup/history/REPORT.json"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "fees",
+      "priority": 4,
+      "fixture": "examples/05_fee_and_gas.sol",
+      "review_action": "Price the operation with the target fee oracle and charging rule; do not infer cost from Ethereum gas alone."
+    },
+    {
+      "catalog_row": 76,
+      "evidence_label": "source-verified",
+      "chain": "multiple / source scope",
+      "divergence": "Monad reserve balance",
+      "security_consequence": "Reserve-balance rules can reject calls or transactions that Ethereum would admit.",
+      "evidence": "[official source](https://docs.monad.xyz/developer-essentials/reserve-balance); [local context](docs/top10.md)",
+      "evidence_links": [
+        "https://docs.monad.xyz/developer-essentials/reserve-balance",
+        "docs/top10.md"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "fees",
+      "priority": 4,
+      "fixture": "examples/05_fee_and_gas.sol",
+      "review_action": "Price the operation with the target fee oracle and charging rule; do not infer cost from Ethereum gas alone."
+    },
+    {
+      "catalog_row": 77,
+      "evidence_label": "source-verified",
+      "chain": "multiple / source scope",
+      "divergence": "MegaETH dual gas model",
+      "security_consequence": "Compute/storage meters and RPC estimation require a MegaETH target endpoint.",
+      "evidence": "[official source](https://docs.megaeth.com/developer-docs/overview.md); [local context](docs/top10.md)",
+      "evidence_links": [
+        "https://docs.megaeth.com/developer-docs/overview.md",
+        "docs/top10.md"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "fees",
+      "priority": 4,
+      "fixture": "examples/05_fee_and_gas.sol",
+      "review_action": "Price the operation with the target fee oracle and charging rule; do not infer cost from Ethereum gas alone."
+    },
+    {
+      "catalog_row": 78,
+      "evidence_label": "source-verified",
+      "chain": "multiple / source scope",
+      "divergence": "MegaETH mini-blocks and EVM blocks",
+      "security_consequence": "Mini-block and EVM-block timing creates a second confirmation context.",
+      "evidence": "[official source](https://docs.megaeth.com/mini-block.md); [local context](docs/top10.md)",
+      "evidence_links": [
+        "https://docs.megaeth.com/mini-block.md",
+        "docs/top10.md"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "value",
+      "priority": 3,
+      "fixture": "examples/09_native_asset_and_fee_currency.sol",
+      "review_action": "Test native value, fee currency, balance, and refund paths with the target asset model."
+    },
+    {
+      "catalog_row": 79,
+      "evidence_label": "source-verified",
+      "chain": "multiple / source scope",
+      "divergence": "HyperEVM dual-block architecture",
+      "security_consequence": "Big/small block selection changes gas and ordering assumptions.",
+      "evidence": "[official source](https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm/dual-block-architecture); [local context](docs/top10.md)",
+      "evidence_links": [
+        "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm/dual-block-architecture",
+        "docs/top10.md"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "fees",
+      "priority": 4,
+      "fixture": "examples/05_fee_and_gas.sol",
+      "review_action": "Price the operation with the target fee oracle and charging rule; do not infer cost from Ethereum gas alone."
+    },
+    {
+      "catalog_row": 80,
+      "evidence_label": "source-verified",
+      "chain": "multiple / source scope",
+      "divergence": "Tempo TIP-20 fee currency",
+      "security_consequence": "Tempo documents stablecoin fee payment and no native gas token.",
+      "evidence": "[official source](https://tempo.xyz/developers/docs/network); [local context](docs/top10.md)",
+      "evidence_links": [
+        "https://tempo.xyz/developers/docs/network",
+        "docs/top10.md"
+      ],
+      "date": "2026-10-18",
+      "risk_area": "fees",
+      "priority": 4,
+      "fixture": "examples/05_fee_and_gas.sol",
+      "review_action": "Price the operation with the target fee oracle and charging rule; do not infer cost from Ethereum gas alone."
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "block": {
+    "baseFeePerGas": "0x2e99be6933",
+    "blobGasUsed": "0x22e",
+    "difficulty": "0x0",
+    "excessBlobGas": "0x0",
+    "extraData": "0x0100000190000000050000002e90edd000",
+    "gasLimit": "0x1c9c380",
+    "gasUsed": "0x97f47",
+    "hash": "0xfa72df8236b43b015356220e31bfc2b7a92a381801db835506728462574947a0",
+    "logsBloom": "0x00000010000000000000012000000000000000000880001000080000080002000000000000800000000000000000000100000000000000000000000000202000200000000000800000010008000000000000000000000000000400408000040008000000000020000000000000000000000080000800000040000010000000000000010000004000000400000010000000000000000800000000000000000000020000008000200000000000002000000000000000000000403000021040000000000002000001000000008100000000000402008000000000080800000000010010000000000028000000000000002000000000000000000000000000000000",
+    "miner": "0x4200000000000000000000000000000000000011",
+    "mixHash": "0x9b20e6613770ebabfebcd665abaff46132c04ccf7550e5895842c8336d0449f0",
+    "nonce": "0x0000000000000000",
+    "number": "0x4cd491b",
+    "parentBeaconBlockRoot": "0x186fe0ee5129487eaa634353d0e19b78b3dc1de41e8261731adca90b186b334b",
+    "parentHash": "0x151e69dd3bd3dae7d224a9ff34d3eff748f9bb3d8c267d00e6a80af1f3e83203",
+    "receiptsRoot": "0xc5a419d65c1c519456c9c0be76b4c0efd1e3d30f341a9b445a082309f78c612f",
+    "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+    "size": "0x7fa",
+    "stateRoot": "0x26649b50eb27a5ed847f7f0b0cedfece331cbbd6fa9b326285605e284796979a",
+    "timestamp": "0x6ad6d171",
+    "transactions": [
+      "0x0c40482e49b74de0cad530b3d68d0b489102f9d622812f8e5ce1cb106d094a93",
+      "0x952c90d34ad6cd54e928a8b47fb3e46c513d580ab15cd70457579c55966ff49d",
+      "0x59e840440b0169c7dd3ec4b1eeb752c1707ed4ea34848e703fb46d304dce8e6d",
+      "0x8e87dd40bff22809470bded47b14e44a7df941cbba7fe863e1ab26920bd15b9a"
+    ],
+    "transactionsRoot": "0xb6590c2c3f3576f3ebbb6056c9f3db3e48a1bfe96e2148aba64f4709a91bf43d",
+    "uncles": [],
+    "withdrawals": [],
+    "withdrawalsRoot": "0x14a1ca302cb569602ad8dc0085d7d5f5740fc3154522f021918245453c0f2b6c"
+  },
+  "cases": {},
+  "chain": "celo",
+  "context": {
+    "eth_blockNumber": {
+      "observed_at": "2026-10-20T02:27:03.261396+00:00",
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0x4cd491b"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "observed_at": "2026-10-20T02:27:02.672581+00:00",
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0xa4ec"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "observed_at": "2026-10-20T02:27:04.023298+00:00",
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x4cd491b",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0x2e99be6933",
+            "blobGasUsed": "0x22e",
+            "difficulty": "0x0",
+            "excessBlobGas": "0x0",
+            "extraData": "0x0100000190000000050000002e90edd000",
+            "gasLimit": "0x1c9c380",
+            "gasUsed": "0x97f47",
+            "hash": "0xfa72df8236b43b015356220e31bfc2b7a92a381801db835506728462574947a0",
+            "logsBloom": "0x00000010000000000000012000000000000000000880001000080000080002000000000000800000000000000000000100000000000000000000000000202000200000000000800000010008000000000000000000000000000400408000040008000000000020000000000000000000000080000800000040000010000000000000010000004000000400000010000000000000000800000000000000000000020000008000200000000000002000000000000000000000403000021040000000000002000001000000008100000000000402008000000000080800000000010010000000000028000000000000002000000000000000000000000000000000",
+            "miner": "0x4200000000000000000000000000000000000011",
+            "mixHash": "0x9b20e6613770ebabfebcd665abaff46132c04ccf7550e5895842c8336d0449f0",
+            "nonce": "0x0000000000000000",
+            "number": "0x4cd491b",
+            "parentBeaconBlockRoot": "0x186fe0ee5129487eaa634353d0e19b78b3dc1de41e8261731adca90b186b334b",
+            "parentHash": "0x151e69dd3bd3dae7d224a9ff34d3eff748f9bb3d8c267d00e6a80af1f3e83203",
+            "receiptsRoot": "0xc5a419d65c1c519456c9c0be76b4c0efd1e3d30f341a9b445a082309f78c612f",
+            "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "size": "0x7fa",
+            "stateRoot": "0x26649b50eb27a5ed847f7f0b0cedfece331cbbd6fa9b326285605e284796979a",
+            "timestamp": "0x6ad6d171",
+            "transactions": [
+              "0x0c40482e49b74de0cad530b3d68d0b489102f9d622812f8e5ce1cb106d094a93",
+              "0x952c90d34ad6cd54e928a8b47fb3e46c513d580ab15cd70457579c55966ff49d",
+              "0x59e840440b0169c7dd3ec4b1eeb752c1707ed4ea34848e703fb46d304dce8e6d",
+              "0x8e87dd40bff22809470bded47b14e44a7df941cbba7fe863e1ab26920bd15b9a"
+            ],
+            "transactionsRoot": "0xb6590c2c3f3576f3ebbb6056c9f3db3e48a1bfe96e2148aba64f4709a91bf43d",
+            "uncles": [],
+            "withdrawals": [],
+            "withdrawalsRoot": "0x14a1ca302cb569602ad8dc0085d7d5f5740fc3154522f021918245453c0f2b6c"
+          }
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber_latest_retry": null
+  },
+  "expected_chain_id": 42220,
+  "observed_at": "2026-10-20T02:27:04.023318+00:00",
+  "observed_chain_id": "0xa4ec",
+  "phase": "confirm",
+  "rpc": {
+    "source": "https://docs.celo.org/operate/operators/public-rpc-node",
+    "source_accessed": "2026-10-18",
+    "url": "https://forno.celo.org"
+  },
+  "status": "ok"
+}

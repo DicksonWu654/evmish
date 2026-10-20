@@ -1,0 +1,136 @@
+{
+  "block": {
+    "baseFeePerGas": "0x8",
+    "blobGasUsed": "0x0",
+    "difficulty": "0x0",
+    "excessBlobGas": "0x0",
+    "extraData": "0x726574682f76312e31312e332f6c696e7578",
+    "gasLimit": "0x2255100",
+    "gasUsed": "0x11d7d4",
+    "hash": "0x258cfe41d3a0aaff4788939073709d9960cea0b3c7d59e7d2aa862f5cf124d7a",
+    "logsBloom": "0x00000000400000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080000000000000000000000000080000000000000000008000000000000000000000000000000000000004040000000000010000000000000001000000000000000000000000010000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000800000000000000000000000000000000000000000000000000000000000000000200000000000000001000000000000000",
+    "miner": "0x000000000000000000000000000000000a11b005",
+    "mixHash": "0xe523e2be550261db53032cc33445f3e6dc48fd070dcc2e2bf7e8798908afdcd0",
+    "nonce": "0x0000000000000000",
+    "number": "0x21e052f",
+    "parentBeaconBlockRoot": "0x40a0725c83568330d92c8ccc8a2cb4c22befbe39cee1841239365c10207c2452",
+    "parentHash": "0x1647739d59840eba75b41ba68cafb10c1880a6f12b9067d7ee8cbfbd4efcda1c",
+    "receiptsRoot": "0xdc905563107fea34796628a95c10f47418f316af786943c65f42c5cb769cb55e",
+    "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+    "size": "0x61c",
+    "stateRoot": "0x44b628a28a7e1ad5e4fd295ba542b2611e9e305bc69c5d5a05d5a8d594cd0056",
+    "timestamp": "0x6ad6d175",
+    "transactions": [
+      "0x75bcca2eb59285abc0f1e5ef66e8bb94e2c7e13a40d56239c948504a4991aa85",
+      "0x76970285cead63bd4a15c898f8406ae8e2f9dc2e1baf84139f660b3456f9ffaa",
+      "0x4efcb8634e48bf0548a8a4afe8575e3a0faf32d5b03f4e677e8df3850a131ed7",
+      "0x0aaf3bbb63802c466af78b89dc8c391bc047f479ccf02f418204e5ec9b11595a"
+    ],
+    "transactionsRoot": "0x368410d655e5e06a94fd76b25600b207d9c1c7ad1292e627f43c49e358f5b07c",
+    "uncles": [],
+    "withdrawals": [],
+    "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"
+  },
+  "cases": {},
+  "chain": "plasma",
+  "context": {
+    "eth_blockNumber": {
+      "observed_at": "2026-10-20T02:27:01.961038+00:00",
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0x21e052f"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "observed_at": "2026-10-20T02:27:01.369462+00:00",
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0x2611"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "observed_at": "2026-10-20T02:27:02.577895+00:00",
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x21e052f",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0x8",
+            "blobGasUsed": "0x0",
+            "difficulty": "0x0",
+            "excessBlobGas": "0x0",
+            "extraData": "0x726574682f76312e31312e332f6c696e7578",
+            "gasLimit": "0x2255100",
+            "gasUsed": "0x11d7d4",
+            "hash": "0x258cfe41d3a0aaff4788939073709d9960cea0b3c7d59e7d2aa862f5cf124d7a",
+            "logsBloom": "0x00000000400000020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000080000000000000000000000000080000000000000000008000000000000000000000000000000000000004040000000000010000000000000001000000000000000000000000010000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002000000000000000000000800000000000000000000000000000000000000000000000000000000000000000200000000000000001000000000000000",
+            "miner": "0x000000000000000000000000000000000a11b005",
+            "mixHash": "0xe523e2be550261db53032cc33445f3e6dc48fd070dcc2e2bf7e8798908afdcd0",
+            "nonce": "0x0000000000000000",
+            "number": "0x21e052f",
+            "parentBeaconBlockRoot": "0x40a0725c83568330d92c8ccc8a2cb4c22befbe39cee1841239365c10207c2452",
+            "parentHash": "0x1647739d59840eba75b41ba68cafb10c1880a6f12b9067d7ee8cbfbd4efcda1c",
+            "receiptsRoot": "0xdc905563107fea34796628a95c10f47418f316af786943c65f42c5cb769cb55e",
+            "requestsHash": "0xe3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "size": "0x61c",
+            "stateRoot": "0x44b628a28a7e1ad5e4fd295ba542b2611e9e305bc69c5d5a05d5a8d594cd0056",
+            "timestamp": "0x6ad6d175",
+            "transactions": [
+              "0x75bcca2eb59285abc0f1e5ef66e8bb94e2c7e13a40d56239c948504a4991aa85",
+              "0x76970285cead63bd4a15c898f8406ae8e2f9dc2e1baf84139f660b3456f9ffaa",
+              "0x4efcb8634e48bf0548a8a4afe8575e3a0faf32d5b03f4e677e8df3850a131ed7",
+              "0x0aaf3bbb63802c466af78b89dc8c391bc047f479ccf02f418204e5ec9b11595a"
+            ],
+            "transactionsRoot": "0x368410d655e5e06a94fd76b25600b207d9c1c7ad1292e627f43c49e358f5b07c",
+            "uncles": [],
+            "withdrawals": [],
+            "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"
+          }
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber_latest_retry": null
+  },
+  "expected_chain_id": 9745,
+  "observed_at": "2026-10-20T02:27:02.577916+00:00",
+  "observed_chain_id": "0x2611",
+  "phase": "confirm",
+  "rpc": {
+    "source": "https://docs.plasma.to/",
+    "source_accessed": "2026-10-18",
+    "url": "https://rpc.plasma.to"
+  },
+  "status": "ok"
+}

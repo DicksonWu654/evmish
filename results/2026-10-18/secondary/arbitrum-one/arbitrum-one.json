@@ -1,0 +1,366 @@
+{
+  "account_candidates": {
+    "delegated-7702": "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+    "empty": "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+    "eoa": "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+    "system-contract": "0x0000000000000000000000000000000000000064"
+  },
+  "block": {
+    "baseFeePerGas": "0x1312d00",
+    "blobGasUsed": null,
+    "excessBlobGas": null,
+    "gasLimit": "0x4000000000000",
+    "gasLimit_uint256": 1125899906842624,
+    "hash": "0x592168957eaa24b3d81ad00d156ef9858c968e127afde9f0544aa49532167cb1",
+    "miner": "0xa4b000000000000000000073657175656e636572",
+    "mixHash": "0x0000000000028ca80000000001901c48000000000000003d0001000000000000",
+    "number": "0x1ec29004",
+    "prevRandao": null,
+    "timestamp": "0x6ad5229c",
+    "timestamp_unix": 1792352924
+  },
+  "block_number": "0x1ec29004",
+  "chain": "arbitrum-one",
+  "chain_id_expected": 42161,
+  "chain_id_observed": "0xa4b1",
+  "context": {
+    "eth_blockNumber": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0x1ec29004"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0xa4b1"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x1ec29004",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0x1312d00",
+            "difficulty": "0x1",
+            "extraData": "0x0698dea21a8ededed149f8dcfb645b656d259431cd40ac1ccff3fbbfb389a39a",
+            "gasLimit": "0x4000000000000",
+            "gasUsed": "0x3c0a0",
+            "hash": "0x592168957eaa24b3d81ad00d156ef9858c968e127afde9f0544aa49532167cb1",
+            "l1BlockNumber": "0x1901c48",
+            "logsBloom": "0x04000000000000000000000008000000010400000004000000000000080000000000000000000000000080000000000000001000000080000800000000040000000020000200040000000400000000000000000010041040002000000000000004000000000000000000000000000200000000000000000000000002000000000080000000000000000000000021004000000000000000000000000000000000000000000000000000000100000000000000000200000000008000000000000040000000000040200000000000000000000000000000000000000100000040000000000000000000000040200000000000000000008000000000000020000000",
+            "miner": "0xa4b000000000000000000073657175656e636572",
+            "mixHash": "0x0000000000028ca80000000001901c48000000000000003d0001000000000000",
+            "nonce": "0x000000000027a0b5",
+            "number": "0x1ec29004",
+            "parentHash": "0xbab8e809486d718967034b37e76285fdca4faf57414d5e448530351d1612e9d4",
+            "receiptsRoot": "0x152483cb16ec901313a5853bc652c0f0d107f2fac31e033727f03a6ad710fd72",
+            "sendCount": "0x28ca8",
+            "sendRoot": "0x0698dea21a8ededed149f8dcfb645b656d259431cd40ac1ccff3fbbfb389a39a",
+            "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "size": "0x807",
+            "stateRoot": "0xf9b8e76915b5bd954cbd3bd35af5910f99ba0ea5994058e307d6190fd3669eaa",
+            "timestamp": "0x6ad5229c",
+            "transactions": [
+              "0x7ae6f06a18ef7a0c467570225b5195a3213feddbf8a50311ae9dd4c0f0c44604",
+              "0x66269a7048fd2c9250718e6ff8943709b2c6379447bc62e1ca8ca4f3503be619",
+              "0x82a44b13523eca8a7aeb922a196ed9a2d170e3ac020abbc2ddf81d23fae3a399",
+              "0x0584abe344b44d1b5a4df4018af3fad2aaaf71b6dd44a625ac7ba94067af5971",
+              "0xa67fffa1ec3aad6b1a981d957fd35267dbe213655077a29954273bdeeddbc9a6"
+            ],
+            "transactionsRoot": "0x5be2b91e36e7e6782547f44ec80bf6c1cd33843a17463b8a47bacf3a9f97affe",
+            "uncles": []
+          }
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_delegated-7702": {
+      "address": "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+      "interpretation": {
+        "code_length_bytes": 23,
+        "eip7702_delegation_prefix": true,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 6,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+          "0x1ec29004"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 6,
+          "jsonrpc": "2.0",
+          "result": "0xef01008a67b5020ee254ef48e3b6a04927f39baf7e408a"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_empty": {
+      "address": "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 5,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+          "0x1ec29004"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 5,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_eoa": {
+      "address": "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 4,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+          "0x1ec29004"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 4,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_system-contract": {
+      "address": "0x0000000000000000000000000000000000000064",
+      "interpretation": {
+        "code_length_bytes": 1,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 7,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x0000000000000000000000000000000000000064",
+          "0x1ec29004"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 7,
+          "jsonrpc": "2.0",
+          "result": "0xfe"
+        },
+        "http_status": 200
+      }
+    }
+  },
+  "error_classes": [
+    "jsonrpc"
+  ],
+  "evidence_dir": "results/2026-10-18/secondary/arbitrum-one/endpoints/arbitrum-one-publicnode-com",
+  "observed_at": "2026-10-18T19:48:44Z",
+  "oracles": {
+    "arb-gasinfo-l1-base-fee-estimate": {
+      "data": "0xf5d6ded7",
+      "interpretation": {
+        "error_class": null,
+        "raw_return": "0x000000000000000000000000000000000000000000000000000000000034aa47",
+        "status": "ok",
+        "uint256": 3451463
+      },
+      "method": "getL1BaseFeeEstimate()",
+      "request": {
+        "id": 10,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0xf5d6ded7",
+            "to": "0x000000000000000000000000000000000000006C"
+          },
+          "0x1ec29004"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 10,
+          "jsonrpc": "2.0",
+          "result": "0x000000000000000000000000000000000000000000000000000000000034aa47"
+        },
+        "http_status": 200
+      },
+      "to": "0x000000000000000000000000000000000000006C"
+    },
+    "arb-gasinfo-l1-gas-price-estimate": {
+      "data": "0x055f362f",
+      "interpretation": {
+        "error_class": null,
+        "raw_return": "0x000000000000000000000000000000000000000000000000000000000034aa47",
+        "status": "ok",
+        "uint256": 3451463
+      },
+      "method": "getL1GasPriceEstimate()",
+      "request": {
+        "id": 11,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x055f362f",
+            "to": "0x000000000000000000000000000000000000006C"
+          },
+          "0x1ec29004"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 11,
+          "jsonrpc": "2.0",
+          "result": "0x000000000000000000000000000000000000000000000000000000000034aa47"
+        },
+        "http_status": 200
+      },
+      "to": "0x000000000000000000000000000000000000006C"
+    }
+  },
+  "probe_count": 2,
+  "probes": {
+    "blobbasefee": {
+      "data": "0x4a60005260206000f3",
+      "interpretation": {
+        "error_class": "jsonrpc",
+        "reason": "-32000: BLOBBASEFEE is not supported on Arbitrum",
+        "status": "rpc-rejected"
+      },
+      "meaning": "BLOBBASEFEE for the execution block.",
+      "request": {
+        "id": 8,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x4a60005260206000f3"
+          },
+          "0x1ec29004"
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32000,
+            "message": "BLOBBASEFEE is not supported on Arbitrum"
+          },
+          "id": 8,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 200
+      },
+      "vector": null
+    },
+    "number": {
+      "data": "0x4360005260206000f3",
+      "interpretation": {
+        "error_class": null,
+        "header_matches": false,
+        "header_value": 516067332,
+        "raw_return": "0x0000000000000000000000000000000000000000000000000000000001901c48",
+        "status": "ok",
+        "uint256": 26221640
+      },
+      "meaning": "NUMBER (block.number).",
+      "request": {
+        "id": 9,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x4360005260206000f3"
+          },
+          "0x1ec29004"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 9,
+          "jsonrpc": "2.0",
+          "result": "0x0000000000000000000000000000000000000000000000000000000001901c48"
+        },
+        "http_status": 200
+      },
+      "vector": null
+    }
+  },
+  "recorded_reason": "one or more probes were RPC-rejected",
+  "rpc": "https://arbitrum-one.publicnode.com",
+  "rpc_source": "https://www.publicnode.com/",
+  "rpc_source_accessed": "2026-10-18",
+  "status": "degraded"
+}

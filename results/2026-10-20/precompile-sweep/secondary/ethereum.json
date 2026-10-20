@@ -1,0 +1,101 @@
+{
+  "block": null,
+  "cases": {},
+  "chain": "ethereum",
+  "context": {
+    "eth_blockNumber": {
+      "observed_at": "2026-10-20T02:58:39.352870+00:00",
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32046,
+            "message": "Cannot fulfill request"
+          },
+          "id": 2,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "observed_at": "2026-10-20T02:58:38.780767+00:00",
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0x1"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "observed_at": "2026-10-20T02:58:39.919015+00:00",
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          null,
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32603,
+            "message": "Internal error"
+          },
+          "id": 3,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber_latest_retry": {
+      "observed_at": "2026-10-20T02:58:40.529936+00:00",
+      "request": {
+        "id": 4,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "latest",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32603,
+            "message": "Internal error"
+          },
+          "id": 4,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 200
+      }
+    }
+  },
+  "expected_chain_id": 1,
+  "observed_at": "2026-10-20T02:58:40.529960+00:00",
+  "observed_chain_id": "0x1",
+  "phase": "secondary",
+  "rpc": {
+    "role": "secondary",
+    "source": "https://developers.cloudflare.com/web3/how-to/use-ethereum-rpc/",
+    "source_accessed": "2026-10-18",
+    "url": "https://cloudflare-eth.com"
+  },
+  "status": "endpoint-context-error"
+}

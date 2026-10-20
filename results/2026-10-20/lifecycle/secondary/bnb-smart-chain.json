@@ -1,0 +1,7 @@
+{
+  "cases": {},
+  "chain": "bnb-smart-chain",
+  "phase": "secondary",
+  "reason": "No second listed endpoint",
+  "status": "no-secondary-rpc"
+}

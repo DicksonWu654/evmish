@@ -1,0 +1,1398 @@
+{
+  "chains": {
+    "arbitrum-one": {
+      "block_number": "0x1ec262a3",
+      "probes": {
+        "blobbasefee": {
+          "error_class": "jsonrpc",
+          "raw_return": null,
+          "result": "results/2026-10-18/arbitrum-one/arbitrum-one.json",
+          "status": "rpc-rejected",
+          "uint256": null
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/arbitrum-one/arbitrum-one.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/arbitrum-one/arbitrum-one.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/arbitrum-one/arbitrum-one.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/arbitrum-one/arbitrum-one.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/arbitrum-one/arbitrum-one.json",
+      "rpc": "https://arb1.arbitrum.io/rpc",
+      "status": "degraded"
+    },
+    "avalanche-c-chain": {
+      "block_number": "0x5d5e583",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "result": "results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json",
+          "status": "ok",
+          "uint256": 1
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json",
+      "rpc": "https://api.avax.network/ext/bc/C/rpc",
+      "status": "ok"
+    },
+    "base": {
+      "block_number": "0x3255c7b",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "result": "results/2026-10-18/base/base.json",
+          "status": "ok",
+          "uint256": 1
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/base/base.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/base/base.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/base/base.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/base/base.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/base/base.json",
+      "rpc": "https://mainnet.base.org",
+      "status": "ok"
+    },
+    "berachain": {
+      "block_number": "0x1a62c2e",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000003b9aca00",
+          "result": "results/2026-10-18/berachain/berachain.json",
+          "status": "ok",
+          "uint256": 1000000000
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/berachain/berachain.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/berachain/berachain.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/berachain/berachain.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/berachain/berachain.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/berachain/berachain.json",
+      "rpc": "https://rpc.berachain.com",
+      "status": "ok"
+    },
+    "blast": {
+      "block_number": "0x27d5bd1",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "result": "results/2026-10-18/blast/blast.json",
+          "status": "ok",
+          "uint256": 1
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/blast/blast.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/blast/blast.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/blast/blast.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/blast/blast.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/blast/blast.json",
+      "rpc": "https://rpc.blast.io",
+      "status": "ok"
+    },
+    "bnb-smart-chain": {
+      "block_number": "0x7a7702e",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "result": "results/2026-10-18/bnb-smart-chain/bnb-smart-chain.json",
+          "status": "ok",
+          "uint256": 1
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/bnb-smart-chain/bnb-smart-chain.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/bnb-smart-chain/bnb-smart-chain.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/bnb-smart-chain/bnb-smart-chain.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/bnb-smart-chain/bnb-smart-chain.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/bnb-smart-chain/bnb-smart-chain.json",
+      "rpc": "https://bsc-dataseed.binance.org",
+      "status": "ok"
+    },
+    "celo": {
+      "block_number": "0x4cb8dc4",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "result": "results/2026-10-18/celo/celo.json",
+          "status": "ok",
+          "uint256": 1
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/celo/celo.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/celo/celo.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/celo/celo.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/celo/celo.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/celo/celo.json",
+      "rpc": "https://forno.celo.org",
+      "status": "ok"
+    },
+    "cronos": {
+      "block_number": "0x601355d",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/cronos/cronos.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/cronos/cronos.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/cronos/cronos.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/cronos/cronos.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/cronos/cronos.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/cronos/cronos.json",
+      "rpc": "https://evm.cronos.org",
+      "status": "ok"
+    },
+    "ethereum": {
+      "block_number": "0x1901b3a",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x00000000000000000000000000000000000000000000000000000000003e8de1",
+          "result": "results/2026-10-18/ethereum/ethereum.json",
+          "status": "ok",
+          "uint256": 4099553
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/ethereum/ethereum.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/ethereum/ethereum.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/ethereum/ethereum.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/ethereum/ethereum.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/ethereum/ethereum.json",
+      "rpc": "https://ethereum-rpc.publicnode.com",
+      "status": "ok"
+    },
+    "evmos": {
+      "block_number": null,
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": null,
+          "result": "results/2026-10-18/evmos/evmos.json",
+          "status": "not-run",
+          "uint256": null
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": null,
+          "result": "results/2026-10-18/evmos/evmos.json",
+          "status": "not-run",
+          "uint256": null
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": null,
+          "result": "results/2026-10-18/evmos/evmos.json",
+          "status": "not-run",
+          "uint256": null
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": null,
+          "result": "results/2026-10-18/evmos/evmos.json",
+          "status": "not-run",
+          "uint256": null
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": null,
+          "result": "results/2026-10-18/evmos/evmos.json",
+          "status": "not-run",
+          "uint256": null
+        }
+      },
+      "result": "results/2026-10-18/evmos/evmos.json",
+      "rpc": null,
+      "status": "unavailable"
+    },
+    "gnosis": {
+      "block_number": "0x2e901dd",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000003b9aca00",
+          "result": "results/2026-10-18/gnosis/gnosis.json",
+          "status": "ok",
+          "uint256": 1000000000
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/gnosis/gnosis.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/gnosis/gnosis.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/gnosis/gnosis.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/gnosis/gnosis.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/gnosis/gnosis.json",
+      "rpc": "https://rpc.gnosischain.com",
+      "status": "ok"
+    },
+    "hyperevm": {
+      "block_number": "0x2ea1269",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "result": "results/2026-10-18/hyperevm/hyperevm.json",
+          "status": "ok",
+          "uint256": 1
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/hyperevm/hyperevm.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/hyperevm/hyperevm.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/hyperevm/hyperevm.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/hyperevm/hyperevm.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/hyperevm/hyperevm.json",
+      "rpc": "https://rpc.hyperliquid.xyz/evm",
+      "status": "ok"
+    },
+    "kaia": {
+      "block_number": "0xdb7c395",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000002e90edd000",
+          "result": "results/2026-10-18/kaia/kaia.json",
+          "status": "ok",
+          "uint256": 200000000000
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/kaia/kaia.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/kaia/kaia.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/kaia/kaia.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/kaia/kaia.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/kaia/kaia.json",
+      "rpc": "https://public-en.node.kaia.io",
+      "status": "ok"
+    },
+    "linea": {
+      "block_number": "0x1edc432",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "result": "results/2026-10-18/linea/linea.json",
+          "status": "ok",
+          "uint256": 1
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/linea/linea.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/linea/linea.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/linea/linea.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/linea/linea.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/linea/linea.json",
+      "rpc": "https://rpc.linea.build",
+      "status": "ok"
+    },
+    "mantle": {
+      "block_number": "0x61611f8",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "result": "results/2026-10-18/mantle/mantle.json",
+          "status": "ok",
+          "uint256": 1
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/mantle/mantle.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/mantle/mantle.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/mantle/mantle.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/mantle/mantle.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/mantle/mantle.json",
+      "rpc": "https://rpc.mantle.xyz",
+      "status": "ok"
+    },
+    "megaeth": {
+      "block_number": "0x1c36980",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "result": "results/2026-10-18/megaeth/megaeth.json",
+          "status": "ok",
+          "uint256": 1
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/megaeth/megaeth.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/megaeth/megaeth.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/megaeth/megaeth.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/megaeth/megaeth.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/megaeth/megaeth.json",
+      "rpc": "https://mainnet.megaeth.com/rpc",
+      "status": "ok"
+    },
+    "monad": {
+      "block_number": "0x6d3d722",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "result": "results/2026-10-18/monad/monad.json",
+          "status": "ok",
+          "uint256": 1
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/monad/monad.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/monad/monad.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/monad/monad.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/monad/monad.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/monad/monad.json",
+      "rpc": "https://rpc.monad.xyz",
+      "status": "ok"
+    },
+    "op-mainnet": {
+      "block_number": "0x9709e10",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "result": "results/2026-10-18/op-mainnet/op-mainnet.json",
+          "status": "ok",
+          "uint256": 1
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/op-mainnet/op-mainnet.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/op-mainnet/op-mainnet.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/op-mainnet/op-mainnet.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/op-mainnet/op-mainnet.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/op-mainnet/op-mainnet.json",
+      "rpc": "https://mainnet.optimism.io",
+      "status": "ok"
+    },
+    "plasma": {
+      "block_number": "0x21c49d5",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "result": "results/2026-10-18/plasma/plasma.json",
+          "status": "ok",
+          "uint256": 1
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/plasma/plasma.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/plasma/plasma.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/plasma/plasma.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/plasma/plasma.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/plasma/plasma.json",
+      "rpc": "https://rpc.plasma.to",
+      "status": "ok"
+    },
+    "polygon-pos": {
+      "block_number": "0x5b539ba",
+      "probes": {
+        "blobbasefee": {
+          "error_class": "evm-execution",
+          "raw_return": null,
+          "result": "results/2026-10-18/polygon-pos/polygon-pos.json",
+          "status": "execution-failure",
+          "uint256": null
+        },
+        "blobhash": {
+          "error_class": "evm-execution",
+          "raw_return": null,
+          "result": "results/2026-10-18/polygon-pos/polygon-pos.json",
+          "status": "execution-failure",
+          "uint256": null
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/polygon-pos/polygon-pos.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/polygon-pos/polygon-pos.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/polygon-pos/polygon-pos.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/polygon-pos/polygon-pos.json",
+      "rpc": "https://polygon-bor-rpc.publicnode.com",
+      "status": "ok"
+    },
+    "scroll": {
+      "block_number": "0x21c7954",
+      "probes": {
+        "blobbasefee": {
+          "error_class": "evm-execution",
+          "raw_return": null,
+          "result": "results/2026-10-18/scroll/scroll.json",
+          "status": "execution-failure",
+          "uint256": null
+        },
+        "blobhash": {
+          "error_class": "evm-execution",
+          "raw_return": null,
+          "result": "results/2026-10-18/scroll/scroll.json",
+          "status": "execution-failure",
+          "uint256": null
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/scroll/scroll.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/scroll/scroll.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/scroll/scroll.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/scroll/scroll.json",
+      "rpc": "https://rpc.scroll.io",
+      "status": "ok"
+    },
+    "sei-evm": {
+      "block_number": "0xe34e288",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "result": "results/2026-10-18/sei-evm/sei-evm.json",
+          "status": "ok",
+          "uint256": 1
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/sei-evm/sei-evm.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/sei-evm/sei-evm.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/sei-evm/sei-evm.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/sei-evm/sei-evm.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/sei-evm/sei-evm.json",
+      "rpc": "https://evm-rpc.sei-apis.com",
+      "status": "ok"
+    },
+    "somnia": {
+      "block_number": "0x1a57b678",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/somnia/somnia.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/somnia/somnia.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/somnia/somnia.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/somnia/somnia.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/somnia/somnia.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/somnia/somnia.json",
+      "rpc": "https://api.infra.mainnet.somnia.network",
+      "status": "ok"
+    },
+    "taiko": {
+      "block_number": "0xc4201f",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "result": "results/2026-10-18/taiko/taiko.json",
+          "status": "ok",
+          "uint256": 1
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/taiko/taiko.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/taiko/taiko.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/taiko/taiko.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/taiko/taiko.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/taiko/taiko.json",
+      "rpc": "https://rpc.mainnet.taiko.xyz",
+      "status": "degraded"
+    },
+    "tempo": {
+      "block_number": "0x2ab19a4",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "result": "results/2026-10-18/tempo/tempo.json",
+          "status": "ok",
+          "uint256": 1
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/tempo/tempo.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/tempo/tempo.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/tempo/tempo.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/tempo/tempo.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/tempo/tempo.json",
+      "rpc": "https://rpc.tempo.xyz",
+      "status": "ok"
+    },
+    "tron": {
+      "block_number": "0x532f4cb",
+      "probes": {
+        "blobbasefee": {
+          "error_class": "jsonrpc",
+          "raw_return": null,
+          "result": "results/2026-10-18/tron/tron.json",
+          "status": "rpc-rejected",
+          "uint256": null
+        },
+        "blobhash": {
+          "error_class": "jsonrpc",
+          "raw_return": null,
+          "result": "results/2026-10-18/tron/tron.json",
+          "status": "rpc-rejected",
+          "uint256": null
+        },
+        "mcopy": {
+          "error_class": "jsonrpc",
+          "raw_return": null,
+          "result": "results/2026-10-18/tron/tron.json",
+          "status": "rpc-rejected",
+          "uint256": null
+        },
+        "push0": {
+          "error_class": "jsonrpc",
+          "raw_return": null,
+          "result": "results/2026-10-18/tron/tron.json",
+          "status": "rpc-rejected",
+          "uint256": null
+        },
+        "tstore-tload": {
+          "error_class": "jsonrpc",
+          "raw_return": null,
+          "result": "results/2026-10-18/tron/tron.json",
+          "status": "rpc-rejected",
+          "uint256": null
+        }
+      },
+      "result": "results/2026-10-18/tron/tron.json",
+      "rpc": "https://api.trongrid.io/jsonrpc",
+      "status": "degraded"
+    },
+    "zksync-era": {
+      "block_number": "0x4530344",
+      "probes": {
+        "blobbasefee": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000001",
+          "result": "results/2026-10-18/zksync-era/zksync-era.json",
+          "status": "ok",
+          "uint256": 1
+        },
+        "blobhash": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/zksync-era/zksync-era.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "mcopy": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/zksync-era/zksync-era.json",
+          "status": "ok",
+          "uint256": 42
+        },
+        "push0": {
+          "error_class": null,
+          "raw_return": "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "result": "results/2026-10-18/zksync-era/zksync-era.json",
+          "status": "ok",
+          "uint256": 0
+        },
+        "tstore-tload": {
+          "error_class": null,
+          "raw_return": "0x000000000000000000000000000000000000000000000000000000000000002a",
+          "result": "results/2026-10-18/zksync-era/zksync-era.json",
+          "status": "ok",
+          "uint256": 42
+        }
+      },
+      "result": "results/2026-10-18/zksync-era/zksync-era.json",
+      "rpc": "https://mainnet.era.zksync.io",
+      "status": "ok"
+    }
+  },
+  "date": "2026-10-18",
+  "delegated_7702": {
+    "arbitrum-one": {
+      "code_length_bytes": 23,
+      "eip7702_delegation_prefix": true,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/arbitrum-one/arbitrum-one.json",
+      "status": "fixed-address-context-only"
+    },
+    "avalanche-c-chain": {
+      "code_length_bytes": 0,
+      "eip7702_delegation_prefix": false,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/avalanche-c-chain/avalanche-c-chain.json",
+      "status": "fixed-address-context-only"
+    },
+    "base": {
+      "code_length_bytes": 23,
+      "eip7702_delegation_prefix": true,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/base/base.json",
+      "status": "fixed-address-context-only"
+    },
+    "berachain": {
+      "code_length_bytes": 23,
+      "eip7702_delegation_prefix": true,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/berachain/berachain.json",
+      "status": "fixed-address-context-only"
+    },
+    "blast": {
+      "code_length_bytes": 0,
+      "eip7702_delegation_prefix": false,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/blast/blast.json",
+      "status": "fixed-address-context-only"
+    },
+    "bnb-smart-chain": {
+      "code_length_bytes": 23,
+      "eip7702_delegation_prefix": true,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/bnb-smart-chain/bnb-smart-chain.json",
+      "status": "fixed-address-context-only"
+    },
+    "celo": {
+      "code_length_bytes": 0,
+      "eip7702_delegation_prefix": false,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/celo/celo.json",
+      "status": "fixed-address-context-only"
+    },
+    "cronos": {
+      "code_length_bytes": 23,
+      "eip7702_delegation_prefix": true,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/cronos/cronos.json",
+      "status": "fixed-address-context-only"
+    },
+    "ethereum": {
+      "code_length_bytes": 23,
+      "eip7702_delegation_prefix": true,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/ethereum/ethereum.json",
+      "status": "fixed-address-context-only"
+    },
+    "evmos": {
+      "code_length_bytes": null,
+      "eip7702_delegation_prefix": null,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/evmos/evmos.json",
+      "status": "fixed-address-context-only"
+    },
+    "gnosis": {
+      "code_length_bytes": 23,
+      "eip7702_delegation_prefix": true,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/gnosis/gnosis.json",
+      "status": "fixed-address-context-only"
+    },
+    "hyperevm": {
+      "code_length_bytes": 0,
+      "eip7702_delegation_prefix": false,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/hyperevm/hyperevm.json",
+      "status": "fixed-address-context-only"
+    },
+    "kaia": {
+      "code_length_bytes": 0,
+      "eip7702_delegation_prefix": false,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/kaia/kaia.json",
+      "status": "fixed-address-context-only"
+    },
+    "linea": {
+      "code_length_bytes": 0,
+      "eip7702_delegation_prefix": false,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/linea/linea.json",
+      "status": "fixed-address-context-only"
+    },
+    "mantle": {
+      "code_length_bytes": 23,
+      "eip7702_delegation_prefix": true,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/mantle/mantle.json",
+      "status": "fixed-address-context-only"
+    },
+    "megaeth": {
+      "code_length_bytes": 23,
+      "eip7702_delegation_prefix": true,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/megaeth/megaeth.json",
+      "status": "fixed-address-context-only"
+    },
+    "monad": {
+      "code_length_bytes": 23,
+      "eip7702_delegation_prefix": true,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/monad/monad.json",
+      "status": "fixed-address-context-only"
+    },
+    "op-mainnet": {
+      "code_length_bytes": 23,
+      "eip7702_delegation_prefix": true,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/op-mainnet/op-mainnet.json",
+      "status": "fixed-address-context-only"
+    },
+    "plasma": {
+      "code_length_bytes": 23,
+      "eip7702_delegation_prefix": true,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/plasma/plasma.json",
+      "status": "fixed-address-context-only"
+    },
+    "polygon-pos": {
+      "code_length_bytes": 23,
+      "eip7702_delegation_prefix": true,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/polygon-pos/polygon-pos.json",
+      "status": "fixed-address-context-only"
+    },
+    "scroll": {
+      "code_length_bytes": 0,
+      "eip7702_delegation_prefix": false,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/scroll/scroll.json",
+      "status": "fixed-address-context-only"
+    },
+    "sei-evm": {
+      "code_length_bytes": 23,
+      "eip7702_delegation_prefix": true,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/sei-evm/sei-evm.json",
+      "status": "fixed-address-context-only"
+    },
+    "somnia": {
+      "code_length_bytes": 0,
+      "eip7702_delegation_prefix": false,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/somnia/somnia.json",
+      "status": "fixed-address-context-only"
+    },
+    "taiko": {
+      "code_length_bytes": 23,
+      "eip7702_delegation_prefix": true,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/taiko/taiko.json",
+      "status": "fixed-address-context-only"
+    },
+    "tempo": {
+      "code_length_bytes": 0,
+      "eip7702_delegation_prefix": false,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/tempo/tempo.json",
+      "status": "fixed-address-context-only"
+    },
+    "tron": {
+      "code_length_bytes": null,
+      "eip7702_delegation_prefix": null,
+      "error_class": "jsonrpc",
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/tron/tron.json",
+      "status": "fixed-address-context-only"
+    },
+    "zksync-era": {
+      "code_length_bytes": 0,
+      "eip7702_delegation_prefix": false,
+      "error_class": null,
+      "history_evidence": "results/2026-10-18/followup/EIP7702_HISTORY.json",
+      "result": "results/2026-10-18/zksync-era/zksync-era.json",
+      "status": "fixed-address-context-only"
+    }
+  },
+  "probes": [
+    "push0",
+    "tstore-tload",
+    "mcopy",
+    "blobhash",
+    "blobbasefee"
+  ],
+  "purpose": "followup all-chain fork-opcode coverage plus fixed-address account context; execution failures remain distinct from RPC rejection",
+  "schema": 1,
+  "tron_precompile_0x09": {
+    "reason": "The recorded TRON endpoint rejected the no-to creation probes before VM execution; see the raw endpoint result.",
+    "result": "results/2026-10-18/tron/tron.json",
+    "status": "rpc-rejected"
+  }
+}

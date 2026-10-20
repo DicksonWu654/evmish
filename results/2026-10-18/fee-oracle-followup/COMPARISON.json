@@ -1,0 +1,257 @@
+{
+  "chains": {
+    "arbitrum-one": {
+      "comparison": {
+        "classification": "match",
+        "moving_block_values_compared": false,
+        "note": "Fee-oracle uint256 and raw values may differ because each endpoint was queried at its own latest block; status and error class are the stable comparison signals.",
+        "oracles": {
+          "arb-gasinfo-l1-base-fee-estimate": {
+            "all_differences": [],
+            "classification": "match",
+            "primary": {
+              "error_class": null,
+              "raw_return": "0x00000000000000000000000000000000000000000000000000000000002f8e9a",
+              "status": "ok",
+              "uint256": 3116698
+            },
+            "secondary": {
+              "error_class": null,
+              "raw_return": "0x00000000000000000000000000000000000000000000000000000000002f8e9a",
+              "status": "ok",
+              "uint256": 3116698
+            },
+            "stable_differences": [],
+            "value_changed_at_moving_block": false
+          },
+          "arb-gasinfo-l1-gas-price-estimate": {
+            "all_differences": [],
+            "classification": "match",
+            "primary": {
+              "error_class": null,
+              "raw_return": "0x00000000000000000000000000000000000000000000000000000000002f8e9a",
+              "status": "ok",
+              "uint256": 3116698
+            },
+            "secondary": {
+              "error_class": null,
+              "raw_return": "0x00000000000000000000000000000000000000000000000000000000002f8e9a",
+              "status": "ok",
+              "uint256": 3116698
+            },
+            "stable_differences": [],
+            "value_changed_at_moving_block": false
+          }
+        }
+      },
+      "primary": {
+        "block": {
+          "baseFeePerGas": "0x1312d00",
+          "blobGasUsed": null,
+          "excessBlobGas": null,
+          "gasLimit": "0x4000000000000",
+          "gasLimit_uint256": 1125899906842624,
+          "hash": "0xeab79ed95fc602a15d6745219e44b180df3e4a57fdecd85f92d227cbb48702ac",
+          "miner": "0xa4b000000000000000000073657175656e636572",
+          "mixHash": "0x0000000000028ca80000000001901d03000000000000003d0001000000000000",
+          "number": "0x1ec2afc2",
+          "prevRandao": null,
+          "timestamp": "0x6ad52b61",
+          "timestamp_unix": 1792355169
+        },
+        "block_number": "0x1ec2afc2",
+        "chain_id_expected": 42161,
+        "chain_id_observed": "0xa4b1",
+        "observed_at": "2026-10-18T20:26:09Z",
+        "oracles": {
+          "arb-gasinfo-l1-base-fee-estimate": {
+            "error_class": null,
+            "raw_return": "0x00000000000000000000000000000000000000000000000000000000002f8e9a",
+            "status": "ok",
+            "uint256": 3116698
+          },
+          "arb-gasinfo-l1-gas-price-estimate": {
+            "error_class": null,
+            "raw_return": "0x00000000000000000000000000000000000000000000000000000000002f8e9a",
+            "status": "ok",
+            "uint256": 3116698
+          }
+        },
+        "raw_evidence_dir": "results/2026-10-18/fee-oracle-followup/arbitrum-one/primary/endpoints/arb1-arbitrum-io-rpc",
+        "result": "results/2026-10-18/fee-oracle-followup/arbitrum-one/primary/arbitrum-one.json",
+        "rpc": "https://arb1.arbitrum.io/rpc",
+        "rpc_source": "https://docs.arbitrum.io/build-decentralized-apps/reference/node-providers",
+        "rpc_source_accessed": "2026-10-18",
+        "status": "ok"
+      },
+      "secondary": {
+        "block": {
+          "baseFeePerGas": "0x1327520",
+          "blobGasUsed": null,
+          "excessBlobGas": null,
+          "gasLimit": "0x4000000000000",
+          "gasLimit_uint256": 1125899906842624,
+          "hash": "0xaeb31c737d91ca984275d4b9a5ca5bb2233cd82828c4c2e7959439c44bdd0756",
+          "miner": "0xa4b000000000000000000073657175656e636572",
+          "mixHash": "0x0000000000028ca80000000001901d03000000000000003d0001000000000000",
+          "number": "0x1ec2afe7",
+          "prevRandao": null,
+          "timestamp": "0x6ad52b6a",
+          "timestamp_unix": 1792355178
+        },
+        "block_number": "0x1ec2afe7",
+        "chain_id_expected": 42161,
+        "chain_id_observed": "0xa4b1",
+        "observed_at": "2026-10-18T20:26:09Z",
+        "oracles": {
+          "arb-gasinfo-l1-base-fee-estimate": {
+            "error_class": null,
+            "raw_return": "0x00000000000000000000000000000000000000000000000000000000002f8e9a",
+            "status": "ok",
+            "uint256": 3116698
+          },
+          "arb-gasinfo-l1-gas-price-estimate": {
+            "error_class": null,
+            "raw_return": "0x00000000000000000000000000000000000000000000000000000000002f8e9a",
+            "status": "ok",
+            "uint256": 3116698
+          }
+        },
+        "raw_evidence_dir": "results/2026-10-18/fee-oracle-followup/arbitrum-one/secondary/endpoints/arbitrum-one-publicnode-com",
+        "result": "results/2026-10-18/fee-oracle-followup/arbitrum-one/secondary/arbitrum-one.json",
+        "rpc": "https://arbitrum-one.publicnode.com",
+        "rpc_source": "https://www.publicnode.com/",
+        "rpc_source_accessed": "2026-10-18",
+        "status": "ok"
+      }
+    },
+    "op-mainnet": {
+      "comparison": {
+        "classification": "match",
+        "moving_block_values_compared": false,
+        "note": "Fee-oracle uint256 and raw values may differ because each endpoint was queried at its own latest block; status and error class are the stable comparison signals.",
+        "oracles": {
+          "op-gaspriceoracle-getL1Fee": {
+            "all_differences": [],
+            "classification": "match",
+            "primary": {
+              "error_class": null,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000031cf52e9",
+              "status": "ok",
+              "uint256": 835670761
+            },
+            "secondary": {
+              "error_class": null,
+              "raw_return": "0x0000000000000000000000000000000000000000000000000000000031cf52e9",
+              "status": "ok",
+              "uint256": 835670761
+            },
+            "stable_differences": [],
+            "value_changed_at_moving_block": false
+          },
+          "op-gaspriceoracle-l1BaseFee": {
+            "all_differences": [],
+            "classification": "match",
+            "primary": {
+              "error_class": null,
+              "raw_return": "0x00000000000000000000000000000000000000000000000000000000038424fc",
+              "status": "ok",
+              "uint256": 58991868
+            },
+            "secondary": {
+              "error_class": null,
+              "raw_return": "0x00000000000000000000000000000000000000000000000000000000038424fc",
+              "status": "ok",
+              "uint256": 58991868
+            },
+            "stable_differences": [],
+            "value_changed_at_moving_block": false
+          }
+        }
+      },
+      "primary": {
+        "block": {
+          "baseFeePerGas": "0x9a2",
+          "blobGasUsed": "0x440f70",
+          "excessBlobGas": "0x0",
+          "gasLimit": "0x2625a00",
+          "gasLimit_uint256": 40000000,
+          "hash": "0x8e0a595f33f2d257a5e85b5f5398fba8c82293882ce9da05ce747cf15d68dade",
+          "miner": "0x4200000000000000000000000000000000000011",
+          "mixHash": "0xc9ee178ac1afdd788864e778756c185d9b559d847af74dae38d0914d00cd79be",
+          "number": "0x970a8cf",
+          "prevRandao": null,
+          "timestamp": "0x6ad52b57",
+          "timestamp_unix": 1792355159
+        },
+        "block_number": "0x970a8cf",
+        "chain_id_expected": 10,
+        "chain_id_observed": "0xa",
+        "observed_at": "2026-10-18T20:25:58Z",
+        "oracles": {
+          "op-gaspriceoracle-getL1Fee": {
+            "error_class": null,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000031cf52e9",
+            "status": "ok",
+            "uint256": 835670761
+          },
+          "op-gaspriceoracle-l1BaseFee": {
+            "error_class": null,
+            "raw_return": "0x00000000000000000000000000000000000000000000000000000000038424fc",
+            "status": "ok",
+            "uint256": 58991868
+          }
+        },
+        "raw_evidence_dir": "results/2026-10-18/fee-oracle-followup/op-mainnet/primary/endpoints/mainnet-optimism-io",
+        "result": "results/2026-10-18/fee-oracle-followup/op-mainnet/primary/op-mainnet.json",
+        "rpc": "https://mainnet.optimism.io",
+        "rpc_source": "https://docs.optimism.io/app-developers/reference/rpc-providers",
+        "rpc_source_accessed": "2026-10-18",
+        "status": "ok"
+      },
+      "secondary": {
+        "block": {
+          "baseFeePerGas": "0x9a1",
+          "blobGasUsed": "0x56bfd0",
+          "excessBlobGas": "0x0",
+          "gasLimit": "0x2625a00",
+          "gasLimit_uint256": 40000000,
+          "hash": "0xeae05f1fc75a7f8b8bad73cb7a7bc843dba8a238cdf1d113171641238c6270d4",
+          "miner": "0x4200000000000000000000000000000000000011",
+          "mixHash": "0xc9ee178ac1afdd788864e778756c185d9b559d847af74dae38d0914d00cd79be",
+          "number": "0x970a8d1",
+          "prevRandao": null,
+          "timestamp": "0x6ad52b5b",
+          "timestamp_unix": 1792355163
+        },
+        "block_number": "0x970a8d1",
+        "chain_id_expected": 10,
+        "chain_id_observed": "0xa",
+        "observed_at": "2026-10-18T20:25:58Z",
+        "oracles": {
+          "op-gaspriceoracle-getL1Fee": {
+            "error_class": null,
+            "raw_return": "0x0000000000000000000000000000000000000000000000000000000031cf52e9",
+            "status": "ok",
+            "uint256": 835670761
+          },
+          "op-gaspriceoracle-l1BaseFee": {
+            "error_class": null,
+            "raw_return": "0x00000000000000000000000000000000000000000000000000000000038424fc",
+            "status": "ok",
+            "uint256": 58991868
+          }
+        },
+        "raw_evidence_dir": "results/2026-10-18/fee-oracle-followup/op-mainnet/secondary/endpoints/optimism-publicnode-com",
+        "result": "results/2026-10-18/fee-oracle-followup/op-mainnet/secondary/op-mainnet.json",
+        "rpc": "https://optimism.publicnode.com",
+        "rpc_source": "https://www.publicnode.com/",
+        "rpc_source_accessed": "2026-10-18",
+        "status": "ok"
+      }
+    }
+  },
+  "date": "2026-10-18",
+  "purpose": "independent endpoint follow-up for chain-specific fee oracles; catalog labels are not changed automatically",
+  "schema": 1
+}

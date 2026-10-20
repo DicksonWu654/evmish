@@ -1,0 +1,128 @@
+{
+  "sample_sha256": "898922f3a905c12e576156ce8bf26dde7b9b1b277b39523568c685ee327bed2c",
+  "checked": 20,
+  "errors": 0,
+  "rows": [
+    {
+      "row": 7,
+      "verdict": "correct",
+      "reason": "MCOPY status=ok, return ends in 0x2a.",
+      "location": "CATALOG.md row 7; results/2026-10-18/ethereum/ethereum.json probes.mcopy"
+    },
+    {
+      "row": 8,
+      "verdict": "correct",
+      "reason": "BLOBHASH status=ok with zero return.",
+      "location": "CATALOG.md row 8; results/2026-10-18/ethereum/ethereum.json probes.blobhash"
+    },
+    {
+      "row": 9,
+      "verdict": "correct",
+      "reason": "BLOBBASEFEE status=ok with stated zero prefix.",
+      "location": "CATALOG.md row 9; results/2026-10-18/ethereum/ethereum.json probes.blobbasefee"
+    },
+    {
+      "row": 10,
+      "verdict": "correct",
+      "reason": "PREVRANDAO status=ok and stated prefix.",
+      "location": "CATALOG.md row 10; results/2026-10-18/ethereum/ethereum.json probes.prevrandao"
+    },
+    {
+      "row": 15,
+      "verdict": "correct",
+      "reason": "BLOCKHASH(NUMBER-256) status=ok, zero return.",
+      "location": "CATALOG.md row 15; results/2026-10-18/ethereum/ethereum.json probes.blockhash-n-minus-256"
+    },
+    {
+      "row": 17,
+      "verdict": "correct",
+      "reason": "CREATE status=ok with formula_matches=true.",
+      "location": "CATALOG.md row 17; results/2026-10-18/ethereum/ethereum.json probes.create"
+    },
+    {
+      "row": 24,
+      "verdict": "correct",
+      "reason": "RIPEMD160 vector status=ok and precompile call status 1.",
+      "location": "CATALOG.md row 24; results/2026-10-18/ethereum/ethereum.json probes.precompile-0x03-ripemd160"
+    },
+    {
+      "row": 26,
+      "verdict": "correct",
+      "reason": "MODEXP vector status=ok and precompile call status 1.",
+      "location": "CATALOG.md row 26; results/2026-10-18/ethereum/ethereum.json probes.precompile-0x05-modexp"
+    },
+    {
+      "row": 29,
+      "verdict": "correct",
+      "reason": "BN128 empty pairing status=ok with output [1,0].",
+      "location": "CATALOG.md row 29; results/2026-10-18/ethereum/ethereum.json probes.precompile-0x08-bn128-pairing"
+    },
+    {
+      "row": 31,
+      "verdict": "correct",
+      "reason": "KZG invalid-length control outer status=ok and call status 0.",
+      "location": "CATALOG.md row 31; results/2026-10-18/ethereum/ethereum.json probes.precompile-0x0a-kzg-point-evaluation"
+    },
+    {
+      "row": 33,
+      "verdict": "correct",
+      "reason": "Address 0x0c empty-input call status=ok with zero output.",
+      "location": "CATALOG.md row 33; results/2026-10-18/ethereum/ethereum.json probes.precompile-0x0c-address-0c"
+    },
+    {
+      "row": 35,
+      "verdict": "correct",
+      "reason": "Address 0x0e empty-input call status=ok with zero output.",
+      "location": "CATALOG.md row 35; results/2026-10-18/ethereum/ethereum.json probes.precompile-0x0e-address-0e"
+    },
+    {
+      "row": 43,
+      "verdict": "correct",
+      "reason": "System candidate EXTCODESIZE/EXTCODEHASH status=ok with stated words.",
+      "location": "CATALOG.md row 43; results/2026-10-18/ethereum/ethereum.json probes.extcode-system-contract"
+    },
+    {
+      "row": 59,
+      "verdict": "correct",
+      "reason": "MegaETH has 43 probes at block 0x1f20902; failures are VM execution outcomes, with no RPC rejection.",
+      "location": "CATALOG.md row 59; results/2026-10-18/megaeth/megaeth.json"
+    },
+    {
+      "row": 65,
+      "verdict": "correct",
+      "reason": "Sei-EVM has 43 probes at block 0xe34e288; deliberate failure is VM execution, with no RPC rejection.",
+      "location": "CATALOG.md row 65; results/2026-10-18/sei-evm/sei-evm.json"
+    },
+    {
+      "row": 66,
+      "verdict": "correct",
+      "reason": "Somnia has 43 probes at block 0x1a57b678; failures are VM execution outcomes, with no RPC rejection.",
+      "location": "CATALOG.md row 66; results/2026-10-18/somnia/somnia.json"
+    },
+    {
+      "row": 70,
+      "verdict": "correct",
+      "reason": "zkSync Era has 43 probes at block 0x4530344; deliberate failure is VM execution, with no RPC rejection.",
+      "location": "CATALOG.md row 70; results/2026-10-18/zksync-era/zksync-era.json"
+    },
+    {
+      "row": 74,
+      "verdict": "correct",
+      "reason": "Celo documentation states ERC20 tokens can become fee currencies.",
+      "location": "CATALOG.md row 74; https://docs.celo.org/build/fee-abstraction/add-fee-currency; docs/top10.md"
+    },
+    {
+      "row": 80,
+      "verdict": "correct",
+      "reason": "MegaETH overview documents the dual gas model and RPC estimation warning.",
+      "location": "CATALOG.md row 80; https://docs.megaeth.com/developer-docs/overview.md; docs/top10.md"
+    },
+    {
+      "row": 82,
+      "verdict": "correct",
+      "reason": "HyperEVM documentation describes throughput split between small and large blocks.",
+      "location": "CATALOG.md row 82; https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm/dual-block-architecture; docs/top10.md"
+    }
+  ],
+  "verifier_process": "separate catalog_recheck reviewers process"
+}

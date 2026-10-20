@@ -1,0 +1,304 @@
+{
+  "account_candidates": {
+    "delegated-7702": "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+    "empty": "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+    "eoa": "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+    "system-contract": "0x0000000000000000000000000000000000000064"
+  },
+  "block": {
+    "baseFeePerGas": "0x174876e800",
+    "blobGasUsed": "0x0",
+    "excessBlobGas": "0x0",
+    "gasLimit": "0x8f0d180",
+    "gasLimit_uint256": 150000000,
+    "hash": "0xa9adf475e30446f713b509a86d9f84a9afc98808d3dd6f1056a5ab5091ff79a3",
+    "miner": "0xa63dd8fc7303bdd6cd66a66a49d4171146f89809",
+    "mixHash": "0x3b4bd04a5b5601166574aa62aff21a25f7ddf2cdad87b1c81982dc59476f71b4",
+    "number": "0x6d4013d",
+    "prevRandao": null,
+    "timestamp": "0x6ad522b8",
+    "timestamp_unix": 1792352952
+  },
+  "block_number": "0x6d4013d",
+  "chain": "monad",
+  "chain_id_expected": 143,
+  "chain_id_observed": "0x8f",
+  "context": {
+    "eth_blockNumber": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 2,
+          "jsonrpc": "2.0",
+          "result": "0x6d4013d"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_chainId": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0x8f"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "interpretation": {
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "0x6d4013d",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 3,
+          "jsonrpc": "2.0",
+          "result": {
+            "baseFeePerGas": "0x174876e800",
+            "blobGasUsed": "0x0",
+            "difficulty": "0x0",
+            "excessBlobGas": "0x0",
+            "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "gasLimit": "0x8f0d180",
+            "gasUsed": "0x1ce37cc",
+            "hash": "0xa9adf475e30446f713b509a86d9f84a9afc98808d3dd6f1056a5ab5091ff79a3",
+            "logsBloom": "0x8400000000a000440000009020028000000000058a0080004010d5c020000020c8000b30092000c04254000000600040080520100304020000082000d26468001018901100a200000009020828040040a00300000f2c8000008080400c000000281a102282044404040022410142081080001200844055014000003e104a40010908128020012200084048280000081003004e0040240900800000100080050825426640110008342a4401040042c4000600940c808400042060400180006c2620180303010100140101040020942101c81820209000049010204418000c6016240000009120000033001000900000801028000c2081570020020400c000c207",
+            "miner": "0xa63dd8fc7303bdd6cd66a66a49d4171146f89809",
+            "mixHash": "0x3b4bd04a5b5601166574aa62aff21a25f7ddf2cdad87b1c81982dc59476f71b4",
+            "nonce": "0x0000000000000000",
+            "number": "0x6d4013d",
+            "parentBeaconBlockRoot": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "parentHash": "0xd95bcab8ab3a0dc7f21b88a3d2430212a4203707c29ee8b04f41f47d9eb11a50",
+            "receiptsRoot": "0xb5f147c44179274c195a8a5d13285e36ce36b8ba3ff74822e8e1a71776332e6a",
+            "requestsHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+            "size": "0xc5e6",
+            "stateRoot": "0x40a5851cf35aae2cbcaf40823d2d879cd9f0ba9f3fc26e28281e090247248c8d",
+            "timestamp": "0x6ad522b8",
+            "totalDifficulty": "0x0",
+            "transactions": [
+              "0x626c7de426694b83da2102758fa93c2ddadfd9f5a638fa376b948d23f96adf86",
+              "0xf42b6346b7d40621307f08786b8e3de694f788152c91f5204644b04d0af756b2",
+              "0x622665aaba9e031e4c5781790a4028efa4714e253ee9a12f46f5a0706397de76",
+              "0xa406630f0b288aa1329038045fedadf95f2fa7b8618a1e6b2ab094284a49ab46",
+              "0x6d7b92fbf4653e1e4d43ebcb0d1c56776d2becc2074e4e1eacc028f66b6f8be8",
+              "0x592dcf7f078e6dd437bba407007787c1031f01f5b69f08de14dd0f49f797b729",
+              "0x4bde05b5a96c71039a1784aaee54c3bc54044d1400f451e76226d3e07a3e4d22",
+              "0x11303ec982971a1a00089766dbe8befb3dc9b1360d7b02b4af17763e71a1f830",
+              "0x22213b2622f1eeac6f65924f7bea70973498b6b8f1c6c8c542c4faad4c26d318",
+              "0x7590e873bb1bb77d3dcd887dc90e2f3eb8e450bb81f55707b2b7cda848de4b55",
+              "0x99ae6e173b3ca94032af3439af4ce7874b56d898e063f034dd4a170fc6b81ffd",
+              "0xc3a3dc31a6237857ec66b1c6f921722eb1fadb4a1bbba3dd63c07389e1091feb",
+              "0x4b2ee5b186d249c586e639a881bfcf6dd92331fe6e5d36ba80b9249186a0880f",
+              "0xa6857c7445de2f816a470e5c343f609c626c435792de94a0f4c1c0246836ddfa",
+              "0x1758962d2737ccc42094d5fa653bc7f8c042fcfbd952449ec6b3cd5bebf78408",
+              "0x58392ca97e03a26b18c5331d918c650919528e72a4cde5f5da9e413c04f8243d",
+              "0x3706dad1092b4f310f30848b31652a4ed90ddb8b7a7dc0f9c012e4ba4afe4157",
+              "0xabb690fdfc8615a8b4ff00645fc30286282e82096eb2c5e55bc91eff240fe86e",
+              "0x3268d63619df0b698259caafe711402699b61c702b110a5d93e9b957f21ef8fb",
+              "0x889156c562d1aeb3af293fb57b3578771f804a7b108ea5870bf94bffdeea4fc0",
+              "0x8e7b0f242a4cbacf924cf980553ba7894a816fe76144e9b5fada954b81f1d608",
+              "0x6950108a348ed93b56fcfb1f7376d937e4700c100500056c9554400006a529f7",
+              "0x0093961e0cb87506be3478a596ebcbd47f8c8e00db8a475726c6df78aa133ae2",
+              "0xc097eb36cb82af64679e349eba938765dd1206a94a7cadfeae0398e350779a32",
+              "0x1688c0a4e24ac3ea345b65f2f0df51d0356044a2a1c3f4672aea3bdb13564f0f",
+              "0x4bd42b171d4d7b941cfa77531d93f60ba0ddceadfa22075c066a718c7b95dabb",
+              "0xf6386e29e8112f89d71f81b4a38339f2004b5eb3a8240dfcaf58f1633e7b19fe",
+              "0x555bfe3f8764425cae5e351ceb45f3af8ae125b1e2636ddbce6fead920dbf102",
+              "0x549c06d3800783f95f5c2ab8f01cf2c28a3d1159668ce26cb7fd8bf27eec4751",
+              "0x83a03506ba36507384b6576250aa63335f2657590b289ef9ccd38c1ed52f3af2",
+              "0xbe1003a1ea1e9d687b9ed3871a30fe9ee86d70900ac036b872b4611581e01969",
+              "0x2ecb01fe67a935dc5fe4b11bda6f298a4ff7682603a29707724fee39f6c40a67",
+              "0xff851cec053c24fb88cedc90a3c169ce3fd9a02d0612be84daf419457a1b7265",
+              "0xb56fdf5e4e3a51207151e54d95dcbc70725f79dde8ec324b0b78e51139883f46",
+              "0x376f72591481a46e35a9e57d85324f648d069f6223b70ab436054b693c0bb996"
+            ],
+            "transactionsRoot": "0xc06f57ee075b3b7101ba076aa459b3d342984e47851473600385d56f6d7d4664",
+            "uncles": [],
+            "withdrawalsRoot": "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421"
+          }
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_delegated-7702": {
+      "address": "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+      "interpretation": {
+        "code_length_bytes": 23,
+        "eip7702_delegation_prefix": true,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 6,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x4de23f3f0fb3318287378adbde030cf61714b2f3",
+          "0x6d4013d"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 6,
+          "jsonrpc": "2.0",
+          "result": "0xef0100c2e2f082ccfa00894f97466bcf2b48c6d7f3d224"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_empty": {
+      "address": "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 5,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x9baeb70184075f3ea43e6e8160ec2f162da8d28b",
+          "0x6d4013d"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 5,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_eoa": {
+      "address": "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 4,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x4337005db25dbad41da5692ba1188751ee5d98b6",
+          "0x6d4013d"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 4,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getCode_system-contract": {
+      "address": "0x0000000000000000000000000000000000000064",
+      "interpretation": {
+        "code_length_bytes": 0,
+        "eip7702_delegation_prefix": false,
+        "error_class": null,
+        "status": "ok"
+      },
+      "request": {
+        "id": 7,
+        "jsonrpc": "2.0",
+        "method": "eth_getCode",
+        "params": [
+          "0x0000000000000000000000000000000000000064",
+          "0x6d4013d"
+        ]
+      },
+      "response": {
+        "body": {
+          "id": 7,
+          "jsonrpc": "2.0",
+          "result": "0x"
+        },
+        "http_status": 200
+      }
+    }
+  },
+  "error_classes": [
+    "jsonrpc"
+  ],
+  "evidence_dir": "results/2026-10-18/secondary/monad/endpoints/monad-drpc-org",
+  "observed_at": "2026-10-18T19:49:11Z",
+  "oracles": {},
+  "probe_count": 1,
+  "probes": {
+    "cold-warm-extcodesize": {
+      "data": "0x5a600052734337005db25dbad41da5692ba1188751ee5d98b63b5a602052734337005db25dbad41da5692ba1188751ee5d98b63b5a60405260606000f3",
+      "interpretation": {
+        "error_class": "jsonrpc",
+        "reason": "-32000: user-specified gas exceeds provider limit",
+        "status": "rpc-rejected"
+      },
+      "meaning": "GAS deltas for cold then warm EXTCODESIZE.",
+      "request": {
+        "id": 8,
+        "jsonrpc": "2.0",
+        "method": "eth_call",
+        "params": [
+          {
+            "data": "0x5a600052734337005db25dbad41da5692ba1188751ee5d98b63b5a602052734337005db25dbad41da5692ba1188751ee5d98b63b5a60405260606000f3"
+          },
+          "0x6d4013d"
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32000,
+            "message": "user-specified gas exceeds provider limit"
+          },
+          "id": 8,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 200
+      },
+      "vector": "same EOA address twice"
+    }
+  },
+  "recorded_reason": "one or more probes were RPC-rejected",
+  "rpc": "https://monad.drpc.org",
+  "rpc_source": "https://drpc.org/chainlist",
+  "rpc_source_accessed": "2026-10-18",
+  "status": "degraded"
+}

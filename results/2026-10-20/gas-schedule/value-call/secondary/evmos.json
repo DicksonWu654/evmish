@@ -1,0 +1,5 @@
+{
+  "chain": "evmos",
+  "phase": "secondary",
+  "status": "no-secondary-rpc"
+}

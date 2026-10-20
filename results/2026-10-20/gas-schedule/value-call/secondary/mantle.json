@@ -1,0 +1,5 @@
+{
+  "chain": "mantle",
+  "phase": "secondary",
+  "status": "no-secondary-rpc"
+}

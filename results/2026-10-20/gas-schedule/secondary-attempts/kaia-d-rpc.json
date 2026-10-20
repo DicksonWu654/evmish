@@ -1,0 +1,101 @@
+{
+  "block": null,
+  "cases": {},
+  "chain": "kaia",
+  "context": {
+    "eth_blockNumber": {
+      "observed_at": "2026-10-20T02:27:04.570532+00:00",
+      "request": {
+        "id": 2,
+        "jsonrpc": "2.0",
+        "method": "eth_blockNumber",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32601,
+            "message": "the method eth_blockNumber does not exist/is not available"
+          },
+          "id": 2,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 400
+      }
+    },
+    "eth_chainId": {
+      "observed_at": "2026-10-20T02:27:04.084018+00:00",
+      "request": {
+        "id": 1,
+        "jsonrpc": "2.0",
+        "method": "eth_chainId",
+        "params": []
+      },
+      "response": {
+        "body": {
+          "id": 1,
+          "jsonrpc": "2.0",
+          "result": "0x2019"
+        },
+        "http_status": 200
+      }
+    },
+    "eth_getBlockByNumber": {
+      "observed_at": "2026-10-20T02:27:05.177426+00:00",
+      "request": {
+        "id": 3,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "latest",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32601,
+            "message": "the method eth_getBlockByNumber does not exist/is not available"
+          },
+          "id": 3,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 400
+      }
+    },
+    "eth_getBlockByNumber_latest_retry": {
+      "observed_at": "2026-10-20T02:27:05.789451+00:00",
+      "request": {
+        "id": 4,
+        "jsonrpc": "2.0",
+        "method": "eth_getBlockByNumber",
+        "params": [
+          "latest",
+          false
+        ]
+      },
+      "response": {
+        "body": {
+          "error": {
+            "code": -32601,
+            "message": "the method eth_getBlockByNumber does not exist/is not available"
+          },
+          "id": 4,
+          "jsonrpc": "2.0"
+        },
+        "http_status": 400
+      }
+    }
+  },
+  "expected_chain_id": 8217,
+  "observed_at": "2026-10-20T02:27:05.789473+00:00",
+  "observed_chain_id": "0x2019",
+  "phase": "secondary",
+  "rpc": {
+    "role": "secondary",
+    "source": "https://docs.kaia.io/references/public-en/",
+    "source_accessed": "2026-10-20",
+    "url": "https://klaytn.drpc.org"
+  },
+  "status": "endpoint-context-error"
+}
